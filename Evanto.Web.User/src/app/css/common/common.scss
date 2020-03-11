@@ -1,0 +1,104 @@
+﻿html.md-default-theme,
+html,
+body.md-default-theme,
+body {
+    background-color: #ebeff1 !important;
+}
+
+
+body { 
+    font-family: "Montserrat" !important;
+}
+
+.auth-pages-logo, .toolbar-logo{
+    background-image: url(/assets/images/logos/brono/logo_full_white.PNG);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 50px;
+}
+
+.toastDefault,
+.loadingToast {
+    margin-bottom: 20px;
+}
+
+.toastWarn .md-toast-content {
+    margin-bottom: 20px;
+    background: #FF5722 !important;
+    font-weight: bolder;
+}
+
+.systemError .md-toast-content {
+    margin-bottom: 20px;
+    background: #B14141 !important;
+    font-weight: bolder;
+}
+
+.md-toast-text {
+    color: #fff !important;
+}
+
+.offlineText {
+    background: #B14141 !important;
+    color: whitesmoke !important;
+}
+
+.loadingToastParagraph {
+    padding-left: 17px;
+}
+
+.md-fab-speed-dial {
+    &.md-fab-bottom-right {
+        top: auto;
+        right: 20px;
+        bottom: 20px;
+        left: auto;
+        position: absolute;
+    }
+    &.md-fab-bottom-left {
+        top: auto;
+        right: auto;
+        bottom: 20px;
+        left: 20px;
+        position: absolute;
+    }
+}
+
+.md-widget-engine:hover .md-widget-engine-column {
+    border-right: 0px !important;
+}
+
+@media screen and (min-width: 960px) {
+    .page-layout>.center>.header {
+        padding: 24px 150px !important;
+    }
+    .page-layout>.center>.content {
+        padding: 24px 150px !important;
+    }
+    .page-layout>.header {
+        padding: 24px 150px !important;
+    }
+    .page-layout>.content {
+        padding: 24px 150px !important;
+    }
+    #horizontal-navigation {
+        padding: 0 150px !important;
+        margin-top: 40px;
+    }
+}
+
+.go-to-vendor-page-button {
+    text-transform: unset !important;
+    padding: 3px !important;
+    margin: 0 !important;
+} // Responsive
+@media screen and (max-width: 600px) {
+    md-dialog {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    md-dialog md-dialog-content {
+        padding: 0;
+    }
+}

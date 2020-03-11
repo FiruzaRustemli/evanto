@@ -1,0 +1,695 @@
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csprojAssemblyReference.cache
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ApplicationInsights.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.AppContext.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Console.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Http.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.ValueTuple.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Owin.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Cors.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\az\Evanto.Resources.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ru\Evanto.Resources.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csproj.CopyComplete
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ApplicationInsights.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.AppContext.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Console.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Owin.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Cors.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csprojAssemblyReference.cache
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csproj.CopyComplete
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ApplicationInsights.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Owin.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Cors.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\az\Evanto.Resources.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ru\Evanto.Resources.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csprojAssemblyReference.cache
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csproj.CopyComplete
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ApplicationInsights.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.rsp
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.rsp
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.AppContext.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Console.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.rsp
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Owin.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Cors.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csprojAssemblyReference.cache
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csproj.CopyComplete
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ApplicationInsights.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Web.AuthorizationServer.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\csi.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.AppContext.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Console.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\vbc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Owin.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Cors.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.BL.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Utils.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\EntityFramework.SqlServer.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\log4net.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.Web.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.AI.WindowsServer.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.ApplicationInsights.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Cors.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Newtonsoft.Json.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Helpers.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Cors.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.Owin.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Mvc.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Razor.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Net.Http.Formatting.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\System.Web.Http.WebHost.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\AutoMapper.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.DAL.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Resources.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\Evanto.Security.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\LinqKit.EntityFramework.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\PWDTK.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\bin\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csprojAssemblyReference.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.csproj.CopyComplete
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.AuthorizationServer\obj\Debug\Evanto.Web.AuthorizationServer.pdb

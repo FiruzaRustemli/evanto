@@ -1,0 +1,100 @@
+.fc-event .fc-content {
+    min-height: 40px !important;
+    display: block !important;
+}
+
+.fc-event .fc-title {
+    font-size: 10pt !important;
+    white-space: initial !important;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        -webkit-box-shadow: 0 0 3px #FFC107;
+    }
+
+    50% {
+        -webkit-box-shadow: 0 0 20px #FFC107;
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 3px #FFC107;
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        -moz-box-shadow: 0 0 3px #FFC107;
+    }
+
+    50% {
+        -moz-box-shadow: 0 0 20px #FFC107;
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 3px #FFC107;
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        box-shadow: 0 0 3px #FFC107;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #FFC107;
+    }
+
+    100% {
+        box-shadow: 0 0 3px #FFC107;
+    }
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 3px #FFC107;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #FFC107;
+    }
+
+    100% {
+        box-shadow: 0 0 3px #FFC107;
+    }
+}
+
+.bgm-amber.amberGlow {
+    -webkit-animation: glowing 1000ms infinite;
+    -moz-animation: glowing 1000ms infinite;
+    -o-animation: glowing 1000ms infinite;
+    animation: glowing 1000ms infinite;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 150px !important;
+  height: 170px !important;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -20px;
+}   

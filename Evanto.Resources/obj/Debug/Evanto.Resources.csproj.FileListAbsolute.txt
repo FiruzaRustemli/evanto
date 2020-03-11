@@ -1,0 +1,711 @@
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\az\Evanto.Resources.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\ru\Evanto.Resources.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csprojAssemblyReference.cache
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Update.UpdateUserServiceResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Create.CreateVendorServiceExceptionalEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Get.GetVendorServiceExceptionalEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Update.UpdateVendorServiceExceptionalEventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Create.CreateVendorResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Get.GetVendorResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Update.UpdateVendorResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource .az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource .ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.GenerateResource.cache
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\az\Evanto.Resources.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\ru\Evanto.Resources.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Console.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Http.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.CopyComplete
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.AppContext.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Console.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Update.UpdateUserServiceResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Create.CreateVendorServiceExceptionalEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Get.GetVendorServiceExceptionalEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Update.UpdateVendorServiceExceptionalEventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Create.CreateVendorResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Get.GetVendorResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Update.UpdateVendorResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource .az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource .ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.GenerateResource.cache
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.CopyComplete
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.AppContext.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Console.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csprojAssemblyReference.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Update.UpdateUserServiceResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Create.CreateVendorServiceExceptionalEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Get.GetVendorServiceExceptionalEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Update.UpdateVendorServiceExceptionalEventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Create.CreateVendorResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Get.GetVendorResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Update.UpdateVendorResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource .az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource .ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.GenerateResource.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\az\Evanto.Resources.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\ru\Evanto.Resources.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.CopyComplete
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Evanto.Resources.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\az\Evanto.Resources.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\ru\Evanto.Resources.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\csi.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Console.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\vbc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csprojAssemblyReference.cache
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Update.UpdateUserServiceResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Create.CreateVendorServiceExceptionalEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Get.GetVendorServiceExceptionalEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.VendorServiceExceptionalEvent.Update.UpdateVendorServiceExceptionalEventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Create.CreateVendorResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Get.GetVendorResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Vendor.Update.UpdateVendorResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeEventDate.ChangeEventDateBookingResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.ChangeStatus.ChangeStatusBookingResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Booking.Create.CreateBookingResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Calculate.CalculateTotalDiscountResouce.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Create.CreateDiscountCouponResource .az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.DiscountCoupon.Update.UpdateDiscountCouponResource .ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.EventService.Create.CreateEventServiceResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Create.CreateEventResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Event.Update.UpdateEventResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Feedback.Create.CreateFeedbackResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Create.CreateFileResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Delete.DeleteFileResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.File.Update.UpdateFileResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Role.Create.CreateRoleResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Create.ServiceCreateResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.Service.Update.UpdateServiceResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Create.CreateUserActivationResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserActivation.Update.UpdateUserActivationResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Create.CreateUserEventResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserEventOperation.Update.UpdateUserEventResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.Create.CreateUserServiceResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Create.CreateUserStatusResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Get.GetUserStatusResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserService.UserStatus.Update.UpdateUserStatusResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.UserType.Create.CreateUserTypeResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Operations.User.Create.CreateUserResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Authentication.AuthenticationResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Marketplace.MarketplaceResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Booking.BookingResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Event.EventResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Feedback.FeedbackResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Home.HomeResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Layout.LayoutResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Profile.ProfileResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Register.RegisterResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Service.ServiceResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.Pages.User.Toast.ToastResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.GenerateResource.cache
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\az\Evanto.Resources.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\ru\Evanto.Resources.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.csproj.CopyComplete
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Resources\obj\Debug\Evanto.Resources.pdb

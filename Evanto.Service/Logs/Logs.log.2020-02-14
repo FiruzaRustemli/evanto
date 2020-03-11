@@ -1,0 +1,546 @@
+2020-02-14 12:41:10,916 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 14:23:24,626 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 14:23:29,501 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Filter":{"PageSize":0,"PageNumber":0,"OrderBy":null,"OrderByDirection":null,"SearchText":null},"ServiceId":null,"EventTypeId":0,"VendorId":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceOperations.GetVendorServiceByUserOperation
+2020-02-14 15:03:59,408 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 15:04:12,250 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Filter":{"PageSize":0,"PageNumber":0,"OrderBy":null,"OrderByDirection":null,"SearchText":null},"ServiceId":null,"EventTypeId":0,"VendorId":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceOperations.GetVendorServiceByUserOperation
+2020-02-14 15:06:53,805 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Filter":{"PageSize":0,"PageNumber":0,"OrderBy":null,"OrderByDirection":null,"SearchText":null},"ServiceId":null,"EventTypeId":0,"VendorId":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceOperations.GetVendorServiceByUserOperation
+2020-02-14 15:15:21,353 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 15:16:39,472 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 15:17:38,734 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 15:30:53,522 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 15:32:57,442 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 15:33:09,004 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"ServiceId":null,"UserEventId":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserServiceOperations.GetUserServiceByUserOperation
+2020-02-14 15:42:02,098 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 16:02:24,643 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 16:04:30,249 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 16:05:12,787 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-02-14 16:05:12,898 [10] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'EvantoModel.User'. A member of the type, 'EmailVerified', does not have a corresponding column in the data reader with the same name.
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetMemberOrdinalFromReader(DbDataReader storeDataReader, EdmMember member, EdmType currentType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetColumnMapsForType(DbDataReader storeDataReader, EdmType edmType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateColumnMapFromReaderAndType(DbDataReader storeDataReader, EdmType edmType, EntitySet entitySet, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateFunctionImportStructuralTypeColumnMap(DbDataReader storeDataReader, FunctionImportMappingNonComposable mapping, Int32 resultSetIndex, EntitySet entitySet, StructuralType baseStructuralType)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.FunctionColumnMapGenerator.System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.IColumnMapGenerator.CreateColumnMap(DbDataReader reader)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.CreateColumnMap(DbDataReader storeDataReader, Int32 resultSetIndex)
+   at System.Data.Entity.Core.Objects.ObjectContext.MaterializedDataRecord[TElement](EntityCommand entityCommand, DbDataReader storeReader, Int32 resultSetIndex, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ShaperFactory`1 shaperFactory, MergeOption mergeOption, Boolean streaming)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at Evanto.DAL.Context.EvantoContext.SearchUser(Nullable`1 id, String username, Nullable`1 registrationDate, Nullable`1 maritalStatus, Nullable`1 birthday, Nullable`1 type) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Context\EvantoModel.Context.cs:line 252
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 17
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-14 16:07:15,088 [12] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-02-14 16:07:15,111 [12] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'EvantoModel.User'. A member of the type, 'EmailVerified', does not have a corresponding column in the data reader with the same name.
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetMemberOrdinalFromReader(DbDataReader storeDataReader, EdmMember member, EdmType currentType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetColumnMapsForType(DbDataReader storeDataReader, EdmType edmType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateColumnMapFromReaderAndType(DbDataReader storeDataReader, EdmType edmType, EntitySet entitySet, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateFunctionImportStructuralTypeColumnMap(DbDataReader storeDataReader, FunctionImportMappingNonComposable mapping, Int32 resultSetIndex, EntitySet entitySet, StructuralType baseStructuralType)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.FunctionColumnMapGenerator.System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.IColumnMapGenerator.CreateColumnMap(DbDataReader reader)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.CreateColumnMap(DbDataReader storeDataReader, Int32 resultSetIndex)
+   at System.Data.Entity.Core.Objects.ObjectContext.MaterializedDataRecord[TElement](EntityCommand entityCommand, DbDataReader storeReader, Int32 resultSetIndex, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ShaperFactory`1 shaperFactory, MergeOption mergeOption, Boolean streaming)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at Evanto.DAL.Context.EvantoContext.SearchUser(Nullable`1 id, String username, Nullable`1 registrationDate, Nullable`1 maritalStatus, Nullable`1 birthday, Nullable`1 type) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Context\EvantoModel.Context.cs:line 252
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 17
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-14 16:07:26,777 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-02-14 16:07:26,798 [10] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'EvantoModel.User'. A member of the type, 'EmailVerified', does not have a corresponding column in the data reader with the same name.
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetMemberOrdinalFromReader(DbDataReader storeDataReader, EdmMember member, EdmType currentType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetColumnMapsForType(DbDataReader storeDataReader, EdmType edmType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateColumnMapFromReaderAndType(DbDataReader storeDataReader, EdmType edmType, EntitySet entitySet, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateFunctionImportStructuralTypeColumnMap(DbDataReader storeDataReader, FunctionImportMappingNonComposable mapping, Int32 resultSetIndex, EntitySet entitySet, StructuralType baseStructuralType)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.FunctionColumnMapGenerator.System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.IColumnMapGenerator.CreateColumnMap(DbDataReader reader)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.CreateColumnMap(DbDataReader storeDataReader, Int32 resultSetIndex)
+   at System.Data.Entity.Core.Objects.ObjectContext.MaterializedDataRecord[TElement](EntityCommand entityCommand, DbDataReader storeReader, Int32 resultSetIndex, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ShaperFactory`1 shaperFactory, MergeOption mergeOption, Boolean streaming)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at Evanto.DAL.Context.EvantoContext.SearchUser(Nullable`1 id, String username, Nullable`1 registrationDate, Nullable`1 maritalStatus, Nullable`1 birthday, Nullable`1 type) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Context\EvantoModel.Context.cs:line 252
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 17
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-14 16:09:19,228 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-02-14 16:09:19,250 [10] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.EntityCommandExecutionException: The data reader is incompatible with the specified 'EvantoModel.User'. A member of the type, 'EmailVerified', does not have a corresponding column in the data reader with the same name.
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetMemberOrdinalFromReader(DbDataReader storeDataReader, EdmMember member, EdmType currentType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.GetColumnMapsForType(DbDataReader storeDataReader, EdmType edmType, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateColumnMapFromReaderAndType(DbDataReader storeDataReader, EdmType edmType, EntitySet entitySet, Dictionary`2 renameList)
+   at System.Data.Entity.Core.Query.InternalTrees.ColumnMapFactory.CreateFunctionImportStructuralTypeColumnMap(DbDataReader storeDataReader, FunctionImportMappingNonComposable mapping, Int32 resultSetIndex, EntitySet entitySet, StructuralType baseStructuralType)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.FunctionColumnMapGenerator.System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.IColumnMapGenerator.CreateColumnMap(DbDataReader reader)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.CreateColumnMap(DbDataReader storeDataReader, Int32 resultSetIndex)
+   at System.Data.Entity.Core.Objects.ObjectContext.MaterializedDataRecord[TElement](EntityCommand entityCommand, DbDataReader storeReader, Int32 resultSetIndex, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ShaperFactory`1 shaperFactory, MergeOption mergeOption, Boolean streaming)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateFunctionObjectResult[TElement](EntityCommand entityCommand, ReadOnlyCollection`1 entitySets, EdmType[] edmTypes, ExecutionOptions executionOptions)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__46()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass47`1.<ExecuteFunction>b__45()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ExecutionOptions executionOptions, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, MergeOption mergeOption, ObjectParameter[] parameters)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteFunction[TElement](String functionName, ObjectParameter[] parameters)
+   at Evanto.DAL.Context.EvantoContext.SearchUser(Nullable`1 id, String username, Nullable`1 registrationDate, Nullable`1 maritalStatus, Nullable`1 birthday, Nullable`1 type) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Context\EvantoModel.Context.cs:line 252
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 17
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-14 16:22:32,891 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 16:24:47,827 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 16:31:23,743 [19] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:31:24,324 [19] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:a6880198-eec0-459a-a6e3-930c6785a5e8
+Error Number:207,State:1,Class:16
+2020-02-14 16:31:38,645 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:31:38,920 [18] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:a6880198-eec0-459a-a6e3-930c6785a5e8
+Error Number:207,State:1,Class:16
+2020-02-14 16:35:09,811 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:35:10,064 [18] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:a6880198-eec0-459a-a6e3-930c6785a5e8
+Error Number:207,State:1,Class:16
+2020-02-14 16:36:33,284 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:37:05,776 [18] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:a6880198-eec0-459a-a6e3-930c6785a5e8
+Error Number:207,State:1,Class:16
+2020-02-14 16:38:14,836 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":1} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:38:16,352 [18] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:a6880198-eec0-459a-a6e3-930c6785a5e8
+Error Number:207,State:1,Class:16
+2020-02-14 16:42:06,816 [46] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:42:08,035 [46] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:a6880198-eec0-459a-a6e3-930c6785a5e8
+Error Number:207,State:1,Class:16
+2020-02-14 16:50:33,599 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 16:51:09,344 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:51:09,929 [8] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 16:56:48,016 [13] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:57:08,283 [13] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 16:57:29,620 [13] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 16:59:31,148 [13] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:01:48,602 [29] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:03:22,093 [29] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:03:29,699 [17] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":1} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:03:31,339 [17] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:06:09,311 [13] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:07:07,623 [13] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:07:12,259 [13] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:07:12,607 [13] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:07:17,236 [13] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:07:17,491 [13] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:07:28,105 [13] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:07:28,391 [13] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:e6f840f6-a2ea-476a-8ae1-1ad5c2ed003d
+Error Number:207,State:1,Class:16
+2020-02-14 17:08:11,449 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-14 17:08:24,112 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:10:23,425 [8] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EmailVerified'.
+Invalid column name 'PhoneVerified'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:51e500c8-e57f-4a87-9d14-9b4ae19e847f
+Error Number:207,State:1,Class:16
+2020-02-14 17:12:32,169 [11] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-02-14 17:12:33,752 [11] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_User_Role". The conflict occurred in database "Evanto", table "dbo.Role", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:51e500c8-e57f-4a87-9d14-9b4ae19e847f
+Error Number:547,State:0,Class:16
+2020-02-14 17:14:46,269 [21] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"sddsd","LastName":"sdsdsd","Phone":"515151561","Username":"Asd@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":1,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Landing.AboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Landing.AboutUsDetail" xml:space="preserve">
+    <value>Sometimes it takes months to prepare for your special days. You are becoming so busy with planning and readiness of your events that you are struggling to enjoy your special day. Brono.az offers you the best solutions to plan your wedding, engagement, henna party, birthday party, or other special events in one place.
+By using Brono.az you will plan your special days with less effort, make your events more organized with all the services and vendors available, and most of all enjoy your once in a lifetime special days.
+Team Brono.az believes that “every day is special” and offers you free consultation to organize your unforgettable events, besides offering the tech solution to plan your special days. You can confidently choose Brono.az team to plan and organize wedding, engagement, henna party, birthday party, other special days, and corporate events in creative and professional fashion.</value>
+  </data>
+  <data name="Landing.Contact.Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Landing.Contact.Location" xml:space="preserve">
+    <value>Our Location</value>
+  </data>
+  <data name="Landing.Contact.LocationDetail" xml:space="preserve">
+    <value>3/19 Ahmad Rajabli str. Baku</value>
+  </data>
+  <data name="Landing.Contact.Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Landing.Contact.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Landing.Contact.Phone" xml:space="preserve">
+    <value>Our phone number</value>
+  </data>
+  <data name="Landing.Contact.PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Landing.Contact.Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Landing.Contact.Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Landing.Contact.WriteUs" xml:space="preserve">
+    <value>Write us</value>
+  </data>
+  <data name="Landing.ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Landing.MenuAbout" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Landing.MenuContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Landing.MenuDashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Landing.MenuFeatures" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="Landing.MenuHome" xml:space="preserve">
+    <value>HomeRu</value>
+  </data>
+  <data name="Landing.MenuMarketplace" xml:space="preserve">
+    <value>Marketplace</value>
+  </data>
+  <data name="Landing.MenuPartners" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="Landing.MenuServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Landing.MenuSignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="Landing.Service.Beauty&amp;Health" xml:space="preserve">
+    <value>Beauty&amp;Health</value>
+  </data>
+  <data name="Landing.Service.Cake" xml:space="preserve">
+    <value>Cake</value>
+  </data>
+  <data name="Landing.Service.Caterer" xml:space="preserve">
+    <value>Caterer</value>
+  </data>
+  <data name="Landing.Service.DanceLessons" xml:space="preserve">
+    <value>Dance Lessons</value>
+  </data>
+  <data name="Landing.Service.Decor" xml:space="preserve">
+    <value>Decor</value>
+  </data>
+  <data name="Landing.Service.DJ" xml:space="preserve">
+    <value>DJ</value>
+  </data>
+  <data name="Landing.Service.Dresses&amp;Attire" xml:space="preserve">
+    <value>Dresses&amp;Attire</value>
+  </data>
+  <data name="Landing.Service.EventPlanner" xml:space="preserve">
+    <value>Event planner</value>
+  </data>
+  <data name="Landing.Service.Florist" xml:space="preserve">
+    <value>Florist</value>
+  </data>
+  <data name="Landing.Service.Invitations&amp;Printing" xml:space="preserve">
+    <value>Invitations&amp; Printing</value>
+  </data>
+  <data name="Landing.Service.Jewellers" xml:space="preserve">
+    <value>Jewellers</value>
+  </data>
+  <data name="Landing.Service.Musician&amp;Band" xml:space="preserve">
+    <value>Musician&amp;Band</value>
+  </data>
+  <data name="Landing.Service.Photography" xml:space="preserve">
+    <value>Photography</value>
+  </data>
+  <data name="Landing.Service.Rentals" xml:space="preserve">
+    <value>Rentals</value>
+  </data>
+  <data name="Landing.Service.Transportation" xml:space="preserve">
+    <value>Transportation</value>
+  </data>
+  <data name="Landing.Service.TravelServices" xml:space="preserve">
+    <value>Travel Services</value>
+  </data>
+  <data name="Landing.Service.Venue" xml:space="preserve">
+    <value>Venue</value>
+  </data>
+  <data name="Landing.Service.Videography" xml:space="preserve">
+    <value>Videography</value>
+  </data>
+  <data name="Landing.Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+</root>

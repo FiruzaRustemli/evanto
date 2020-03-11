@@ -1,0 +1,168 @@
+<div id="login" class="flex-scrollable" layout="column" ms-scroll>
+    <div layout="row" layout-align="start start">
+        <a href="/" target="_self" layout-margin>
+            <md-button class="md-accent md-raised">
+                <div class="auth-pages-logo"></div>
+            </md-button>
+        </a>
+    </div>
+
+    <div id="login-form-wrapper" layout="column" layout-align="center center">
+        <div id="login-form" class="md-whiteframe-8dp">
+            <div class="title md-accent-bg">
+                <span class="title md-display-2">Brono</span>
+            </div>
+
+            <md-tabs md-dynamic-height="true" md-swipe-content="false" md-selected="vm.selectedTab" md-no-ink-bar md-no-ink="true" md-no-select-click="true"
+                md-no-pagination="true" class="noTitledTabs">
+                <md-tab>
+                    <md-tab-label>
+                    </md-tab-label>
+                    <md-tab-body class="content">
+                        <form ng-if="!vm.isEnterCodePanelActive" name="loginForm" novalidate>
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="email" name="email" ng-model="vm.form.username" translate translate-attr-placeholder="Authentication.Email"
+                                    ng-pattern="/^.+@.+\..+$/" required>
+                                <div ng-messages="loginForm.email.$error" role="alert" multiple>
+                                    <div ng-message="required">
+                                        <span translate="Authentication.EmailIsRequired"></span>
+                                    </div>
+                                    <div ng-message="pattern">
+                                        <span translate="Authentication.EmailMustBeValid"></span>
+                                    </div>
+                                </div>
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input type="password" name="password" ng-model="vm.form.password" translate translate-attr-placeholder="Authentication.Password"
+                                    required>
+                                <div ng-messages="loginForm.password.$error" role="alert">
+                                    <div ng-message="required">
+                                        <span translate="Authentication.PasswordIsRequired"></span>
+                                    </div>
+                                </div>
+                            </md-input-container>
+                            <div class="remember-forgot-password" layout="row" layout-xs="column" layout-align="space-between center">
+
+                                <a ng-href="{{vm.locale.use()}}/auth/forgotPassword" class="forgot-password md-accent-color" translate="Authentication.Login.ForgotPassword"></a>
+                            </div>
+
+                            <md-button type="submit" ng-click="vm.login();" class="md-raised md-accent submit-button" ng-disabled="loginForm.$invalid || !vm.loginButtonEnabled"
+                                translate="Authentication.Login">
+                            </md-button>
+                        </form>
+
+                        <form ng-if="vm.isEnterCodePanelActive" ng-submit="vm.verifyAccount()" name="verifyAccountForm" novalidate>
+                            <div layout="column" layout-align="center center">
+                                <md-input-container class="md-block" md-no-float>
+                                    <input required ng-required="true" md-maxlength="6" minlength="6" maxlength="6" ng-pattern="/^[0-9]{6}$/" type="text" name="verificationCode"
+                                        translate translate-attr-placeholder="Authentication.VerificationCode" ng-model="vm.verificationCode">
+                                    <div ng-messages="verifyAccountForm.verificationCode.$error" role="alert">
+                                        <div ng-message="required">
+                                            <span translate="Authentication.VerificationCodeRequired"></span>
+                                        </div>
+                                        <div ng-message="minlength">
+                                            <span translate="Authentication.VerificationCodeFixedLength"></span>
+                                        </div>
+                                        <div ng-message="pattern">
+                                            <span translate="Authentication.VerificationCodeMustBeNumber"></span>
+                                        </div>
+                                    </div>
+                                </md-input-container>
+                                <md-button type="submit" ng-disabled="verifyAccountForm.$invalid" class="md-raised md-accent" translate-attr-aria-label="Authentication.VerifyAccountButtonText"
+                                    translate="Authentication.VerifyAccountButtonText">
+                                </md-button>
+                            </div>
+                        </form>
+                        <div ng-if="vm.isEnterCodePanelActive" class="register" layout="row" layout-xs="column" layout-align="center center">
+                            <span class="text" translate="Authentication.HaventGotAnyCode"></span>
+                            <a class="link" href="#" ng-click="vm.selectedTab = 1" translate="Authentication.SendCodeAgain"></a>
+                        </div>
+                        <div ng-if="!vm.isEnterCodePanelActive" class="register" layout="row" layout-xs="column" layout-align="center center">
+                            <span class="text" translate="Authentication.Login.DontHaveAccount"></span>
+                            <a class="link" ng-href="{{vm.locale.use()}}/auth/register" translate="Authentication.Login.Register"></a>
+                        </div>
+                        <div ng-if="vm.isEnterCodePanelActive" class="register" layout="row" layout-xs="column" layout-align="center center">
+                            <a class="link" href="#" ng-click="vm.isEnterCodePanelActive = false" translate="Authentication.GoBackToLogin"></a>
+                        </div>
+                    </md-tab-body>
+                </md-tab>
+                <md-tab>
+                    <md-tab-label>
+                    </md-tab-label>
+                    <md-tab-body class="content">
+                        <div>
+                            <md-tabs md-stretch-tabs="always" md-dynamic-height="true" md-swipe-content="true">
+                                <md-tab>
+                                    <md-tab-label>
+                                        {{'Authentication.Email' | translate}}
+                                    </md-tab-label>
+                                    <md-tab-body>
+                                        <form name="sendVerificationCodeEmailForm" ng-submit="vm.sendCodeToEmail()" novalidate>
+                                            <md-input-container class="md-block" md-no-float>
+                                                <input type="email" name="email" ng-model="vm.form.username" translate translate-attr-placeholder="Authentication.Email"
+                                                    ng-pattern="/^.+@.+\..+$/" required>
+                                                <div ng-messages="sendVerificationCodeEmailForm.email.$error" role="alert" multiple>
+                                                    <div ng-message="required">
+                                                        <span translate="Authentication.EmailIsRequired"></span>
+                                                    </div>
+                                                    <div ng-message="pattern">
+                                                        <span translate="Authentication.EmailMustBeValid"></span>
+                                                    </div>
+                                                </div>
+                                            </md-input-container>
+
+                                            <div class="have-code" layout="row" layout-align="center center">
+                                                <md-button ng-disabled="sendVerificationCodeEmailForm.$invalid" class="md-accent" ng-click="vm.selectedTab = 0" translate="Authentication.HaveGotCode"></md-button>
+                                            </div>
+
+                                            <md-button type="submit" class="md-raised md-accent submit-button" ng-disabled="sendVerificationCodeEmailForm.$invalid" translate-attr-aria-label="Authentication.SendVerificationCode"
+                                                translate="Authentication.SendVerificationCode">
+                                            </md-button>
+                                        </form>
+                                    </md-tab-body>
+                                </md-tab>
+                                <md-tab>
+                                    <md-tab-label>
+                                        {{'Authentication.Register.Phone' | translate}}
+                                    </md-tab-label>
+                                    <md-tab-body>
+                                        <form name="sendVerificationCodePhoneForm" ng-submit="vm.sendCodeToPhone()" novalidate>
+                                            <div layout="row" layout-wrap>
+                                                <md-input-container class="md-block" md-no-float flex="15">
+                                                    <input ng-disabled="true" value="+994" ng-required="true">
+                                                </md-input-container>
+                                                <md-input-container class="md-block" md-no-float flex>
+                                                    <input type="tel" ng-model="vm.form.phone" name="phone" required translate translate-attr-placeholder="Authentication.Register.Phone"
+                                                        ng-required="true" ng-pattern="/^[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}$/">
+                                                    <div ng-messages="sendVerificationCodePhoneForm.phone.$error" role="alert">
+                                                        <div ng-message="required" translate="Authentication.Register.PhoneIsRequired"></div>
+                                                        <div ng-message="pattern" translate="Authentication.Register.PhoneInvalid"></div>
+                                                    </div>
+                                                </md-input-container>
+                                            </div>
+
+                                            <div class="have-code" layout="row" layout-align="center center">
+                                                <md-button ng-disabled="sendVerificationCodePhoneForm.$invalid || sendVerificationCodePhoneForm.$pristine" class="md-accent"
+                                                    ng-click="vm.selectedTab = 0" translate-attr-aria-label="Authentication.HaveGotCode"
+                                                    translate="Authentication.HaveGotCode"></md-button>
+                                            </div>
+
+                                            <md-button type="submit" class="md-raised md-accent submit-button" ng-disabled="sendVerificationCodePhoneForm.$invalid || sendVerificationCodePhoneForm.$pristine"
+                                                translate-attr-aria-label="Authentication.SendVerificationCode" translate="Authentication.SendVerificationCode">
+                                            </md-button>
+                                        </form>
+                                    </md-tab-body>
+                                </md-tab>
+                            </md-tabs>
+                        </div>
+
+                        <div class="register" layout="row" layout-xs="column" layout-align="center center">
+                            <a class="link" href="#" ng-click="vm.isEnterCodePanelActive = false; vm.selectedTab = 0" translate="Authentication.GoBackToLogin"></a>
+                        </div>
+                    </md-tab-body>
+                </md-tab>
+            </md-tabs>
+        </div>
+    </div>
+</div>

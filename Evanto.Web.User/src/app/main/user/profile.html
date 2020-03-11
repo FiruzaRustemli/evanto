@@ -1,0 +1,243 @@
+﻿<div id="profile" class="page-layout simple inner-sidenav" layout="column">
+
+    <!-- HEADER -->
+    <!--    <div class="header md-accent-bg" layout="row" layout-align="space-between">
+        <div layout="column" flex layout-align="center start">
+            <div class="breadcrumb" layout="row" layout-align="start center">
+                <md-icon md-font-icon="icon-home" class="s16"></md-icon>
+                <md-icon md-font-icon="icon-chevron-right" class="s16 separator"></md-icon>
+                <span class="parent" translate="Profile.Profile"></span>
+            </div>
+
+            <div class="title white-fg">
+                <md-icon md-font-icon="icon-account-box-outline"></md-icon>
+                &nbsp; <span>{{'Profile.Profile' | translate}}</span>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- / HEADER -->
+
+    <!-- CONTENT -->
+    <div class="content p-20 md-whiteframe-p1" layout-gt-sm="row" layout="column">
+        <div flex="20">
+            <div layout="column">
+                <md-card>
+                    <div class="profileImage" layout="column" layout-align="center center" ng-hide="vm.profileImageLoaded">
+                        <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                    </div>
+                    <img ng-src="{{vm.userProfileImage}}" ng-show="vm.profileImageLoaded" imageonload="vm.imageLoaded()" class="md-card-image">
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span class="md-headline">{{vm.userGeneralInfo.firstName}} {{vm.userGeneralInfo.lastName}}</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content>
+                    </md-card-content>
+                    <md-card-actions layout="row" layout-align="end center">
+                    </md-card-actions>
+                </md-card>
+                <md-card>
+                    <md-card-content layout="row" layout-align="space-between center">
+                        <div>
+                            <span translate="Profile.RegistrationDate"></span> :
+                        </div>
+                        <div>
+                            {{vm.userInfo.output.user.registrationDate | date: 'fullDate'}}
+                        </div>
+                    </md-card-content>
+                </md-card>
+                <lf-ng-md-file-input lf-files="vm.profileImages" lf-placeholder="{{'Profile.SelectFile' | translate}}" lf-caption="{{'Profile.FileSelected' | translate}}"
+                    lf-remove-label="Cancel" lf-browse-label="{{'Profile.Browse' | translate}}" progress preview lf-maxcount="1"
+                    lf-file-type="image/*" lf-filesize="2MB"></lf-ng-md-file-input>
+                <md-button class="md-raised md-accent" ng-click="vm.updateProfilePicture()" ng-show="vm.profileImages.length > 0">
+                    <md-icon md-fonticon="icon-box-upload"></md-icon>
+                    <span translate="Profile.Upload"></span>
+                </md-button>
+            </div>
+        </div>
+        <div flex="40">
+            <md-card class="profileInfoCard">
+                <md-card-title>
+                    <md-toolbar class="md-accent md-hue-2">
+                        <div class="md-toolbar-tools">
+                            <h2 flex md-truncate><span translate="Profile.Generallnfo"></span></h2>
+                        </div>
+                    </md-toolbar>
+                </md-card-title>
+                <md-card-content>
+                    <form name="userProfileGeneralForm" novalidate>
+                        <div layout-gt-sm="row" layout="row">
+                            <md-input-container flex="50" class="md-icon-float md-block">
+                                <label><span translate="Profile.FirstName"></span></label>
+                                <md-icon md-font-icon="icon-account-box"></md-icon>
+                                <input ng-model="vm.userGeneralInfo.firstName" name="firstName" type="text" ng-required="true" requiredx md-minlength="3"
+                                    md-maxlength="50" minlength="3" maxlength="50">
+                                <div ng-messages="userProfileGeneralForm.firstName.$error" role="alert">
+                                      <div ng-message="required" translate="Authentication.Register.FirstNameIsRequired"></div>
+                                        <div ng-message="maxlength" translate="Authentication.Register.FirstNameMaxLength"></div>
+                                        <div ng-message="minlength" translate="Authentication.Register.FirstNameMinLength"></div>
+                                </div>
+                            </md-input-container>
+                            <div flex="5" hide-xs hide-sm>
+                                <!-- Spacer //-->
+                            </div>
+                            <md-input-container flex class="md-icon-float md-block">
+                                <label><span translate="Profile.LastName"></span></label>
+                                <input ng-model="vm.userGeneralInfo.lastName" type="text" name="lastName" required md-minlength="3" md-maxlength="30" minlength="3"
+                                    maxlength="50">
+                                <div ng-messages="userProfileGeneralForm.lastName.$error" role="alert">
+                                    <div ng-message="required">
+                                        <span translate="Authentication.Register.LastNameIsRequired"></span>
+                                    </div>
+                                    <div ng-message="md-minlength">
+                                        <span translate="Authentication.Register.LastNameMinLength"></span>
+                                    </div>
+                                    <div ng-message="md-maxlength">
+                                        <span translate="Authentication.Register.LastNameMaxLength"></span>
+                                    </div>
+                                </div>
+                            </md-input-container>
+                        </div>
+                        <div layout-gt-sm="column">
+                            <div layout="row">
+                                <div flex>
+                                    <md-input-container class="md-block">
+                                        <md-icon md-font-icon="icon-cellphone"></md-icon>
+                                        <md-tooltip md-direction="left">{{'Profile.PhoneCannotBeChanged' | translate}}</md-tooltip>
+                                        <input ng-model="vm.userGeneralInfo.phone" name="phone" required translate translate-attr-placeholder="Profile.PhoneNumber" ng-required="true"
+                                            ng-disabled="true" ng-pattern="/^994[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}$/">
+                                        <div ng-messages="userProfileGeneralForm.phone.$error" role="alert">
+                                             <div ng-message="required" translate="Authentication.Register.PhoneIsRequired"></div>
+                                        <div ng-message="pattern" translate="Authentication.Register.PhoneInvalid"></div>
+                                        </div>
+                                    </md-input-container>
+                                </div>
+                                <div ng-if="!vm.verificationInfo.phoneVerified" flex="15">
+                                    <md-button class="md-raised md-accent" id="btnVerifyPhone" ng-click="vm.verifyAccount(vm.appSettings.verificationType.phone, vm.userGeneralInfo.phone, $event)">Verify</md-button>
+                                </div>
+                            </div>
+
+                            <div layout="row">
+                                <div flex>
+                                    <md-input-container class="md-block">
+                                        <md-icon md-font-icon="icon-email"></md-icon>
+                                        <md-tooltip md-direction="left">{{'Profile.EmailCannotBeChanged' | translate}}</md-tooltip>
+                                        <input ng-model="vm.userGeneralInfo.userName" type="email" name="userName" required translate translate-attr-placeholder="Email"
+                                            ng-required="true" ng-disabled="true">
+                                        <div ng-messages="userProfileGeneralForm.userName.$error" role="alert">
+                                              <div ng-message="required" translate="Authentication.EmailIsRequired"></div>
+                                    <div ng-message="email" translate="Authentication.EmailMustBeValid"></div>
+                                        </div>
+                                    </md-input-container>
+                                </div>
+                                <div ng-if="!vm.verificationInfo.emailVerified" flex="15">
+                                    <md-button class="md-raised md-accent" id="btnVerifyEmail" ng-click="vm.verifyAccount(vm.appSettings.verificationType.email, vm.userGeneralInfo.userName, $event)">Verify</md-button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <div layout="row" class="content" layout-align="end end">
+                        <div>
+                            <md-button class="md-raised md-accent" ng-disabled="userProfileGeneralForm.$invalid && userProfileGeneralForm.$dirty" ng-click="vm.updateUserGeneralInfo()">
+                                <md-icon md-font-icon="icon-content-save"></md-icon>
+                                {{'Profile.Save' | translate}}
+                            </md-button>
+                        </div>
+                    </div>
+                </md-card-actions>
+            </md-card>
+        </div>
+        <div flex="40">
+            <div layout="column">
+                <md-card class="profileInfoCard">
+                    <md-card-title>
+                        <md-toolbar class="md-accent md-hue-2">
+                            <div class="md-toolbar-tools">
+                                <h2 flex md-truncate>{{'Profile.AdditionalInfo' | translate}}</h2>
+                            </div>
+                        </md-toolbar>
+                    </md-card-title>
+                    <md-card-content>
+                        <form name="userProfileAdditionalForm" novalidate>
+                            <div layout-gt-sm="column">
+                                <md-input-container>
+                                    <md-select ng-model="vm.userAdditionalInfo.genderId" translate ng-attr-placeholder="{{'Profile.SelectYourGender' | translate}}">
+                                        <md-option ng-value="1" translate="Profile.Male"></md-option>
+                                        <md-option ng-value="2" translate="Profile.Female"></md-option>
+                                    </md-select>
+                                </md-input-container>
+                                <md-input-container>
+                                    <md-select ng-model="vm.userAdditionalInfo.maritalStatus" translate ng-attr-placeholder="{{'Profile.SelectYourMaritalStatus' | translate}}">
+                                        <md-option ng-value="1" translate="Profile.Single"></md-option>
+                                        <md-option ng-value="2" translate="Profile.Married"></md-option>
+                                    </md-select>
+                                </md-input-container>
+                                <md-input-container>
+                                    <md-datepicker class="event-date-input" ng-model="vm.userAdditionalInfo.birthday" md-placeholder="Enter your birthdate" md-open-on-focus></md-datepicker>
+                                </md-input-container>
+                            </div>
+                        </form>
+                    </md-card-content>
+                    <md-card-actions layout="row" layout-align="end center">
+                        <div layout="row" class="content" layout-align="end end">
+                            <div>
+                                <md-button class="md-raised md-accent" ng-click="vm.updateUserAdditionalInfo()">
+                                    <md-icon md-font-icon="icon-content-save"></md-icon>
+                                    {{'Profile.Save' | translate}}
+                                </md-button>
+                            </div>
+                        </div>
+                    </md-card-actions>
+                </md-card>
+                <md-card class="profileInfoCard">
+                    <md-card-title>
+                        <md-toolbar class="md-accent md-hue-2">
+                            <div class="md-toolbar-tools">
+                                <h2 flex md-truncate>{{'Profile.ChangePassword' | translate}}</h2>
+                            </div>
+                        </md-toolbar>
+                    </md-card-title>
+                    <form name="changePasswordForm" novalidate>
+                        <md-card-content>
+                            <md-input-container class="md-block" md-no-float>
+                                <input ng-model="vm.changePasswordModel.currentPassword" type="password" name="currentPassword" translate translate-attr-placeholder="Profile.CurrentPassword"
+                                    ng-required="true">
+                                <div ng-messages="changePasswordForm.currentPassword.$error" role="alert">
+                                    <div ng-message="required" translate="Profile.CurrentPasswordIsRequired"></div>
+                                </div>
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input ng-model="vm.changePasswordModel.newPassword" type="password" name="newPassword" translate translate-attr-placeholder="Profile.NewPassword"
+                                    ng-required="true">
+                                <div ng-messages="changePasswordForm.newPassword.$error" role="alert">
+                                    <div ng-message="required" translate="Profile.NewPasswordIsRequired"></div>
+                                </div>
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input ng-model="vm.changePasswordModel.confirmPassword" required type="password" name="confirmPassword" compare-to="vm.changePasswordModel.newPassword"
+                                    placeholder="{{'Profile.ConfirmPassword' | translate}}" ng-required="true">
+                                <div ng-messages="changePasswordForm.confirmPassword.$error" role="alert">
+                                    <div ng-message="required" translate="Profile.ConfirmPasswordIsRequired"></div>
+                                    <div ng-message="compareTo" translate="Profile.ConfirmPasswordIsInvalid"></div>
+                                </div>
+                            </md-input-container>
+                        </md-card-content>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised md-accent" ng-disabled="changePasswordForm.$invalid && changePasswordForm.$dirty" ng-click="vm.changePassword()">
+                                <md-icon md-font-icon="icon-content-save"></md-icon>
+                                {{'Profile.Save' | translate}}
+                            </md-button>
+                        </md-card-actions>
+                    </form>
+                </md-card>
+            </div>
+        </div>
+    </div>
+    <!-- / CONTENT -->

@@ -1,0 +1,142 @@
+<md-list class="padding-5">
+    <md-list-item>
+        <div layout="row" flex>
+            <div flex="33">
+                <p class="md-body-2">{{'Layout.BookDate' | translate}}</p>
+            </div>
+            <div>
+                <p hide-xs>{{vm.$mdMedia('gt-sm') ? (bookingInfo.bookDate | date: 'fullDate') : (bookingInfo.bookDate | date: 'dd MMMM
+                    yyyy')}}</p>
+                <p hide show-xs class="md-secondary">{{bookingInfo.bookDate | date: 'dd MMMM yyyy'}}</p>
+            </div>
+
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <div flex="33">
+                <p class="md-body-2">{{'Layout.Event' | translate}}</p>
+            </div>
+            <div hide show-gt-xs flex layout="row">
+                <div>
+                    <p class="md-body-1">{{bookingInfo.userService.userEvent.name}}</p>
+                </div>
+                <div>
+                    <md-button md-no-ink class="md-primary md-icon-button" ng-click="vm.goToEventPage(bookingInfo.userService.userEvent.id)">
+                        <md-tooltip md-direction="right">
+                            <span translate="Layout.ShowEventInfo" translate-values="{eventName: bookingInfo.userService.userEvent.name}"></span>
+                        </md-tooltip>
+                        <md-icon md-font-icon="icon-calendar-select"></md-icon>
+                    </md-button>
+                </div>
+            </div>
+            <div hide-gt-xs class="md-secondary" layout="row">
+                <div>
+                    <p class="md-body-1">{{bookingInfo.userService.userEvent.name}}</p>
+                </div>
+                <div>
+                    <md-button md-no-ink class="md-mini md-primary md-icon-button" ng-click="vm.goToEventPage(bookingInfo.userService.userEvent.id)">
+                        <md-tooltip md-direction="right">
+                             <span translate="Layout.ShowEventInfo" translate-values="{eventName: bookingInfo.userService.userEvent.name}"></span>
+                        </md-tooltip>
+                        <md-icon md-font-icon="icon-calendar-select"></md-icon>
+                    </md-button>
+                </div>
+            </div>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <p flex="33" class="md-body-2">{{'Booking.Category' | translate}}</p>
+            <div hide show-gt-xs flex layout="row">
+                <div>
+                    <p flex class="md-body-1">{{bookingInfo.userService.service.name}}</p>
+                </div>
+            </div>
+            <div hide-gt-xs class="md-secondary" layout="row">
+                <div>
+                    <p flex class="md-body-1">{{bookingInfo.userService.service.name}}</p>
+                </div>
+            </div>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <p flex="33" class="md-body-2">{{'Booking.Service' | translate}}</p>
+            <div hide show-gt-xs flex layout="row">
+                <div>
+                    <p flex class="md-body-1">{{bookingInfo.vendorService.name}}</p>
+                </div>
+                <div>
+                    <md-button class="md-mini md-primary md-icon-button">
+                        <md-tooltip>{{'Layout.ShowInMarketplace' | translate}}</md-tooltip>
+                        <md-icon ng-click="vm.showInMarketPlace(bookingInfo.vendorService)" md-font-icon="icon-shopping"></md-icon>
+                    </md-button>
+                    </md-card-actions>
+                </div>
+            </div>
+            <div hide-gt-xs class="md-secondary" layout="row">
+                <div>
+                    <p flex class="md-body-1">{{bookingInfo.vendorService.name}}</p>
+                </div>
+                <div>
+                    <md-button class="md-mini md-primary md-icon-button">
+                        <md-tooltip>{{'Layout.ShowInMarketplace' | translate}}</md-tooltip>
+                        <md-icon ng-click="vm.showInMarketPlace(bookingInfo.vendorService)" md-font-icon="icon-shopping"></md-icon>
+                    </md-button>
+                    </md-card-actions>
+                </div>
+            </div>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <div flex="33">
+                <p flex class="md-body-2">{{'Vendor' | translate}}</p>
+            </div>
+            <div hide show-gt-xs layout="row" flex>
+                <md-button class="go-to-vendor-page-button" ng-click="vm.goToVendorServicesPage(bookingInfo.vendor.userId)">
+                    <md-tooltip md-direction="right">
+                        <span translate="Layout.ShowVendorInfo" translate-values="{vendorName : bookingInfo.vendor.name}"></span>
+                    </md-tooltip>
+                    {{bookingInfo.vendor.name}}</md-button>
+            </div>
+            <div hide-gt-xs class="<m></m>d-secondary" layout="row">
+                <md-button class="go-to-vendor-page-button" ng-click="vm.goToVendorServicesPage(bookingInfo.vendor.userId)">
+                    <md-tooltip md-direction="right">
+                        <span translate="Layout.ShowVendorInfo" translate-values="{vendorName : bookingInfo.vendor.name}"></span>
+                    </md-tooltip>
+                    {{bookingInfo.vendor.name}}</md-button>
+            </div>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <p flex="33" class="md-body-2">{{'Layout.Deadline' | translate}}</p>
+            <p flex hide-xs>{{vm.$mdMedia('gt-sm') ? (bookingInfo.deadline | date: 'fullDate') : (bookingInfo.deadline | date: 'dd MMMM yyyy')}}</p>
+            <p hide show-xs class="md-secondary">{{bookingInfo.deadline | date: 'dd MMMM yyyy'}}</p>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <p flex="33" class="md-body-2">{{'Layout.CreatedDate' | translate}}</p>
+            <p flex class="md-body-1">{{bookingInfo.createdDate | date : 'fullDate'}}</p>
+        </div>
+
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item>
+        <div layout="row" flex>
+            <p flex="33" class="md-body-2">{{'Layout.Status' | translate}}</p>
+            <p hide show-gt-xs flex class="md-body-1">{{('Booking.Status.' + (bookingInfo.statusId | bookingStatus)) | translate}}</p>
+            <p hide-gt-xs class="md-body-1 md-secondary">{{('Booking.Status.' + (bookingInfo.statusId | bookingStatus)) | translate}}</p>
+        </div>
+    </md-list-item>
+    <md-divider></md-divider>
+</md-list>

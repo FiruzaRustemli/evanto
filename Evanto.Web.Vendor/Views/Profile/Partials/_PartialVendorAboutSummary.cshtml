@@ -1,0 +1,74 @@
+﻿@model Evanto.Web.Vendor.Models.ViewModels.SummaryViewModel
+@using Evanto.Web.Vendor.Helpers
+
+
+<div id="summary" class="pmb-block">
+    <div class="pmbb-header">
+        <h2><i class="zmdi zmdi-equalizer m-r-10"></i> Summary</h2>
+
+        <ul class="actions">
+            <li class="dropdown">
+                <a href="/Content/#" data-toggle="dropdown">
+                    <i class="zmdi zmdi-more-vert"></i>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <a data-ma-action="profile-edit" href="/Content/#">Edit</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="pmbb-body p-l-30">
+        <div class="pmbb-view">
+            @{
+                if (String.IsNullOrEmpty(Model.Description))
+                {
+                    <div> Haqqınızda birşeylər yazın...</div>
+                }
+                else
+                {
+                    @Model.Description
+                }
+            }
+        </div>
+        <div class="pmbb-edit">
+            <div class="fg-line">
+                @Html.TextAreaFor(model => model.Description, new
+                   {
+                       @id = "tbxSummary",
+                       @class = "form-control",
+                       @rows = "5",
+                       @placeholder = "Summary..."
+                   })
+            </div>
+            <div class="m-t-10">
+                <button id="btnSummarySave" type="button" onclick="UpdateSummary()" class="btn btn-primary btn-sm">Save</button>
+                <button data-ma-action="profile-edit-cancel" class="btn btn-link btn-sm">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+        function UpdateSummary() {
+            var model = {
+                UserId: @Html.Raw(Json.Encode(Model.UserId)),
+                Description: $('#tbxSummary').val()
+            }
+            $.ajax({
+                url: "/Profile/UpdateVendorDescription",
+                type: 'POST',
+                datatype: 'html',
+                data: model,
+                success: function(data) {
+                    $("#sectionSummary").html(data)
+                },
+                error: function(err) {
+                    console.log('error', err)
+                }
+            })
+        }
+</script>
+
+

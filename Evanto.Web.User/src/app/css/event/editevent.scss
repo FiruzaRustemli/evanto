@@ -1,0 +1,49 @@
+﻿#editevent{
+  .event-name{
+    word-break: break-all;
+   -ms-word-break: break-all;
+  }
+}
+
+.muted {
+color: #968d8d;
+font-size: inherit;
+font-weight: 500;
+text-align: left;
+}
+
+.md-tile-left {
+  margin-right:0!important;
+  padding-left:24px;
+  color: rgb(63,81,181);
+}
+
+.pagesContent {
+    height: 100vh;
+    overflow: auto;
+    position: static;
+        padding: 0 63px 0 63px;
+}
+
+
+.animate-show-hide.ng-hide {
+  opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
+  transition: all ease-in-out 1s;
+}
+
+.availableServices {
+  opacity: 1;
+  padding: 10px;
+}
+
+// Responsive
+
+@media screen and (max-width: 960px) {
+  #editevent{
+    margin-top: 120px;
+  }
+}

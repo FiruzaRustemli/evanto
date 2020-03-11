@@ -1,0 +1,22 @@
+{
+	"Profile": "Profil",
+	"Save": "Yadda saxla",
+	"FirstName": "Ad",
+	"LastName": "Soyad",
+	"Email": "Elektron ünvan",
+	"Birthday": "Doğum günü",
+	"Generalnfo": "Ümumi məlumat",
+	"AdditionalInfo": "Əlavə məlumat",
+	"PhoneNumber": "Telefon nömrəsi",
+	"RegistrationDate": "Qeydiyyat tarixi ",
+	"SelectFile": "Seç",
+	"MaritalStatus": "Ailə vəziyyəti",
+	"Gender": "Cins",
+	"ChangePassword": "Parolu dəyişmə",
+	"Browse": "Bax",
+	"Upload": "Yüklə",
+	"Male": "Kişi",
+	"Female": "Qadın",
+	"Married": "Evli",
+	"Single": "Subay"
+}

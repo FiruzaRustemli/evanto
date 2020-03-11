@@ -1,0 +1,31 @@
+<div class="vendor-service-public-card-template">
+    <div class="media">
+        <div class="image" ng-style="{'background-image': 'url({{card.photo}})'}" alt="{{card.name}}">
+    </div>
+
+    <div class="content pv-10 ph-16">
+        <div class="title" ng-if="card.name">
+            {{card.name}}
+        </div>
+        <div hide-xs layout="row" layout-align="start center" ng-if="card.rating !== null">
+            <jk-rating-stars max-rating="5" rating="card.rating" read-only="true">
+            </jk-rating-stars>
+            <div hide-xs class="rated-user-count"> ({{card.ratedUserCount}})</div>
+        </div>
+        <div hide-xs class="subtitle secondary-text" ng-if="card.rating === null">
+            {{'Vendor.NotRated' | translate}}
+        </div>
+        <div class="subtitle secondary-text">
+            {{card.priceMin === null ? ('Layout.NoInformation' | translate) : card.priceMin}} - {{card.priceMax === null ? ('Layout.NoInformation' | translate) : card.priceMax}}
+            {{card.priceMin !== null || card.priceMax !== null ? 'AZN' : ''}}
+        </div>
+
+        <div class="subtitle secondary-text">
+           {{'Vendor.DailyQuantity' | translate}}: {{card.dailyQuantity === null ? ('Layout.NoInformation' | translate) : card.dailyQuantity}}
+        </div>
+
+        <div class="text pt-16" ng-if="card.text">
+            {{card.Description}}
+        </div>
+    </div>
+</div>

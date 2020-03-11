@@ -1,0 +1,42 @@
+<div class="vendor-service-public-card-template">
+    <div class="media">
+        <img ng-click="vm.gotoVendorServicePage(card.vendorService)" class="image" ng-src="{{card.vendorService.photo}}" alt="{{card.vendorService.name}}">
+    </div>
+
+    <div class="content pv-10 ph-16">
+        <div layout="row" layout-align="space-between start">
+            <div ng-click="vm.gotoVendorServicePage(card.vendorService)">
+                <div class="title" ng-if="card.vendorService.name">
+                    {{card.vendorService.name}}
+                </div>
+                <div layout="row" layout-align="start center" ng-if="card.vendorService.rating !== null">
+                    <jk-rating-stars max-rating="5" rating="card.vendorService.rating" read-only="true">
+                    </jk-rating-stars>
+                    <div> ({{card.vendorService.ratedUserCount}})</div>
+                </div>
+                <div class="subtitle secondary-text" ng-if="card.vendorService.rating === null">
+                    {{'Vendor.NotRated' | translate}}
+                </div>
+                <div class="subtitle secondary-text">
+                    {{card.vendorService.priceMin === null ? ('Layout.NoInformation' | translate) : card.vendorService.priceMin}} - {{card.vendorService.priceMax
+                    === null ? ('Layout.NoInformation' | translate) : card.vendorService.priceMax}} {{card.vendorService.priceMin
+                    !== null || card.vendorService.priceMax !== null ? 'AZN' : ''}}
+                </div>
+
+                <div class="subtitle secondary-text">
+                    {{'Vendor.DailyQuantity' | translate}}: {{card.vendorService.dailyQuantity === null ? ('Layout.NoInformation' | translate)
+                    : card.vendorService.dailyQuantity}}
+                </div>
+
+                <div class="text pt-16" ng-if="card.vendorService.text">
+                    {{card.vendorService.Description}}
+                </div>
+            </div>
+            <div>
+                <md-button class="md-fab md-mini" ng-click="vm.showBookingInfoDialog(card)">
+                    <md-icon md-font-icon="icon-information-outline"></md-icon>
+                </md-button>
+            </div>
+        </div>
+    </div>
+</div>

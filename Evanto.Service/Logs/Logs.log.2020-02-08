@@ -1,0 +1,3 @@
+2020-02-09 10:31:15,576 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-09 10:31:34,671 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known

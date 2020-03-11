@@ -1,0 +1,153 @@
+﻿@model List<Evanto.Web.Vendor.Models.DTOs.BookingDto>
+@{
+    ViewBag.Title = "Booking";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+@section styles{
+    <link href="/Content/vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+    <link href="~/Content/css/lolliclock.css" rel="stylesheet" />
+    <link href="/Content/vendors/bower_components/nouislider/distribute/nouislider.min.css" rel="stylesheet">
+    <link href="/Content/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="~/Content/css/Views/Booking/booking.css" rel="stylesheet" />
+}
+
+<div class="block-header block-header-calendar p-b-5">
+    <h2>
+        <span></span>
+        <small></small>
+    </h2>
+
+    <ul class="actions actions-calendar">
+        <li>
+            <div class="f-right">
+
+                <button id="fReload" onclick="getBookingByStatusId(0)" class="filterCal btn bgm-teal btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-refresh"></i></button>
+                <button id="fRejected" onclick="getBookingByStatusId(3)" class="filterCal btn bgm-red btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-close"></i></button>
+                <button id="fApproved" onclick="getBookingByStatusId(2)" class="filterCal btn bgm-green btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-check"></i></button>
+                <button id="fVendor" onclick="getBookingByStatusId(4)" class="filterCal btn bgm-blue btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-check"></i></button>
+                <button id="fWaiting" onclick="getBookingByStatusId(1)" class="filterCal btn bgm-amber btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-alert-triangle"></i></button>
+            </div>
+        </li>
+        <li>
+            <button class="calendar-prev btn btn-default btn-icon waves-effect waves-circle waves-float" href="#"><i class="zmdi zmdi-arrow-back"></i></button>
+
+        </li>
+        <li>
+            <button class="calendar-next btn btn-default btn-icon waves-effect waves-circle waves-float" href="#"><i class="zmdi zmdi-arrow-forward"></i></button>
+
+        </li>
+
+        <li class="dropdown">
+            <button data-toggle="dropdown" class="btn btn-default btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-more-vert"></i></button>
+            <ul class="dropdown-menu dm-icon pull-right">
+                <li><a href="#" data-calendar-view="month"><i class="zmdi zmdi-view-comfy active"></i> Month View</a></li>
+                <li><a href="#" data-calendar-view="basicWeek"><i class="zmdi zmdi-view-week"></i> Week View</a></li>
+                <li><a href="#" data-calendar-view="basicDay"><i class="zmdi zmdi-view-day"></i> Day View</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="card" style="box-shadow: 0 2px 5px rgba(0,0,0,.16), 0 2px 10px rgba(0,0,0,.12);" id="calendar"></div>
+
+<!-- Add event -->
+<div class="modal fade" id="modal-new-event" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add an Event</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-event" role="form">
+                    <div class="form-group">
+                        <div class="fg-line">
+                            <input id="tbxTitle" type="text" class="form-control edit-event-title" placeholder="Event Title">
+                        </div>
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="dtp-container">
+                            <input id="tbxAddEventHour" type='text' class="form-control time-picker"
+                                   placeholder="Click here...">
+                        </div>
+                    </div>
+
+                    <input type="hidden" id="new-event-start" />
+                    <input type="hidden" id="new-event-end" />
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link" id="btn-add-event">Add Event</button>
+                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit event -->
+<div class="modal fade" id="modal-edit-event" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+
+            <div class="modal-body">
+                <form class="edit-event__form"><div class="row">
+    <div class="col-md-12">
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                        <h2>Mike Anamendolla</h2>
+                        <p><strong>About: </strong> Sophomore</p>
+                        <p><strong>Note: </strong> Lorem ipsum dolor sit amet. Perceptium alur vingardium leviosa </p>
+                        <p>
+                            <strong>Event: </strong>
+                            <span class="label label-info tags">Toy</span>
+                            <strong>Service: </strong>
+                            <span class="label label-info tags">Fotoqraflıq</span>
+                        </p>
+                    </div><!--/col-->
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="" class="center-block img-circle img-responsive">
+                        
+                    </div>
+                    <input type="hidden" class="edit-event-id" />
+                    <input type="hidden" class="event-tag-edit" />
+                </div><!--/row-->
+            </div><!--/panel-body-->
+        </div><!--/panel-->
+
+
+
+    </div>
+</div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-link bgm-blue" data-calendar="update">Approve</button>
+                <button class="btn btn-link bgm-red" data-calendar="delete">Reject</button>
+                <button class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="/Content/vendors/bower_components/moment/min/moment.min.js"></script>
+    <script src="/Content/vendors/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script src="/Content/vendors/bower_components/autosize/dist/autosize.min.js"></script>
+    <script src="~/Content/js/lolliclock.js"></script>
+    <script src="/Content/vendors/bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="/Content/vendors/bower_components/nouislider/distribute/nouislider.min.js"></script>
+    <script src="/Content/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/Content/js/Views/Booking/booking.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setPageModel(@Html.Raw(Json.Encode(Model)))
+            documentReady()
+        });
+    </script>
+}

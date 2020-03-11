@@ -1,0 +1,78 @@
+﻿<!-- DIALOG -->
+<md-dialog class="feedback-dialog" ng-controller="NewFeedbackController as vm" aria-label="New feedback">
+
+    <form name="newFeedbackForm" novalidate>
+
+        <!-- DIALOG TOOLBAR -->
+        <md-toolbar class="md-accent" layout="column">
+
+            <!-- TOOLBAR TOP -->
+            <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+                <span class="title"><span translate="Feedback"></span></span>
+                <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog" translate translate-attr-aria-label="Layout.Close">
+                    <md-icon md-font-icon="icon-close"></md-icon>
+                </md-button>
+            </div>
+            <!-- / TOOLBAR TOP -->
+
+        </md-toolbar>
+        <!-- / DIALOG TOOLBAR -->
+
+        <!-- DIALOG CONTENT -->
+        <md-dialog-content ms-scroll md-dynamic-height>
+
+            <div class="md-dialog-content">
+                <div class="h3"><span translate="Feedback.Message"></span></div>
+                <md-input-container class="md-block">
+                    <label translate="Feedback.Type"></label>
+                    <md-select name="feedbackType" ng-model="vm.newFeedback.typeId" md-on-open="vm.getAllFeedbackTypes()" required>
+                        <md-option ng-repeat="feedbackType in vm.feedbackTypes" ng-value="feedbackType.id">{{'Feedback.Type.' + feedbackType.name | translate}}</md-option>
+                    </md-select>
+                    <div ng-messages="newFeedbackForm.feedbackType.$error">
+                        <div ng-message="required">
+                            <span translate="Feedback.TypeRequired"></span>
+                        </div>
+                    </div>
+                </md-input-container>
+
+                <md-input-container class="md-block">
+                    <label translate="Feedback.Subject"></label>
+                    <input name="feedbackSubject" type="text" ng-model="vm.newFeedback.subject" required/>
+                    <div ng-messages="newFeedbackForm.feedbackSubject.$error">
+                        <div ng-message="required">
+                            <span translate="Feedback.SubjectRequired"></span>
+                        </div>
+                    </div>
+                </md-input-container>
+
+                <md-input-container class="md-block">
+                    <label translate="Feedback.Message"></label>
+                    <textarea name="feedbackContent" rows="5" ng-model="vm.newFeedback.text" maxlength="500" md-maxlength="500" required></textarea>
+                    <div ng-messages="newFeedbackForm.feedbackContent.$error">
+                        <div ng-message="required">
+                            <span translate="Feedback message is required"></span>
+                        </div>
+                        <div ng-message="md-maxlength">
+                            <span translate="Feedback.MessageCharacterLimit"></span>
+                        </div>
+                    </div>
+                </md-input-container>
+            </div>
+
+        </md-dialog-content>
+        <!-- / DIALOG CONTENT -->
+
+        <!-- DIALOG ACTIONS -->
+        <md-dialog-actions layout="row" layout-align="end center">
+            <div layout="row">
+                <md-button class="md-raised" ng-click="vm.cancel()"><span translate="Cancel"></span></md-button>
+                <md-button class="md-raised md-accent" ng-click="vm.create()" ng-disabled="vm.sendFeedbackButtonDisabled || newFeedbackForm.$invalid"
+                    translate="Feedback.Send" translate-attr-aria-label="Feedback.Send"></md-button>
+            </div>
+        </md-dialog-actions>
+        <!-- / DIALOG ACTIONS -->
+
+    </form>
+
+</md-dialog>
+<!-- / DIALOG -->

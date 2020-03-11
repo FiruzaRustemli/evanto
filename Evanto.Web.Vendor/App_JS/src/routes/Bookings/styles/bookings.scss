@@ -1,0 +1,435 @@
+.fc-scroller {
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+    height: auto !important;
+}
+
+.filterItem {
+    text-align: right;
+    cursor: pointer;
+    border: 1px solid rgba(233, 30, 99, 0);
+    border-radius: 7px;
+}
+
+.filterItem h4 {
+     display: inline-block !important;
+     margin-top: 11px;
+}
+
+.filterItem div {
+    margin-top: 3px;
+}
+
+.selectedStatus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 168, 158);
+}
+
+.fc-day:hover {
+    background-color:#fbfafa
+}
+
+.dialog-request .md-paper {
+    min-width: 550px;
+}
+
+.waiting_request div h2 {
+    background-color: #FF7043;
+    color: white;
+}
+
+.approved_request div h2 {
+    background-color: #26A69A;
+    color: white;
+}
+.rejected_request div h2 {
+    background-color: #EF5350;
+    color: white;
+}
+.own_request div h2 {
+    background-color: #5C6BC0;
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 1090px) {
+    #add_booking_dialog {
+        top: 50% !important;
+        width: 635px !important;
+    }
+ 
+    #add_booking_dialog section form div div.md-picker{
+        position: relative !important;
+    }
+
+$md-picker-include-forceful-classes: true;
+
+.md-dialog--centered {
+  .md-dialog {
+    max-height: auto;
+    max-width: auto;
+
+    @media (max-device-width: 320px) {
+      // iphone 5 is 320x500 with toolbars included.
+
+      max-height: 500px - 16px;
+      max-width: 320px - 16px;
+    }
+
+    // and any other devices less than 340x530
+  }
+
+  .md-overlay {
+    bottom: -50vh;
+    left: -50vw;
+    right: -50vw;
+    top: -50vh;
+  }
+}
+}
+
+.pull_right_chips { 
+    text-align:right;
+}
+
+.md-chip div div i {
+    font-size: 17px !important;
+}
+
+.avatar_color_pink {
+    background-color: #546E7A !important;
+    background: linear-gradient(to right, #546E7A, #7393a2) !important;
+  }
+.avatar_color_amber {
+    background-color: #FF7043 !important;
+    background: linear-gradient(to right, #FF7043, #ff906d) !important;
+  }
+.avatar_color_green {
+    background-color: #26A69A !important;
+    background: linear-gradient(to right, #26A69A, #32d4c5) !important;
+}
+.avatar_color_red {
+    background-color: #EF5350 !important;
+    background: linear-gradient(to right, #EF5350, #FF6A60);
+}
+.avatar_color_blue {
+    background-color: rgb(92, 107, 192);
+    background: linear-gradient(to right, rgb(92, 107, 192), rgb(94, 117, 245)) !important;
+}
+
+
+
+.margin-10 {
+    margin: 5px;
+}
+
+.chip-tablet {
+    margin-top: 15px;
+}
+
+.white_span span {
+    color: #ffffff !important;
+}
+
+/* Material calendar started */
+/*
+ * Vendor Overrides
+ */
+
+#fc-actions {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+}
+
+.fc td,
+.fc th {
+  border-color: transparent;
+}
+
+.fc th {
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.fc table {
+  background: transparent;
+}
+
+.fc table tr > td:first-child {
+  border-left-width: 0;
+}
+
+#calendar-widget .fc-toolbar h2 {
+  font-size: 16px;
+}
+
+#calendar-widget .fc-day-number {
+  text-align: center;
+  color: #000;
+}
+
+#calendar-widget .fc-day-grid-event {
+  margin: 1px 3px 1px;
+}
+
+#calendar-widget .ui-widget-header th,
+#calendar-widget .ui-widget-header {
+  border-width: 0;
+}
+
+#calendar .fc-toolbar {
+  height: 300px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-position: inherit;
+}
+
+#calendar .fc-toolbar h2 {
+  font-size: 20px;
+  color: #fff;
+}
+
+#calendar .fc-toolbar:before {
+  content: "";
+  height: 50px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.36);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#calendar .fc-toolbar .fc-center {
+  margin-top: 238px;
+  position: relative;
+}
+
+#calendar .fc-toolbar .ui-button {
+  margin-top: 3px;
+}
+
+#calendar .fc-toolbar .ui-button span {
+  color: #fff;
+}
+
+#calendar .fc-toolbar .ui-button:hover span {
+  color: #333;
+}
+
+@media screen and (max-width: 991px) {
+  #calendar .fc-toolbar {
+    height: 200px;
+  }
+
+  #calendar .fc-toolbar .fc-center {
+    margin-top: 138px;
+  }
+}
+
+#calendar .fc-day-number {
+    padding-left: 10px!important;
+    color: #0086ff;
+    text-align: left!important;
+    font-size: 10pt;
+}
+
+@media screen and (min-width: 991px) {
+  #calendar .fc-day-number {
+    font-size: 10pt;
+    letter-spacing: -2px;
+  }
+}
+
+#calendar .fc-day-header {
+  color: #333 !important;
+  text-align: left !important;
+}
+
+#calendar .fc-day-grid-event {
+  margin: 1px 9px 0;
+}
+
+.fc-day-header {
+  font-size: 0;
+  padding-bottom: 20px !important;
+}
+
+.fc-day-header:first-letter {
+  font-size: 14px;
+  color: #c2c2c2;
+  text-align: left;
+  border-bottom-width: 0;
+  border-right-color: #eee;
+  padding: 10px 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.fc-today {
+  color: #ffc107;
+}
+
+.fc-toolbar {
+  margin-bottom: 0;
+  padding: 20px 17px 19px;
+  position: relative;
+}
+
+.fc-toolbar h2 {
+  margin-top: 7px;
+}
+
+.fc-toolbar .ui-button {
+  border: 0;
+  background: 0 0;
+  padding: 0;
+  outline: none !important;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.fc-toolbar .ui-button:hover {
+  background: #EFEFEF;
+}
+
+.fc-toolbar .ui-button > span {
+  position: relative;
+  font-family: 'Material-Design-Iconic-Font';
+  font-size: 24px;
+  line-height: 100%;
+  width: 30px;
+  display: block;
+  margin-top: 2px;
+}
+
+.fc-toolbar .ui-button > span:before {
+  position: relative;
+  z-index: 1;
+}
+
+.fc-toolbar .ui-button > span.ui-icon-circle-triangle-w:before {
+  content: "\f2fa";
+}
+
+.fc-toolbar .ui-button > span.ui-icon-circle-triangle-e:before {
+  content: "\f2fb";
+}
+
+.fc-event {
+  padding: 0;
+  font-size: 11px;
+  border-radius: 2px;
+  border: 0;
+}
+
+.fc-state-highlight span {
+    color: red !important;
+}
+
+.fc-event .fc-title {
+  padding: 2px 8px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fc-event .fc-time {
+  float: left;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2px 6px;
+  margin: 0 0 0 -1px;
+}
+
+.fc-view,
+.fc-view > table {
+  border: 0;
+  overflow: hidden;
+}
+
+.fc-view > table > tbody > tr > .ui-widget-content {
+  border-top: 0;
+}
+
+div.fc-row {
+  margin-right: 0 !important;
+  border: 0 !important;
+}
+
+.fc-today {
+  color: #ffc107 !important;
+}
+
+/* Even Tag Color */
+
+.event-tag {
+  margin-top: 5px;
+}
+
+.event-tag > span {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 3px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.event-tag > span:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.event-tag > span.selected:before {
+  font-family: 'Material-Design-Iconic-Font';
+  content: "\f26b";
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 100%;
+  font-size: 17px;
+  color: #FFF;
+}
+
+hr.fc-divider {
+  border-width: 1px;
+  border-color: #eee;
+}
+
+.fc-day-grid-container.fc-scroller {
+  height: auto !important;
+  overflow: hidden !important;
+}
+
+/* Material calendar ended */
+
+
+.fc-today {
+    display: inline !important;
+    background-color: #ffbbbb !important;
+}
+
+.fc-today span{
+  color: #E91E63 !important;
+    display: inline !important;
+}
+
+.fc-day:hover {
+      background-color: rgba(103, 58, 183, 0.13);
+}
+.fc-today:hover {
+      background-color: rgba(103, 58, 183, 0.13) !important;
+}
+
+.fc-day.fc-widget-content.fc-wed.fc-today.fc-state-highlight:hover {
+  background-color: rgba(103, 58, 183, 0.13) !important;
+}

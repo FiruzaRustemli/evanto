@@ -1,0 +1,76 @@
+<!-- DIALOG -->
+<md-dialog class="rate-vendor-dialog" ng-controller="RateVendorServiceController as vm" aria-label="Rate vendor">
+
+    <form name="rateVendorForm" class="md-inline-form" novalidate>
+
+        <!-- DIALOG TOOLBAR -->
+        <md-toolbar class="md-accent" layout="column">
+
+            <!-- TOOLBAR TOP -->
+            <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+                <span class="title">{{'Marketplace.Rate' | translate}} {{bm.vendorInfo.name}}</span>
+                <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog" translate>
+                    <md-icon md-font-icon="icon-close"></md-icon>
+                </md-button>
+            </div>
+            <!-- / TOOLBAR TOP -->
+
+        </md-toolbar>
+        <!-- / DIALOG TOOLBAR -->
+
+        <!-- DIALOG CONTENT -->
+        <md-dialog-content ms-scroll>
+
+            <md-list>
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <p class="muted">{{'Marketplace.YourRating' | translate}}</p>
+                            </p>
+                            <div layout="row" layout-align="space-between center">
+                                <div layout="row" layout-align="start center">
+                                    <jk-rating-stars ng-mouseover="vm.countStars()" max-rating="5" rating="vm.ratingInfo.rating">
+                                    </jk-rating-stars>
+                                    &nbsp;
+                                    <md-icon class="btnClearRating" ng-click="vm.clearRating()" ng-if="vm.ratingInfo.rating !== undefined" md-font-icon="icon-close"></md-icon>
+                                </div>
+                                <span ng-if="vm.ratingInfo.rating === 1" translate="Marketplace.RatingExpression.NotSatisfied"></span>
+                                <span ng-if="vm.ratingInfo.rating === 2" translate="Marketplace.RatingExpression.PartiallySatisfied"></span>
+                                <span ng-if="vm.ratingInfo.rating === 3" translate="Marketplace.RatingExpression.Satisfied"></span>
+                                <span ng-if="vm.ratingInfo.rating === 4" translate="Marketplace.RatingExpression.HighlySatisfied"></span>
+                                <span ng-if="vm.ratingInfo.rating === 5" translate="Marketplace.RatingExpression.Perfect"></span>
+                            </div>
+                        </div>
+                        <br>
+                    </md-item-content>
+                </md-item>
+                <md-divider></md-divider>
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <p class="muted">{{'Marketplace.Comment' | translate}}</p>
+                            </p>
+                            <md-input-container class="md-block">
+                                <textarea rows="10" ng-model="vm.ratingInfo.description" md-maxlength="2000"></textarea>
+                            </md-input-container>
+                        </div>
+                    </md-item-content>
+                </md-item>
+
+            </md-list>
+
+        </md-dialog-content>
+        <!-- / DIALOG CONTENT -->
+
+        <!-- DIALOG ACTIONS -->
+        <md-dialog-actions layout="row" layout-align="end center">
+            <div layout="row">
+                <md-button class="md-accent md-raised" ng-click="vm.rate()" translate="Marketplace.Rate"></md-button>
+            </div>
+        </md-dialog-actions>
+        <!-- / DIALOG ACTIONS -->
+
+    </form>
+
+</md-dialog>
+<!-- / DIALOG -->

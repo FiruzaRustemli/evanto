@@ -1,0 +1,41 @@
+/*md-dialog.new-event-dialog {
+    max-width: 500px;
+    width: 500px;
+} */
+
+md-dialog.new-event-dialog ._md-datepicker-has-calendar-icon {
+    margin-top: 40px;
+    margin-left: -11px;
+}
+
+md-dialog.new-event-dialog .event-date-input input {
+    width: 354px;
+    max-width: 354px !important;
+}
+
+#mdselectEventType {
+    min-width: 200px;
+}
+
+md-dialog-content.dtp-content {
+    padding: 0 !important;
+}
+
+.dtp-actual-meridien {
+    display: none;
+}
+
+md-dialog md-dialog-actions.dtp-buttons .md-button {
+    margin: 0 !important;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+// Responsive
+@media screen and (max-width:960px) {
+    md-dialog.new-event-dialog .event-date-input input {
+        width: 190px;
+    }
+}

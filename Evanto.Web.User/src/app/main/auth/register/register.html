@@ -1,0 +1,181 @@
+﻿<div id="register" class="flex-scrollable" layout="column" ms-scroll>
+    <div layout="row" layout-align="start start">
+        <a href="/" target="_self" layout-margin>
+            <md-button class="md-accent md-raised">
+                 <div class="auth-pages-logo"></div>
+            </md-button>
+        </a>
+    </div>
+
+    <div id="register-form-wrapper" layout="column" layout-align="center end">
+        <div id="register-form" class="md-whiteframe-8dp">
+            <div class="title md-accent-bg">
+                <span class="title md-display-2">Brono</span>
+            </div>
+
+            <div class="title" translate="Authentication.Register.HeaderText"></div>
+
+            <md-tabs ng-if="!vm.isEnterCodePanelActive" md-dynamic-height="true" md-swipe-content="false" md-selected="vm.selectedTab"
+                md-no-ink-bar md-no-ink="true" md-no-select-click="true" md-no-pagination="true" class="noTitledTabs">
+                <md-tab>
+                    <md-tab-label>
+                    </md-tab-label>
+                    <md-tab-body class="content">
+                        <form name="userRegisterForm" novalidate ng-submit="vm.setRegisterInfo()">
+                            <div layout="row">
+                                <md-input-container class="md-block" md-no-float>
+                                    <input ng-model="vm.user.firstName" name="firstName" translate translate-attr-aria-label="Authentication.Register.FirstName"
+                                        translate-attr-placeholder="Authentication.Register.FirstName" type="text" ng-required="true"
+                                        required md-minlength="3" md-maxlength="20" minlength="3" maxlength="20">
+                                    <div ng-messages="userRegisterForm.firstName.$error" role="alert">
+                                        <div ng-message="required" translate="Authentication.Register.FirstNameIsRequired"></div>
+                                        <div ng-message="maxlength" translate="Authentication.Register.FirstNameMaxLength"></div>
+                                        <div ng-message="minlength" translate="Authentication.Register.FirstNameMinLength"></div>
+                                    </div>
+                                </md-input-container>
+
+                                <md-input-container class="md-block" md-no-float>
+                                    <input ng-model="vm.user.lastName" type="text" translate translate-attr-aria-label="Authentication.Register.LastName" translate-attr-placeholder="Authentication.Register.LastName"
+                                        name="lastName" required md-minlength="3" md-maxlength="20" minlength="3" maxlength="20">
+                                    <div ng-messages="userRegisterForm.lastName.$error" role="alert">
+                                        <div ng-message="required" translate="Authentication.Register.LastNameIsRequired"></div>
+                                        <div ng-message="maxlength" translate="Authentication.Register.LastNameMaxLength"></div>
+                                        <div ng-message="minlength" translate="Authentication.Register.LastNameMinLength"></div>
+                                    </div>
+                                </md-input-container>
+                            </div>
+
+                            <div layout="row" layout-wrap>
+                                <md-input-container class="md-block" md-no-float flex="15">
+                                    <input ng-disabled="true" value="+994" ng-required="true">
+                                </md-input-container>
+                                <md-input-container class="md-block" md-no-float flex>
+                                    <input type="tel" ng-model="vm.user.phone" name="phone" required translate translate-attr-placeholder="Authentication.Register.Phone"
+                                        ng-required="true" ng-pattern="/^[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}$/">
+                                    <div ng-messages="userRegisterForm.phone.$error" role="alert">
+                                        <div ng-message="required" translate="Authentication.Register.PhoneIsRequired"></div>
+                                        <div ng-message="pattern" translate="Authentication.Register.PhoneInvalid"></div>
+                                    </div>
+                                </md-input-container>
+                            </div>
+
+                            <div layout="row" layout-wrap>
+                                <md-select ng-model="vm.user.genderId" name="gender" translate ng-attr-placeholder="{{'Profile.SelectYourGender' | translate}}">
+                                    <md-option ng-value="1" translate="Profile.Male"></md-option>
+                                    <md-option ng-value="2" translate="Profile.Female"></md-option>
+                                    <div ng-messages="userRegisterForm.gender.$error" role="alert">
+                                        <div ng-message="required" translate="Authentication.Register.GenderIsRequired"></div>
+                                    </div>
+                                </md-select>
+                            </div>
+
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input ng-model="vm.user.username" type="email" name="userName" required translate translate-attr-placeholder="Authentication.Email"
+                                    ng-required="true">
+                                <div ng-messages="userRegisterForm.userName.$error" role="alert">
+                                    <div ng-message="required" translate="Authentication.EmailIsRequired"></div>
+                                    <div ng-message="email" translate="Authentication.EmailMustBeValid"></div>
+                                </div>
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input ng-model="vm.user.passwordString" type="password" name="password" translate translate-attr-aria-label="Authentication.Password"
+                                    translate-attr-placeholder="Authentication.Password" ng-required="true">
+                                <div ng-messages="userRegisterForm.password.$error" role="alert">
+                                    <div ng-message="required" translate="Authentication.PasswordIsRequired"></div>
+                                </div>
+                            </md-input-container>
+
+                            <md-input-container class="md-block" md-no-float>
+                                <input ng-model="vm.user.confirmPassword" required type="password" name="confirmPassword" compare-to="vm.user.passwordString"
+                                    placeholder="{{'Authentication.ConfirmPassword' | translate}}" ng-required="true">
+                                <div ng-messages="userRegisterForm.confirmPassword.$error" role="alert">
+                                    <div ng-message="required" translate="Authentication.ConfirmPasswordIsRequired"></div>
+                                    <div ng-message="compareTo" translate="Authentication.ConfirmPasswordIsInvalid"></div>
+                                </div>
+                            </md-input-container>
+
+                            <div class="terms" layout="row" layout-align="center center">
+                                <md-checkbox name="terms" ng-model="data.cb1" aria-label="I read and accept" required></md-checkbox>
+                                <div layout="row" layout-sm="column" layout-align="start center">
+                                    <span translate="Authentication.Register.TermsPartI"></span>
+                                    <a href="#" class="md-accent-color" translate="Authentication.Register.TermsPartII"></a>
+                                </div>
+                            </div>
+
+                            <md-button type="submit" class="md-raised md-accent submit-button" ng-disabled="userRegisterForm.$invalid" translate="Authentication.Register.CreateAccount">
+                            </md-button>
+                        </form>
+                    </md-tab-body>
+                </md-tab>
+                <md-tab>
+                    <md-tab-label>
+                    </md-tab-label>
+                    <md-tab-body class="content">
+                        <div>
+                            <md-tabs md-stretch-tabs="always" md-dynamic-height="true" md-swipe-content="true">
+                                <md-tab>
+                                    <md-tab-label>{{'Authentication.Register.Phone' | translate}}</md-tab-label>
+                                    <md-tab-body class="content">
+                                        <div layout="column" layout-align="center center">
+                                            <div layout="row">
+                                                <md-input-container class="full-height-input-container">
+                                                    <input ng-disabled="true" ng-value="'+994'" ng-required="true">
+                                                </md-input-container>
+                                                <md-input-container class="full-height-input-container">
+                                                    <input ng-disabled="true" ng-value="vm.user.phone" ng-required="true">
+                                                </md-input-container>
+                                            </div>
+
+                                            <md-button class="md-accent md-raised" ng-click="vm.sendCodeToPhone();" translate-attr-aria-label="Authentication.SendVerificationCode"
+                                                translate="Authentication.SendVerificationCode"></md-button>
+                                        </div>
+                                    </md-tab-body>
+                                </md-tab>
+                                <md-tab>
+                                    <md-tab-label>{{'Authentication.Email' | translate}}</md-tab-label>
+                                    <md-tab-body class="content">
+                                        <div layout="column" layout-align="center center">
+                                            <md-input-container class="full-height-input-container">
+                                                <input ng-disabled="true" ng-value="vm.user.username" ng-required="true">
+                                            </md-input-container>
+                                            <md-button ng-click="vm.selectedTab = 1" class="md-accent md-raised" translate-attr-aria-label="Authentication.SendVerificationCode"
+                                                translate="Authentication.SendVerificationCode"></md-button>
+                                        </div>
+                                    </md-tab-body>
+                                </md-tab>
+                            </md-tabs>
+
+                            <div layout="row" layout-align="center center">
+                                <md-button class="md-raised md-warn" ng-click="vm.selectedTab = 0" translate-attr-aria-label="Authentication.Register.EditRegisterInfo"
+                                    translate="Authentication.Register.EditRegisterInfo"></md-button>
+                            </div>
+                        </div>
+                    </md-tab-body>
+                </md-tab>
+            </md-tabs>
+
+
+            <div ng-if="vm.isEnterCodePanelActive" id="verify-your-account">
+                <form ng-submit="vm.verifyAccount()" name="verifyAccountForm" novalidate>
+                    <div layout="column" layout-align="center center">
+                        <md-input-container class="md-block" md-no-float>
+                            <input autocomplete="off" required ng-required="true" md-maxlength="6" minlength="6" maxlength="6" ng-pattern="/^[0-9]{6}$/"
+                                type="text" name="verificationCode" placeholder="verification code" ng-model="vm.verificationCode">
+                        </md-input-container>
+
+                        <md-button type="submit" class="md-raised md-accent" translate-attr-aria-label="Authentication.VerifyAccountButtonText" translate="Authentication.VerifyAccountButtonText">
+                        </md-button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="login" layout="row" layout-xs="column" layout-align="center center">
+                <span class="text" translate="Authentication.Register.AlreadyHaveAccount"></span>
+                <a class="link" ng-href="{{vm.locale.use()}}/auth/login" translate="Authentication.Login"></a>
+            </div>
+        </div>
+    </div>
+</div>

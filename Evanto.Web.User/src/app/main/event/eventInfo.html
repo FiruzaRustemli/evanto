@@ -1,0 +1,85 @@
+﻿<!-- DIALOG -->
+<md-dialog class="event-info-dialog" ng-controller="EventInfoController as vm" aria-label="Event info">
+
+    <!-- DIALOG TOOLBAR -->
+    <md-toolbar class="md-accent" layout="column">
+
+        <!-- TOOLBAR TOP -->
+        <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+            <span class="title">{{vm.eventInfo.name}}</span>
+            <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog">
+                <md-icon md-font-icon="icon-close"></md-icon>
+            </md-button>
+        </div>
+        <!-- / TOOLBAR TOP -->
+
+    </md-toolbar>
+    <!-- / DIALOG TOOLBAR -->
+
+    <!-- DIALOG CONTENT -->
+    <md-dialog-content ms-scroll>
+
+        <div class="md-dialog-content">
+            <md-list>
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <p class="muted" translate="Event.EventDate">
+                            </p>
+                            <h5 class="md-title" style="padding-top: 8px;">{{vm.eventInfo.eventDate | date: 'fullDate'}}</h5>
+                        </div>
+                    </md-item-content>
+                </md-item>
+                <md-divider></md-divider>
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <p class="muted">
+                                {{'Event.EventType' | translate}}
+                            </p>
+                            <h5 class="md-title" style="padding-top: 8px;">{{vm.eventInfo.eventType.name}}</h5>
+                        </div>
+                    </md-item-content>
+                </md-item>
+                <md-divider></md-divider>
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <p class="muted">
+                                {{'Event.Budget' | translate}}
+                            </p>
+                            <h5 ng-if="vm.event.budget" class="md-title" style="padding-top: 8px;">{{vm.eventInfo.budget}} AZN</h5>
+                            <h5 ng-if="!vm.event.budget" class="md-title" style="padding-top: 8px;">{{'NoBudgetSet' | translate}}</h5>
+                        </div>
+                    </md-item-content>
+                </md-item>
+                <md-divider></md-divider>
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <p class="muted">
+                                {{'Event.CreatedDate' | translate}}
+                            </p>
+                            <h5 class="md-title" style="padding-top: 8px;">{{vm.eventInfo.createdDate | date: 'fullDate'}}</h5>
+                        </div>
+                    </md-item-content>
+                </md-item>
+
+                <md-divider></md-divider>
+
+            </md-list>
+        </div>
+
+    </md-dialog-content>
+    <!-- / DIALOG CONTENT -->
+
+    <!-- DIALOG ACTIONS -->
+    <md-dialog-actions layout="row" layout-align="center center">
+        <div layout="row">
+            <md-button class="md-raised" ng-click="vm.goToEventPage(vm.eventInfo.id)" ng-disabled="vm.createButtonDisabled">{{'Event.ShowFullEventInformation' | translate}}</md-button>
+        </div>
+    </md-dialog-actions>
+    <!-- / DIALOG ACTIONS -->
+
+</md-dialog>
+<!-- / DIALOG -->

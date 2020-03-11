@@ -1,0 +1,147 @@
+﻿<md-tabs md-dynamic-height="true" md-swipe-content="false" md-selected="vm.mdSelectedTab" md-no-ink-bar md-no-ink="true"
+    md-no-select-click="true" md-no-pagination="true" class="noTitledTabs">
+    <md-tab>
+        <md-tab-label>
+        </md-tab-label>
+        <md-tab-body class="content">
+            <md-list ng-hide="vm.userServices.length === 0">
+                <md-item>
+                    <md-item-content>
+                        <div class="md-tile-content">
+                            <h3>
+                                Showing Top 3 selected vendor services by rating.
+                                </p>
+                        </div>
+                    </md-item-content>
+                </md-item>
+
+                <md-divider></md-divider>
+
+            </md-list>
+
+            <div class="selectedServicesPrgrsBar" ng-show="vm.topVendorServicesLoading" layout-align="center center">
+                <md-progress-linear ng-hide="vm.userServices.length === 0" ng-show="vm.topVendorServicesLoading" md-mode="indeterminate">
+                </md-progress-linear>
+            </div>
+            <div ng-hide="vm.topVendorServicesLoading" ng-repeat="userService in vm.userServices" layout="column">
+                <div layout="row" layout-align="space-between start">
+                    <md-chips>
+                        <md-chip>
+                            {{userService.service.name}}
+                        </md-chip>       
+                    </md-chips>
+                      <md-button class="md-raised md-accent" ng-click="vm.showAllServices(userService)">Show all</md-button>
+                </div>
+                <div layout="row" layout-wrap layout-align="start center">
+                    <div class="dvSelectedTopServices" layout="row" layout-align="start center" window-width flex="{{(topVendorServices.length === 3 && windowWidth > 300) ? '' : 'none'}}"
+                        ng-repeat="vendorService in vm.vendorServices | filter: {servicePeriodPrice : {serviceId : userService.serviceId}}  as topVendorServices">
+                        <md-card md-theme-watch layout-wrap>
+                            <md-card-title>
+                                <md-card-title-text>
+                                    <span class="md-title">{{vendorService.name}}</span>
+                                </md-card-title-text>
+                            </md-card-title>
+                            <md-card-content>
+                                <div layout="row" layout-align="space-between center">
+                                    <p><span class="md-subhead">Min Price: </span></p>
+                                    <p><span class="md-subhead">{{vendorService.priceMin | currency}}</span></p>
+                                </div>
+                                <div layout="row" layout-align="space-between center">
+                                    <p><span class="md-subhead">Max Price: </span></p>
+                                    <p><span class="md-subhead">{{vendorService.priceMax | currency}}</span></p>
+                                </div>
+                                <div layout="row" layout-align="space-between center">
+                                    <p><span class="md-subhead">Daily quantity: </span></p>
+                                    <p><span class="md-subhead">{{vendorService.dailyQuantity | number}}</span></p>
+                                </div>
+                            </md-card-content>
+                            <md-card-actions layout="row" layout-align="end center">
+                                <md-button class="md-raised" ng-click="vm.showBookingDialog(userService, vendorService)">Book</md-button>
+                                <md-button class="md-raised" ng-click="vm.showVendorInfo(vendorService.vendorServicePacket.vendorId)">Vendor info</md-button>
+                                   <md-button class="md-fab md-hue-2 md-mini">
+                                       <md-tooltip>Show in marketplace</md-tooltip>
+                                    <md-icon ng-click="vm.showInMarketplace(vendorService)" md-font-icon="icon-shopping"></md-icon>
+                                   </md-button>
+                                            </md-card-actions>
+                        </md-card>
+                    </div>
+                    <md-card md-theme-watch ng-show="!topVendorServices.length">
+                        <md-card-content>
+                            <div class="md-subhead">
+                                There is no available vendor service
+                            </div>
+                        </md-card-content>
+                    </md-card>
+                </div>
+            </div>
+        </md-tab-body>
+
+    </md-tab>
+    <md-tab>
+        <md-tab-label>
+        </md-tab-label>
+        <md-tab-body>
+            <h3>Showing all services by {{vm.selectedUserService.service.name}} service</h3>
+            <div layout="row">
+                <md-button flex="none" class="md-fab md-raised" aria-label="Go back top services" ng-click="vm.goBackTopServices()">
+                    <md-icon md-font-icon="icon-arrow-left"></md-icon>
+                </md-button>
+                <div layout="row" layout-align="space-between center" flex>
+                    <md-input-container md-no-float class="md-block" flex="80">
+                        <md-icon md-font-icon="icon-magnify"></md-icon>
+                        <input ng-model="vm.filterValues.searchText" ng-model-options="{debounce : 1400}" type="text" placeholder="Phone Number">
+                    </md-input-container>
+                    <md-input-container flex="10">
+                        <label>Pagesize</label>
+                        <md-select ng-model="vm.filterValues.pageSize" ng-model-options="{debounce : 1400}">
+                            <md-option>
+                                10
+                            </md-option>
+                            <md-option>
+                                20
+                            </md-option>
+                        </md-select>
+                    </md-input-container>
+                </div>
+            </div>
+
+            <md-progress-circular class="selectedServicesPrgrsBar" ng-show="vm.isSelectedVendorServicesLoading" md-mode="indeterminate">
+            </md-progress-circular>
+            <div layout="row" layout-align="start start">
+                <div class="dvSelectedVendorServices" layout="row" layout-align="start start" layout-wrap>
+                    <md-card ng-hide="vm.isSelectedVendorServicesLoading" ng-repeat="vendorService in vm.selectedVendorServices | filter: {servicePeriodPrice : {serviceId : vm.selectedUserService.service.id}}"
+                        md-theme-watch>
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-title">{{vendorService.name}}</span>
+                            </md-card-title-text>
+                        </md-card-title>
+                        <md-card-content>
+                            <div layout="row" layout-align="space-between center">
+                                <p><span class="md-subhead">Min Price: </span></p>
+                                <p><span class="md-subhead">{{vendorService.priceMin | currency}}</span></p>
+                            </div>
+                            <div layout="row" layout-align="space-between center">
+                                <p><span class="md-subhead">Max Price: </span></p>
+                                <p><span class="md-subhead">{{vendorService.priceMax | currency}}</span></p>
+                            </div>
+                            <div layout="row" layout-align="space-between center">
+                                <p><span class="md-subhead">Daily quantity: </span></p>
+                                <p><span class="md-subhead">{{vendorService.dailyQuantity | number}}</span></p>
+                            </div>
+                        </md-card-content>
+                        <md-card-actions layout="row" layout-align="end center">
+                            <md-button class="md-raised" ng-click="vm.showBookingDialog(vm.selectedUserService, vendorService)">Book</md-button>
+                            <md-button class="md-raised" ng-click="vm.showVendorInfo(vendorService.vendorServicePacket.vendorId)">Vendor info</md-button>
+                        </md-card-actions>
+                    </md-card>
+                </div>
+            </div>
+            </br>
+            <cl-paging flex cl-pages="vm.paging.totalPages" cl-steps="vm.filterValues.pageSize" cl-page-changed="vm.onPageChanged()"
+                cl-align="end end" cl-current-page="vm.paging.currentPage">
+            </cl-paging>
+            </br>
+        </md-tab-body>
+    </md-tab>
+</md-tabs>

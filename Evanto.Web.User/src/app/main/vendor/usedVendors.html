@@ -1,0 +1,21 @@
+﻿
+<md-content ng-controller="UsedVendorController as vm">
+   <md-card ng-repeat="vendor in vm.vendors" md-theme-watch>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{vendor.name}}</span>
+                <span class="md-subhead">Address: {{vendor.address}}</span>
+                <span class="md-subhead">Phone: {{vendor.user.phone}}</span>
+                <span class="md-subhead">Username: {{vendor.user.username}}</span>
+                <span class="md-subhead">Rating: {{vendor.rating}}</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-md card-media"></div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button class="md-primary" ui-sref="vendorServices( {id : vendor.userId})">Services</md-button>
+        </md-card-actions>
+    </md-card>
+</md-content>
+

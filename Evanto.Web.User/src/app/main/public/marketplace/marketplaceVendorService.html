@@ -1,0 +1,273 @@
+<div ms-scroll class="scrollable">
+    <div class="top-row marketplace-header-menu" layout="row" layout-align="space-between center">
+        <div layout="row" layout-align="start center">
+            <div class="navigation-toggle" hide-gt-sm>
+                <md-button class="md-icon-button" ng-click="vm.toggleMenu()" aria-label="Toggle Mobile Navigation">
+                    <md-icon md-font-icon="icon-menu"></md-icon>
+                </md-button>
+            </div>
+            <div class="logo" layout="row" layout-align="start center">
+                    <div class="toolbar-logo"></div>
+            </div>
+        </div>
+        <span flex></span>
+        <div layout="row" layout-align="end center" class="main-menu">
+            <ul hide-xs hide-sm class="nav navbar-nav">
+                <li><a href="/" target="_self">{{'Layout.HomeMenu' | translate}}</a></li>
+                <li class="active"><a ng-href="{{vm.locale.use()}}/marketplace">{{'Layout.Marketplace' | translate}}</a></li>
+                <li ng-show="vm.isAuthenticated"><a href="/dashboard/events">{{'Layout.Dashboard' | translate}}</a></li>
+                <li ng-show="!vm.isAuthenticated"><a href="{{vm.locale.use()}}/auth/login">{{'Layout.SignIn' | translate}}</a></li>
+            </ul>
+            <md-menu-bar ng-if="vm.isAuthenticated">
+                <booking-notification></booking-notification>
+            </md-menu-bar>
+            <md-button ng-if="vm.isAuthenticated" id="btnAddNewEvent" class="md-raised md-primary md-default-theme" ng-click="vm.addEvent()">
+                <md-icon md-font-icon="icon-calendar-plus"></md-icon>
+                <span>&nbsp; {{'Layout.AddEvent' | translate}}</span>
+            </md-button>
+        </div>
+    </div>
+
+    <div class="marketplace-menu" ng-show="vm.isMenuOpen">
+        <md-list>
+            <md-list-item>
+                <p><a href="/" target="_self">{{'Layout.HomeMenu' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+            <md-list-item>
+                <p class="active"><a ng-href="{{vm.locale.use()}}/marketplace">{{'Layout.Marketplace' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+            <md-list-item ng-show="vm.isAuthenticated">
+                <p><a href="/dashboard/events">{{'Layout.Dashboard' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+            <md-list-item ng-show="!vm.isAuthenticated">
+                <p><a href="{{vm.locale.use()}}/auth/login">{{'Layout.SignIn' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+        </md-list>
+    </div>
+
+    <div id="public-vendor-service" ng-show="!vm.isMenuOpen" class="public-vendor-service page-layout simple pt-55 md-dynamic-height"
+        layout="column" ms-scroll>
+        <div layout="row" layout-xs="column" layout-sm="column" layout-align="center start">
+            <div class="vendor-service-name-mobile-card ms-card-content-wrapper md-whiteframe-1dp main-info-panel" layout="row" layout-align="center center">
+                <div hide show-xs layout="column" layout-align="center center" flex>
+                    <div class="p-5">
+                        <img style="height:80px;" ng-src="{{vm.vendor.photo}}"
+                            alt="logo">
+                    </div>
+                    <div class="p-5" layout="row" layout-align="center center" class="service-name" ng-if="vm.vendorService.name">
+                        <span class="md-display-1">{{vm.vendorService.name}}</span>
+                    </div>
+                    <div class="p-5">
+                        {{vm.vendor.name}}
+                    </div>
+                    <div class="p-5">
+                        <jk-rating-stars max-rating="5" rating="vm.vendorService.rating" read-only="true">
+                        </jk-rating-stars>
+                    </div>
+                    <div class="p-5"> {{vm.vendorService.priceMin === null ? ('Layout.NoInformation' | translate) : vm.vendorService.priceMin}} - {{vm.vendorService.priceMax
+                        === null ? ('Layout.NoInformation' | translate) : vm.vendorService.priceMax}} {{vm.vendorService.priceMin !== null || vm.vendorService.priceMax
+                        !== null ? 'AZN' : ''}}</div>
+                    <div class="p-5">
+                        <md-button class="md-raised md-accent" ng-click="vm.showSelectEventDialog()">Book</md-button>
+                    </div>
+                    <div class="p-5">
+                        <a ng-href="tel:{{vm.vendor.user.phone}}">{{vm.vendor.user.phone}}</a>
+                    </div>
+                    <div class="p-5">
+                        <a ng-href="mailto:{{vm.vendor.user.username}}">{{vm.vendor.user.username}}</a>
+                    </div>
+                    <div class="p-5">{{vm.vendor.address}}</div>
+                </div>
+            </div>
+            <div layout="column" class="pr-15">
+                <div hide-xs ng-if="photos.length !== 0" class="container slider md-whiteframe-1dp main-info-panel">
+                    <!-- enumerate all photos -->
+                    <img style="height: 100%;" ng-repeat="photo in photos" class="slide main-info-panel" ng-swipe-right="showPrev()" ng-swipe-left="showNext()"
+                        ng-show="isActive($index)" ng-src="{{photo.parentSrc}}" />
+                    <!-- prev / next controls -->
+                    <a class="arrow prev" href="#" ng-click="showPrev()"></a>
+                    <a class="arrow next" href="#" ng-click="showNext()"></a>
+                    <!-- extra navigation controls -->
+                </div>
+                <ul hide-xs ng-if="photos.length !== 0" class="navigation md-whiteframe-1dp main-info-panel">
+                    <li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">
+                        <img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);" />
+                    </li>
+                </ul>
+
+                <div class="pt-20 title" layout="column">
+                    <h3 class="secondary-text">{{'Marketplace.ServiceDescription' | translate}}</h1>
+                        <div layout="row" layout-align="space-between center">
+                            <div class="md-subhead">
+                                {{vm.vendorService.description}}</div>
+                        </div>
+                </div>
+                <md-divider class="mt-10"></md-divider>
+                <div class="pt-20 title" layout="column">
+                    <h3 class="secondary-text">{{'Marketplace.ContactInformation' | translate}}</h1>
+                        <div class="md-subhead"> {{vm.vendorService.contactInfo}}</div>
+                </div>
+                <md-divider class="mt-10"></md-divider>
+                <div class="pt-20 title" layout="column">
+                    <h3 class="secondary-text">{{'Marketplace.Reviews' | translate}}</h1>
+                        <div layout="column" layout-align="space-between center">
+                            <div layout="row" layout="center start">
+                                <md-button id="rateVendorService" ng-click="vm.showRatingDialog()" md-font-icon="icon icon-add">{{'Marketplace.AddReview' | translate}}</md-button>
+                            </div>
+                        </div>
+                        <md-list>
+                            <md-list-item class="rating-list-item" ng-repeat="rating in vm.userRatings">
+                                <div class="pt-15 pb-10" layout="column" flex>
+                                    <div class="md-list-item-text" layout="row" layout-align="start center">
+                                        <jk-rating-stars class="review-rating" max-rating="5" rating="rating.rating" read-only="true">
+                                        </jk-rating-stars>
+                                        <h3 class="text-boxed font-weight-500 h3 rating-info">{{rating.createdDate | date: 'dd/MM/yyyy'}}</h3>
+                                        <span class="text-boxed font-weight-500 rating-info">{{rating.fullName ? rating.fullName : rating.userName}}</span>
+                                    </div>
+                                    <hm-read-more class="md-subhead  pt-10" hm-text="{{ rating.description }}" hm-limit="160" hm-more-text="read more" hm-less-text=" read less"
+                                        hm-dots-class="dots" hm-link-class="read-more-link">
+                                </div>
+                                <md-divider></md-divider>
+                            </md-list-item>
+                        </md-list>
+                </div>
+            </div>
+
+            <div layout="column" class="vendorservice-page-cards-container">
+                <div hide-xs class="vendor-service-name-card ms-card-content-wrapper md-whiteframe-1dp main-info-panel" layout="row" layout-align="center center">
+                    <div layout="column" layout-align="center center" flex>
+                        <div class="p-5">
+                            <img style="height:80px;" ng-src="{{vm.vendor.photo}}"
+                                alt="logo">
+                        </div>
+                        <div class="p-5" layout="row" layout-align="center center" class="service-name" ng-if="vm.vendorService.name">
+                            <span class="md-display-1">{{vm.vendorService.name}}</span>
+                        </div>
+                        <div class="p-5">
+                            {{vm.vendor.name}}
+                        </div>
+                        <div class="p-5">
+                            <jk-rating-stars max-rating="5" rating="vm.vendorService.rating" read-only="true">
+                            </jk-rating-stars>
+                        </div>
+                        <div class="p-5"> {{vm.vendorService.priceMin === null ? ('Layout.NoInformation' | translate) : vm.vendorService.priceMin}} - {{vm.vendorService.priceMax
+                            === null ? ('Layout.NoInformation' | translate) : vm.vendorService.priceMax}} {{vm.vendorService.priceMin !== null
+                            || vm.vendorService.priceMax !== null ? 'AZN' : ''}}</div>
+                        <div class="p-5">
+                            <md-button class="md-raised md-accent" ng-click="vm.showSelectEventDialog()" translate="Layout.Book"></md-button>
+                        </div>
+                        <div class="p-5">
+                            <a ng-href="tel:{{vm.vendor.user.phone}}">{{vm.vendor.user.phone}}</a>
+                        </div>
+                        <div class="p-5">
+                            <a ng-href="mailto:{{vm.vendor.user.username}}">{{vm.vendor.user.username}}</a>
+                        </div>
+                        <div class="p-5">{{vm.vendor.address}}</div>
+                    </div>
+                </div>
+                <ms-widget class="vendor-service-bookings-widget mt-10" ng-if="vm.isAuthenticated" layout="column" flex="100" flex-gt-sm="50">
+                    <!-- Front -->
+                    <ms-widget-front class="white-bg">
+                        <div class="ph-16 border-bottom" layout="row" layout-align="space-between center">
+                            <div class="h5" layout="row"><span translate>{{'Marketplace.YourBookings' | translate}}</span>
+                            </div>
+                            <div class="pv-16">
+                                <md-select class="simplified" ng-model="vm.bookingFilter" aria-label="Change range">
+                                    <md-option value="bookDate">
+                                        <span translate>{{'Home.BookingDate'}}</span>
+                                    </md-option>
+                                    <md-option value="statusId">
+                                        <span translate>{{'Home.Status'}}</span>
+                                    </md-option>
+                                    <md-option value="createdDate">
+                                        <span translate>{{'Home.CreatedDate'}}</span>
+                                    </md-option>
+                                </md-select>
+                            </div>
+                        </div>
+                        <md-progress-linear md-mode="query" ng-disabled="vm.isBookingsLoaded"></md-progress-linear>
+                        <div class="p-16" layout="row" layout-align="space-between center" ng-repeat="booking in vm.vendorServiceBookings | orderBy: vm.bookingFilter:true">
+                            <div>
+                                <div>
+                                    <span class="secondary-text">{{booking.bookDate | date : 'fullDate'}}</span>
+                                </div>
+                            </div>
+                            <span flex></span>
+                            <md-tooltip md-direction="right">{{'Marketplace.ShowBooking' | translate}}</md-tooltip>
+                            <md-button class="md-raised md-fab md-mini" aria-label="More booking information" ng-click="vm.showBookingInfoDialog(booking)">
+                                <md-icon md-font-icon="icon-information-outline"></md-icon>
+                            </md-button>
+                        </div>
+                        <div ng-if="vm.vendorServiceBookings.length === 0" class="p-16" layout="row" layout-align="space-between center">
+                            <div>
+                                <div>
+                                    <span class="secondary-text">{{'Marketplace.NoBookings' | translate}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </ms-widget-front>
+                </ms-widget>
+            </div>
+            <ul hide show-xs class="navigation navigation-mobile md-whiteframe-1dp main-info-panel">
+                <li ng-repeat="photo in photos" ng-class="{'active':isActive($index)}">
+                    <img image-dialog src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" />
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="FOOTER_1" ng-show="!vm.isMenuOpen">
+        <!--Footer Links-->
+        <!--/.Footer Links-->
+        <!--<hr id="HR_61" />-->
+        <!--Call to action-->
+
+        <!--	<div id="DIV_62">
+		<ul id="UL_63">
+			<li id="LI_64">
+			</li>
+			<li id="LI_65">
+				<a href="https://mdbootstrap.com/getting-started/" id="A_66"></a>
+				<fa id="FA_67">
+				</fa> Download for free<a href="https://mdbootstrap.com/newsletter/" id="A_68"></a>
+				<fa id="FA_69">
+				</fa> Subscribe to our newsletter
+			</li>
+		</ul>
+	</div>-->
+        <!--/.Call to action-->
+        <hr id="HR_70" />
+        <!--Social buttons-->
+
+        <div id="DIV_71">
+            <a href="#" id="A_72">
+         <i class="icon icon-facebook s40"></i></a>
+            <a href="#" id="A_74">
+         <i class="icon icon-twitter s40"></i></a>
+            <a href="#" id="A_76">
+                <i class="icon icon-google s40"></i></a>
+            <a href="#" id="A_78"><i class="icon icon-linkedin s40"></i>
+              </a>
+            <a href="#" id="A_80"><i class="icon icon-dribbble s40"></i> 
+                </a>
+            <a href="#" id="A_82"><i class="icon icon-pinterest s40"></i></a>
+            <a href="#" id="A_84"><i class="icon icon-codepen s40"></i></a>
+            <a href="#" id="A_86"><i class="icon icon-github s40"></i>
+                </a>
+        </div>
+        <!--/.Social buttons-->
+        <!--Copyright-->
+
+        <div id="DIV_88">
+            <div id="DIV_89">
+                © 2017 Copyright: <a href="https://brono.az" id="A_90">brono.az</a>
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </div>
+</div>

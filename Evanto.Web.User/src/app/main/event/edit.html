@@ -1,0 +1,112 @@
+﻿<div id="editevent" class="page-layout simple inner-sidenav" layout="column">
+
+    <!-- CONTENT -->
+    <div class="content" layout="column">
+        <div class="event-name mb-40 p-10">
+            <span hide show-gt-sm class="md-display-1">  {{vm.event.name}}</span>
+            <span hide-gt-sm class="md-title">  {{vm.event.name}}</span>
+        </div>
+        <div layout="row" layout-xs="column">
+            <div class="md-tile-content mr-20 p-10">
+                <p class="muted" translate="Event.EventDate">
+                </p>
+                <h3 class="md-title">{{vm.event.eventDate | date : 'd, MMMM, y, EEEE, HH:mm'}}</h3>
+            </div>
+            <div class="md-tile-content mr-20 p-10">
+                <p class="muted" translate="Event.Budget">
+                </p>
+                <h3 ng-if="vm.event.budget" class="md-title">{{vm.event.budget}} AZN</h3>
+                <h3 ng-if="!vm.event.budget" class="md-title">{{'Layout.NoInformation' | translate}}</h3>
+            </div>
+            <div class="md-tile-content p-10">
+                <p class="muted" translate="Event.EventType">
+                </p>
+                <h3 class="md-title">{{'Event.EventType.' + vm.event.eventType.name | translate}}</h3>
+            </div>
+
+        </div>
+        <!--            <div layout="column" flex="60">
+                <md-list>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    {{'Event.UsedServicesForBookings' | translate}}
+                                </p>
+                                <md-chips ng-show="vm.usedUserServices.length !== 0">
+                                    <md-chip ng-repeat="userService in vm.usedUserServices">
+                                        <strong>{{userService.service.name}}</strong>
+                                    </md-chip>
+                                </md-chips>
+                                <md-chips ng-if="vm.usedUserServices.length === 0">
+                                    <md-chip>
+                                        <strong><span translate="Event.NoServiceUsedForThisEvent"></span></strong>
+                                    </md-chip>
+                                </md-chips>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    Available services
+                                </p>
+                                <div class="availableServices animate-show-hide">
+                                    <md-chips>
+                                        <md-chip class="availableServiceChip" ng-repeat="service in vm.allAvailableEventServices">
+                                            <span>{{service.name}}</span>
+                                        </md-chip>
+                                        <md-chips>
+                                </div>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+            </div>-->
+        <md-divider class="mt-10"></md-divider>
+        <div layout="column" class="mt-10 p-10">
+            <span class="md-headline muted">{{'Event.ReservedServices' | translate}}</span>
+        </div>
+        <div layout="row" layout-xs="column">
+            <ms-card layout="row" view-model="vm" class="vendor-service-public-card" ng-repeat="booking in vm.bookings" template="'app/core/directives/ms-card/templates/edit-event-booking-card/template.html'"
+                ng-model="booking">
+            </ms-card>
+            <p class="p-10" ng-if="vm.bookings.length === 0">{{'Event.NoReservedServices' | translate}}</p>
+        </div>
+        <md-divider class="mt-10"></md-divider>
+        <div layout="column" class="mt-10 p-10">
+            <span class="md-headline muted">{{'Event.FeaturedServices' | translate}}</span>
+        </div>
+        <div layout="row" layout-wrap>
+            <ms-card layout="row" ng-repeat="vendorService in vm.topVendorServices" class="vendor-service-public-card" ng-click="vm.gotoVendorServicePage(vendorService)"
+                template="'app/core/directives/ms-card/templates/vendor-service-public-card/template.html'" ng-model="vendorService"></ms-card>
+        </div>
+        <!--        <md-list>
+            <md-item>
+                <md-item-content>
+                    <div class="md-tile-content">
+                        <p class="muted" translate="Event.Services">
+                        </p>
+                        <md-chips md-on-remove="vm.removeUserService($chip, $chip.service.id)" md-on-add="vm.addUserService($chip.id, $chip.name)"
+                            md-require-match="true" ng-model="vm.unusedUserServices">
+                            <md-chip-template>
+                                <strong ng-show="$chip.service !== undefined">{{$chip.service.name}}</strong>
+                                <strong ng-show="$chip.name !== undefined">{{$chip.name}}</strong>
+                            </md-chip-template>
+                            <md-autocomplete md-items="item in vm.querySearch(vm.searchText)" placeholder="Add an item" md-selected-item="vm.selectedItem"
+                                md-search-text="vm.searchText">
+                                <md-item-template>
+                                    <span>{{ item.name }}</span>
+                                </md-item-template>
+                            </md-autocomplete>
+                        </md-chips>
+                    </div>
+                </md-item-content>
+            </md-item>
+
+        </md-list>
+        <div ui-view autoscroll="false"></div>-->
+    </div>
+    <!-- / CONTENT -->
+
+</div>

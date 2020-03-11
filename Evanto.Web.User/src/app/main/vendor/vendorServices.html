@@ -1,0 +1,117 @@
+﻿<div id="vendorservices" class="page-layout simple inner-sidenav" layout="column">
+
+    <!-- CONTENT -->
+    <div class="content" layout="column">
+        <div layout="row">
+            <md-list flex="50">
+                <md-subheader class="md-no-sticky">
+                    <h3 class="md-subhead" translate="Vendor.Name"></h3>
+                </md-subheader>
+                <md-list-item>
+                    <p>{{vm.vendorInfo.name}}</p>
+                    <p ng-if="vm.vendorInfo.name.length == 0" translate="Layout.NoInformation"></p>
+                </md-list-item>
+
+
+
+                <md-divider></md-divider>
+
+                <md-subheader class="md-no-sticky">
+                    <h3 class="md-subhead" translate="Vendor.Address"></h3>
+                </md-subheader>
+                <md-list-item>
+                    <p>{{vm.vendorInfo.address}}</p>
+                    <p ng-if="vm.vendorInfo.address.length === 0" translate="Layout.NoInformation"></p>
+                </md-list-item>
+
+                <md-divider></md-divider>
+
+                <md-subheader class="md-no-sticky">
+                    <h3 class="md-subhead" translate="Vendor.Description"></h3>
+                </md-subheader>
+                <md-list-item>
+                    <p>{{vm.vendorInfo.description}}</p>
+                    <p ng-if="vm.vendorInfo.description.length === 0" translate="Layout.NoInformation"></p>
+                </md-list-item>
+
+
+            </md-list>
+            <md-list flex>
+                <md-subheader class="md-no-sticky">
+                    <h3 class="md-subhead" translate="Vendor.Phone"></h3>
+                </md-subheader>
+                <md-list-item>
+                    <p>{{vm.vendorInfo.user.phone}}</p>
+                    <p ng-if="vm.vendorInfo.user.phone.length === 0" translate="Layout.NoInformation"></p>
+                </md-list-item>
+
+                <md-divider></md-divider>
+
+                <md-subheader class="md-no-sticky">
+                    <h3 class="md-subhead" translate="Vendor.Email"></h3>
+                </md-subheader>
+                <md-list-item>
+                    <p>{{vm.vendorInfo.user.username}}</p>
+                    <p ng-if="vm.vendorInfo.userName.length === 0" translate="Layout.NoInformation"></p>
+                </md-list-item>
+        </div>
+        <div layout="row" layout-align="space-between start">
+            <div md-no-float class="md-block" flex-xs="50" flex="80">
+                <md-input-container>
+                    <md-icon md-font-icon="icon-magnify"></md-icon>
+                    <input ng-model="vm.filterValues.searchText" ng-model-options="{debounce : 1400}" type="text" placeholder="Search by name">
+                </md-input-container>
+            </div>
+            <div flex-xs="45" flex="10">
+                <md-input-container>
+                    <label translate="Layout.PageSize"></label>
+                    <md-select ng-model="vm.filterValues.pageSize" ng-model-options="{debounce : 1400}">
+                        <md-option><em>{{'Layout.None' | translate}}</em></md-option>
+                        <md-option>
+                            10
+                        </md-option>
+                        <md-option>
+                            20
+                        </md-option>
+                    </md-select>
+                </md-input-container>
+            </div>
+
+        </div>
+
+        <div layout="row" layout-align="start start">
+            <div class="dvVendorServices" layout="row" layout-align="start stretch" layout-wrap>
+                <md-card ng-repeat="vendorService in vm.vendorServices" md-theme-watch>
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span hide-sm hide-xs class="md-headline">{{vendorService.name}}</span>
+                            <span hide show-sm show-xs class="md-title">{{vendorService.name}}</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content>
+                        <div class="md-card-content" layout="column">
+                            <span class="md-body-1">{{'Vendor.MinPrice' | translate}}: {{vendorService.priceMin | currency}}</span>
+                            <span class="md-body-1">{{'Vendor.MaxPrice' | translate}}: {{vendorService.priceMax | currency}}</span>
+                            <span class="md-body-1">{{'Vendor.DailyQuantity' | translate}}: {{vendorService.dailyQuantity | number}}</span>
+
+                        </div>
+                    </md-card-content>
+                    <md-card-actions layout="row" layout-xs="column" layout-align="end center">
+                        <md-button class="md-raised md-accent" ng-click="vm.showSelectEventDialog(vendorService)" translate="Layout.Book"></md-button>
+                        <md-button aria-label="Show in marketplace" class="md-icon-button md-hue-2 md-mini">
+                            <md-tooltip>
+                                <span translate="Layout.ShowInMarketplace"></span>
+                                </md-tooltip>
+                            <md-icon ng-click="vm.showInMarketPlace(vendorService)" md-font-icon="icon-shopping"></md-icon>
+                        </md-button>
+                    </md-card-actions>
+                </md-card>
+            </div>
+        </div>
+        <cl-paging flex ng-hide="!vm.vendorServices" cl-pages="vm.paging.totalPages" cl-steps="vm.filterValues.pageSize" cl-page-changed="vm.onPageChanged()"
+            cl-align="end end" cl-current-page="vm.paging.currentPage">
+        </cl-paging>
+
+    </div>
+    <!-- / CONTENT -->
+</div>

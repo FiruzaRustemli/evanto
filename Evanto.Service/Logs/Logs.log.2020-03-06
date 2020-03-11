@@ -1,0 +1,725 @@
+2020-03-06 12:18:57,369 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:19:02,972 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:20:45,279 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:20:50,339 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:21:29,309 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:21:30,938 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:22:35,347 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:23:50,500 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":2,"StatusId":1,"CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.NotificationOperations.UpdateBookingNotificationOperation
+2020-03-06 12:23:50,641 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: The 'StatusId' property on 'Notification' could not be set to a 'System.Boolean' value. You must set this property to a non-null value of type 'System.Int32'. 
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.Get(Expression`1 predicate) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 79
+   at Evanto.BL.Operations.NotificationOperations.UpdateBookingNotificationOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\NotificationOperations\UpdateBookingNotificationOperation.cs:line 19
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-06 12:24:35,008 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":2,"StatusId":1,"CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.NotificationOperations.UpdateBookingNotificationOperation
+2020-03-06 12:27:35,354 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:27:37,328 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:30:48,012 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:30:50,155 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:32:56,329 [20] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:32:57,025 [20] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:33:50,001 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:33:51,685 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:38:08,738 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:38:10,417 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:41:27,115 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:41:27,901 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: Schema specified is not valid. Errors: 
+Context.EvantoModel.msl(241,12) : error 2019: Member Mapping specified is not valid. The type 'Edm.Boolean[Nullable=True,DefaultValue=]' of member 'StatusId' in type 'EvantoModel.Notification' is not compatible with 'SqlServer.int[Nullable=False,DefaultValue=]' of member 'StatusId' in type 'EvantoModel.Store.Notification'.
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.Init(EdmItemCollection edmCollection, StoreItemCollection storeCollection, IEnumerable`1 xmlReaders, IList`1 filePaths, Boolean throwOnError)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection..ctor(EdmItemCollection edmCollection, StoreItemCollection storeCollection, IEnumerable`1 xmlReaders, IList`1 filePaths)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataCache.LoadStoreCollection(EdmItemCollection edmItemCollection, MetadataArtifactLoader loader)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataCache.<>c__DisplayClass5.<>c__DisplayClass7.<GetMetadataWorkspace>b__1()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at System.Data.Entity.Core.Metadata.Edm.MetadataCache.<>c__DisplayClass5.<>c__DisplayClass7.<GetMetadataWorkspace>b__4()
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.LoadAndCheckItemCollection[T](Func`1 itemCollectionLoader)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.<>c__DisplayClass16.<.ctor>b__f()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetItemCollection(DataSpace dataSpace, Boolean required)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetItemCollection(DataSpace dataSpace)
+   at System.Data.Entity.Core.Objects.ObjectContext.InitializeMappingViewCacheFactory(DbContext owner)
+   at System.Data.Entity.Core.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor, ObjectQueryExecutionPlanFactory objectQueryExecutionPlanFactory, Translator translator, ColumnMapFactory columnMapFactory)
+   at System.Data.Entity.Internal.InternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-06 12:43:26,538 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:43:28,131 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:44:30,487 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:44:32,157 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MappingException: 
+Context.EvantoModel.msl(236,10) : error 3031: Problem in mapping fragments starting at line 236:Non-nullable column Notification.StatusId in table Notification is mapped to a nullable entity property.
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+2020-03-06 12:45:30,016 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 12:45:42,796 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":2,"StatusId":1,"CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.NotificationOperations.UpdateBookingNotificationOperation
+2020-03-06 14:40:31,338 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 14:45:09,080 [9] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Name":"sdds","EventId":1,"Budget":12,"EventDate":"\/Date(1583534560433)\/","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserEventOperations.CreateUserEventByUserOperation
+2020-03-06 14:46:12,191 [9] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"SearchText":"hbhbhb","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.UserEventOperations.GetUserEventByUserOperation
+2020-03-06 14:47:16,165 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"Budget":22,"EventDate":"\/Date(1583534560512)\/","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.UserEventOperations.UpdateUserEventOperation
+2020-03-06 14:47:16,633 [5] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserEvent -> UserEventDto
+Evanto.DAL.Context.UserEvent -> Evanto.BL.DTOs.Core.UserEventDto
+   at lambda_method(Closure , UserEvent , UserEventDto , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source)
+   at Evanto.BL.Operations.UserEventOperations.UpdateUserEventOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserEventOperations\UpdateUserEventOperation.cs:line 19
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-06 14:47:36,240 [23] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"Budget":22,"EventDate":"\/Date(1583534560512)\/","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.UserEventOperations.UpdateUserEventOperation
+2020-03-06 14:48:02,072 [23] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserEvent -> UserEventDto
+Evanto.DAL.Context.UserEvent -> Evanto.BL.DTOs.Core.UserEventDto
+   at lambda_method(Closure , UserEvent , UserEventDto , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source)
+   at Evanto.BL.Operations.UserEventOperations.UpdateUserEventOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserEventOperations\UpdateUserEventOperation.cs:line 19
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-06 14:49:22,669 [31] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.UserOperations.GetEventAndBookingsCountByUserOperation
+2020-03-06 14:51:17,985 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"EventId":1,"Description":"Hello","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.VendorServiceExceptionalEventOperations.CreateVendorServiceExceptionalEventOperation
+2020-03-06 14:54:09,353 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"VendorServiceId":null,"EventId":null,"CreatedDate":"\/Date(-62135568000000)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceExceptionalEventOperations.GetVendorServiceExceptionalEventOperations
+2020-03-06 14:54:10,545 [10] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaymentStatus -> PaymentStatusDto
+Evanto.DAL.Context.PaymentStatus -> Evanto.BL.DTOs.Core.PaymentStatusDto
+   at lambda_method(Closure , PaymentStatus , PaymentStatusDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , List`1 , List`1 , ResolutionContext )
+2020-03-06 14:54:37,727 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"VendorServiceId":null,"EventId":null,"CreatedDate":"\/Date(-62135568000000)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceExceptionalEventOperations.GetVendorServiceExceptionalEventOperations
+2020-03-06 14:54:38,300 [10] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaymentStatus -> PaymentStatusDto
+Evanto.DAL.Context.PaymentStatus -> Evanto.BL.DTOs.Core.PaymentStatusDto
+   at lambda_method(Closure , PaymentStatus , PaymentStatusDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , List`1 , List`1 , ResolutionContext )
+2020-03-06 14:54:42,602 [29] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"VendorServiceId":null,"EventId":null,"CreatedDate":"\/Date(-62135568000000)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceExceptionalEventOperations.GetVendorServiceExceptionalEventOperations
+2020-03-06 14:54:43,145 [29] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaymentStatus -> PaymentStatusDto
+Evanto.DAL.Context.PaymentStatus -> Evanto.BL.DTOs.Core.PaymentStatusDto
+   at lambda_method(Closure , PaymentStatus , PaymentStatusDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , List`1 , List`1 , ResolutionContext )
+2020-03-06 14:56:07,587 [36] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"VendorServiceId":null,"EventId":null,"CreatedDate":"\/Date(-62135568000000)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorServiceExceptionalEventOperations.GetVendorServiceExceptionalEventOperations
+2020-03-06 14:59:23,805 [36] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaymentStatus -> PaymentStatusDto
+Evanto.DAL.Context.PaymentStatus -> Evanto.BL.DTOs.Core.PaymentStatusDto
+   at lambda_method(Closure , PaymentStatus , PaymentStatusDto , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , List`1 , List`1 , ResolutionContext )
+2020-03-06 15:05:18,986 [44] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"VendorServiceId":4,"EventId":1,"Description":"dsfsdfs","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.VendorServiceExceptionalEventOperations.UpdateVendorServiceExceptionalEventOperation
+2020-03-06 15:23:30,078 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 15:27:04,630 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 15:37:23,848 [22] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"Name":"df","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.EventTypeOperations.GetEventTypeOperation
+2020-03-06 15:37:41,117 [17] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"Name":"df","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.EventTypeOperations.GetEventTypeOperation
+2020-03-06 15:38:21,900 [17] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":1,"Name":"Toy","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.EventTypeOperations.GetEventTypeByUserOperation
+2020-03-06 15:38:47,080 [17] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserEventOperations.GetLastUserEventsByUserOperation
+2020-03-06 15:47:07,985 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 15:48:53,983 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 16:27:10,192 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 16:27:20,922 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:28:07,032 [8] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'VendorServiceId'.
+Invalid column name 'VendorServiceId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:207,State:1,Class:16
+2020-03-06 16:28:11,986 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:29:08,534 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'VendorServiceId'.
+Invalid column name 'VendorServiceId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:207,State:1,Class:16
+2020-03-06 16:29:13,720 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:29:17,242 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'VendorServiceId'.
+Invalid column name 'VendorServiceId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:207,State:1,Class:16
+2020-03-06 16:29:55,568 [17] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:30:01,781 [17] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'VendorServiceId'.
+Invalid column name 'VendorServiceId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:207,State:1,Class:16
+2020-03-06 16:31:49,293 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"Rating":4,"Description":"dsd","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:35:39,466 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'VendorServiceId'.
+Invalid column name 'VendorServiceId'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:207,State:1,Class:16
+2020-03-06 16:35:49,459 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:37:16,066 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'VendorId', table 'Evanto.dbo.Rating'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:515,State:2,Class:16
+2020-03-06 16:37:22,724 [11] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:41:16,718 [11] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'VendorId', table 'Evanto.dbo.Rating'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:b0d3d16f-88d4-4bd7-bf0b-04dbcccde169
+Error Number:515,State:2,Class:16
+2020-03-06 16:41:45,160 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:44:49,108 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 16:45:51,156 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 16:47:35,124 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"Rating":1,"Description":"dsd","VendorId":5,"CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:53:15,876 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-06 16:53:51,521 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":0,"Rating":0,"Description":null,"VendorId":0,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:53:53,031 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'VendorId', table 'Evanto.dbo.Rating'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:f016d99b-82e3-4c77-b4eb-2cbf8614d9d1
+Error Number:515,State:2,Class:16
+2020-03-06 16:54:05,777 [12] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"Rating":12,"Description":"sdfsdf","VendorId":5,"CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:54:21,936 [12] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'VendorId', table 'Evanto.dbo.Rating'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:f016d99b-82e3-4c77-b4eb-2cbf8614d9d1
+Error Number:515,State:2,Class:16
+2020-03-06 16:54:42,449 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"Rating":12,"Description":"sdfsdf","VendorId":0,"CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 16:59:35,299 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'VendorId', table 'Evanto.dbo.Rating'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:f016d99b-82e3-4c77-b4eb-2cbf8614d9d1
+Error Number:515,State:2,Class:16
+2020-03-06 16:59:41,718 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"Rating":12,"Description":"sdfsdf","VendorId":0,"CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.RatingOperations.CreateRatingOperation
+2020-03-06 17:00:02,283 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VendorServiceId":4,"CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.GetUserRatingsByUserOperation

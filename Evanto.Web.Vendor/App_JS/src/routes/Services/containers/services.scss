@@ -1,0 +1,469 @@
+.checkedService {
+    background-color: #009688 !important;
+    cursor: pointer;
+}
+
+.checkedService strong{
+    color: white !important;
+}
+.checkedService span{
+    color: white !important;
+}
+
+.bgm-service {
+    background-color: #009688;
+    cursor: pointer;
+}
+.table-prices {
+    max-width:100px;
+}
+.table-new-services {
+    table-layout: fixed;
+}
+.servicePP{
+    max-height:55px;
+    background: #fff;
+    border: #ebebeb;
+    border-left: 3px solid #009688;
+    box-shadow: 1px 1px 3px 0px #bbbbbb;
+}
+.servicePP:hover {
+    background: #e5e6e6;
+    cursor:pointer;
+}
+.servicePP .text-xl {
+    font-size: 14pt !important;
+    margin-right:5px;
+}
+.servicePP .opacity-50 {
+    font-size: 10pt !important
+}
+
+.servicePPPhone{
+    background: #fff;
+    border: #ebebeb;
+    border-left: 3px solid #009688;
+    box-shadow: 1px 1px 3px 0px #bbbbbb;
+}
+.servicePPPhone:hover {
+    background: #e5e6e6;
+    cursor:pointer;
+}
+.servicePPPhone .text-xl {
+    font-size: 14pt !important;
+    margin-right:5px;
+}
+.servicePPPhone .opacity-50 {
+    font-size: 10pt !important
+}
+
+.servicePPPhone ul {
+    min-width: 171px;
+    right: 0;
+    left: 40px;
+    top: 40px;
+}
+
+.serviceTR {
+    -o-transition: color .1s ease-out, background .3s ease-in;
+    -ms-transition: color .1s ease-out, background .4s ease-in;
+    -moz-transition: color .1s ease-out, background .3s ease-in;
+    -webkit-transition: color .1s ease-out, background .3s ease-in;
+    /* ...and now for the proper property */
+    transition: color .1s ease-out, background .3s ease-in;
+}
+
+.serviceTR td h2 {
+    font-size: 15px;
+}
+
+.info-price {
+  letter-spacing: 0.1px;
+  color: #969c9c;
+  font-size: 85%;
+}
+
+.info-price i {
+    font-size: 13px;
+    margin-top: -.2em;
+    margin-right: 6px;
+    line-height: inherit;
+    vertical-align: bottom;
+    display: inline-block;
+    speak: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #7dd8d2;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.price-h2 {
+  font-size: 367%;
+  color: #066265;
+  text-align: right;
+}
+
+@media screen and (min-width: 800px) {
+  .fieldset-selected-prices {
+    min-height: 487px;
+  }
+}
+
+.childTableRow {
+    -webkit-box-shadow: inset 0px 16px 55px -28px rgba(0,0,0,0.37);
+-moz-box-shadow: inset 0px 16px 55px -28px rgba(0,0,0,0.37);
+box-shadow: inset 0px 16px 55px -28px rgba(0,0,0,0.37);
+}
+.childTable{
+   -webkit-box-shadow: 0px 0px 112px -38px rgba(0,0,0,0.41);
+-moz-box-shadow: 0px 0px 112px -38px rgba(0,0,0,0.41);
+box-shadow: 0px 0px 112px -38px rgba(0,0,0,0.41);
+}
+
+.parentTableRow {
+    cursor: pointer;
+}
+
+.t-title th{
+    font-size:15px !important;
+}
+
+.hiddenRow {
+    display: none;
+    -o-transition: all 3s ease-out, background 3s ease-in !important;
+    -ms-transition: all 3s ease-out, background 3s ease-in !important;
+    -moz-transition: all 3s ease-out, background 3s ease-in !important;
+    -webkit-transition: all 3s ease-out, background 3s ease-in !important;
+    /* ...and now for the proper property */
+    transition: all 3s ease-out, background 3s ease-in;
+}
+
+#data-table-services {
+    font-size: 10pt !important;
+}
+
+.editIcon {
+    font-size:14pt;
+    color: #9bacb5;
+}
+
+.packet-actions {
+    display: table;
+    float: right;
+    min-height: 90px;
+}
+
+.packet-action-button {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.packets-title {
+    display: inline-block;
+}
+
+
+.card-services div h2 {
+    font-size: 15px;
+}
+
+.table-horizontal {
+    width:100%;
+}
+
+.table-horizontal td,th {
+    width: 50%;
+    font-size: 14px;
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.table-horizontal th {
+    padding-left:10px;
+}
+.table-horizontal tr:hover {
+    background: #ebebeb
+}
+
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 10px 8px;
+  line-height: 1.846153846;
+  vertical-align: top;
+  border-top: 1px solid rgba(189, 193, 193, 0.2);
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid rgba(189, 193, 193, 0.2);
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.table > tbody + tbody {
+  border-top: 2px solid rgba(189, 193, 193, 0.2);
+}
+.table .table {
+  background-color: #ffffff;
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.table-bordered {
+  border: 1px solid rgba(189, 193, 193, 0.2);
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid rgba(189, 193, 193, 0.2);
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(242, 243, 243, 0.35);
+}
+.table-hover > tbody > tr:hover {
+  background-color: rgba(229, 230, 230, 0.25);
+}
+table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th {
+  background-color: rgba(229, 230, 230, 0.25);
+}
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr.active:hover > th {
+  background-color: rgba(216, 218, 218, 0.25);
+}
+.table > thead > tr > td.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr > td.success,
+.table > thead > tr > th.success,
+.table > tbody > tr > th.success,
+.table > tfoot > tr > th.success,
+.table > thead > tr.success > td,
+.table > tbody > tr.success > td,
+.table > tfoot > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr.success > th,
+.table > tfoot > tr.success > th {
+  background-color: #d4fad6;
+}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr:hover > .success,
+.table-hover > tbody > tr.success:hover > th {
+  background-color: #bef7c0;
+}
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
+  background-color: #d4e9fa;
+}
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr:hover > .info,
+.table-hover > tbody > tr.info:hover > th {
+  background-color: #beddf7;
+}
+.table > thead > tr > td.warning,
+.table > tbody > tr > td.warning,
+.table > tfoot > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > tbody > tr > th.warning,
+.table > tfoot > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > tbody > tr.warning > td,
+.table > tfoot > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr.warning > th {
+  background-color: #faebd4;
+}
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td,
+.table-hover > tbody > tr:hover > .warning,
+.table-hover > tbody > tr.warning:hover > th {
+  background-color: #f7e0be;
+}
+.table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th {
+  background-color: #fad7d4;
+}
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr:hover > .danger,
+.table-hover > tbody > tr.danger:hover > th {
+  background-color: #f7c1be;
+}
+.table-responsive {
+  overflow-x: auto;
+  min-height: 0.01%;
+}
+@media screen and (max-width: 768px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 18px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid rgba(189, 193, 193, 0.2);
+  }
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+
+
+// @media 
+// only screen and (max-width: 760px),
+// (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+// 	/* Force table to not be like tables anymore */
+// 	table, thead, tbody, th, td, tr { 
+// 		display: block; 
+// 	}
+	
+// 	/* Hide table headers (but not display: none;, for accessibility) */
+// 	thead tr { 
+// 		position: absolute;
+// 		top: -9999px;
+// 		left: -9999px;
+// 	}
+	
+// 	tr { border: 1px solid #ccc; }
+	
+// 	td { 
+// 		/* Behave  like a "row" */
+// 		border: none;
+// 		border-bottom: 1px solid #eee; 
+// 		position: relative;
+// 		padding-left: 50%; 
+// 	}
+	
+// 	td:before { 
+// 		/* Now like a table header */
+// 		position: absolute;
+// 		/* Top/left values mimic padding */
+// 		top: 6px;
+// 		left: 6px;
+// 		width: 45%; 
+// 		padding-right: 10px; 
+// 		white-space: nowrap;
+// 	}
+	
+// 	/*
+// 	Label the data
+// 	*/
+// 	td:nth-of-type(1):before { content: "#"; }
+// 	td:nth-of-type(2):before { content: "Name"; }
+// 	td:nth-of-type(3):before { content: "Bitmə tarixi"; }
+// 	td:nth-of-type(4):before { content: "Price range"; }
+// 	td:nth-of-type(5):before { content: "Description"; }
+// 	td:nth-of-type(6):before { content: "Status"; }
+// 	td:nth-of-type(7):before { content: ""; }
+// }

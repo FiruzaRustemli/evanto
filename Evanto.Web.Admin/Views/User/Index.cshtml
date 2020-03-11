@@ -1,0 +1,127 @@
+﻿
+@model List<Evanto.BL.DTOs.Admin.UserAdminDto>
+
+<div id="page_content_inner">
+    <div class="md-card">
+        <div class="md-card-content">
+            <div class="uk-margin-bottom">
+                <button class="md-btn ts_cf_reset">Reset filters</button>
+                @*<a href="#" class="md-btn uk-margin-right" id="printTable">Print Table</a>
+                <div class="uk-button-dropdown" data-uk-dropdown="{mode:'click'}">
+                    <button class="md-btn">Columns <i class="uk-icon-caret-down"></i></button>
+                    <div class="uk-dropdown">
+                        <ul class="uk-nav uk-nav-dropdown" id="columnSelector"></ul>
+                    </div>
+                </div>*@
+            </div>
+            <div class="uk-overflow-container uk-margin-bottom">
+                <table class="uk-table uk-table-hover uk-table-align-vertical uk-table-nowrap tablesorter tablesorter-altair" id="ts_custom_filters">
+                    <thead>
+                        <tr>
+                            @* <th data-name="Select" data-priority="5"><input type="checkbox" class="ts_checkbox_all"></th>*@
+                            <th class="filter-select" data-placeholder="Select Role">Role</th>
+                            <th>UserName</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Phone</th>
+                           @* <th data-placeholder="Select Daterange">BirthDay</th>*@
+                            <th>Login Count</th>
+                            <th class="filter-select" data-placeholder="Select Status">Status</th>
+                            <th class="filter-false remove sorter-false uk-text-center" data-priority="1">Actions</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            @*<th></th>*@
+                            <th class="filter-select" data-placeholder="Select Role">Role</th>
+                            <th>UserName</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Phone</th>
+                            @*<th data-placeholder="Select Daterange">BirthDay</th>*@
+                            <th>Login Count</th>
+                            <th class="filter-select" data-placeholder="Select Status">Status</th>
+                            <th class="uk-text-center">Actions</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+                                @* <td><input type="checkbox" data-md-icheck class="ts_checkbox"></td>*@
+                                <td>@user.Role.Name</td>
+                                <td>@user.Username</td>
+                                <td>@user.FirstName</td>
+                                <td>@user.LastName</td>
+                                <td>@user.Phone</td>
+                                @*<td>@user.Birthday</td>*@
+                                <td>@user.LoginCount</td>
+                                <td>@user.UserStatus.Name</td>
+                                <td class="uk-text-center">
+                                    <a href="@Url.Action("Update","User",new{id=@user.Id})" class="ts_remove_row"><i class="md-icon material-icons">&#xE254;</i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <ul class="uk-pagination ts_pager">
+                <li data-uk-tooltip title="Select Page">
+                    <select class="ts_gotoPage ts_selectize"></select>
+                </li>
+                <li class="first"><a href="javascript:void(0)"><i class="uk-icon-angle-double-left"></i></a></li>
+                <li class="prev"><a href="javascript:void(0)"><i class="uk-icon-angle-left"></i></a></li>
+                <li><span style="width: 120px" class="pagedisplay"></span></li>
+                <li class="next"><a href="javascript:void(0)"><i class="uk-icon-angle-right"></i></a></li>
+                <li class="last"><a href="javascript:void(0)"><i class="uk-icon-angle-double-right"></i></a></li>
+                <li data-uk-tooltip title="Page Size">
+                    <select class="pagesize ts_selectize">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="uk-modal" id="modal_daterange">
+        <div class="uk-modal-dialog">
+            <div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-small-1-2">
+                    <div class="uk-input-group">
+                        <span class="uk-input-group-addon"><i class="uk-input-group-icon uk-icon-calendar"></i></span>
+                        <label for="ts_dp_start">Start Date</label>
+                        <input class="md-input" type="text" id="ts_dp_start">
+                    </div>
+                </div>
+                <div class="uk-width-small-1-2">
+                    <div class="uk-input-group">
+                        <span class="uk-input-group-addon"><i class="uk-input-group-icon uk-icon-calendar"></i></span>
+                        <label for="ts_dp_end">End Date</label>
+                        <input class="md-input" type="text" id="ts_dp_end">
+                    </div>
+                </div>
+            </div>
+            <div class="uk-modal-footer uk-text-right">
+                <button type="button" class="md-btn md-btn-flat uk-modal-close">Cancel</button><button type="button" id="daterangeApply" class="md-btn md-btn-flat md-btn-flat-primary">Select range</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Content/bower_components/tablesorter/dist/js/jquery.tablesorter.min.js"></script>
+    <script src="~/Content/bower_components/tablesorter/dist/js/jquery.tablesorter.widgets.min.js"></script>
+
+    <script src="~/Content/bower_components/tablesorter/dist/js/extras/jquery.tablesorter.pager.min.js"></script>
+    <!-- ionrangeslider -->
+    <script src="~/Content/bower_components/ion.rangeslider/js/ion.rangeSlider.min.js"></script>
+    <!-- tablesorter functions -->
+    @* <script src="~/Content/assets/js/pages/plugins_tablesorter.min.js"></script>*@
+
+    <script src="~/Scripts/User_Filter_ Paged.js"></script>
+
+    @*<script src="/Scripts/User_Crud_Table.js"></script>*@
+}

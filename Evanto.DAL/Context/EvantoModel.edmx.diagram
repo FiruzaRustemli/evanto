@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c61e31a48dff49edb394bfa124620a3f" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="EvantoModel.Booking" Width="1.5" PointX="10.5" PointY="19" />
+        <EntityTypeShape EntityType="EvantoModel.BookingStatus" Width="1.5" PointX="8.25" PointY="30" />
+        <EntityTypeShape EntityType="EvantoModel.Claim" Width="1.5" PointX="3" PointY="28.25" />
+        <EntityTypeShape EntityType="EvantoModel.Client" Width="1.5" PointX="0.75" PointY="13.375" />
+        <EntityTypeShape EntityType="EvantoModel.ClientStatus" Width="1.5" PointX="0.75" PointY="16.375" />
+        <EntityTypeShape EntityType="EvantoModel.ContentType" Width="1.5" PointX="2.75" PointY="10.5" />
+        <EntityTypeShape EntityType="EvantoModel.CouponType" Width="1.5" PointX="8.25" PointY="6.625" />
+        <EntityTypeShape EntityType="EvantoModel.DiscountCoupon" Width="1.5" PointX="10.5" PointY="5.75" />
+        <EntityTypeShape EntityType="EvantoModel.DiscountCouponStatus" Width="1.5" PointX="8.25" PointY="9.375" />
+        <EntityTypeShape EntityType="EvantoModel.DiscountType" Width="1.5" PointX="8.25" PointY="4" />
+        <EntityTypeShape EntityType="EvantoModel.EventService" Width="1.5" PointX="17.25" PointY="11.5" />
+        <EntityTypeShape EntityType="EvantoModel.EventType" Width="1.5" PointX="15" PointY="11.75" />
+        <EntityTypeShape EntityType="EvantoModel.Feedback" Width="1.5" PointX="17" PointY="2.625" />
+        <EntityTypeShape EntityType="EvantoModel.FeedbackStatus" Width="1.5" PointX="14.75" PointY="27.125" />
+        <EntityTypeShape EntityType="EvantoModel.FeedbackType" Width="1.5" PointX="14.75" PointY="3" />
+        <EntityTypeShape EntityType="EvantoModel.File" Width="1.5" PointX="5" PointY="6.625" />
+        <EntityTypeShape EntityType="EvantoModel.FileType" Width="1.5" PointX="2.75" PointY="7.375" />
+        <EntityTypeShape EntityType="EvantoModel.Gender" Width="1.5" PointX="0.75" PointY="19.375" />
+        <EntityTypeShape EntityType="EvantoModel.Language" Width="1.5" PointX="8" PointY="13" />
+        <EntityTypeShape EntityType="EvantoModel.Notification" Width="1.5" PointX="5.25" PointY="45.25" />
+        <EntityTypeShape EntityType="EvantoModel.NotificationConsumerType" Width="1.5" PointX="15.75" PointY="6.375" />
+        <EntityTypeShape EntityType="EvantoModel.NotificationStatus" Width="1.5" PointX="17.75" PointY="6.375" />
+        <EntityTypeShape EntityType="EvantoModel.NotificationType" Width="1.5" PointX="17.75" PointY="20.375" />
+        <EntityTypeShape EntityType="EvantoModel.Payment" Width="1.5" PointX="7.5" PointY="16.375" />
+        <EntityTypeShape EntityType="EvantoModel.PaymentStatus" Width="1.5" PointX="5.25" PointY="20.5" />
+        <EntityTypeShape EntityType="EvantoModel.PaymentType" Width="1.5" PointX="5.25" PointY="13.625" />
+        <EntityTypeShape EntityType="EvantoModel.Period" Width="1.5" PointX="10.5" PointY="2.125" />
+        <EntityTypeShape EntityType="EvantoModel.Rating" Width="1.5" PointX="8.25" PointY="21.875" />
+        <EntityTypeShape EntityType="EvantoModel.RealtimeConnection" Width="1.5" PointX="5.25" PointY="49.5" />
+        <EntityTypeShape EntityType="EvantoModel.Resource" Width="1.5" PointX="11" PointY="36.25" />
+        <EntityTypeShape EntityType="EvantoModel.ResourceText" Width="1.5" PointX="13.25" PointY="8" />
+        <EntityTypeShape EntityType="EvantoModel.Role" Width="1.5" PointX="0.75" PointY="25.125" />
+        <EntityTypeShape EntityType="EvantoModel.Service" Width="1.5" PointX="10.5" PointY="11.25" />
+        <EntityTypeShape EntityType="EvantoModel.ServicePeriodPrice" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="EvantoModel.SmsStatus" Width="1.5" PointX="0.75" PointY="7.125" />
+        <EntityTypeShape EntityType="EvantoModel.SmsType" Width="1.5" PointX="0.75" PointY="3.125" />
+        <EntityTypeShape EntityType="EvantoModel.User" Width="1.5" PointX="3" PointY="19.125" />
+        <EntityTypeShape EntityType="EvantoModel.UserActivation" Width="1.5" PointX="5.25" PointY="23.5" />
+        <EntityTypeShape EntityType="EvantoModel.UserClaim" Width="1.5" PointX="5.25" PointY="27" />
+        <EntityTypeShape EntityType="EvantoModel.UserEvent" Width="1.5" PointX="8.25" PointY="25.5" />
+        <EntityTypeShape EntityType="EvantoModel.UserService" Width="1.5" PointX="13.5" PointY="22.375" />
+        <EntityTypeShape EntityType="EvantoModel.UserSetting" Width="1.5" PointX="10.25" PointY="16.125" />
+        <EntityTypeShape EntityType="EvantoModel.UserStatus" Width="1.5" PointX="0.75" PointY="28" />
+        <EntityTypeShape EntityType="EvantoModel.UserType" Width="1.5" PointX="0.75" PointY="22.125" />
+        <EntityTypeShape EntityType="EvantoModel.UserVerification" Width="1.5" PointX="11.25" PointY="23.75" />
+        <EntityTypeShape EntityType="EvantoModel.UserVerificationType" Width="1.5" PointX="9" PointY="33.25" />
+        <EntityTypeShape EntityType="EvantoModel.Vendor" Width="1.5" PointX="5.25" PointY="16.625" />
+        <EntityTypeShape EntityType="EvantoModel.VendorService" Width="1.5" PointX="15" PointY="15.25" />
+        <EntityTypeShape EntityType="EvantoModel.VendorServiceExceptionalEvent" Width="1.5" PointX="17.25" PointY="16.875" />
+        <EntityTypeShape EntityType="EvantoModel.VendorServicePacket" Width="1.5" PointX="12.75" PointY="16.25" />
+        <EntityTypeShape EntityType="EvantoModel.VendorServicePacketStatus" Width="1.5" PointX="10.5" PointY="28.125" />
+        <EntityTypeShape EntityType="EvantoModel.VendorStatus" Width="1.5" PointX="19.75" PointY="2.375" />
+        <AssociationConnector Association="EvantoModel.FK_Booking_BookingStatus" />
+        <AssociationConnector Association="EvantoModel.FK_Booking_User" />
+        <AssociationConnector Association="EvantoModel.FK_Booking_UserService" />
+        <AssociationConnector Association="EvantoModel.FK_Booking_Vendor" />
+        <AssociationConnector Association="EvantoModel.FK_Booking_VendorService" />
+        <AssociationConnector Association="EvantoModel.FK_UserClaim_Claim" />
+        <AssociationConnector Association="EvantoModel.FK_File_ContentType" />
+        <AssociationConnector Association="EvantoModel.FK_DiscountCoupon_CouponType" />
+        <AssociationConnector Association="EvantoModel.FK_DiscountCoupon_DiscountCouponStatus" />
+        <AssociationConnector Association="EvantoModel.FK_DiscountCoupon_DiscountType" />
+        <AssociationConnector Association="EvantoModel.FK_VendorService_DiscountCoupon" />
+        <AssociationConnector Association="EvantoModel.FK_VendorServicePacket_DiscountCoupon" />
+        <AssociationConnector Association="EvantoModel.FK_EventService_Event" />
+        <AssociationConnector Association="EvantoModel.FK_EventService_Service" />
+        <AssociationConnector Association="EvantoModel.FK_UserEvent_Event" />
+        <AssociationConnector Association="EvantoModel.FK_VendorServiceExceptionalEvent_Event" />
+        <AssociationConnector Association="EvantoModel.FK_Feedback_FeedbackStatus" />
+        <AssociationConnector Association="EvantoModel.FK_Feedback_FeedbackType" />
+        <AssociationConnector Association="EvantoModel.FK_File_FileType" />
+        <AssociationConnector Association="EvantoModel.FK_UserGenderId_Gender" />
+        <AssociationConnector Association="EvantoModel.FK_ResourceText_Language" />
+        <AssociationConnector Association="EvantoModel.FK_UserSetting_Language" />
+        <AssociationConnector Association="EvantoModel.FK_Notification_User_Receiver" />
+        <AssociationConnector Association="EvantoModel.FK_Notification_User_Sender" />
+        <AssociationConnector Association="EvantoModel.FK_Payment_PaymentStatus" />
+        <AssociationConnector Association="EvantoModel.FK_Payment_PaymentType" />
+        <AssociationConnector Association="EvantoModel.FK_Payment_Vendor" />
+        <AssociationConnector Association="EvantoModel.FK_VendorServicePacket_Payment" />
+        <AssociationConnector Association="EvantoModel.FK_ServicePeriodPrice_Period" />
+        <AssociationConnector Association="EvantoModel.FK_Rating_User" />
+        <AssociationConnector Association="EvantoModel.FK_Rating_VendorService" />
+        <AssociationConnector Association="EvantoModel.FK_RealtimeConnection_RealtimeConnection" />
+        <AssociationConnector Association="EvantoModel.FK_ResourceText_Resource" />
+        <AssociationConnector Association="EvantoModel.FK_User_Role" />
+        <AssociationConnector Association="EvantoModel.FK_ServicePeriodPrice_Service" />
+        <AssociationConnector Association="EvantoModel.FK_UserService_Service" />
+        <AssociationConnector Association="EvantoModel.FK_VendorService_ServicePeriodPrice" />
+        <AssociationConnector Association="EvantoModel.FK_User_UserStatus" />
+        <AssociationConnector Association="EvantoModel.FK_User_UserType" />
+        <AssociationConnector Association="EvantoModel.FK_UserActivation_User" />
+        <AssociationConnector Association="EvantoModel.FK_UserClaim_User" />
+        <AssociationConnector Association="EvantoModel.FK_UserEvent_User" />
+        <AssociationConnector Association="EvantoModel.FK_UserService_User" />
+        <AssociationConnector Association="EvantoModel.FK_UserSetting_User" />
+        <AssociationConnector Association="EvantoModel.FK_UserVerification_User" />
+        <AssociationConnector Association="EvantoModel.FK_Vendor_User" />
+        <AssociationConnector Association="EvantoModel.FK_UserService_UserEvent" />
+        <AssociationConnector Association="EvantoModel.FK_UserVerification_UserVerificationType" />
+        <AssociationConnector Association="EvantoModel.FK_VendorServicePacket_Vendor" />
+        <AssociationConnector Association="EvantoModel.FK_VendorService_VendorServicePacket" />
+        <AssociationConnector Association="EvantoModel.FK_VendorServiceExceptionalEvent_VendorService" />
+        <AssociationConnector Association="EvantoModel.FK_VendorServicePacket_VendorServicePacketStatus" />
+        <EntityTypeShape EntityType="EvantoModel.SmsQueue" Width="1.5" PointX="3" PointY="2.625" />
+        <AssociationConnector Association="EvantoModel.FK_SmsQueue_SmsStatus" />
+        <AssociationConnector Association="EvantoModel.FK_SmsQueue_SmsType" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

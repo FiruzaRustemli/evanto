@@ -1,0 +1,4 @@
+2020-02-18 15:48:05,889 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-18 15:50:34,513 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-18 15:51:58,479 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"Name":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.ServiceOperations.GetServiceByUserOperation
+2020-02-18 15:52:27,259 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Id":null,"Name":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.ServiceOperations.GetServiceByUserOperation

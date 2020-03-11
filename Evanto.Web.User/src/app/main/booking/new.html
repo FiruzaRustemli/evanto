@@ -1,0 +1,238 @@
+﻿<!-- DIALOG -->
+<md-dialog class="new-booking-dialog" ng-controller="NewBookingController as vm" aria-label="New Booking">
+
+    <form name="newBookingForm" class="md-inline-form" novalidate>
+
+        <!-- DIALOG TOOLBAR -->
+        <md-toolbar class="md-accent" layout="column">
+
+            <!-- TOOLBAR TOP -->
+            <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+                <span class="title" translate="AddBooking"></span>
+                <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog" translate translate-attr-aria-label="CONTACTS.CLOSE_DIALOG">
+                    <md-icon md-font-icon="icon-close"></md-icon>
+                </md-button>
+            </div>
+            <!-- / TOOLBAR TOP -->
+
+        </md-toolbar>
+        <!-- / DIALOG TOOLBAR -->
+
+        <!-- DIALOG CONTENT -->
+        <md-dialog-content ms-scroll>
+
+            <div class="md-dialog-content" layout="row" layout-xs="column" layout-align="space-between start">
+                <div flex-sm="100" flex-xs="100" flex="40" class="p-15">
+                    <md-list>
+                        <md-item>
+                            <md-item-content>
+                                <div class="md-tile-content">
+                                    <p class="muted">
+                                        {{'Layout.Event' | translate}}
+                                    </p>
+                                    <h4 class="md-title" style="padding-top: 8px;"> {{vm.newBooking.eventInfo.name}}</h3>
+                                </div>
+                            </md-item-content>
+                        </md-item>
+                        <md-divider></md-divider>
+                        <md-item>
+                            <md-item-content>
+                                <div class="md-tile-content">
+                                    <p class="muted">
+                                        {{'Layout.Service' | translate}}
+                                    </p>
+                                    <h4 class="md-title" style="padding-top: 8px;"> {{vm.newBooking.userService.service.name}}</h3>
+                                </div>
+                            </md-item-content>
+                        </md-item>
+                        <md-divider></md-divider>
+                        <md-item>
+                            <md-item-content>
+                                <div class="md-tile-content">
+                                    <p class="muted">
+                                        {{'Layout.Vendor' | translate}}
+                                    </p>
+                                    <h4 class="md-title" style="padding-top: 8px;"> {{vm.newBooking.vendorInfo.name}}</h3>
+                                </div>
+                            </md-item-content>
+                        </md-item>
+                        <md-divider></md-divider>
+                        <md-item>
+                            <md-item-content>
+                                <div class="md-tile-content">
+                                    <p class="muted">
+                                        {{'Layout.EventDate' | translate}}
+                                    </p>
+                                    <h4 class="md-title" style="padding-top: 8px;"> {{vm.newBooking.eventNonStringDate | date : 'd, MMMM, y, EEEE, HH:mm'}}</h3>
+                                </div>
+                            </md-item-content>
+                        </md-item>
+                        <md-divider></md-divider>
+                    </md-list>
+                </div>
+                <div flex-sm="100" flex-xs="100" flex="60" class="p-15">
+                    <md-list>
+                        <md-item>
+                            <md-item-content>
+                                <div class="md-tile-content">
+                                    <div layout="column">
+                                        <div>
+                                            <p class="muted">
+                                                {{'Layout.BookDate' | translate}}
+                                            </p>
+                                            <md-input-container class="md-icon-float md-block">
+                                                <md-datepicker md-max-date="vm.bookingDateRange.maxDate" md-min-date="vm.bookingDateRange.minDate" name="bookingDate" required
+                                                    ng-model="vm.addingBooking.bookdate" class="date-inputs" translate-attr-md-placeholder="Booking.EnterBookingDate"
+                                                    md-open-on-focus></md-datepicker>
+                                                <div ng-messages="newBookingForm.bookingDate.$error" role="alert">
+                                                    <div ng-message="required">
+                                                        <span translate="Booking.BookDateRequired"></span>
+                                                    </div>
+                                                </div>
+                                            </md-input-container>
+                                        </div>
+                                        <div layout="row">
+                                            <md-input-container class="md-icon-float md-block">
+                                                <label translate="Layout.Hour"></label>
+                                                <md-select name="bookingHour" required ng-model="vm.addingBooking.selectedHour">
+                                                    <md-option ng-value="00">00</md-option>
+                                                    <md-option ng-value="01">01</md-option>
+                                                    <md-option ng-value="02">02</md-option>
+                                                    <md-option ng-value="03">03</md-option>
+                                                    <md-option ng-value="04">04</md-option>
+                                                    <md-option ng-value="05">05</md-option>
+                                                    <md-option ng-value="06">06</md-option>
+                                                    <md-option ng-value="07">07</md-option>
+                                                    <md-option ng-value="08">08</md-option>
+                                                    <md-option ng-value="09">09</md-option>
+                                                    <md-option ng-value="10">10</md-option>
+                                                    <md-option ng-value="11">11</md-option>
+                                                    <md-option ng-value="12">12</md-option>
+                                                    <md-option ng-value="13">13</md-option>
+                                                    <md-option ng-value="14">14</md-option>
+                                                    <md-option ng-value="15">15</md-option>
+                                                    <md-option ng-value="16">16</md-option>
+                                                    <md-option ng-value="17">17</md-option>
+                                                    <md-option ng-value="18">18</md-option>
+                                                    <md-option ng-value="19">19</md-option>
+                                                    <md-option ng-value="20">20</md-option>
+                                                    <md-option ng-value="21">21</md-option>
+                                                    <md-option ng-value="22">22</md-option>
+                                                    <md-option ng-value="23">23</md-option>
+                                                </md-select>
+                                                <div ng-messages="newBookingForm.bookingHour.$error">
+                                                    <div ng-message="required">
+                                                        <span translate="Booking.BookTimeRequired"></span>
+                                                    </div>
+                                                </div>
+                                            </md-input-container>
+                                            <md-input-container class="md-icon-float md-block" flex="5">
+                                                <input type="text" class="centered-text" value=":" ng-disabled="true">
+                                            </md-input-container>
+                                            <md-input-container class="md-icon-float md-block">
+                                                <label translate="Layout.Minute"></label>
+                                                <md-select name="bookingMinute" required ng-model="vm.addingBooking.selectedMinute">
+                                                    <md-option ng-value="00">00</md-option>
+                                                    <md-option ng-value="30">30</md-option>
+                                                </md-select>
+                                                <div ng-messages="newBookingForm.bookingMinute.$error">
+                                                     <div ng-message="required">
+                                                        <span translate="Booking.BookTimeRequired"></span>
+                                                    </div>
+                                                </div>
+                                            </md-input-container>
+                                        </div>
+                                    </div>
+                                </div>
+                            </md-item-content>
+                        </md-item>
+                        <md-divider></md-divider>
+                        <md-item>
+                            <md-item-content>
+                                <div class="md-tile-content">
+                                    <div layout="column">
+                                        <div>
+                                            <p class="muted">
+                                                {{'Deadline' | translate}}
+                                            </p>
+                                            <md-input-container class="md-icon-float md-block">
+                                                <md-datepicker md-min-date="vm.deadlineRange.minDate" md-max-date="vm.deadlineRange.maxDate" name="deadline" class="date-inputs"
+                                                    ng-model="vm.addingBooking.deadline" md-placeholder="Enter deadline" required
+                                                    md-open-on-focus></md-datepicker>
+                                                <div ng-messages="newBookingForm.deadline.$error" role="alert">
+                                                    <div ng-message="required">Deadline date is required.</div>
+                                                </div>
+                                            </md-input-container>
+                                        </div>
+                                        <!-- <div layout="row">
+                                            <md-input-container class="md-icon-float md-block">
+                                                <label>Hour</label>
+                                                <md-select name="eventHour" ng-model="vm.newEvent.selectedHour">
+                                                    <md-option ng-value="00">00</md-option>
+                                                    <md-option ng-value="01">01</md-option>
+                                                    <md-option ng-value="02">02</md-option>
+                                                    <md-option ng-value="03">03</md-option>
+                                                    <md-option ng-value="04">04</md-option>
+                                                    <md-option ng-value="05">05</md-option>
+                                                    <md-option ng-value="06">06</md-option>
+                                                    <md-option ng-value="07">07</md-option>
+                                                    <md-option ng-value="08">08</md-option>
+                                                    <md-option ng-value="09">09</md-option>
+                                                    <md-option ng-value="10">10</md-option>
+                                                    <md-option ng-value="11">11</md-option>
+                                                    <md-option ng-value="12">12</md-option>
+                                                    <md-option ng-value="13">13</md-option>
+                                                    <md-option ng-value="14">14</md-option>
+                                                    <md-option ng-value="15">15</md-option>
+                                                    <md-option ng-value="16">16</md-option>
+                                                    <md-option ng-value="17">17</md-option>
+                                                    <md-option ng-value="18">18</md-option>
+                                                    <md-option ng-value="19">19</md-option>
+                                                    <md-option ng-value="20">20</md-option>
+                                                    <md-option ng-value="21">21</md-option>
+                                                    <md-option ng-value="22">22</md-option>
+                                                    <md-option ng-value="23">23</md-option>
+                                                </md-select>
+                                                <div ng-messages="newEventForm.eventHour.$error">
+                                                    <div ng-message="required"><span translate="Event.EventTimeIsRequired"></span></div>
+                                                </div>
+                                            </md-input-container>
+                                            <md-input-container class="md-icon-float md-block" flex="5">
+                                                <input type="text" class="centered-text" value=":" ng-disabled="true">
+                                            </md-input-container>
+                                            <md-input-container class="md-icon-float md-block">
+                                                <label>Minute</label>
+                                                <md-select name="eventMInute" ng-model="vm.newEvent.selectedMinute">
+                                                    <md-option ng-value="00">00</md-option>
+                                                    <md-option ng-value="30">30</md-option>
+                                                </md-select>
+                                                <div ng-messages="newEventForm.eventMInute.$error">
+                                                    <div ng-message="required"><span translate="Event.EventTimeIsRequired"></span></div>
+                                                </div>
+                                            </md-input-container>
+                                        </div>-->
+                                    </div>
+
+                                </div>
+                            </md-item-content>
+                        </md-item>
+                    </md-list>
+                </div>
+
+            </div>
+
+        </md-dialog-content>
+        <!-- / DIALOG CONTENT -->
+
+        <!-- DIALOG ACTIONS -->
+        <md-dialog-actions ms-scroll layout="row" layout-align="end center">
+            <div layout="row">
+                <md-button class="md-accent md-raised" ng-click="vm.add()" ng-disabled="!vm.isCreateBookingButtonEnabled || newBookingForm.$invalid || newBookingForm.$pristine">Create booking</md-button>
+            </div>
+        </md-dialog-actions>
+        <!-- / DIALOG ACTIONS -->
+
+    </form>
+
+</md-dialog>
+<!-- / DIALOG -->

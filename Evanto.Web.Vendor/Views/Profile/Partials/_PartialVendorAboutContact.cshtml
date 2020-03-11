@@ -1,0 +1,115 @@
+﻿@model Evanto.Web.Vendor.Models.ViewModels.ContactInformationViewModel
+
+<div class="pmb-block">
+    <div class="pmbb-header">
+        <h2><i class="zmdi zmdi-phone m-r-10"></i> Contact Information</h2>
+
+        <ul class="actions">
+            <li class="dropdown">
+                <a href="/Content/#" data-toggle="dropdown">
+                    <i class="zmdi zmdi-more-vert"></i>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <a data-ma-action="profile-edit" href="/Content/#">Edit</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="pmbb-body p-l-30">
+        <div class="pmbb-view">
+            <dl class="dl-horizontal">
+                <dt>Mobile Phone</dt>
+                <dd id="lblPhone">@Model.Phone</dd>
+            </dl>
+            <dl class="dl-horizontal">
+                <dt>Email Address</dt>
+                <dd id="lblEmail">@Model.Email</dd>
+            </dl>
+            <dl class="dl-horizontal">
+                <dt>Address</dt>
+                <dd id="lblAddress">@Model.Address</dd>
+            </dl>
+        </div>
+
+        <div class="pmbb-edit">
+            <dl class="dl-horizontal">
+                <dt class="p-t-10">Mobile Phone</dt>
+                <dd>
+                    <div class="fg-line">
+                        <input id="tbxPhone" type="text" class="form-control"
+                               value="@Model.Phone">
+                    </div>
+                </dd>
+            </dl>
+            <dl class="dl-horizontal">
+                <dt class="p-t-10">Email Address</dt>
+                <dd>
+                    <div class="fg-line">
+                        <input id="tbxEmail" type="email" class="form-control"
+                               value="@Model.Email">
+                    </div>
+                </dd>
+            </dl>
+            <dl class="dl-horizontal">
+                <dt class="p-t-10">Address</dt>
+                <dd>
+                    <div class="fg-line">
+                        <input id="tbxAddress" type="text" class="form-control" value="@Model.Address">
+                    </div>
+                </dd>
+            </dl>
+
+            <div class="m-t-30">
+                <button class="btn btn-primary btn-sm" onclick="UpdateContactInfo()" data-ma-action="profile-edit-cancel">Save</button>
+                <button data-ma-action="profile-edit-cancel" class="btn btn-link btn-sm">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function UpdateContactInfo() {
+        var model = {
+            UserId: @Html.Raw(Json.Encode(Model.UserId)),
+            Address: $('#tbxAddress').val(),
+            Email: $('#tbxEmail').val(),
+            Phone: $('#tbxPhone').val()
+        }
+        $.ajax({
+            url: "/Profile/UpdateVendorContactInformations",
+            type: 'POST',
+            datatype: ' json',
+            data: model,
+            success: function(response) {
+                
+                var jsonResult = $.parseJSON(response)
+                if(jsonResult.isSuccess && jsonResult.output.isUpdated)
+                {
+                    var vendor = jsonResult.output.contactInformation
+                    console.log(vendor)
+                    $('#tbxAddress').val(vendor.address)
+                    $('#tbxPhone').val(vendor.phone)
+                    $('#tbxEmail').val(vendor.email)
+                    
+                    document.getElementById('lblAddress').innerHTML=vendor.address
+                    document.getElementById('lblPhone').innerHTML=vendor.phone
+                    document.getElementById('lblEmail').innerHTML= vendor.email
+                    
+                    document.getElementById('lblMainAddress').innerHTML=vendor.address
+                    document.getElementById('lblMainAddressHeader').innerHTML=vendor.address
+                    document.getElementById('lblMainPhone').innerHTML=vendor.phone
+                    document.getElementById('lblMainEmail').innerHTML= vendor.email
+                }
+                else
+                {
+                    console.log(jsonResult + '-----' + jsonResult.output)
+                }
+            },
+            error: function(err) {
+                console.log('error', err)
+            }
+        })
+    }
+</script>

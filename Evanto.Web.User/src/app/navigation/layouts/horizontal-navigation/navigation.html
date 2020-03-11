@@ -1,0 +1,61 @@
+<div layout="row" flex layout-align="start start" class="mt-120">
+    <div hide-md hide-lg hide-xl>
+        <ms-navigation-horizontal></ms-navigation-horizontal>
+    </div>
+    <div hide show-gt-sm layout="row">
+        <div class="pr-10 mr-15" flex="13">
+            <md-button ng-click="vm.navbarHelper.setCurrentNavItem('Events')" ng-class="{'md-accent md-raised navigation-button' : vm.navbarHelper.getCurrentNavItem() === 'Events', 'md-default md-raised navigation-button'  : vm.navbarHelper.getCurrentNavItem() !== 'Events'}">
+                <div layout="row" layout-align="space-between start">
+                    <div class="pl-10 pr-5">{{'Layout.Events' | translate}}</div>
+                    <div class="event-booking-count">{{vm.allEventsCount}}</div>
+                </div>
+            </md-button>
+        </div>
+        <div class="pr-10 mr-15" flex="13">
+            <md-button ng-click="vm.navbarHelper.setCurrentNavItem('Bookings')" ng-class="{'md-accent md-raised navigation-button' : vm.navbarHelper.getCurrentNavItem() === 'Bookings', 'md-default md-raised navigation-button'  : vm.navbarHelper.getCurrentNavItem() !== 'Bookings'}">
+                <div layout="row" layout-align="space-between start">
+                    <div class="pl-10 pr-5">{{'Layout.BookingsMenu' | translate}}</div>
+                    <div class="event-booking-count">{{vm.allBookingsCount}}</div>
+                </div>
+            </md-button>
+        </div>
+
+        <div class="search-input-wrapper" flex="30" layout="row" layout-align="start start">
+            <md-input-container md-no-float flex class="m-0">
+                <md-icon md-font-icon="icon-magnify"></md-icon>
+                <input id="search" class="md-subhead"  translate-attr-placeholder="Layout.Search" ng-model-options="{debounce : 1400}" type="text" ng-model="vm.searchText">
+            </md-input-container>
+        </div>
+    </div>
+
+    <div hide-gt-sm layout="column" class="mobile-navigation-menu">
+        <div layout="row" layout-align="space-between start" class="mobile-navigation-texts">
+            <div class="m-2">
+                <md-button ng-click="vm.navbarHelper.setCurrentNavItem('Events')" ng-class="{'md-accent md-raised navigation-button' : vm.navbarHelper.getCurrentNavItem() === 'Events', 'md-default md-raised navigation-button'  : vm.navbarHelper.getCurrentNavItem() !== 'Events'}">
+                    <div layout="row" layout-align="space-between start">
+                        <div class="pl-10 pr-5">{{'Layout.EventsMenu' | translate}}</div>
+                        <div class="event-booking-count">{{vm.allEventsCount}}</div>
+                    </div>
+                </md-button>
+            </div>
+            <div class="m-2">
+                <md-button ng-click="vm.navbarHelper.setCurrentNavItem('Bookings')" ng-class="{'md-accent md-raised navigation-button' : vm.navbarHelper.getCurrentNavItem() === 'Bookings', 'md-default md-raised navigation-button'  : vm.navbarHelper.getCurrentNavItem() !== 'Bookings'}">
+                    <div layout="row" layout-align="space-between start">
+                        <div class="pl-10 pr-5">{{'Layout.BookingsMenu' | translate}}</div>
+                        <div class="event-booking-count">{{vm.allBookingsCount}}</div>
+                    </div>
+                </md-button>
+            </div>
+        </div>
+        <div layout="row" class="pt-10"  flex>
+                <md-input-container md-no-float flex class="m-0">
+                    <md-icon md-font-icon="icon-magnify"></md-icon>
+                    <input id="search" class="md-subhead" translate-attr-placeholder="Layout.Search" ng-model-options="{debounce : 800}" type="text" ng-model="vm.searchText">
+                </md-input-container>
+        </div>
+    </div>
+</div>
+
+   <md-button id="btnAddNewEvent" hide-gt-sm  class="md-fab md-mini md-fab-bottom-right" aria-label="Add event" ng-click="vm.addEvent()">
+        <ng-md-icon icon="add"></ng-md-icon>
+      </md-button>

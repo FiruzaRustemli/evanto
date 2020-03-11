@@ -1,0 +1,106 @@
+2020-02-11 10:38:37,906 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 10:38:48,780 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-11 10:51:30,799 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 10:51:31,480 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-11 10:52:51,348 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 10:53:45,126 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user ''.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:9197425a-c20e-40b4-91e7-7b21a33ff474
+Error Number:18456,State:1,Class:14
+2020-02-11 10:56:50,783 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 10:56:52,756 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-11 10:57:27,329 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 10:58:18,908 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-11 12:22:27,928 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 12:22:32,776 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: The connection string 'EvantoContext' in the application's configuration file does not contain the required providerName attribute."
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-11 12:27:29,759 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 12:27:33,570 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: The connection string 'EvantoContext' in the application's configuration file does not contain the required providerName attribute."
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-11 12:29:18,820 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 12:29:18,969 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: The connection string 'EvantoContext' in the application's configuration file does not contain the required providerName attribute."
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-11 12:35:41,524 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-11 12:35:41,774 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: The connection string 'EvantoContext' in the application's configuration file does not contain the required providerName attribute."
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55

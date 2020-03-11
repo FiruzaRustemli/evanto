@@ -1,0 +1,11 @@
+{
+	"Vendor.Name": "Name",
+	"Vendor.Address": "Adress",
+	"Vendor.Description": "Description",
+	"Vendor.Phone": "Phone number",
+	"Vendor.Email": "Email",
+	"Vendor.MinPrice": "Min price",
+	"Vendor.MaxPrice": "Max price",
+	"Vendor.DailyQuantity": "Daily quantity",
+	"Vendor.NotRated": "Not rated"
+}

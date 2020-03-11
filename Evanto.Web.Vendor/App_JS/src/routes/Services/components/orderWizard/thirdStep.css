@@ -1,0 +1,13 @@
+.dvCash {
+    min-height: 154px;
+    cursor: pointer;
+}
+
+.dvCash:hover {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.38);
+}
+
+.dvCard {
+    background-color: #90c7c4;
+    cursor: progress
+}

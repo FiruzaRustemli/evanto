@@ -1,0 +1,74 @@
+﻿
+
+<div id="page_content_inner">
+
+    <form method="post" >
+        <div id="myModal" class="modal fade" style="margin-top: 100px;">
+            <div class="modal-dialog">
+                <div class="modal-content" style="min-height: 300px">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Send Email</h4>
+                    </div>
+                    <div class="modal-body" style="min-height: 150px">
+                        <div class="uk-grid uk-grid-medium form_section form_section_separator" id="d_form_section" data-uk-grid-match>
+                            <div class="uk-width-9-10">
+                                <div class="uk-grid">
+                                    <div class="uk-width-1-2">
+                                        <div class="parsley-row">
+                                            <input type="text"  id="userEmail" class="md-input" name="UserEmail" required>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-2">
+                                        <div class="parsley-row">
+                                            <label>Subject</label>
+                                            <input type="text" id="subject" class="md-input" name="Subject" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-grid">
+                                    <div class="uk-width-1-1">
+                                        <div class="parsley-row">
+                                            <label>Content</label>
+                                            <textarea id="emailContent"   class="md-input" name="Content" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" formaction="@Url.Action("SendEmail")">Send email</button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="md-card">
+        <div class="md-card-content">
+            <div id="students_crud"></div>
+            @*<button id="DeleteAllButton" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+                    <span class="ui-button-text">
+                        Delete all selected records
+                    </span>
+                </button>*@
+        </div>
+    </div>
+</div>
+
+@*<div class="md-fab-wrapper">
+        <a class="md-fab md-fab-accent" href="#" id="recordAdd">
+            <i class="material-icons">&#xE145;</i>
+        </a>
+    </div>*@
+
+@section scripts
+{
+    <script src="~/Scripts/FeedBack_Crud_Table.js"></script>
+}

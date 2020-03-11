@@ -1,0 +1,292 @@
+2020-03-04 09:28:34,099 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 09:52:25,489 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 09:53:16,135 [7] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 09:53:17,576 [7] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserSetting_User". The conflict occurred in database "Evanto", table "dbo.User", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:461c3261-b940-4cd9-a879-25726c60b243
+Error Number:547,State:0,Class:16
+2020-03-04 09:54:29,553 [15] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 09:55:52,319 [15] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserSetting_User". The conflict occurred in database "Evanto", table "dbo.User", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:461c3261-b940-4cd9-a879-25726c60b243
+Error Number:547,State:0,Class:16
+2020-03-04 09:56:20,111 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 09:56:20,616 [18] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserSetting_User". The conflict occurred in database "Evanto", table "dbo.User", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:461c3261-b940-4cd9-a879-25726c60b243
+Error Number:547,State:0,Class:16
+2020-03-04 09:56:31,840 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":2} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 09:59:21,419 [18] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 60
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 09:59:43,959 [17] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":2} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 10:00:04,906 [17] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 60
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 10:00:14,937 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":2} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 10:00:22,383 [10] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Evanto.BL.Operations.UserOperations.GetUserByUserOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\UserOperations\GetUserByUserOperation.cs:line 60
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 10:00:33,461 [10] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":2} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 10:02:22,064 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 10:02:36,723 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"Firuza","LastName":"Rustamli","Phone":"994775542101","Username":"rustemlifiruze@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":2,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-03-04 10:02:55,387 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"Firuza","LastName":"Rustamli","Phone":"994775542101","Username":"rustemlifiruze@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":2,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-03-04 10:02:55,841 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"UserId":3,"VerificationTypeId":2,"VerificationCode":"767146","PhoneNumber":"994775542101","Email":"rustemlifiruze@gmail.com","ExpireDate":"\/Date(1586037775840)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserVerificationOperations.CreateUserVerificationOperation
+2020-03-04 10:02:59,254 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"TypeId":1,"Text":"767146","Recipient":"994775542101","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.SmsOperations.SendSmsOperation
+2020-03-04 10:04:32,750 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":3} - Executed from this class : Evanto.BL.Operations.UserOperations.GetUserByUserOperation
+2020-03-04 10:10:24,316 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"FirstName":"Firuza","LastName":"Rustamli","Phone":"994775542101","Username":"rustemlifiruze@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":2,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserOperation
+2020-03-04 10:10:24,918 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"UserId":4,"VerificationTypeId":2,"VerificationCode":"067477","PhoneNumber":"994775542101","Email":"rustemlifiruze@gmail.com","ExpireDate":"\/Date(1586038224918)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserVerificationOperations.CreateUserVerificationOperation
+2020-03-04 10:10:24,919 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"TypeId":1,"Text":"067477","Recipient":"994775542101","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.SmsOperations.SendSmsOperation
+2020-03-04 10:14:03,465 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"Fr","LangId":10,"Theme":"HEloo","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserSettingsOperation
+2020-03-04 10:14:03,639 [6] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserSetting_User". The conflict occurred in database "Evanto", table "dbo.User", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:ae14bbd3-d5cd-458b-b6d6-dc20c4a75e01
+Error Number:547,State:0,Class:16
+2020-03-04 10:14:36,300 [27] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"Fr","LangId":10,"Theme":"HEloo","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserSettingsOperation
+2020-03-04 11:15:54,074 [27] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserSetting_User". The conflict occurred in database "Evanto", table "dbo.User", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+ClientConnectionId:ae14bbd3-d5cd-458b-b6d6-dc20c4a75e01
+Error Number:547,State:0,Class:16
+2020-03-04 11:17:31,559 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 11:17:58,917 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"Fr","LangId":10,"Theme":"HEloo","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserSettingsOperation
+2020-03-04 11:21:13,334 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 11:21:27,357 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"Fr","LangId":10,"Theme":"HEloo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserSettingsOperation
+2020-03-04 11:23:39,177 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":10,"Theme":"HEloo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:24:01,472 [11] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":10,"Theme":"helo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:25:00,455 [12] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":10,"Theme":"HEloo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:25:08,369 [11] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":10,"Theme":"Heloo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:25:33,675 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":13,"Theme":"Heloo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:28:54,513 [31] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":13,"Theme":"Heloo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:30:13,927 [22] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":1,"Theme":"helo","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:30:39,183 [22] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"sp","LangId":1,"Theme":"Spanish","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.UpdateUserSettingsOperation
+2020-03-04 11:33:49,737 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 11:34:10,135 [5] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentPassword":"Code_123","NewPassword":"Code_1234","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ChangePasswordUserOperation
+2020-03-04 11:43:26,115 [25] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"VerificationType":2,"Email":"rustemlifiruze@gmail.com","Phone":"994775542101","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.SendVerificationCodeByUserOperation
+2020-03-04 11:43:33,780 [25] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"UserId":4,"VerificationTypeId":2,"VerificationCode":"451431","PhoneNumber":"994775542101","Email":"rustemlifiruze@gmail.com","ExpireDate":"\/Date(1586043810278)\/","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserVerificationOperations.CreateUserVerificationOperation
+2020-03-04 11:43:33,791 [25] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"TypeId":1,"Text":"451431","Recipient":"994775542101","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.SmsOperations.SendSmsOperation
+2020-03-04 11:45:45,616 [39] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Username":"rustemlifiruze@gmail.com","VerificationCode":"451431","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.VerifyUserAccountOperation
+2020-03-04 11:50:16,364 [37] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Username":"rustemlifiruze@gmail.com","VerificationCode":"451431","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.VerifyUserAccountOperation
+2020-03-04 11:50:42,192 [42] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Username":"rustemlifiruze@gmail.com","VerificationCode":"451431","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.VerifyUserAccountOperation
+2020-03-04 12:17:49,690 [37] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Username":"rustemlifiruze@gmail.com","VerificationCode":"451431","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.VerifyUserAccountOperation
+2020-03-04 12:20:02,463 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 13:59:19,673 [62] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Username":"rustemlifiruze@gmail.com","VerificationCode":"451431","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.VerifyUserAccountOperation
+2020-03-04 14:10:03,658 [38] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":"rustemlifiruze@gmail.com","Phone":"944775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:10:48,264 [26] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":"rustemlifiruze@gmail.com","Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:12:23,178 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":"rustemlifiruze@gmail.com","Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:14:46,092 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:17:23,706 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:18:21,068 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:30:16,609 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:30:23,160 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:31:15,344 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:31:45,295 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","Code":"451431","NewPassword":"Fi_123","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ResetPasswordByUserOperation
+2020-03-04 14:34:13,060 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Email":null,"Phone":"994775542101","CurrentUserId":4} - Executed from this class : Evanto.BL.Operations.UserOperations.ForgotPasswordOperation
+2020-03-04 14:34:19,410 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"TypeId":2,"Text":"396927","Recipient":"994775542101","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.SmsOperations.SendSmsOperation
+2020-03-04 14:34:23,319 [109] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"UserId":4,"Code":"396927","Status":true,"ExpireDate":"\/Date(1586054062295)\/","Description":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.UserActivationOperations.CreateUserActivationOperation
+2020-03-04 14:35:27,060 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 14:44:00,977 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 15:20:36,214 [50] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"UserInput":{"FirstName":"Fuad","LastName":"Hasimov","Phone":"994775542101","Username":"rustemlifiruze@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":2,"CurrentUserId":0},"Address":"Baku","Name":"FuadHasimov","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorOperations.CreateVendorOperation
+2020-03-04 15:23:05,268 [69] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"UserInput":{"FirstName":"Elcin","LastName":"Heyderov","Phone":"994514677569","Username":"elcinliverpol@gmail.com","PasswordString":"Code_123","GenderId":1,"VerificationTypeId":2,"CurrentUserId":0},"Address":"Baku","Name":"ElchinHeyder","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorOperations.CreateVendorOperation
+2020-03-04 15:23:21,035 [69] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"LangCode":"az","LangId":0,"Theme":"default","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.UserOperations.CreateUserSettingsOperation
+2020-03-04 15:55:21,187 [95] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"string","FirstName":"string","LastName":"string","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"string","CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 15:55:21,366 [95] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 19
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 15:55:33,823 [102] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Baku","FirstName":null,"LastName":null,"Birthday":null,"Phone":null,"Username":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 15:55:33,848 [102] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 19
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:04:24,870 [116] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:04:25,375 [116] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:07:05,366 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-03-04 16:13:24,767 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:13:25,162 [6] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:14:03,172 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:14:03,344 [8] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:16:13,583 [8] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:16:13,906 [8] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:17:22,758 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:28:03,687 [6] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:28:15,503 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"string","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:43:15,109 [6] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-03-04 16:43:29,938 [6] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"Address":"Gedebey","FirstName":"Natiq","LastName":"Suleymanov","Birthday":"\/Date(1583361853649)\/","Phone":"994514677569","Username":"elcinliverpol@gmail.com","CurrentUserId":5} - Executed from this class : Evanto.BL.Operations.VendorOperations.UpdateVendorOperation
+2020-03-04 16:52:54,199 [6] ERROR Evanto.BL.Operation`2 - Error occured: 
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateVendorInput -> User
+Evanto.BL.Operations.VendorOperations.UpdateVendorInput -> Evanto.DAL.Context.User
+   at lambda_method(Closure , UpdateVendorInput , User , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Evanto.BL.Operations.VendorOperations.UpdateVendorOperation.DoExecute() in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\VendorOperations\UpdateVendorOperation.cs:line 21
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55

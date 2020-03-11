@@ -1,0 +1,1669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EvantoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EvantoContext" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetResourceText" ReturnType="Collection(EvantoModel.ErrorResult)">
+      <Parameter Name="Origin" Mode="In" Type="String" />
+      <Parameter Name="ResourceKey" Mode="In" Type="String" />
+      <Parameter Name="LanguageId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="Booking" EntityType="EvantoModel.Booking" />
+    <EntitySet Name="BookingStatus" EntityType="EvantoModel.BookingStatus" />
+    <EntitySet Name="Claim" EntityType="EvantoModel.Claim" />
+    <EntitySet Name="Client" EntityType="EvantoModel.Client" />
+    <EntitySet Name="ClientStatus" EntityType="EvantoModel.ClientStatus" />
+    <EntitySet Name="ContentType" EntityType="EvantoModel.ContentType" />
+    <EntitySet Name="CouponType" EntityType="EvantoModel.CouponType" />
+    <EntitySet Name="DiscountCoupon" EntityType="EvantoModel.DiscountCoupon" />
+    <EntitySet Name="DiscountCouponStatus" EntityType="EvantoModel.DiscountCouponStatus" />
+    <EntitySet Name="DiscountType" EntityType="EvantoModel.DiscountType" />
+    <EntitySet Name="EventService" EntityType="EvantoModel.EventService" />
+    <EntitySet Name="EventType" EntityType="EvantoModel.EventType" />
+    <EntitySet Name="Feedback" EntityType="EvantoModel.Feedback" />
+    <EntitySet Name="FeedbackStatus" EntityType="EvantoModel.FeedbackStatus" />
+    <EntitySet Name="FeedbackType" EntityType="EvantoModel.FeedbackType" />
+    <EntitySet Name="File" EntityType="EvantoModel.File" />
+    <EntitySet Name="FileType" EntityType="EvantoModel.FileType" />
+    <EntitySet Name="Gender" EntityType="EvantoModel.Gender" />
+    <EntitySet Name="Language" EntityType="EvantoModel.Language" />
+    <EntitySet Name="Notification" EntityType="EvantoModel.Notification" />
+    <EntitySet Name="NotificationConsumerType" EntityType="EvantoModel.NotificationConsumerType" />
+    <EntitySet Name="NotificationStatus" EntityType="EvantoModel.NotificationStatus" />
+    <EntitySet Name="NotificationType" EntityType="EvantoModel.NotificationType" />
+    <EntitySet Name="Payment" EntityType="EvantoModel.Payment" />
+    <EntitySet Name="PaymentStatus" EntityType="EvantoModel.PaymentStatus" />
+    <EntitySet Name="PaymentType" EntityType="EvantoModel.PaymentType" />
+    <EntitySet Name="Period" EntityType="EvantoModel.Period" />
+    <EntitySet Name="Rating" EntityType="EvantoModel.Rating" />
+    <EntitySet Name="RealtimeConnection" EntityType="EvantoModel.RealtimeConnection" />
+    <EntitySet Name="Resource" EntityType="EvantoModel.Resource" />
+    <EntitySet Name="ResourceText" EntityType="EvantoModel.ResourceText" />
+    <EntitySet Name="Role" EntityType="EvantoModel.Role" />
+    <EntitySet Name="Service" EntityType="EvantoModel.Service" />
+    <EntitySet Name="ServicePeriodPrice" EntityType="EvantoModel.ServicePeriodPrice" />
+    <EntitySet Name="SmsStatus" EntityType="EvantoModel.SmsStatus" />
+    <EntitySet Name="SmsType" EntityType="EvantoModel.SmsType" />
+    <EntitySet Name="User" EntityType="EvantoModel.User" />
+    <EntitySet Name="UserActivation" EntityType="EvantoModel.UserActivation" />
+    <EntitySet Name="UserClaim" EntityType="EvantoModel.UserClaim" />
+    <EntitySet Name="UserEvent" EntityType="EvantoModel.UserEvent" />
+    <EntitySet Name="UserService" EntityType="EvantoModel.UserService" />
+    <EntitySet Name="UserSetting" EntityType="EvantoModel.UserSetting" />
+    <EntitySet Name="UserStatus" EntityType="EvantoModel.UserStatus" />
+    <EntitySet Name="UserType" EntityType="EvantoModel.UserType" />
+    <EntitySet Name="UserVerification" EntityType="EvantoModel.UserVerification" />
+    <EntitySet Name="UserVerificationType" EntityType="EvantoModel.UserVerificationType" />
+    <EntitySet Name="Vendor" EntityType="EvantoModel.Vendor" />
+    <EntitySet Name="VendorService" EntityType="EvantoModel.VendorService" />
+    <EntitySet Name="VendorServiceExceptionalEvent" EntityType="EvantoModel.VendorServiceExceptionalEvent" />
+    <EntitySet Name="VendorServicePacket" EntityType="EvantoModel.VendorServicePacket" />
+    <EntitySet Name="VendorServicePacketStatus" EntityType="EvantoModel.VendorServicePacketStatus" />
+    <EntitySet Name="VendorStatus" EntityType="EvantoModel.VendorStatus" />
+    <AssociationSet Name="FK_Booking_BookingStatus" Association="EvantoModel.FK_Booking_BookingStatus">
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_User" Association="EvantoModel.FK_Booking_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_UserService" Association="EvantoModel.FK_Booking_UserService">
+      <End Role="UserService" EntitySet="UserService" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_Vendor" Association="EvantoModel.FK_Booking_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_VendorService" Association="EvantoModel.FK_Booking_VendorService">
+      <End Role="VendorService" EntitySet="VendorService" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserClaim_Claim" Association="EvantoModel.FK_UserClaim_Claim">
+      <End Role="Claim" EntitySet="Claim" />
+      <End Role="UserClaim" EntitySet="UserClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_ContentType" Association="EvantoModel.FK_File_ContentType">
+      <End Role="ContentType" EntitySet="ContentType" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCoupon_CouponType" Association="EvantoModel.FK_DiscountCoupon_CouponType">
+      <End Role="CouponType" EntitySet="CouponType" />
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCoupon_DiscountCouponStatus" Association="EvantoModel.FK_DiscountCoupon_DiscountCouponStatus">
+      <End Role="DiscountCouponStatus" EntitySet="DiscountCouponStatus" />
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCoupon_DiscountType" Association="EvantoModel.FK_DiscountCoupon_DiscountType">
+      <End Role="DiscountType" EntitySet="DiscountType" />
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorService_DiscountCoupon" Association="EvantoModel.FK_VendorService_DiscountCoupon">
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+      <End Role="VendorService" EntitySet="VendorService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_DiscountCoupon" Association="EvantoModel.FK_VendorServicePacket_DiscountCoupon">
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventService_Event" Association="EvantoModel.FK_EventService_Event">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="EventService" EntitySet="EventService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventService_Service" Association="EvantoModel.FK_EventService_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="EventService" EntitySet="EventService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserEvent_Event" Association="EvantoModel.FK_UserEvent_Event">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="UserEvent" EntitySet="UserEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServiceExceptionalEvent_Event" Association="EvantoModel.FK_VendorServiceExceptionalEvent_Event">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="VendorServiceExceptionalEvent" EntitySet="VendorServiceExceptionalEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Feedback_FeedbackStatus" Association="EvantoModel.FK_Feedback_FeedbackStatus">
+      <End Role="FeedbackStatus" EntitySet="FeedbackStatus" />
+      <End Role="Feedback" EntitySet="Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Feedback_FeedbackType" Association="EvantoModel.FK_Feedback_FeedbackType">
+      <End Role="FeedbackType" EntitySet="FeedbackType" />
+      <End Role="Feedback" EntitySet="Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_FileType" Association="EvantoModel.FK_File_FileType">
+      <End Role="FileType" EntitySet="FileType" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserGenderId_Gender" Association="EvantoModel.FK_UserGenderId_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceText_Language" Association="EvantoModel.FK_ResourceText_Language">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="ResourceText" EntitySet="ResourceText" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserSetting_Language" Association="EvantoModel.FK_UserSetting_Language">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="UserSetting" EntitySet="UserSetting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notification_User_Receiver" Association="EvantoModel.FK_Notification_User_Receiver">
+      <End Role="User" EntitySet="User" />
+      <End Role="Notification" EntitySet="Notification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notification_User_Sender" Association="EvantoModel.FK_Notification_User_Sender">
+      <End Role="User" EntitySet="User" />
+      <End Role="Notification" EntitySet="Notification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_PaymentStatus" Association="EvantoModel.FK_Payment_PaymentStatus">
+      <End Role="PaymentStatus" EntitySet="PaymentStatus" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_PaymentType" Association="EvantoModel.FK_Payment_PaymentType">
+      <End Role="PaymentType" EntitySet="PaymentType" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Vendor" Association="EvantoModel.FK_Payment_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_Payment" Association="EvantoModel.FK_VendorServicePacket_Payment">
+      <End Role="Payment" EntitySet="Payment" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicePeriodPrice_Period" Association="EvantoModel.FK_ServicePeriodPrice_Period">
+      <End Role="Period" EntitySet="Period" />
+      <End Role="ServicePeriodPrice" EntitySet="ServicePeriodPrice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rating_User" Association="EvantoModel.FK_Rating_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Rating" EntitySet="Rating" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rating_VendorService" Association="EvantoModel.FK_Rating_VendorService">
+      <End Role="VendorService" EntitySet="VendorService" />
+      <End Role="Rating" EntitySet="Rating" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RealtimeConnection_RealtimeConnection" Association="EvantoModel.FK_RealtimeConnection_RealtimeConnection">
+      <End Role="User" EntitySet="User" />
+      <End Role="RealtimeConnection" EntitySet="RealtimeConnection" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceText_Resource" Association="EvantoModel.FK_ResourceText_Resource">
+      <End Role="Resource" EntitySet="Resource" />
+      <End Role="ResourceText" EntitySet="ResourceText" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="EvantoModel.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicePeriodPrice_Service" Association="EvantoModel.FK_ServicePeriodPrice_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="ServicePeriodPrice" EntitySet="ServicePeriodPrice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserService_Service" Association="EvantoModel.FK_UserService_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="UserService" EntitySet="UserService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorService_ServicePeriodPrice" Association="EvantoModel.FK_VendorService_ServicePeriodPrice">
+      <End Role="ServicePeriodPrice" EntitySet="ServicePeriodPrice" />
+      <End Role="VendorService" EntitySet="VendorService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_UserStatus" Association="EvantoModel.FK_User_UserStatus">
+      <End Role="UserStatus" EntitySet="UserStatus" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_UserType" Association="EvantoModel.FK_User_UserType">
+      <End Role="UserType" EntitySet="UserType" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserActivation_User" Association="EvantoModel.FK_UserActivation_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserActivation" EntitySet="UserActivation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserClaim_User" Association="EvantoModel.FK_UserClaim_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserClaim" EntitySet="UserClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserEvent_User" Association="EvantoModel.FK_UserEvent_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserEvent" EntitySet="UserEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserService_User" Association="EvantoModel.FK_UserService_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserService" EntitySet="UserService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserSetting_User" Association="EvantoModel.FK_UserSetting_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserSetting" EntitySet="UserSetting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserVerification_User" Association="EvantoModel.FK_UserVerification_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserVerification" EntitySet="UserVerification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vendor_User" Association="EvantoModel.FK_Vendor_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Vendor" EntitySet="Vendor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserService_UserEvent" Association="EvantoModel.FK_UserService_UserEvent">
+      <End Role="UserEvent" EntitySet="UserEvent" />
+      <End Role="UserService" EntitySet="UserService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserVerification_UserVerificationType" Association="EvantoModel.FK_UserVerification_UserVerificationType">
+      <End Role="UserVerificationType" EntitySet="UserVerificationType" />
+      <End Role="UserVerification" EntitySet="UserVerification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_Vendor" Association="EvantoModel.FK_VendorServicePacket_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorService_VendorServicePacket" Association="EvantoModel.FK_VendorService_VendorServicePacket">
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+      <End Role="VendorService" EntitySet="VendorService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServiceExceptionalEvent_VendorService" Association="EvantoModel.FK_VendorServiceExceptionalEvent_VendorService">
+      <End Role="VendorService" EntitySet="VendorService" />
+      <End Role="VendorServiceExceptionalEvent" EntitySet="VendorServiceExceptionalEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_VendorServicePacketStatus" Association="EvantoModel.FK_VendorServicePacket_VendorServicePacketStatus">
+      <End Role="VendorServicePacketStatus" EntitySet="VendorServicePacketStatus" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <EntitySet Name="SmsQueue" EntityType="EvantoModel.SmsQueue" />
+    <AssociationSet Name="FK_SmsQueue_SmsStatus" Association="EvantoModel.FK_SmsQueue_SmsStatus">
+      <End Role="SmsStatus" EntitySet="SmsStatus" />
+      <End Role="SmsQueue" EntitySet="SmsQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SmsQueue_SmsType" Association="EvantoModel.FK_SmsQueue_SmsType">
+      <End Role="SmsType" EntitySet="SmsType" />
+      <End Role="SmsQueue" EntitySet="SmsQueue" />
+    </AssociationSet>
+    <FunctionImport Name="SearchBooking" EntitySet="Booking" ReturnType="Collection(EvantoModel.Booking)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="VendorId" Mode="In" Type="Int32" />
+      <Parameter Name="UserServiceId" Mode="In" Type="Int32" />
+      <Parameter Name="StatusId" Mode="In" Type="Int32" />
+      <Parameter Name="BookDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="SearchDiscountCoupon" EntitySet="DiscountCoupon" ReturnType="Collection(EvantoModel.DiscountCoupon)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="StatusId" Mode="In" Type="Int32" />
+      <Parameter Name="CouponTypeId" Mode="In" Type="Int32" />
+      <Parameter Name="DiscountTypeId" Mode="In" Type="Int32" />
+      <Parameter Name="CouponNumber" Mode="In" Type="String" />
+      <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="SearchUser" EntitySet="User" ReturnType="Collection(EvantoModel.User)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="RegistrationDate" Mode="In" Type="DateTime" />
+      <Parameter Name="MaritalStatus" Mode="In" Type="Int32" />
+      <Parameter Name="Birthday" Mode="In" Type="DateTime" />
+      <Parameter Name="Type" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SearchUserEvent" EntitySet="UserEvent" ReturnType="Collection(EvantoModel.UserEvent)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="EventId" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="EventDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="SearchUserService" EntitySet="UserService" ReturnType="Collection(EvantoModel.UserService)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="ServiceId" Mode="In" Type="Int32" />
+      <Parameter Name="UserEventId" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ErrorResult">
+    <Property Type="String" Name="Code" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Text" Nullable="false" MaxLength="1000" />
+  </ComplexType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="VendorId" Type="Int32" />
+    <Property Name="UserServiceId" Type="Int32" />
+    <Property Name="VendorServiceId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="BookDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Deadline" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="BookingStatus" Relationship="EvantoModel.FK_Booking_BookingStatus" FromRole="Booking" ToRole="BookingStatus" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_Booking_User" FromRole="Booking" ToRole="User" />
+    <NavigationProperty Name="UserService" Relationship="EvantoModel.FK_Booking_UserService" FromRole="Booking" ToRole="UserService" />
+    <NavigationProperty Name="Vendor" Relationship="EvantoModel.FK_Booking_Vendor" FromRole="Booking" ToRole="Vendor" />
+    <NavigationProperty Name="VendorService" Relationship="EvantoModel.FK_Booking_VendorService" FromRole="Booking" ToRole="VendorService" />
+  </EntityType>
+  <EntityType Name="BookingStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Booking" Relationship="EvantoModel.FK_Booking_BookingStatus" FromRole="BookingStatus" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Claim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="UserClaim" Relationship="EvantoModel.FK_UserClaim_Claim" FromRole="Claim" ToRole="UserClaim" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OAuthClientID" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="OAuthClientSecret" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ClientStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="ContentType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="File" Relationship="EvantoModel.FK_File_ContentType" FromRole="ContentType" ToRole="File" />
+  </EntityType>
+  <EntityType Name="CouponType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DiscountCoupon" Relationship="EvantoModel.FK_DiscountCoupon_CouponType" FromRole="CouponType" ToRole="DiscountCoupon" />
+  </EntityType>
+  <EntityType Name="DiscountCoupon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="CouponTypeId" Type="Int32" Nullable="false" />
+    <Property Name="DiscountTypeId" Type="Int32" Nullable="false" />
+    <Property Name="CouponNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="ExpireDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CouponType" Relationship="EvantoModel.FK_DiscountCoupon_CouponType" FromRole="DiscountCoupon" ToRole="CouponType" />
+    <NavigationProperty Name="DiscountCouponStatus" Relationship="EvantoModel.FK_DiscountCoupon_DiscountCouponStatus" FromRole="DiscountCoupon" ToRole="DiscountCouponStatus" />
+    <NavigationProperty Name="DiscountType" Relationship="EvantoModel.FK_DiscountCoupon_DiscountType" FromRole="DiscountCoupon" ToRole="DiscountType" />
+    <NavigationProperty Name="VendorService" Relationship="EvantoModel.FK_VendorService_DiscountCoupon" FromRole="DiscountCoupon" ToRole="VendorService" />
+    <NavigationProperty Name="VendorServicePacket" Relationship="EvantoModel.FK_VendorServicePacket_DiscountCoupon" FromRole="DiscountCoupon" ToRole="VendorServicePacket" />
+  </EntityType>
+  <EntityType Name="DiscountCouponStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DiscountCoupon" Relationship="EvantoModel.FK_DiscountCoupon_DiscountCouponStatus" FromRole="DiscountCouponStatus" ToRole="DiscountCoupon" />
+  </EntityType>
+  <EntityType Name="DiscountType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DiscountCoupon" Relationship="EvantoModel.FK_DiscountCoupon_DiscountType" FromRole="DiscountType" ToRole="DiscountCoupon" />
+  </EntityType>
+  <EntityType Name="EventService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="EventId" Type="Int32" Nullable="false" />
+    <Property Name="ServiceId" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="EventType" Relationship="EvantoModel.FK_EventService_Event" FromRole="EventService" ToRole="EventType" />
+    <NavigationProperty Name="Service" Relationship="EvantoModel.FK_EventService_Service" FromRole="EventService" ToRole="Service" />
+  </EntityType>
+  <EntityType Name="EventType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="EventService" Relationship="EvantoModel.FK_EventService_Event" FromRole="EventType" ToRole="EventService" />
+    <NavigationProperty Name="UserEvent" Relationship="EvantoModel.FK_UserEvent_Event" FromRole="EventType" ToRole="UserEvent" />
+    <NavigationProperty Name="VendorServiceExceptionalEvent" Relationship="EvantoModel.FK_VendorServiceExceptionalEvent_Event" FromRole="EventType" ToRole="VendorServiceExceptionalEvent" />
+  </EntityType>
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Subject" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="FeedbackStatus" Relationship="EvantoModel.FK_Feedback_FeedbackStatus" FromRole="Feedback" ToRole="FeedbackStatus" />
+    <NavigationProperty Name="FeedbackType" Relationship="EvantoModel.FK_Feedback_FeedbackType" FromRole="Feedback" ToRole="FeedbackType" />
+  </EntityType>
+  <EntityType Name="FeedbackStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Feedback" Relationship="EvantoModel.FK_Feedback_FeedbackStatus" FromRole="FeedbackStatus" ToRole="Feedback" />
+  </EntityType>
+  <EntityType Name="FeedbackType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Feedback" Relationship="EvantoModel.FK_Feedback_FeedbackType" FromRole="FeedbackType" ToRole="Feedback" />
+  </EntityType>
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RelationalId" Type="Int32" Nullable="false" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="ContentTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Extension" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="MediaType" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ParentId" Type="Int32" />
+    <NavigationProperty Name="ContentType" Relationship="EvantoModel.FK_File_ContentType" FromRole="File" ToRole="ContentType" />
+    <NavigationProperty Name="FileType" Relationship="EvantoModel.FK_File_FileType" FromRole="File" ToRole="FileType" />
+  </EntityType>
+  <EntityType Name="FileType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="File" Relationship="EvantoModel.FK_File_FileType" FromRole="FileType" ToRole="File" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserGenderId_Gender" FromRole="Gender" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DisplayName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ShortName" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ResourceText" Relationship="EvantoModel.FK_ResourceText_Language" FromRole="Language" ToRole="ResourceText" />
+    <NavigationProperty Name="UserSetting" Relationship="EvantoModel.FK_UserSetting_Language" FromRole="Language" ToRole="UserSetting" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="SenderConsumerTypeId" Type="Int32" Nullable="false" />
+    <Property Name="ReceiverConsumerTypeId" Type="Int32" Nullable="false" />
+    <Property Name="SenderId" Type="Int32" Nullable="false" />
+    <Property Name="ReceiverId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="AdditionalData" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdateDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_Notification_User_Receiver" FromRole="Notification" ToRole="User" />
+    <NavigationProperty Name="User1" Relationship="EvantoModel.FK_Notification_User_Sender" FromRole="Notification" ToRole="User" />
+  </EntityType>
+  <EntityType Name="NotificationConsumerType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="NotificationStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="NotificationType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="7" Scale="0" />
+    <Property Name="PaymentDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PaymentTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="PaymentStatus" Relationship="EvantoModel.FK_Payment_PaymentStatus" FromRole="Payment" ToRole="PaymentStatus" />
+    <NavigationProperty Name="PaymentType" Relationship="EvantoModel.FK_Payment_PaymentType" FromRole="Payment" ToRole="PaymentType" />
+    <NavigationProperty Name="Vendor" Relationship="EvantoModel.FK_Payment_Vendor" FromRole="Payment" ToRole="Vendor" />
+    <NavigationProperty Name="VendorServicePacket" Relationship="EvantoModel.FK_VendorServicePacket_Payment" FromRole="Payment" ToRole="VendorServicePacket" />
+  </EntityType>
+  <EntityType Name="PaymentStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Payment" Relationship="EvantoModel.FK_Payment_PaymentStatus" FromRole="PaymentStatus" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="PaymentType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Payment" Relationship="EvantoModel.FK_Payment_PaymentType" FromRole="PaymentType" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="Period">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Duration" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="ServicePeriodPrice" Relationship="EvantoModel.FK_ServicePeriodPrice_Period" FromRole="Period" ToRole="ServicePeriodPrice" />
+  </EntityType>
+  <EntityType Name="Rating">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="VendorServiceId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="Double" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_Rating_User" FromRole="Rating" ToRole="User" />
+    <NavigationProperty Name="VendorService" Relationship="EvantoModel.FK_Rating_VendorService" FromRole="Rating" ToRole="VendorService" />
+  </EntityType>
+  <EntityType Name="RealtimeConnection">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ConnectionId" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_RealtimeConnection_RealtimeConnection" FromRole="RealtimeConnection" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Resource">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Origin" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ResourceKey" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ResourceText" Relationship="EvantoModel.FK_ResourceText_Resource" FromRole="Resource" ToRole="ResourceText" />
+  </EntityType>
+  <EntityType Name="ResourceText">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceId" Type="Int32" Nullable="false" />
+    <Property Name="LanguageId" Type="Int32" Nullable="false" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Language" Relationship="EvantoModel.FK_ResourceText_Language" FromRole="ResourceText" ToRole="Language" />
+    <NavigationProperty Name="Resource" Relationship="EvantoModel.FK_ResourceText_Resource" FromRole="ResourceText" ToRole="Resource" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_User_Role" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="EventService" Relationship="EvantoModel.FK_EventService_Service" FromRole="Service" ToRole="EventService" />
+    <NavigationProperty Name="ServicePeriodPrice" Relationship="EvantoModel.FK_ServicePeriodPrice_Service" FromRole="Service" ToRole="ServicePeriodPrice" />
+    <NavigationProperty Name="UserService" Relationship="EvantoModel.FK_UserService_Service" FromRole="Service" ToRole="UserService" />
+  </EntityType>
+  <EntityType Name="ServicePeriodPrice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceId" Type="Int32" Nullable="false" />
+    <Property Name="PeriodId" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Period" Relationship="EvantoModel.FK_ServicePeriodPrice_Period" FromRole="ServicePeriodPrice" ToRole="Period" />
+    <NavigationProperty Name="Service" Relationship="EvantoModel.FK_ServicePeriodPrice_Service" FromRole="ServicePeriodPrice" ToRole="Service" />
+    <NavigationProperty Name="VendorService" Relationship="EvantoModel.FK_VendorService_ServicePeriodPrice" FromRole="ServicePeriodPrice" ToRole="VendorService" />
+  </EntityType>
+  <EntityType Name="SmsStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SmsQueue" Relationship="EvantoModel.FK_SmsQueue_SmsStatus" FromRole="SmsStatus" ToRole="SmsQueue" />
+  </EntityType>
+  <EntityType Name="SmsType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SmsQueue" Relationship="EvantoModel.FK_SmsQueue_SmsType" FromRole="SmsType" ToRole="SmsQueue" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="MaritalStatus" Type="Int32" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Salt" Type="Binary" Nullable="false" MaxLength="64" FixedLength="true" />
+    <Property Name="Password" Type="Binary" Nullable="false" MaxLength="64" FixedLength="true" />
+    <Property Name="LoginCount" Type="Int32" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FailedLoginCount" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="GenderId" Type="Int32" Nullable="false" />
+    <Property Name="EmailVerified" Type="Boolean" />
+    <Property Name="PhoneVerified" Type="Boolean" />
+    <NavigationProperty Name="Booking" Relationship="EvantoModel.FK_Booking_User" FromRole="User" ToRole="Booking" />
+    <NavigationProperty Name="Gender" Relationship="EvantoModel.FK_UserGenderId_Gender" FromRole="User" ToRole="Gender" />
+    <NavigationProperty Name="Notification" Relationship="EvantoModel.FK_Notification_User_Receiver" FromRole="User" ToRole="Notification" />
+    <NavigationProperty Name="Notification1" Relationship="EvantoModel.FK_Notification_User_Sender" FromRole="User" ToRole="Notification" />
+    <NavigationProperty Name="Rating" Relationship="EvantoModel.FK_Rating_User" FromRole="User" ToRole="Rating" />
+    <NavigationProperty Name="RealtimeConnection" Relationship="EvantoModel.FK_RealtimeConnection_RealtimeConnection" FromRole="User" ToRole="RealtimeConnection" />
+    <NavigationProperty Name="Role" Relationship="EvantoModel.FK_User_Role" FromRole="User" ToRole="Role" />
+    <NavigationProperty Name="UserStatus" Relationship="EvantoModel.FK_User_UserStatus" FromRole="User" ToRole="UserStatus" />
+    <NavigationProperty Name="UserType" Relationship="EvantoModel.FK_User_UserType" FromRole="User" ToRole="UserType" />
+    <NavigationProperty Name="UserActivation" Relationship="EvantoModel.FK_UserActivation_User" FromRole="User" ToRole="UserActivation" />
+    <NavigationProperty Name="UserClaim" Relationship="EvantoModel.FK_UserClaim_User" FromRole="User" ToRole="UserClaim" />
+    <NavigationProperty Name="UserEvent" Relationship="EvantoModel.FK_UserEvent_User" FromRole="User" ToRole="UserEvent" />
+    <NavigationProperty Name="UserService" Relationship="EvantoModel.FK_UserService_User" FromRole="User" ToRole="UserService" />
+    <NavigationProperty Name="UserSetting" Relationship="EvantoModel.FK_UserSetting_User" FromRole="User" ToRole="UserSetting" />
+    <NavigationProperty Name="UserVerification" Relationship="EvantoModel.FK_UserVerification_User" FromRole="User" ToRole="UserVerification" />
+    <NavigationProperty Name="Vendor" Relationship="EvantoModel.FK_Vendor_User" FromRole="User" ToRole="Vendor" />
+  </EntityType>
+  <EntityType Name="UserActivation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ExpireDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserActivation_User" FromRole="UserActivation" ToRole="User" />
+  </EntityType>
+  <EntityType Name="UserClaim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ClaimId" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Claim" Relationship="EvantoModel.FK_UserClaim_Claim" FromRole="UserClaim" ToRole="Claim" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserClaim_User" FromRole="UserClaim" ToRole="User" />
+  </EntityType>
+  <EntityType Name="UserEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="EventId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Budget" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="EventDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="EventType" Relationship="EvantoModel.FK_UserEvent_Event" FromRole="UserEvent" ToRole="EventType" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserEvent_User" FromRole="UserEvent" ToRole="User" />
+    <NavigationProperty Name="UserService" Relationship="EvantoModel.FK_UserService_UserEvent" FromRole="UserEvent" ToRole="UserService" />
+  </EntityType>
+  <EntityType Name="UserService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="ServiceId" Type="Int32" Nullable="false" />
+    <Property Name="UserEventId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Budget" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Booking" Relationship="EvantoModel.FK_Booking_UserService" FromRole="UserService" ToRole="Booking" />
+    <NavigationProperty Name="Service" Relationship="EvantoModel.FK_UserService_Service" FromRole="UserService" ToRole="Service" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserService_User" FromRole="UserService" ToRole="User" />
+    <NavigationProperty Name="UserEvent" Relationship="EvantoModel.FK_UserService_UserEvent" FromRole="UserService" ToRole="UserEvent" />
+  </EntityType>
+  <EntityType Name="UserSetting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="LangId" Type="Int32" Nullable="false" />
+    <Property Name="Theme" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Language" Relationship="EvantoModel.FK_UserSetting_Language" FromRole="UserSetting" ToRole="Language" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserSetting_User" FromRole="UserSetting" ToRole="User" />
+  </EntityType>
+  <EntityType Name="UserStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_User_UserStatus" FromRole="UserStatus" ToRole="User" />
+  </EntityType>
+  <EntityType Name="UserType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_User_UserType" FromRole="UserType" ToRole="User" />
+  </EntityType>
+  <EntityType Name="UserVerification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="VerificationTypeId" Type="Int32" Nullable="false" />
+    <Property Name="VerificationCode" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ExpireDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsVerified" Type="Boolean" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_UserVerification_User" FromRole="UserVerification" ToRole="User" />
+    <NavigationProperty Name="UserVerificationType" Relationship="EvantoModel.FK_UserVerification_UserVerificationType" FromRole="UserVerification" ToRole="UserVerificationType" />
+  </EntityType>
+  <EntityType Name="UserVerificationType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="UserVerification" Relationship="EvantoModel.FK_UserVerification_UserVerificationType" FromRole="UserVerificationType" ToRole="UserVerification" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Booking" Relationship="EvantoModel.FK_Booking_Vendor" FromRole="Vendor" ToRole="Booking" />
+    <NavigationProperty Name="Payment" Relationship="EvantoModel.FK_Payment_Vendor" FromRole="Vendor" ToRole="Payment" />
+    <NavigationProperty Name="User" Relationship="EvantoModel.FK_Vendor_User" FromRole="Vendor" ToRole="User" />
+    <NavigationProperty Name="VendorServicePacket" Relationship="EvantoModel.FK_VendorServicePacket_Vendor" FromRole="Vendor" ToRole="VendorServicePacket" />
+  </EntityType>
+  <EntityType Name="VendorService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="PriceMin" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PriceMax" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DailyQuantity" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ServicePeriodPriceId" Type="Int32" Nullable="false" />
+    <Property Name="DiscountCouponId" Type="Int32" />
+    <Property Name="VendorServicePacketId" Type="Int32" Nullable="false" />
+    <Property Name="ActivationDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="Rating" Type="Double" />
+    <Property Name="AddressText" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="ContactInfo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CoordinateX" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CoordinateY" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Booking" Relationship="EvantoModel.FK_Booking_VendorService" FromRole="VendorService" ToRole="Booking" />
+    <NavigationProperty Name="DiscountCoupon" Relationship="EvantoModel.FK_VendorService_DiscountCoupon" FromRole="VendorService" ToRole="DiscountCoupon" />
+    <NavigationProperty Name="Rating1" Relationship="EvantoModel.FK_Rating_VendorService" FromRole="VendorService" ToRole="Rating" />
+    <NavigationProperty Name="ServicePeriodPrice" Relationship="EvantoModel.FK_VendorService_ServicePeriodPrice" FromRole="VendorService" ToRole="ServicePeriodPrice" />
+    <NavigationProperty Name="VendorServicePacket" Relationship="EvantoModel.FK_VendorService_VendorServicePacket" FromRole="VendorService" ToRole="VendorServicePacket" />
+    <NavigationProperty Name="VendorServiceExceptionalEvent" Relationship="EvantoModel.FK_VendorServiceExceptionalEvent_VendorService" FromRole="VendorService" ToRole="VendorServiceExceptionalEvent" />
+  </EntityType>
+  <EntityType Name="VendorServiceExceptionalEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorServiceId" Type="Int32" Nullable="false" />
+    <Property Name="EventId" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="EventType" Relationship="EvantoModel.FK_VendorServiceExceptionalEvent_Event" FromRole="VendorServiceExceptionalEvent" ToRole="EventType" />
+    <NavigationProperty Name="VendorService" Relationship="EvantoModel.FK_VendorServiceExceptionalEvent_VendorService" FromRole="VendorServiceExceptionalEvent" ToRole="VendorService" />
+  </EntityType>
+  <EntityType Name="VendorServicePacket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="DiscountCouponId" Type="Int32" />
+    <Property Name="PaymentId" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ActivationDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DiscountCoupon" Relationship="EvantoModel.FK_VendorServicePacket_DiscountCoupon" FromRole="VendorServicePacket" ToRole="DiscountCoupon" />
+    <NavigationProperty Name="Payment" Relationship="EvantoModel.FK_VendorServicePacket_Payment" FromRole="VendorServicePacket" ToRole="Payment" />
+    <NavigationProperty Name="Vendor" Relationship="EvantoModel.FK_VendorServicePacket_Vendor" FromRole="VendorServicePacket" ToRole="Vendor" />
+    <NavigationProperty Name="VendorService" Relationship="EvantoModel.FK_VendorService_VendorServicePacket" FromRole="VendorServicePacket" ToRole="VendorService" />
+    <NavigationProperty Name="VendorServicePacketStatus" Relationship="EvantoModel.FK_VendorServicePacket_VendorServicePacketStatus" FromRole="VendorServicePacket" ToRole="VendorServicePacketStatus" />
+  </EntityType>
+  <EntityType Name="VendorServicePacketStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="VendorServicePacket" Relationship="EvantoModel.FK_VendorServicePacket_VendorServicePacketStatus" FromRole="VendorServicePacketStatus" ToRole="VendorServicePacket" />
+  </EntityType>
+  <EntityType Name="VendorStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Booking_BookingStatus">
+    <End Type="EvantoModel.BookingStatus" Role="BookingStatus" Multiplicity="1" />
+    <End Type="EvantoModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookingStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="EvantoModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_UserService">
+    <End Type="EvantoModel.UserService" Role="UserService" Multiplicity="0..1" />
+    <End Type="EvantoModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="UserServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_Vendor">
+    <End Type="EvantoModel.Vendor" Role="Vendor" Multiplicity="0..1" />
+    <End Type="EvantoModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_VendorService">
+    <End Type="EvantoModel.VendorService" Role="VendorService" Multiplicity="1" />
+    <End Type="EvantoModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="VendorServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserClaim_Claim">
+    <End Type="EvantoModel.Claim" Role="Claim" Multiplicity="1" />
+    <End Type="EvantoModel.UserClaim" Role="UserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Claim">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserClaim">
+        <PropertyRef Name="ClaimId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_ContentType">
+    <End Type="EvantoModel.ContentType" Role="ContentType" Multiplicity="1" />
+    <End Type="EvantoModel.File" Role="File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContentType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="ContentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCoupon_CouponType">
+    <End Type="EvantoModel.CouponType" Role="CouponType" Multiplicity="1" />
+    <End Type="EvantoModel.DiscountCoupon" Role="DiscountCoupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CouponType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiscountCoupon">
+        <PropertyRef Name="CouponTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCoupon_DiscountCouponStatus">
+    <End Type="EvantoModel.DiscountCouponStatus" Role="DiscountCouponStatus" Multiplicity="1" />
+    <End Type="EvantoModel.DiscountCoupon" Role="DiscountCoupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCouponStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiscountCoupon">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCoupon_DiscountType">
+    <End Type="EvantoModel.DiscountType" Role="DiscountType" Multiplicity="1" />
+    <End Type="EvantoModel.DiscountCoupon" Role="DiscountCoupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiscountCoupon">
+        <PropertyRef Name="DiscountTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorService_DiscountCoupon">
+    <End Type="EvantoModel.DiscountCoupon" Role="DiscountCoupon" Multiplicity="0..1" />
+    <End Type="EvantoModel.VendorService" Role="VendorService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCoupon">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorService">
+        <PropertyRef Name="DiscountCouponId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_DiscountCoupon">
+    <End Type="EvantoModel.DiscountCoupon" Role="DiscountCoupon" Multiplicity="0..1" />
+    <End Type="EvantoModel.VendorServicePacket" Role="VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCoupon">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="DiscountCouponId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventService_Event">
+    <End Type="EvantoModel.EventType" Role="EventType" Multiplicity="1" />
+    <End Type="EvantoModel.EventService" Role="EventService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventService">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventService_Service">
+    <End Type="EvantoModel.Service" Role="Service" Multiplicity="1" />
+    <End Type="EvantoModel.EventService" Role="EventService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventService">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserEvent_Event">
+    <End Type="EvantoModel.EventType" Role="EventType" Multiplicity="1" />
+    <End Type="EvantoModel.UserEvent" Role="UserEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserEvent">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServiceExceptionalEvent_Event">
+    <End Type="EvantoModel.EventType" Role="EventType" Multiplicity="1" />
+    <End Type="EvantoModel.VendorServiceExceptionalEvent" Role="VendorServiceExceptionalEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServiceExceptionalEvent">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Feedback_FeedbackStatus">
+    <End Type="EvantoModel.FeedbackStatus" Role="FeedbackStatus" Multiplicity="1" />
+    <End Type="EvantoModel.Feedback" Role="Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FeedbackStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Feedback_FeedbackType">
+    <End Type="EvantoModel.FeedbackType" Role="FeedbackType" Multiplicity="1" />
+    <End Type="EvantoModel.Feedback" Role="Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FeedbackType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_FileType">
+    <End Type="EvantoModel.FileType" Role="FileType" Multiplicity="1" />
+    <End Type="EvantoModel.File" Role="File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FileType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserGenderId_Gender">
+    <End Type="EvantoModel.Gender" Role="Gender" Multiplicity="1" />
+    <End Type="EvantoModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="GenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceText_Language">
+    <End Type="EvantoModel.Language" Role="Language" Multiplicity="1" />
+    <End Type="EvantoModel.ResourceText" Role="ResourceText" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResourceText">
+        <PropertyRef Name="LanguageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserSetting_Language">
+    <End Type="EvantoModel.Language" Role="Language" Multiplicity="1" />
+    <End Type="EvantoModel.UserSetting" Role="UserSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserSetting">
+        <PropertyRef Name="LangId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notification_User_Receiver">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.Notification" Role="Notification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notification">
+        <PropertyRef Name="ReceiverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notification_User_Sender">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.Notification" Role="Notification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notification">
+        <PropertyRef Name="SenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_PaymentStatus">
+    <End Type="EvantoModel.PaymentStatus" Role="PaymentStatus" Multiplicity="1" />
+    <End Type="EvantoModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_PaymentType">
+    <End Type="EvantoModel.PaymentType" Role="PaymentType" Multiplicity="1" />
+    <End Type="EvantoModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="PaymentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Vendor">
+    <End Type="EvantoModel.Vendor" Role="Vendor" Multiplicity="1" />
+    <End Type="EvantoModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_Payment">
+    <End Type="EvantoModel.Payment" Role="Payment" Multiplicity="1" />
+    <End Type="EvantoModel.VendorServicePacket" Role="VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="PaymentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicePeriodPrice_Period">
+    <End Type="EvantoModel.Period" Role="Period" Multiplicity="1" />
+    <End Type="EvantoModel.ServicePeriodPrice" Role="ServicePeriodPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Period">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServicePeriodPrice">
+        <PropertyRef Name="PeriodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rating_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.Rating" Role="Rating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rating">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rating_VendorService">
+    <End Type="EvantoModel.VendorService" Role="VendorService" Multiplicity="1" />
+    <End Type="EvantoModel.Rating" Role="Rating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rating">
+        <PropertyRef Name="VendorServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RealtimeConnection_RealtimeConnection">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.RealtimeConnection" Role="RealtimeConnection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RealtimeConnection">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceText_Resource">
+    <End Type="EvantoModel.Resource" Role="Resource" Multiplicity="1" />
+    <End Type="EvantoModel.ResourceText" Role="ResourceText" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Resource">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResourceText">
+        <PropertyRef Name="ResourceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Type="EvantoModel.Role" Role="Role" Multiplicity="1" />
+    <End Type="EvantoModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicePeriodPrice_Service">
+    <End Type="EvantoModel.Service" Role="Service" Multiplicity="1" />
+    <End Type="EvantoModel.ServicePeriodPrice" Role="ServicePeriodPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServicePeriodPrice">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserService_Service">
+    <End Type="EvantoModel.Service" Role="Service" Multiplicity="1" />
+    <End Type="EvantoModel.UserService" Role="UserService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserService">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorService_ServicePeriodPrice">
+    <End Type="EvantoModel.ServicePeriodPrice" Role="ServicePeriodPrice" Multiplicity="1" />
+    <End Type="EvantoModel.VendorService" Role="VendorService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServicePeriodPrice">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorService">
+        <PropertyRef Name="ServicePeriodPriceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_UserStatus">
+    <End Type="EvantoModel.UserStatus" Role="UserStatus" Multiplicity="1" />
+    <End Type="EvantoModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_UserType">
+    <End Type="EvantoModel.UserType" Role="UserType" Multiplicity="1" />
+    <End Type="EvantoModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserActivation_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.UserActivation" Role="UserActivation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserActivation">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserClaim_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.UserClaim" Role="UserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserClaim">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserEvent_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.UserEvent" Role="UserEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserEvent">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserService_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.UserService" Role="UserService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserService">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserSetting_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.UserSetting" Role="UserSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserSetting">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserVerification_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.UserVerification" Role="UserVerification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserVerification">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vendor_User">
+    <End Type="EvantoModel.User" Role="User" Multiplicity="1" />
+    <End Type="EvantoModel.Vendor" Role="Vendor" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserService_UserEvent">
+    <End Type="EvantoModel.UserEvent" Role="UserEvent" Multiplicity="1" />
+    <End Type="EvantoModel.UserService" Role="UserService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserService">
+        <PropertyRef Name="UserEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserVerification_UserVerificationType">
+    <End Type="EvantoModel.UserVerificationType" Role="UserVerificationType" Multiplicity="1" />
+    <End Type="EvantoModel.UserVerification" Role="UserVerification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserVerificationType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserVerification">
+        <PropertyRef Name="VerificationTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_Vendor">
+    <End Type="EvantoModel.Vendor" Role="Vendor" Multiplicity="1" />
+    <End Type="EvantoModel.VendorServicePacket" Role="VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorService_VendorServicePacket">
+    <End Type="EvantoModel.VendorServicePacket" Role="VendorServicePacket" Multiplicity="1" />
+    <End Type="EvantoModel.VendorService" Role="VendorService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorServicePacket">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorService">
+        <PropertyRef Name="VendorServicePacketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServiceExceptionalEvent_VendorService">
+    <End Type="EvantoModel.VendorService" Role="VendorService" Multiplicity="1" />
+    <End Type="EvantoModel.VendorServiceExceptionalEvent" Role="VendorServiceExceptionalEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServiceExceptionalEvent">
+        <PropertyRef Name="VendorServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_VendorServicePacketStatus">
+    <End Type="EvantoModel.VendorServicePacketStatus" Role="VendorServicePacketStatus" Multiplicity="1" />
+    <End Type="EvantoModel.VendorServicePacket" Role="VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorServicePacketStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="SmsQueue">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Recipient" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SentDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SmsStatus" Relationship="EvantoModel.FK_SmsQueue_SmsStatus" FromRole="SmsQueue" ToRole="SmsStatus" />
+    <NavigationProperty Name="SmsType" Relationship="EvantoModel.FK_SmsQueue_SmsType" FromRole="SmsQueue" ToRole="SmsType" />
+  </EntityType>
+  <Association Name="FK_SmsQueue_SmsStatus">
+    <End Type="EvantoModel.SmsStatus" Role="SmsStatus" Multiplicity="1" />
+    <End Type="EvantoModel.SmsQueue" Role="SmsQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SmsStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SmsQueue">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SmsQueue_SmsType">
+    <End Type="EvantoModel.SmsType" Role="SmsType" Multiplicity="1" />
+    <End Type="EvantoModel.SmsQueue" Role="SmsQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SmsType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SmsQueue">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

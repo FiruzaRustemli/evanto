@@ -1,0 +1,32 @@
+﻿.md-item-text {
+    width: 130px;
+    align-content: center;
+    text-align: center;
+}
+
+.serviceCards {
+    width: 250px;
+}
+
+.servicesList, .goToAllServicesArrow {
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.selectedServicesPrgrsBar {
+        margin: 0 auto;
+}
+
+.dvSelectedVendorServices md-card{
+   width: 340px;
+}
+.dvSelectedTopServices md-card{
+  width: 300px;
+}
+
+.availableServiceChip 
+{
+    background: #039be5 !important;
+    color: whitesmoke !important;
+}

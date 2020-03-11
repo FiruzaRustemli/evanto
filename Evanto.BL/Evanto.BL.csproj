@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A182096-B11D-4CFB-B597-21220D2A4F0E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Evanto.BL</RootNamespace>
+    <AssemblyName>Evanto.BL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LinqKit, Version=1.1.9.0, Culture=neutral, PublicKeyToken=bc217f8844052a91, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqKit.1.1.9.0\lib\net45\LinqKit.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqKit.EntityFramework, Version=1.1.9.0, Culture=neutral, PublicKeyToken=b6c8cfc71f7a6a80, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqKit.EntityFramework.1.1.9.0\lib\net45\LinqKit.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Core.1.1.2\lib\net451\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTOs\Admin\AdminVendorDto.cs" />
+    <Compile Include="DTOs\Admin\BookingAdminDto.cs" />
+    <Compile Include="DTOs\Admin\PaymentAdminDto.cs" />
+    <Compile Include="DTOs\Admin\PaymentStatusAdminDto.cs" />
+    <Compile Include="DTOs\Admin\PaymentTypeAdminDto.cs" />
+    <Compile Include="DTOs\Admin\SmsQueueAdminDto.cs" />
+    <Compile Include="DTOs\Admin\SmsStatusAdminDto.cs" />
+    <Compile Include="DTOs\Admin\SmsTypeAdminDto.cs" />
+    <Compile Include="DTOs\Admin\RatingDto.cs" />
+    <Compile Include="DTOs\Admin\RoleAdminDto.cs" />
+    <Compile Include="DTOs\Admin\UserVerificationTypeAdminDto.cs" />
+    <Compile Include="DTOs\Admin\UserVerificationAdminDto.cs" />
+    <Compile Include="DTOs\Admin\UserActivationDto.cs" />
+    <Compile Include="DTOs\Admin\UserAdminDto.cs" />
+    <Compile Include="DTOs\Admin\UserStatusAdminDto.cs" />
+    <Compile Include="DTOs\Admin\UserTypeAdminDto.cs" />
+    <Compile Include="DTOs\Admin\VendorDto.cs" />
+    <Compile Include="DTOs\Admin\VendorServiceByAdminDto.cs" />
+    <Compile Include="DTOs\Admin\VendorServicePacketByAdminDto.cs" />
+    <Compile Include="DTOs\Admin\VendorServicePacketStatusByAdminDto.cs" />
+    <Compile Include="DTOs\Core\BookingDto.cs" />
+    <Compile Include="DTOs\Core\BookingStatusDto.cs" />
+    <Compile Include="DTOs\Core\ChangeBookingStatusSignalROutput.cs" />
+    <Compile Include="DTOs\Core\ClaimDto.cs" />
+    <Compile Include="DTOs\Core\ClientDto.cs" />
+    <Compile Include="DTOs\Core\ContentTypeDto.cs" />
+    <Compile Include="DTOs\Core\CouponTypeDto.cs" />
+    <Compile Include="DTOs\Core\DiscountCouponDto.cs" />
+    <Compile Include="DTOs\Core\DiscountCouponStatusDto.cs" />
+    <Compile Include="DTOs\Core\DiscountTypeDto.cs" />
+    <Compile Include="DTOs\Core\ErrorDto.cs" />
+    <Compile Include="DTOs\Core\EventServiceDto.cs" />
+    <Compile Include="DTOs\Core\EventTypeDto.cs" />
+    <Compile Include="DTOs\Core\FeedbackDto.cs" />
+    <Compile Include="DTOs\Core\FeedbackStatusDto.cs" />
+    <Compile Include="DTOs\Core\FeedbackTypeDto.cs" />
+    <Compile Include="DTOs\Core\FileDto.cs" />
+    <Compile Include="DTOs\Core\FileTypeDto.cs" />
+    <Compile Include="DTOs\Core\GenderDto.cs" />
+    <Compile Include="DTOs\Core\BookingNotificationDto.cs" />
+    <Compile Include="DTOs\Core\PaymentDto.cs" />
+    <Compile Include="DTOs\Core\PaymentStatusDto.cs" />
+    <Compile Include="DTOs\Core\PaymentTypeDto.cs" />
+    <Compile Include="DTOs\Core\PeriodDto.cs" />
+    <Compile Include="DTOs\Core\RoleDto.cs" />
+    <Compile Include="DTOs\Core\ServiceDto.cs" />
+    <Compile Include="DTOs\Core\ServicePeriodPriceDto.cs" />
+    <Compile Include="DTOs\Core\UserActivationDto.cs" />
+    <Compile Include="DTOs\Core\UserClaimDto.cs" />
+    <Compile Include="DTOs\Core\UserDto.cs" />
+    <Compile Include="DTOs\Core\UserEventDto.cs" />
+    <Compile Include="DTOs\Core\UserServiceDto.cs" />
+    <Compile Include="DTOs\Core\UserStatusDto.cs" />
+    <Compile Include="DTOs\Core\UserTypeDto.cs" />
+    <Compile Include="DTOs\Core\UserValidationDto.cs" />
+    <Compile Include="DTOs\Core\VendorBasicInformationDto.cs" />
+    <Compile Include="DTOs\Core\VendorDto.cs" />
+    <Compile Include="DTOs\Core\VendorServiceDto.cs" />
+    <Compile Include="DTOs\Core\VendorServiceExceptionalEventDto.cs" />
+    <Compile Include="DTOs\Core\VendorServicePacketDto.cs" />
+    <Compile Include="DTOs\Core\VendorServicePacketStatusDto.cs" />
+    <Compile Include="DTOs\Core\VendorStatusDto.cs" />
+    <Compile Include="DTOs\IDtoBase.cs" />
+    <Compile Include="DTOs\Public\EventTypePublicDto.cs" />
+    <Compile Include="DTOs\Public\ServicePublicDto.cs" />
+    <Compile Include="DTOs\Public\UserPublicDto.cs" />
+    <Compile Include="DTOs\Public\VendorPublicDto.cs" />
+    <Compile Include="DTOs\Public\VendorServiceImageDto.cs" />
+    <Compile Include="DTOs\Public\VendorServicePublicDto.cs" />
+    <Compile Include="DTOs\User\BookingNotificationAdditionalDataUserDto.cs" />
+    <Compile Include="DTOs\User\BookingUserDto.cs" />
+    <Compile Include="DTOs\User\BookingVendorServiceUserDto.cs" />
+    <Compile Include="DTOs\User\EventServiceUserDto.cs" />
+    <Compile Include="DTOs\User\EventTypeUserDto.cs" />
+    <Compile Include="DTOs\User\FilterUserDto.cs" />
+    <Compile Include="DTOs\User\GenderUserDto.cs" />
+    <Compile Include="DTOs\User\PagedUserDto.cs" />
+    <Compile Include="DTOs\User\RatingUserDto.cs" />
+    <Compile Include="DTOs\User\ServicePeriodPriceUserDto.cs" />
+    <Compile Include="DTOs\User\ServiceUserDto.cs" />
+    <Compile Include="DTOs\User\SettingsUserDto.cs" />
+    <Compile Include="DTOs\User\UsedVendorUserDto.cs" />
+    <Compile Include="DTOs\User\UserEventUserDto.cs" />
+    <Compile Include="DTOs\User\UserServiceForBookingUserDto.cs" />
+    <Compile Include="DTOs\User\UserServiceUserDto.cs" />
+    <Compile Include="DTOs\User\UserUserDto.cs" />
+    <Compile Include="DTOs\User\VendorServicePacketUserDto.cs" />
+    <Compile Include="DTOs\User\VendorServiceRatingUserDto.cs" />
+    <Compile Include="DTOs\User\VendorServiceUserDto.cs" />
+    <Compile Include="DTOs\User\VendorUserDto.cs" />
+    <Compile Include="DTOs\User\VendorUserUserDto.cs" />
+    <Compile Include="DTOs\Vendor\BookingNotificationAdditionalDataVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\BookingStatusVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\BookingVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\ContactInformationVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\ContentTypeVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\FileTypeVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\FileVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\NotificationsVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\PaymentStatusVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\PaymentTypeVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\PaymentVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\PeriodVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\ServicePeriodPricesGroupedVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\ServicePeriodPriceVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\ServiceVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\UserSettingsVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\UserVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\VendorServicePacketStatusVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\VendorServicePacketVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\VendorServiceVendorDto.cs" />
+    <Compile Include="DTOs\Vendor\VendorVendorDto.cs" />
+    <Compile Include="Helpers\ErrorHelper.cs" />
+    <Compile Include="Helpers\JsonHelper.cs" />
+    <Compile Include="Helpers\ValidationResultOutput.cs" />
+    <Compile Include="Mapping.cs" />
+    <Compile Include="Mapping\AutoMapperConfig.cs" />
+    <Compile Include="Mapping\Profiles\Admin\SmsQueueProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\FileProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\DiscountCoupunProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\RatingProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\RoleProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\ServicePeriod.cs" />
+    <Compile Include="Mapping\Profiles\Admin\UserProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\UserStatusProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\UserTypeProfile.cs" />
+    <Compile Include="Mapping\Profiles\Admin\VendorServicePacket.cs" />
+    <Compile Include="Mapping\Profiles\Core\BookingProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\ClientProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\CouponProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\ErrorProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\EventProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\FeedbackProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\FileProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\NotificationProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\PaymentProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\ServiceProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\UserProfile.cs" />
+    <Compile Include="Mapping\Profiles\Core\VendorProfile.cs" />
+    <Compile Include="Mapping\Profiles\Public\EventTypeProfile.cs" />
+    <Compile Include="Mapping\Profiles\Public\ServiceProfile.cs" />
+    <Compile Include="Mapping\Profiles\Public\UserProfile.cs" />
+    <Compile Include="Mapping\Profiles\Public\VendorProfile.cs" />
+    <Compile Include="Mapping\Profiles\Public\VendorServiceProfile.cs" />
+    <Compile Include="Mapping\Profiles\User\UserOperationProfile.cs" />
+    <Compile Include="Mapping\Profiles\Vendor\VendorOperationProfile.cs" />
+    <Compile Include="Operation.cs" />
+    <Compile Include="OperationParameters.cs" />
+    <Compile Include="OperationResult.cs" />
+    <Compile Include="Operations\BookingOperations\ChangeEventDateBookingOperation.cs" />
+    <Compile Include="Operations\BookingOperations\ChangeEventDateBookingParameters.cs" />
+    <Compile Include="Operations\BookingOperations\ChangeStatusBookingByVendorOperation.cs" />
+    <Compile Include="Operations\BookingOperations\ChangeStatusBookingByVendorParameters.cs" />
+    <Compile Include="Operations\BookingOperations\ChangeStatusBookingOperation.cs" />
+    <Compile Include="Operations\BookingOperations\ChangeStatusBookingParameters.cs" />
+    <Compile Include="Operations\BookingOperations\CreateBookingByAdminOperation.cs" />
+    <Compile Include="Operations\BookingOperations\CreateBookingByAdminParameters.cs" />
+    <Compile Include="Operations\BookingOperations\CreateBookingByVendorOperation.cs" />
+    <Compile Include="Operations\BookingOperations\CreateBookingByVendorParameters.cs" />
+    <Compile Include="Operations\BookingOperations\CreateBookingOperation.cs" />
+    <Compile Include="Operations\BookingOperations\CreateBookingParameters.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingByAdminOperation.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingByAdminParameters.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingByUserOperation.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingByUserParameters.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingByVendorOperation.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingByVendorParameters.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingOperation.cs" />
+    <Compile Include="Operations\BookingOperations\GetBookingParameters.cs" />
+    <Compile Include="Operations\BookingOperations\GetLastBookingsByUserOperation.cs" />
+    <Compile Include="Operations\BookingOperations\GetLastBookingsByUserParameters.cs" />
+    <Compile Include="Operations\Client\ClientValidationOperation.cs" />
+    <Compile Include="Operations\Client\ClientValidationParameters.cs" />
+    <Compile Include="Operations\Client\GetClientByClientIdOperation.cs" />
+    <Compile Include="Operations\Client\GetClientByClientIdParameters.cs" />
+    <Compile Include="Operations\Client\GetClientsOperation.cs" />
+    <Compile Include="Operations\Client\GetClientsParameters.cs" />
+    <Compile Include="Operations\CouponTypeOperations\GetCouponTypeOperation.cs" />
+    <Compile Include="Operations\CouponTypeOperations\GetCouponTypeParameters.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\CalculateTotalDiscountByVendorOperation.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\CalculateTotalDiscountByVendorParameters.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\CreateDiscountCouponOperation.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\CreateDiscountCouponParameters.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\GetDiscountCouponOperation.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\GetDiscountCouponParameters.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\UpdateDiscountCouponOperation.cs" />
+    <Compile Include="Operations\DiscountCouponOperations\UpdateDiscountCouponParameters.cs" />
+    <Compile Include="Operations\DiscountCouponStatusOperations\GetDiscountCouponStatusOperation.cs" />
+    <Compile Include="Operations\DiscountCouponStatusOperations\GetDiscountCouponStatusParameters.cs" />
+    <Compile Include="Operations\DiscountTypeOperations\GetDiscountTypeOperation.cs" />
+    <Compile Include="Operations\DiscountTypeOperations\GetDiscountTypeParameters.cs" />
+    <Compile Include="Operations\EmailOperations\SendEmailOperation.cs" />
+    <Compile Include="Operations\EmailOperations\SendEmailParameters.cs" />
+    <Compile Include="Operations\EventServiceOperations\CreateEventServiceOperation.cs" />
+    <Compile Include="Operations\EventServiceOperations\CreateEventServicesParameters.cs" />
+    <Compile Include="Operations\EventServiceOperations\GetEventServiceByUserOperation.cs" />
+    <Compile Include="Operations\EventServiceOperations\GetEventServiceByUserParameters.cs" />
+    <Compile Include="Operations\EventServiceOperations\GetEventServiceOperation.cs" />
+    <Compile Include="Operations\EventServiceOperations\GetEventServiceParameters.cs" />
+    <Compile Include="Operations\EventTypeOperations\CreateEventTypeOperation.cs" />
+    <Compile Include="Operations\EventTypeOperations\CreateEventTypeParameters.cs" />
+    <Compile Include="Operations\EventTypeOperations\GetEventTypeByUserOperation.cs" />
+    <Compile Include="Operations\EventTypeOperations\GetEventTypeOperation.cs" />
+    <Compile Include="Operations\EventTypeOperations\GetEventTypeByUserParameters.cs" />
+    <Compile Include="Operations\EventTypeOperations\GetEventTypeParameters.cs" />
+    <Compile Include="Operations\EventTypeOperations\UpdateEventTypeOperation.cs" />
+    <Compile Include="Operations\EventTypeOperations\UpdateEventTypeParameters.cs" />
+    <Compile Include="Operations\FeedbackOperations\CreateFeedbackOperation.cs" />
+    <Compile Include="Operations\FeedbackOperations\CreateFeedbackParameters.cs" />
+    <Compile Include="Operations\FeedbackOperations\GetFeedbackOperation.cs" />
+    <Compile Include="Operations\FeedbackOperations\GetFeedbackParameters.cs" />
+    <Compile Include="Operations\FeedbackOperations\UpdateFeedbackOperation.cs" />
+    <Compile Include="Operations\FeedbackOperations\UpdateFeedbackParameters.cs" />
+    <Compile Include="Operations\FeedbackStatusOperations\GetFeedbackStatusOperations.cs" />
+    <Compile Include="Operations\FeedbackStatusOperations\GetFeedbackStatusParameters.cs" />
+    <Compile Include="Operations\FeedbackTypeOperations\GetFeedbackTypeOperation.cs" />
+    <Compile Include="Operations\FeedbackTypeOperations\GetFeedbackTypeParameters.cs" />
+    <Compile Include="Operations\FileOperations\CreateAvatarOperation.cs" />
+    <Compile Include="Operations\FileOperations\CreateAvatarParameters.cs" />
+    <Compile Include="Operations\FileOperations\DeleteFileByIdOperation.cs" />
+    <Compile Include="Operations\FileOperations\DeleteFileByIdParameters.cs" />
+    <Compile Include="Operations\FileOperations\GetThumbnailOperation.cs" />
+    <Compile Include="Operations\FileOperations\GetThumbnailParameters.cs" />
+    <Compile Include="Operations\FileOperations\InsertBulkImagesByVendorOperation.cs" />
+    <Compile Include="Operations\FileOperations\InsertBulkImagesByVendorParameters.cs" />
+    <Compile Include="Operations\FileOperations\ResizeImageOperation.cs" />
+    <Compile Include="Operations\FileOperations\ResizeImageParameters.cs" />
+    <Compile Include="Operations\FileOperations\CreateImageOperation.cs" />
+    <Compile Include="Operations\FileOperations\CreateFileOperation.cs" />
+    <Compile Include="Operations\FileOperations\CreateImageParameters.cs" />
+    <Compile Include="Operations\FileOperations\CreateFileParameters.cs" />
+    <Compile Include="Operations\FileOperations\DeleteFileOperation.cs" />
+    <Compile Include="Operations\FileOperations\DeleteFileParameters.cs" />
+    <Compile Include="Operations\FileOperations\GetFileOperation.cs" />
+    <Compile Include="Operations\FileOperations\GetFileParameters.cs" />
+    <Compile Include="Operations\FileOperations\UpdateFileOperation.cs" />
+    <Compile Include="Operations\FileOperations\UpdateFileParameters.cs" />
+    <Compile Include="Operations\NotificationOperations\CreateBookingNotificationByUserParameters.cs" />
+    <Compile Include="Operations\NotificationOperations\UpdateBookingNotificationOperation.cs" />
+    <Compile Include="Operations\NotificationOperations\UpdateBookingNotificationParameters.cs" />
+    <Compile Include="Operations\NotificationOperations\CreateBookingNotificationByVendorParameters.cs" />
+    <Compile Include="Operations\NotificationOperations\CreateBookingNotificationByUserOperation.cs" />
+    <Compile Include="Operations\NotificationOperations\CreateBookingNotificationByVendorOperation.cs" />
+    <Compile Include="Operations\NotificationOperations\GetBookingNotificationByUserOperation.cs" />
+    <Compile Include="Operations\NotificationOperations\GetBookingNotificationByUserParameters.cs" />
+    <Compile Include="Operations\NotificationOperations\GetBookingNotificationByVendorOperation.cs" />
+    <Compile Include="Operations\NotificationOperations\GetBookingNotificationByVendorParameters.cs" />
+    <Compile Include="Operations\PaymentOperations\CreatePaymentOperation.cs" />
+    <Compile Include="Operations\PaymentOperations\CreatePaymentParameters.cs" />
+    <Compile Include="Operations\PublicOperations\GetAllEventTypesOperation.cs" />
+    <Compile Include="Operations\PublicOperations\GetAllVendorServicesOperation.cs" />
+    <Compile Include="Operations\PublicOperations\GetAllServicesOperation.cs" />
+    <Compile Include="Operations\PublicOperations\GetAllEventTypesParameters.cs" />
+    <Compile Include="Operations\PublicOperations\GetAllVendorServicesParameters.cs" />
+    <Compile Include="Operations\PublicOperations\GetAllServicesParameters.cs" />
+    <Compile Include="Operations\PublicOperations\GetVendorServiceImageOperation.cs" />
+    <Compile Include="Operations\PublicOperations\GetVendorServiceImageParameters.cs" />
+    <Compile Include="Operations\PublicOperations\GetVendorServiceOperation.cs" />
+    <Compile Include="Operations\PublicOperations\GetVendorServiceParameters.cs" />
+    <Compile Include="Operations\RatingOperations\CreateRatingOperation.cs" />
+    <Compile Include="Operations\RatingOperations\CreateRatingParameters.cs" />
+    <Compile Include="Operations\RatingOperations\DeleteRatingOperation.cs" />
+    <Compile Include="Operations\RatingOperations\GetRatingOperationByAdmin.cs" />
+    <Compile Include="Operations\RatingOperations\GetRatingOperation.cs" />
+    <Compile Include="Operations\RatingOperations\DeleteRatingParameters.cs" />
+    <Compile Include="Operations\RatingOperations\GetRatingParametersByAdmin.cs" />
+    <Compile Include="Operations\RatingOperations\GetRatingParameters.cs" />
+    <Compile Include="Operations\RoleOperations\CreateRoleOperation.cs" />
+    <Compile Include="Operations\RoleOperations\CreateRoleParameters.cs" />
+    <Compile Include="Operations\RoleOperations\DeleteRoleOperation.cs" />
+    <Compile Include="Operations\RoleOperations\DeleteRoleParameters.cs" />
+    <Compile Include="Operations\RoleOperations\GetRoleOperation.cs" />
+    <Compile Include="Operations\RoleOperations\GetRoleParameters.cs" />
+    <Compile Include="Operations\RoleOperations\UpdateRoleOperations.cs" />
+    <Compile Include="Operations\RoleOperations\UpdateRoleParameters.cs" />
+    <Compile Include="Operations\ServiceOperations\CreateServiceOperation.cs" />
+    <Compile Include="Operations\ServiceOperations\CreateServiceParameters.cs" />
+    <Compile Include="Operations\ServiceOperations\GetServiceOperation.cs" />
+    <Compile Include="Operations\ServiceOperations\GetServiceOperationByUser.cs" />
+    <Compile Include="Operations\ServiceOperations\GetServiceParameters.cs" />
+    <Compile Include="Operations\ServiceOperations\GetServiceParametersByUser.cs" />
+    <Compile Include="Operations\ServiceOperations\UpdateServiceOperation.cs" />
+    <Compile Include="Operations\ServiceOperations\UpdateServiceParameters.cs" />
+    <Compile Include="Operations\ServicePeriodOperations\CreateServicePeriodOperations.cs" />
+    <Compile Include="Operations\ServicePeriodOperations\CreateServicePeriodParameters.cs" />
+    <Compile Include="Operations\ServicePeriodOperations\GetServicePeriodOperation.cs" />
+    <Compile Include="Operations\ServicePeriodOperations\GetServicePeriodParameters.cs" />
+    <Compile Include="Operations\ServicePeriodOperations\UpdateServicePeriodOperations.cs" />
+    <Compile Include="Operations\ServicePeriodOperations\UpdateServicePeriodParameters.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\CreateServicePeriodPriceOperation.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\CreateServicePeriodPriceParameters.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\GetServicePeriodPriceByAdminOperation.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\GetServicePeriodPriceByAdminParameters.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\GetServicePeriodPriceOperation.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\GetServicePeriodPriceParameters.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\UpdateServicePeriodPriceOperation.cs" />
+    <Compile Include="Operations\ServicePeriodPriceOperations\UpdateServicePeriodPriceParameters.cs" />
+    <Compile Include="Operations\SmsOperations\GetSmsQueueOperation.cs" />
+    <Compile Include="Operations\SmsOperations\GetSmsQueueParameters.cs" />
+    <Compile Include="Operations\SmsOperations\SendSmsOperation.cs" />
+    <Compile Include="Operations\SmsOperations\SendSmsParameters.cs" />
+    <Compile Include="Operations\UserActivationOperations\CreateUserActivationOperation.cs" />
+    <Compile Include="Operations\UserActivationOperations\CreateUserActivationParameters.cs" />
+    <Compile Include="Operations\UserActivationOperations\UpdateUserActivationOperation.cs" />
+    <Compile Include="Operations\UserActivationOperations\UpdateUserActivationParameters.cs" />
+    <Compile Include="Operations\UserEventOperations\CreateUserEventByUserOperation.cs" />
+    <Compile Include="Operations\UserEventOperations\CreateUserEventByUserParameters.cs" />
+    <Compile Include="Operations\UserEventOperations\CreateUserEventOperation.cs" />
+    <Compile Include="Operations\UserEventOperations\CreateUserEventParameters.cs" />
+    <Compile Include="Operations\UserEventOperations\GetLastUserEventsByUserOperation.cs" />
+    <Compile Include="Operations\UserEventOperations\GetLastUserEventsByUserParameters.cs" />
+    <Compile Include="Operations\UserEventOperations\GetUserEventByUserOperation.cs" />
+    <Compile Include="Operations\UserEventOperations\GetUserEventByUserParameters.cs" />
+    <Compile Include="Operations\UserEventOperations\UpdateUserEventOperation.cs" />
+    <Compile Include="Operations\UserEventOperations\UpdateUserEventParameters.cs" />
+    <Compile Include="Operations\UserOperations\ChangeEmailUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\ChangeEmailUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\ChangePasswordUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\ChangePasswordUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\ChangeStatusUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\ChangeStatusUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\CreateAvatarOperation.cs" />
+    <Compile Include="Operations\UserOperations\CreateAvatarParameters.cs" />
+    <Compile Include="Operations\UserOperations\CreateRealtimeConnectionOperation.cs" />
+    <Compile Include="Operations\UserOperations\CreateRealtimeConnectionParameters.cs" />
+    <Compile Include="Operations\UserOperations\CreateUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\CreateUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\DeleteRealtimeConnectionOperation.cs" />
+    <Compile Include="Operations\UserOperations\DeleteRealtimeConnectionParameters.cs" />
+    <Compile Include="Operations\UserOperations\ForgotPasswordOperation.cs" />
+    <Compile Include="Operations\UserOperations\ForgotPasswordParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetConnectionIdsParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetConnectionIdsOperation.cs" />
+    <Compile Include="Operations\UserOperations\ResetPasswordByUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\ResetPasswordByUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\SendVerificationCodeByUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\UpdateUserSettingsOperation.cs" />
+    <Compile Include="Operations\UserOperations\CreateUserSettingsOperation.cs" />
+    <Compile Include="Operations\UserOperations\UpdateUserSettingsParameters.cs" />
+    <Compile Include="Operations\UserOperations\CreateUserSettingsParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetEventAndBookingsCountByUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\GetEventAndBookingsCountByUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetUserByAdminOperation.cs" />
+    <Compile Include="Operations\UserOperations\GetUserByAdminParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetUserByUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\GetUserByUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetUserInfoByBkngIdByVendorOperation.cs" />
+    <Compile Include="Operations\UserOperations\GetUserInfoByBkngIdByVendorParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetUserOperations.cs" />
+    <Compile Include="Operations\UserOperations\GetUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\GetUsersOperationsByAdmin.cs" />
+    <Compile Include="Operations\UserOperations\GetUsersParametersByAdmin.cs" />
+    <Compile Include="Operations\UserOperations\ResetPasswordbyAdminParameters.cs" />
+    <Compile Include="Operations\UserOperations\ResetPasswordbyAdminUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\UpdateAdditionalInfoByUserUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\UpdateAdditionalInfoByUserUserParamaters.cs" />
+    <Compile Include="Operations\UserOperations\UpdateByAdminUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\UpdateByAdminUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\UpdateGeneralInfoByUserUserOperation.cs" />
+    <Compile Include="Operations\UserOperations\UpdateGeneralInfoByUserUserParameters.cs" />
+    <Compile Include="Operations\UserOperations\UserValidationOperation.cs" />
+    <Compile Include="Operations\UserOperations\UserValidationParameters.cs" />
+    <Compile Include="Operations\UserOperations\VerifyPhoneOperation.cs" />
+    <Compile Include="Operations\UserOperations\VerifyEmailOperation.cs" />
+    <Compile Include="Operations\UserOperations\VerifyPhoneParamameters.cs" />
+    <Compile Include="Operations\UserOperations\VerifyUserAccountOperation.cs" />
+    <Compile Include="Operations\UserOperations\VerifyEmailParamameters.cs" />
+    <Compile Include="Operations\UserOperations\VerifyUserAccountParamameters.cs" />
+    <Compile Include="Operations\UserOperations\SendVerificationCodeByUserOperation.cs" />
+    <Compile Include="Operations\UserServiceOperations\CreateUserServiceByUserParameters.cs" />
+    <Compile Include="Operations\UserServiceOperations\CreateUserServiceOperationByUser.cs" />
+    <Compile Include="Operations\UserServiceOperations\GetUserServiceByUserOperation.cs" />
+    <Compile Include="Operations\UserServiceOperations\GetUserServiceByUserParameters.cs" />
+    <Compile Include="Operations\UserServiceOperations\UpdateUserServiceOperation.cs" />
+    <Compile Include="Operations\UserServiceOperations\UpdateUserServiceParameters.cs" />
+    <Compile Include="Operations\UserStatusOperations\CreateUserStatusOperation.cs" />
+    <Compile Include="Operations\UserStatusOperations\CreateUserStatusParameters.cs" />
+    <Compile Include="Operations\UserStatusOperations\GetUserStatusOperation.cs" />
+    <Compile Include="Operations\UserStatusOperations\GetUserStatusParameters.cs" />
+    <Compile Include="Operations\UserStatusOperations\UpdateUserStatusOperation.cs" />
+    <Compile Include="Operations\UserStatusOperations\UpdateUserStatusParameters.cs" />
+    <Compile Include="Operations\UserTypeOperations\CreateUserTypeOperation.cs" />
+    <Compile Include="Operations\UserTypeOperations\CreateUserTypeParameters.cs" />
+    <Compile Include="Operations\UserTypeOperations\GetUserTypeOperation.cs" />
+    <Compile Include="Operations\UserTypeOperations\GetUserTypeParameters.cs" />
+    <Compile Include="Operations\UserTypeOperations\UpdateUserTypeOperation.cs" />
+    <Compile Include="Operations\UserTypeOperations\UpdateUserTypeParameters.cs" />
+    <Compile Include="Operations\UserVerificationOperations\CreateUserVerificationOperation.cs" />
+    <Compile Include="Operations\UserVerificationOperations\CreateUserVerificationParameters.cs" />
+    <Compile Include="Operations\UserVerificationOperations\UpdateUserVerificationOperation.cs" />
+    <Compile Include="Operations\UserVerificationOperations\UpdateUserVerificationParameters.cs" />
+    <Compile Include="Operations\VendorOperations\CheckEmailAndPhoneOperation.cs" />
+    <Compile Include="Operations\VendorOperations\CheckEmailAndPhoneParameters.cs" />
+    <Compile Include="Operations\VendorOperations\CreateVendorOperation.cs" />
+    <Compile Include="Operations\VendorOperations\CreateVendorParameters.cs" />
+    <Compile Include="Operations\VendorOperations\GetUserRatingsByUserOperation.cs" />
+    <Compile Include="Operations\VendorOperations\GetUsedVendorsByUserOperation.cs" />
+    <Compile Include="Operations\VendorOperations\GetUserRatingsByUserParameters.cs" />
+    <Compile Include="Operations\VendorOperations\GetUsedVendorsByUserParameters.cs" />
+    <Compile Include="Operations\VendorOperations\GetVendorByIdByVendorOperation.cs" />
+    <Compile Include="Operations\VendorOperations\GetVendorByIdByVendorParameters.cs" />
+    <Compile Include="Operations\VendorOperations\GetVendorByUserOperation.cs" />
+    <Compile Include="Operations\VendorOperations\GetVendorByUserParameters.cs" />
+    <Compile Include="Operations\VendorOperations\GetVendorOperation.cs" />
+    <Compile Include="Operations\VendorOperations\GetVendorParameters.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorBasicInformationOperation.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorBasicInformationParameters.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorContactInformationsOperation.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorContactInformationsParameters.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorDescriptionOperation.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorDescriptionParameters.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorOperation.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorOperationByAdmin.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorParameters.cs" />
+    <Compile Include="Operations\VendorOperations\UpdateVendorParametersByAdmin.cs" />
+    <Compile Include="Operations\VendorServiceExceptionalEventOperations\CreateVendorServiceExceptionalEventOperation.cs" />
+    <Compile Include="Operations\VendorServiceExceptionalEventOperations\CreateVendorServiceExceptionalEventParemeters.cs" />
+    <Compile Include="Operations\VendorServiceExceptionalEventOperations\GetVendorServiceExceptionalEventOperation.cs" />
+    <Compile Include="Operations\VendorServiceExceptionalEventOperations\GetVendorServiceExceptionalEventParameters.cs" />
+    <Compile Include="Operations\VendorServiceExceptionalEventOperations\UpdateVendorServiceExceptionalEventOperation.cs" />
+    <Compile Include="Operations\VendorServiceExceptionalEventOperations\UpdateVendorServiceExceptionalEventParemeters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\AddVendorServiceOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\AddVendorServiceParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\ChangeStatusVendorServiceByAdminOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\ChangeStatusVendorServiceByAdminParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\ChangeStatusVendorServiceByVendorOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\ChangeStatusVendorServiceByVendorParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetActiveVendorServicesByVendorOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetActiveVendorServicesByVendorParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetTopVendorServicesByUserOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetTopVendorServicesByUserParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByIdByVendorOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByIdByVendorParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByUserOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByUserParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByVendorOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByVendorParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByAdminOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceByAdminParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\GetVendorServiceParameters.cs" />
+    <Compile Include="Operations\VendorServiceOperations\UpdateVendorServiceOperation.cs" />
+    <Compile Include="Operations\VendorServiceOperations\UpdateVendorServiceParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\AddVendorServicePacketOperation.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\AddVendorServicePacketParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\DeactivateStatusVCPByVendorOperation.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\DeactivateStatusVSPByVendorParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\GetVendorServicePacketByAdminOperation.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\GetVendorServicePacketByAdminParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\GetVendorServicePacketByVendorOperation.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\GetVendorServicePacketByVendorParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\GetVendorServicePacketOperation.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\GetVendorServicePacketParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\UpdateVendorServicePacketByAdminOperation.cs" />
+    <Compile Include="Operations\VendorServicePacketOperation\UpdateVendorServicePacketByAdminParameter.cs" />
+    <Compile Include="Operations\VendorServicePacketStatusOperation\GetVendorServicePacketStatusByAdminOperations.cs" />
+    <Compile Include="Operations\VendorServicePacketStatusOperation\GetVendorServicePacketStatusByAdminParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketStatusOperation\GetVendorServicePacketStatusParameters.cs" />
+    <Compile Include="Operations\VendorServicePacketStatusOperation\GetVendorServicePacketStatusStatusOperations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Evanto.DAL\Evanto.DAL.csproj">
+      <Project>{239a310f-50d8-43e0-ad6c-03025f6e8ca0}</Project>
+      <Name>Evanto.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Evanto.Resources\Evanto.Resources.csproj">
+      <Project>{146E523C-B894-487A-A2ED-2CE7B1DA594E}</Project>
+      <Name>Evanto.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Evanto.Security\Evanto.Security.csproj">
+      <Project>{9F0E2E65-82F4-4145-85AF-DADF870FC85D}</Project>
+      <Name>Evanto.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Evanto.Utils\Evanto.Utils.csproj">
+      <Project>{DF300C24-64D1-403A-8ABA-F478F04BE4F6}</Project>
+      <Name>Evanto.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

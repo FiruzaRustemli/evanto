@@ -1,0 +1,54 @@
+<!-- DIALOG -->
+<md-dialog class="select-event-dialog" ng-controller="SelectEventController as vm" aria-label="Select Event">
+
+    <form name="selectEventForm" class="md-inline-form" novalidate>
+
+        <!-- DIALOG TOOLBAR -->
+        <md-toolbar class="md-accent" layout="column">
+
+            <!-- TOOLBAR TOP -->
+            <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+                <span class="title">Select an event</span>
+                <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog" translate>
+                    <md-icon md-font-icon="icon-close"></md-icon>
+                </md-button>
+            </div>
+            <!-- / TOOLBAR TOP -->
+
+        </md-toolbar>
+        <!-- / DIALOG TOOLBAR -->
+
+        <!-- DIALOG CONTENT -->
+        <md-dialog-content ms-scroll>
+
+            <div class="md-dialog-content">
+                <p translate="Event.PleaseSelectAnEvent"></p>
+                <md-autocomplete ng-click="vm.getAllEvents()" md-selected-item="vm.selectedEvent" md-items="event in vm.events" md-item-text="event.name" md-min-length="0"
+                    placeholder="Select one of your events">
+                    <md-item-template>
+                        <div layout="row" layout-align="space-between center">
+                            <div> {{event.name}}</div>
+                            <div> {{event.eventDate | date : 'd MMMM y, HH:mm'}}</div>
+                        </div>
+                    </md-item-template>
+                </md-autocomplete>
+            </div>
+
+        </md-dialog-content>
+        <!-- / DIALOG CONTENT -->
+
+        <!-- DIALOG ACTIONS -->
+        <md-dialog-actions layout="row" layout-align="end center">
+
+            <md-button id="btnAddNewEvent" class="md-raised md-primary md-default-theme" ng-click="vm.addEvent()">
+                <md-icon md-font-icon="icon-calendar-plus"></md-icon>
+                <span translate>&nbsp; {{'Layout.AddEvent'}}</span>
+            </md-button>
+            <md-button class="md-accent md-raised" ng-click="vm.setSelectedEvent()" translate-attr-aria-label="Event.SetEvent" translate="Event.SetEvent"></md-button>
+        </md-dialog-actions>
+        <!-- / DIALOG ACTIONS -->
+
+    </form>
+
+</md-dialog>
+<!-- / DIALOG -->

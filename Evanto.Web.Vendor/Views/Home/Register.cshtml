@@ -1,0 +1,295 @@
+﻿@model Evanto.Web.Vendor.Models.ViewModels.LoginRegisterViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Admin</title>
+    <!-- Vendor CSS -->
+    <link href="/Content/vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/Content/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+
+    <link href="/Content/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="/Content/css/app_1.min.css" rel="stylesheet">
+    <link href="/Content/css/app_2.min.css" rel="stylesheet">
+    <style>
+        ul.parsley-errors-list {
+            list-style: none;
+        }
+
+            ul.parsley-errors-list li {
+                text-align: left;
+                color: #f6675d;
+                margin-left: -40px;
+            }
+    </style>
+</head>
+<body>
+    <div class="login-content">
+        <!-- Login -->
+        <div class="lc-block toggled" id="l-login">
+            <div class="lcb-form">
+                <div class="input-group m-b-20">
+                    <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                    <div class="fg-line">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                </div>
+                <div class="input-group m-b-20">
+                    <span class="input-group-addon"><i class="zmdi zmdi-male"></i></span>
+                    <div class="fg-line">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="">
+                        <i class="input-helper"></i>
+                        Keep me signed in
+                    </label>
+                </div>
+                <a href="/Content/#" class="btn btn-login btn-success btn-float"><i class="zmdi zmdi-arrow-forward"></i></a>
+            </div>
+            <div class="lcb-navigation">
+                <a href="/Content/#" data-ma-action="login-switch" data-ma-block="#l-register"><i class="zmdi zmdi-plus"></i> <span>Register</span></a>
+                <a href="/Content/#" data-ma-action="login-switch" data-ma-block="#l-forget-password"><i>?</i> <span>Forgot Password</span></a>
+            </div>
+        </div>
+        <!-- Register -->
+
+        <div class="lc-block" id="l-register">
+            <div class="lcb-form">
+                <form method="post" action="/Home/Register" data-parsley-validate>
+                    @Html.AntiForgeryToken()
+                    <div id="dvUserName" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.UserInput.FirstName, new
+                           {
+                               @data_parsley_errors_container = "#dvUserName",
+                               @data_parsley_required = true,
+                               //data -`constraintName`-message
+                               @data_parsley_error_message = @Evanto.Resources.Operations.User.Create.CreateUserResource.UserFirstnameRequired,
+                               @class = "form-control",
+                               @placeholder = "UserName"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dvLastName" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.UserInput.LastName, new
+                           {
+                               @data_parsley_errors_container = "#dvLastName",
+                               @data_parsley_required = true,
+                               @data_parsley_error_message = @Evanto.Resources.Operations.User.Create.CreateUserResource.UserLastnameRequired,
+                               @class = "form-control",
+                               @placeholder = "Lastname"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dvEmail" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.UserInput.Username, new
+                           {
+                               @data_parsley_errors_container = "#dvEmail",
+                               @data_parsley_required = true,
+                               @data_parsley_error_message = @Evanto.Resources.Operations.User.Create.CreateUserResource.UserUsernameRequired,
+                               @class = "form-control",
+                               @placeholder = "Email"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dvPhone" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.UserInput.Phone, new
+                           {
+                               @data_parsley_errors_container = "#dvPhone",
+                               @data_parsley_required = true,
+                               @data_parsley_error_message = @Evanto.Resources.Operations.User.Create.CreateUserResource.UserPhoneRequired,
+                               @class = "form-control",
+                               @placeholder = "Phone"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dvAddress" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.Address, new
+                           {
+                               @data_parsley_errors_container = "#dvAddress",
+                               @data_parsley_required = true,
+                               @data_parsley_error_message = @Evanto.Resources.Operations.Vendor.Create.CreateVendorResource.AddressIsRequired,
+                               @class = "form-control",
+                               @placeholder = "Address"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-calendar"></i></span>
+                        <div>
+                            <div class="dtp-container">
+                                @Html.TextBoxFor(m => m.Register.UserInput.BirthdayString, new
+                           {
+                               @type = "text",
+                               @class = "form-control date-picker",
+                               @placeholder = "Birthday"
+                           })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dvPassword" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.UserInput.PasswordString, new
+                           {
+                               @data_parsley_errors_container = "#dvPassword",
+                               @data_parsley_required = true,
+                               @data_parsley_error_message = @Evanto.Resources.Operations.User.Create.CreateUserResource.UserPasswordRequired,
+                               @class = "form-control",
+                               @placeholder = "Password"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dvPasswordRepeat" class="input-group m-b-20">
+                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                        <div>
+                            <div class="fg-line">
+                                @Html.TextBoxFor(m => m.Register.UserInput.PasswordString, new
+                           {
+                               @data_parsley_errors_container = "#dvPasswordRepeat",
+                               @data_parsley_required = true,
+                               @data_parsley_error_message = @Evanto.Resources.Operations.User.Create.CreateUserResource.UserPhoneRequired,
+                               @class = "form-control",
+                               @placeholder = "PasswordRepeat"
+                           })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">
+                            <i class="input-helper"></i>
+                            I have read and understand this agreement
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-login btn-success btn-float"><i class="zmdi zmdi-check"></i></button>
+
+                </form>
+
+            </div>
+            <div class="lcb-navigation">
+                <a href="/Content/#" data-ma-action="login-switch" data-ma-block="#l-login"><i class="zmdi zmdi-long-arrow-right"></i> <span>Sign in</span></a>
+                <a href="/Content/#" data-ma-action="login-switch" data-ma-block="#l-forget-password"><i>?</i> <span>Forgot Password</span></a>
+
+            </div>
+        </div>
+
+        <!-- Forgot Password -->
+        <div class="lc-block" id="l-forget-password">
+            <div class="lcb-form">
+                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu risus. Curabitur commodo lorem fringilla enim feugiat commodo sed ac lacus.</p>
+                <div class="input-group m-b-20">
+                    <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                    <div class="fg-line">
+                        <input type="text" class="form-control" placeholder="Email Address">
+                    </div>
+                </div>
+                <a href="/Content/#" class="btn btn-login btn-success btn-float"><i class="zmdi zmdi-check"></i></a>
+            </div>
+            <div class="lcb-navigation">
+                <a href="/Content/#" data-ma-action="login-switch" data-ma-block="#l-login"><i class="zmdi zmdi-long-arrow-right"></i> <span>Sign in</span></a>
+                <a href="/Content/#" data-ma-action="login-switch" data-ma-block="#l-register"><i class="zmdi zmdi-plus"></i> <span>Register</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Older IE warning message -->
+    <!--[if lt IE 9]>
+        <div class="ie-warning">
+            <h1 class="c-white">Warning!!</h1>
+            <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+            <div class="iew-container">
+                <ul class="iew-download">
+                    <li>
+                        <a href="/Content/http://www.google.com/chrome/">
+                            <img src="/Content/img/browsers/chrome.png" alt="">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Content/https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="/Content/img/browsers/firefox.png" alt="">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Content/http://www.opera.com">
+                            <img src="/Content/img/browsers/opera.png" alt="">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Content/https://www.apple.com/safari/">
+                            <img src="/Content/img/browsers/safari.png" alt="">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Content/http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="/Content/img/browsers/ie.png" alt="">
+                            <div>IE (New)</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Sorry for the inconvenience!</p>
+        </div>
+    <![endif]-->
+    <!-- Javascript Libraries -->
+
+    <script src="/Content/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/Content/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/Content/vendors/bower_components/Waves/dist/waves.min.js"></script>
+    <script src="/Content/parsley.min.js"></script>
+    <script src="/Content/vendors/bower_components/moment/min/moment.min.js"></script>
+    <script src="/Content/vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script>
+        $.listen('parsley:field:error', function (ParsleyField) {
+            ParsleyField.$element.parent().parent().addClass("has-error").removeClass("has-success");
+        });
+        $.listen('parsley:field:success', function (ParsleyField) {
+            ParsleyField.$element.parent().parent().addClass("has-success").removeClass("has-error");;
+        });
+    </script>
+    <!-- Placeholder for IE9 -->
+    <!--[if IE 9 ]>
+        <script src="/Content/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+    <![endif]-->
+    <script src="/Content/js/app.min.js"></script>
+</body>
+<!-- Mirrored from byrushan.com/projects/ma/1-7-1/jquery/light/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Nov 2016 19:15:56 GMT -->
+</html>
+

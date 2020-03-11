@@ -1,0 +1,1065 @@
+﻿@using System.Threading
+@using Evanto.Web.User.Resource.Landing
+
+@{
+  Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  @Html.Raw(App.Copyright)
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#ff6a68">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#ff6a68" />
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Brono - Landing</title>
+  <link href="https://fonts.google.com/specimen/Montserrat" rel="stylesheet">
+  @*<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">*@
+  <link rel="apple-touch-icon" sizes="57x57" href="~/assets/images/logos/brono/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="~/assets/images/logos/brono/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="~/assets/images/logos/brono/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="~/assets/images/logos/brono/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="~/assets/images/logos/brono/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="~/assets/images/logos/brono/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="~/assets/images/logos/brono/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="~/assets/images/logos/brono/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="~/assets/images/logos/brono/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="~/assets/images/logos/brono/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="~/assets/images/logos/brono/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="~/assets/images/logos/brono/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="~/assets/images/logos/brono/favicon-16x16.png">
+  <link rel="manifest" href="~/assets/images/logos/brono/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="~/assets/images/logos/brono/ms-icon-144x144.png">
+  <link rel="stylesheet" href="~/assets/landing/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="~/assets/landing/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="~/assets/landing/bower_components/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="~/assets/landing/css/style.css">
+  <link href="~/assets/landing/css/Landing.css" rel="stylesheet" />
+  <link href="~/assets/landing/css/SlideShow.css" rel="stylesheet" />
+  @*<link rel="icon" href="/assets/landing/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/landing/img/favicon.ico" type="image/x-icon" />*@
+
+
+
+
+  <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="bower_components/respondJs/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body data-spy="scroll" data-target="#menu" class="animations" style="font-family:Montserrat!important ">
+
+  <div class="preloader">
+    <div class="preloader__container">
+      <div class="preloader__spinner"></div>
+    </div>
+  </div>
+  <nav class="navbar js-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle js-open-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand js-brand" href="#">JBrono</a>
+      </div>
+      <div class="navbar-collapse" id="menu">
+        <button type="button" class="close-menu js-close-menu"><i class="zmdi zmdi-arrow-right"></i></button>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#top">@LandingResource.Landing_MenuHome</a></li>
+          <li><a href="#aboutus">@LandingResource.Landing_MenuAbout</a></li>
+          <li><a href="#features">@LandingResource.Landing_MenuFeatures</a></li>
+          <li><a href="#services">@LandingResource.Landing_MenuServices</a></li>
+          @*<li><a href="#prices">Prices</a></li>*@
+          <li><a href="#partners">@LandingResource.Landing_MenuPartners</a></li>
+          <li><a href="#contacts">@LandingResource.Landing_MenuContact</a></li>
+          <li><a href="@Thread.CurrentThread.CurrentCulture/marketplace">@LandingResource.Landing_MenuMarketplace</a></li>
+          <li class="hide dashboard-menu"><a href="/dashboard/events">@LandingResource.Landing_MenuDashboard</a></li>
+          <li class="hide sign-in-menu"><a href="/@Thread.CurrentThread.CurrentCulture/auth/login">@LandingResource.Landing_MenuSignIn</a></li>
+          <li>
+            <select name="lang" id="language" onchange="ChangeLanguage()" style="padding: 6px; margin: 10px 15px"
+                    class="btn btn-danger dropdown-toggle">
+              <option value="En">En</option>
+              <option value="Az">Az</option>
+              <option value="Ru">Ru</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="top" style="height:512px !important" class="header js-header">
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+      <!-- Loading Screen -->
+      <div data-u="loading" class="jssorl-oval" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
+        <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="/assets/landing/img/oval.svg" />
+      </div>
+      <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+        <div data-b="0">
+          <img data-u="image" src="/assets/landing/img/04.jpg" />
+          <div style="position:absolute;top:77px;left:460px;width:460px;height:210px;z-index:0;">
+            <img data-u="caption" data-t="0" style="position:absolute;top:-300px;left:89px;width:210px;height:178px;z-index:0;" src="/assets/landing/img/mock-pc.png" />
+            <img data-u="caption" data-t="1" style="position:absolute;top:55px;left:-200px;width:114px;height:144px;z-index:0;" src="/assets/landing/img/mock-ipad.png" />
+            <img data-u="caption" data-t="2" style="position:absolute;top:88px;left:420px;width:219px;height:120px;z-index:0;" src="/assets/landing/img/mock-laptop.png" />
+          </div>
+          <div data-u="caption" data-t="3" data-to="0% 100%" style="position:absolute;top:385px;left:-100px;width:257px;height:127px;z-index:0;">
+            <div style="position:absolute;top:4px;left:34px;width:198px;height:112px;z-index:0; overflow:hidden;">
+              <img data-u="caption" data-t="4" style="position:absolute;top:-2px;left:-2px;width:408px;height:116px;z-index:0;" src="/assets/landing/img/mock-phone-slider-flat.jpg" />
+            </div>
+            <img style="position:absolute;top:0px;left:0px;width:257px;height:127px;z-index:0;" src="/assets/landing/img/mock-phone.png" />
+            <img data-u="caption" data-t="5" style="position:absolute;top:22px;left:139px;width:108px;height:108px;z-index:0;" src="/assets/landing/img/circle-hollow.png" />
+            <img data-u="caption" data-t="6" style="position:absolute;top:31px;left:148px;width:90px;height:90px;z-index:0;" src="/assets/landing/img/circle-solid.png" />
+            <img data-u="caption" data-t="7" style="position:absolute;top:100px;left:300px;width:63px;height:77px;z-index:0;" src="/assets/landing/img/hand.png" />
+            <img data-u="caption" data-t="8" style="position:absolute;top:-44px;left:255px;width:75px;height:20px;z-index:0;" src="/assets/landing/img/swipe-arrow.png" />
+          </div>
+          <a href="http://www.jssor.com/help/slideshow-transitions.html" target="_blank" style="display:block; position:absolute;top:22px;left:600px;width:320px;height:36px;z-index:0;font-size:22px;color:#ffffff;line-height:36px;">300+ Slideshow Transitions</a>
+        </div>
+        <div data-b="1" data-p="170.00">
+          <img data-u="image" src="/assets/landing/img/02.jpg" />
+          <div data-u="caption" data-t="9" data-3d="1" style="position:absolute;top:150px;left:-36px;width:1053px;height:150px;z-index:0;">
+            <div data-u="caption" data-t="10" data-to="100% 50%" style="position:absolute;top:0px;left:1030px;width:72px;height:72px;z-index:0;background-color:#eb9434;">
+              <div data-u="caption" data-t="11" style="position:absolute;top:0px;left:0px;width:72px;height:72px;z-index:0;font-size:46px;color:#ffffff;line-height:72px;text-align:center;">
+                All
+
+              </div>
+            </div>
+            <div data-u="caption" data-t="12" data-to="0% 50%" style="position:absolute;top:0px;left:360px;width:175px;height:72px;z-index:0;background-color:#eb9434;font-size:45px;color:#ffffff;line-height:72px;text-align:center;">
+              Devices
+
+            </div>
+            <div data-u="caption" data-t="13" data-to="0% 50%" style="position:absolute;top:0px;left:535px;width:230px;height:72px;z-index:0;background-color:#eb9434;font-size:45px;color:#ffffff;line-height:72px;text-align:center;">
+              Supported
+
+            </div>
+            <div data-u="caption" data-t="14" style="position:absolute;top:360px;left:238px;width:577px;height:30px;z-index:0;font-size:24px;color:#ffffff;line-height:30px;text-align:center;">Jssor Slider is one of the most reliable sliders</div>
+          </div>
+          <div data-u="caption" data-t="15" data-3d="1" style="position:absolute;top:70px;left:182px;width:616px;height:150px;z-index:0;">
+            <img data-u="caption" data-t="16" style="position:absolute;top:22px;left:266px;width:84px;height:84px;z-index:0;" src="/assets/landing/img/ios.png" />
+            <img data-u="caption" data-t="17" style="position:absolute;top:16px;left:260px;width:96px;height:96px;z-index:0;" src="/assets/landing/img/circle.png" />
+            <div data-u="caption" data-t="18" style="position:absolute;top:195px;left:260px;width:96px;height:30px;z-index:0;font-size:18px;color:#ffffff;line-height:30px;text-align:center;">IOS</div>
+            <img data-u="caption" data-t="19" style="position:absolute;top:22px;left:22px;width:84px;height:84px;z-index:0;" src="/assets/landing/img/android.png" />
+            <img data-u="caption" data-t="20" style="position:absolute;top:16px;left:16px;width:96px;height:96px;z-index:0;" src="/assets/landing/img/circle.png" />
+            <div data-u="caption" data-t="21" style="position:absolute;top:125px;left:166px;width:96px;height:30px;z-index:0;font-size:18px;color:#ffffff;line-height:30px;text-align:center;">Android</div>
+            <img data-u="caption" data-t="22" style="position:absolute;top:22px;left:510px;width:84px;height:84px;z-index:0;" src="/assets/landing/img/windows.png" />
+            <img data-u="caption" data-t="23" style="position:absolute;top:16px;left:504px;width:96px;height:96px;z-index:0;" src="/assets/landing/img/circle.png" />
+            <div data-u="caption" data-t="24" style="position:absolute;top:125px;left:354px;width:96px;height:30px;z-index:0;font-size:18px;color:#ffffff;line-height:30px;text-align:center;">Windows</div>
+          </div>
+          <div style="position:absolute;top:20px;left:327px;width:336px;height:312px;z-index:0;">
+            <div data-u="caption" data-t="25" style="position:absolute;top:82px;left:104px;width:128px;height:147px;z-index:0;">
+              <img data-u="caption" data-t="26" style="position:absolute;top:0px;left:0px;width:128px;height:147px;z-index:0;" src="/assets/landing/img/hexagon-hollow-big.png" />
+              <img data-u="caption" data-t="27" style="position:absolute;top:9px;left:8px;width:112px;height:129px;z-index:0;" src="/assets/landing/img/hexagon-solid-yellow.png" />
+              <div data-u="caption" data-t="28" style="position:absolute;top:20px;left:0px;width:128px;height:90px;z-index:0;font-size:20px;line-height:30px;text-align:center;">
+                All
+                <br />
+                Browsers
+                <br />
+                Supported
+              </div>
+            </div>
+            <div style="position:absolute;top:0px;left:187px;width:90px;height:104px;z-index:0;">
+              <img data-u="caption" data-t="29" style="position:absolute;top:0px;left:0px;width:90px;height:104px;z-index:0;" src="/assets/landing/img/hexagon-hollow.png" />
+              <img data-u="caption" data-t="30" style="position:absolute;top:8px;left:7px;width:76px;height:88px;z-index:0;" src="/assets/landing/img/hexagon-solid.png" />
+              <img data-u="caption" data-t="31" style="position:absolute;top:33px;left:26px;width:38px;height:38px;z-index:0;" src="/assets/landing/img/opera.png" />
+            </div>
+            <div style="position:absolute;top:104px;left:246px;width:90px;height:104px;z-index:0;">
+              <img data-u="caption" data-t="32" style="position:absolute;top:0px;left:0px;width:90px;height:104px;z-index:0;" src="/assets/landing/img/hexagon-hollow.png" />
+              <img data-u="caption" data-t="33" style="position:absolute;top:8px;left:7px;width:76px;height:88px;z-index:0;" src="/assets/landing/img/hexagon-solid.png" />
+              <img data-u="caption" data-t="34" style="position:absolute;top:33px;left:26px;width:38px;height:38px;z-index:0;" src="/assets/landing/img/firefox.png" />
+            </div>
+            <div style="position:absolute;top:208px;left:187px;width:90px;height:104px;z-index:0;">
+              <img data-u="caption" data-t="35" style="position:absolute;top:0px;left:0px;width:90px;height:104px;z-index:0;" src="/assets/landing/img/hexagon-hollow.png" />
+              <img data-u="caption" data-t="36" style="position:absolute;top:8px;left:7px;width:76px;height:88px;z-index:0;" src="/assets/landing/img/hexagon-solid.png" />
+              <img data-u="caption" data-t="37" style="position:absolute;top:33px;left:26px;width:38px;height:38px;z-index:0;" src="/assets/landing/img/ie.png" />
+            </div>
+            <div style="position:absolute;top:208px;left:59px;width:90px;height:104px;z-index:0;">
+              <img data-u="caption" data-t="38" style="position:absolute;top:0px;left:0px;width:90px;height:104px;z-index:0;" src="/assets/landing/img/hexagon-hollow.png" />
+              <img data-u="caption" data-t="39" style="position:absolute;top:8px;left:7px;width:76px;height:88px;z-index:0;" src="/assets/landing/img/hexagon-solid.png" />
+              <img data-u="caption" data-t="40" style="position:absolute;top:33px;left:26px;width:38px;height:38px;z-index:0;" src="/assets/landing/img/edge.png" />
+            </div>
+            <div style="position:absolute;top:104px;left:0px;width:90px;height:104px;z-index:0;">
+              <img data-u="caption" data-t="41" style="position:absolute;top:0px;left:0px;width:90px;height:104px;z-index:0;" src="/assets/landing/img/hexagon-hollow.png" />
+              <img data-u="caption" data-t="42" style="position:absolute;top:8px;left:7px;width:76px;height:88px;z-index:0;" src="/assets/landing/img/hexagon-solid.png" />
+              <img data-u="caption" data-t="43" style="position:absolute;top:33px;left:26px;width:38px;height:38px;z-index:0;" src="/assets/landing/img/safari.png" />
+            </div>
+            <div style="position:absolute;top:0px;left:59px;width:90px;height:104px;z-index:0;">
+              <img data-u="caption" data-t="44" style="position:absolute;top:0px;left:0px;width:90px;height:104px;z-index:0;" src="/assets/landing/img/hexagon-hollow.png" />
+              <img data-u="caption" data-t="45" style="position:absolute;top:8px;left:7px;width:76px;height:88px;z-index:0;" src="/assets/landing/img/hexagon-solid.png" />
+              <img data-u="caption" data-t="46" style="position:absolute;top:33px;left:28px;width:38px;height:38px;z-index:0;" src="/assets/landing/img/chrome.png" />
+            </div>
+          </div>
+        </div>
+        <div data-b="2" data-p="816.0">
+          <img data-u="image" src="/assets/landing/img/01.jpg" />
+          <div data-u="caption" data-t="47" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/main.jpg" />
+            <div data-u="caption" data-t="48" style="position:absolute;top:30px;left:30px;width:180px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Main Image</div>
+          </div>
+          <div data-u="caption" data-t="49" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="50" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <img style="position:absolute;top:140px;left:170px;width:55px;height:51px;z-index:0;" src="/assets/landing/img/butterfly-light-yellow.png" />
+            <div data-u="caption" data-t="51" style="position:absolute;top:30px;left:30px;width:180px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Image Layer</div>
+          </div>
+          <div data-u="caption" data-t="52" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="53" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="54" style="position:absolute;top:100px;left:30px;width:280px;height:50px;z-index:0;font-size:40px;line-height:50px;text-align:center;">SOME TEXT</div>
+            <div data-u="caption" data-t="55" style="position:absolute;top:30px;left:30px;width:180px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Text layer</div>
+          </div>
+          <div data-u="caption" data-t="56" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="57" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="58" style="position:absolute;top:25px;left:240px;width:300px;height:175px;z-index:0;background-color:#ffff8c;"></div>
+            <div data-u="caption" data-t="59" style="position:absolute;top:30px;left:30px;width:180px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Panel Layer</div>
+          </div>
+          <div data-u="caption" data-t="60" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="61" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="62" style="position:absolute;top:30px;left:30px;width:250px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Nested Text Layer</div>
+            <div style="position:absolute;top:40px;left:320px;width:200px;height:50px;z-index:0;font-size:26px;line-height:50px;text-align:center;">Nested Text</div>
+          </div>
+          <div data-u="caption" data-t="63" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="64" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="65" style="position:absolute;top:30px;left:30px;width:250px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Nested Image Layer</div>
+            <img style="position:absolute;top:78px;left:249px;width:87px;height:92px;z-index:0;" src="/assets/landing/img/butterfly-blue.png" />
+          </div>
+          <div data-u="caption" data-t="66" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="67" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="68" style="position:absolute;top:30px;left:30px;width:250px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Nested Image Layer</div>
+            <img style="position:absolute;top:126px;left:364px;width:66px;height:66px;z-index:0;" src="/assets/landing/img/butterfly-dark-yellow.png" />
+          </div>
+          <div data-u="caption" data-t="69" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="70" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="71" style="position:absolute;top:30px;left:30px;width:250px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Nested Image Layer</div>
+            <img style="position:absolute;top:113px;left:463px;width:48px;height:49px;z-index:0;" src="/assets/landing/img/butterfly-red.png" />
+          </div>
+          <div data-u="caption" data-t="72" data-3d="1" style="position:absolute;top:-210px;left:200px;width:580px;height:225px;z-index:0;">
+            <img data-u="caption" data-t="73" style="position:absolute;top:0px;left:0px;width:580px;height:225px;z-index:0;" src="/assets/landing/img/layer-blurred-white.png" />
+            <div data-u="caption" data-t="74" style="position:absolute;top:30px;left:30px;width:200px;height:40px;z-index:0;background-color:#000000;font-size:22px;color:#ffffff;line-height:40px;text-align:center;">Arrow/Bullets</div>
+            <img data-u="caption" data-t="75" style="position:absolute;top:93px;left:250px;width:18px;height:38px;z-index:0;" src="/assets/landing/img/arrow-left.png" />
+            <img data-u="caption" data-t="76" style="position:absolute;top:93px;left:312px;width:18px;height:38px;z-index:0;" src="/assets/landing/img/arrow-right.png" />
+            <img data-u="caption" data-t="77" style="position:absolute;top:0px;left:259px;width:8px;height:8px;z-index:0;" src="/assets/landing/img/dot.png" />
+            <img data-u="caption" data-t="78" style="position:absolute;top:0px;left:277px;width:8px;height:8px;z-index:0;" src="/assets/landing/img/dot.png" />
+            <img data-u="caption" data-t="79" style="position:absolute;top:0px;left:295px;width:8px;height:8px;z-index:0;" src="/assets/landing/img/dot.png" />
+            <img data-u="caption" data-t="80" style="position:absolute;top:0px;left:313px;width:8px;height:8px;z-index:0;" src="/assets/landing/img/dot.png" />
+          </div>
+          <a href="http://www.jssor.com/demos/introduction-slider.slider/=edit" target="_blank" style="display:block; position:absolute;top:22px;left:500px;width:220px;height:36px;z-index:0;font-size:22px;color:#ffffff;line-height:36px;text-align:center;">Edit This Slider</a>
+          <a href="https://www.jssor.com/action/sign_up.aspx" target="_blank" style="display:block; position:absolute;top:22px;left:720px;width:220px;height:36px;z-index:0;font-size:22px;color:#ffffff;line-height:36px;text-align:center;">Sign up Now!</a>
+        </div>
+        <a data-u="any" href="https://www.jssor.com" style="display:none">slider bootstrap</a>
+      </div>
+      <!-- Bullet Navigator -->
+      <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+        <div data-u="prototype" class="i" style="width:16px;height:16px;">
+          <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+          </svg>
+        </div>
+      </div>
+      <!-- Arrow Navigator -->
+      <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+          <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+        </svg>
+      </div>
+      <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+          <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+        </svg>
+      </div>
+    </div>
+
+    <a href="#aboutus" class="header__down"><i class="zmdi zmdi-long-arrow-down"></i></a>
+  </header>
+
+  <section id="aboutus" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 style="text-align: left; margin-bottom:30px;" class="section__title section__title--no-margin">
+            @LandingResource.Landing_AboutUs
+          </h2>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <p>
+            @LandingResource.Landing_AboutUsDetail
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img style="width: 300px; height: 300px; margin-top:-30px" src="~/assets/landing/img/about-us.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section project-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img style="width: 100%" src="~/assets/landing/img/design_process_1200.jpg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section__title section__title--no-margin">
+            @LandingResource.Landing_Services
+          </h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2  serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon beauty serviceicon" id="beauty"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Beauty_Health</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 cake serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="cake"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Cake</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="caterer"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Caterer</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="dance"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_DanceLessons</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="decor"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Decor</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="dj"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_DJ</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="dressattire"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Dresses_Attire</h4>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="eventplanner"></div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_EventPlanner</h4>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="florist"></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Florist</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="invitation"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Invitations_Printing</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="jewelers"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Jewellers</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="musicband"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Musician_Band</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="photography"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Photography</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="rentals"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Rentals</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="transport"></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Transportation</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="travel"></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_TravelServices</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon" id="venue"></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Venue</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 serviceDiv">
+          <a href="#">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="service">
+                  <div class="service_icon serviceicon " id="videography"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+
+              <div class="col-md-12">
+                <h4 class="feature__info-title">@LandingResource.Landing_Service_Videography</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="selectedServices" class="section projects-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section__title section__title--white">
+            Selected Services
+            <small>Lorem ipsum dolor sit amet, consectetur adipisicing</small>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-md-3">
+          <div class="project">
+            <img src="~/assets/landing/img/project_3.jpg" class="img-responsive" alt="Project 3">
+            <div class="project__info">
+              <div class="project__info-buttons">
+                <button type="button" class="project__info-btn js-open-modal" data-target="#modal_3"><i class="zmdi zmdi-search"></i></button>
+                <button type="button" class="project__info-btn"><i class="zmdi zmdi-link"></i></button>
+              </div>
+              <h3 class="project__info-title">Lorem ipsum dolor.</h3>
+              <p class="project__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ad!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <div class="project">
+            <img src="~/assets/landing/img/project_4.jpg" class="img-responsive" alt="Project 4">
+            <div class="project__info">
+              <div class="project__info-buttons">
+                <button type="button" class="project__info-btn js-open-modal" data-target="#modal_4"><i class="zmdi zmdi-search"></i></button>
+                <button type="button" class="project__info-btn"><i class="zmdi zmdi-link"></i></button>
+              </div>
+              <h3 class="project__info-title">Lorem ipsum dolor.</h3>
+              <p class="project__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ad!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <div class="project">
+            <img src="~/assets/landing/img/project_5.jpg" class="img-responsive" alt="Project 5">
+            <div class="project__info">
+              <div class="project__info-buttons">
+                <button type="button" class="project__info-btn js-open-modal" data-target="#modal_5"><i class="zmdi zmdi-search"></i></button>
+                <button type="button" class="project__info-btn"><i class="zmdi zmdi-link"></i></button>
+              </div>
+              <h3 class="project__info-title">Lorem ipsum dolor.</h3>
+              <p class="project__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ad!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <div class="project">
+            <img src="~/assets/landing/img/project_6.jpg" class="img-responsive" alt="Project 6">
+            <div class="project__info">
+              <div class="project__info-buttons">
+                <button type="button" class="project__info-btn js-open-modal" data-target="#modal_6"><i class="zmdi zmdi-search"></i></button>
+                <button type="button" class="project__info-btn"><i class="zmdi zmdi-link"></i></button>
+              </div>
+              <h3 class="project__info-title">Lorem ipsum dolor.</h3>
+              <p class="project__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ad!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modals -->
+  <div id="modal_1" class="modal js-modal" tabindex="-1">
+    <div class="modal__dialog js-modal-dialog">
+      <img src="~/assets/landing/img/modal_1.jpg" class="img-responsive" alt="Modal 1">
+      <div class="modal__info">
+        <button type="button" class="modal__info-btn js-close-modal"><i class="zmdi zmdi-close"></i></button>
+        <h3 class="modal__info-title">Lorem ipsum dolor.</h3>
+        <p class="modal__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem numquam error voluptate pariatur, a molestias sit distinctio vel quia!</p>
+      </div>
+    </div>
+  </div>
+  <div id="modal_2" class="modal js-modal" tabindex="-1">
+    <div class="modal__dialog js-modal-dialog">
+      <img src="~/assets/landing/img/modal_2.jpg" class="img-responsive" alt="Modal 2">
+      <div class="modal__info">
+        <button type="button" class="modal__info-btn js-close-modal"><i class="zmdi zmdi-close"></i></button>
+        <h3 class="modal__info-title">Lorem ipsum dolor.</h3>
+        <p class="modal__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem numquam error voluptate pariatur, a molestias sit distinctio vel quia!</p>
+      </div>
+    </div>
+  </div>
+  <div id="modal_3" class="modal js-modal" tabindex="-1">
+    <div class="modal__dialog js-modal-dialog">
+      <img src="~/assets/landing/img/modal_3.jpg" class="img-responsive" alt="Modal 3">
+      <div class="modal__info">
+        <button type="button" class="modal__info-btn js-close-modal"><i class="zmdi zmdi-close"></i></button>
+        <h3 class="modal__info-title">Lorem ipsum dolor.</h3>
+        <p class="modal__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem numquam error voluptate pariatur, a molestias sit distinctio vel quia!</p>
+      </div>
+    </div>
+  </div>
+  <div id="modal_4" class="modal js-modal" tabindex="-1">
+    <div class="modal__dialog js-modal-dialog">
+      <img src="~/assets/landing/img/modal_4.jpg" class="img-responsive" alt="Modal 4">
+      <div class="modal__info">
+        <button type="button" class="modal__info-btn js-close-modal"><i class="zmdi zmdi-close"></i></button>
+        <h3 class="modal__info-title">Lorem ipsum dolor.</h3>
+        <p class="modal__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem numquam error voluptate pariatur, a molestias sit distinctio vel quia!</p>
+      </div>
+    </div>
+  </div>
+  <div id="modal_5" class="modal js-modal" tabindex="-1">
+    <div class="modal__dialog js-modal-dialog">
+      <img src="~/assets/landing/img/modal_5.jpg" class="img-responsive" alt="Modal 5">
+      <div class="modal__info">
+        <button type="button" class="modal__info-btn js-close-modal"><i class="zmdi zmdi-close"></i></button>
+        <h3 class="modal__info-title">Lorem ipsum dolor.</h3>
+        <p class="modal__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem numquam error voluptate pariatur, a molestias sit distinctio vel quia!</p>
+      </div>
+    </div>
+  </div>
+  <div id="modal_6" class="modal js-modal" tabindex="-1">
+    <div class="modal__dialog js-modal-dialog">
+      <img src="~/assets/landing/img/modal_6.jpg" class="img-responsive" alt="Modal 6">
+      <div class="modal__info">
+        <button type="button" class="modal__info-btn js-close-modal"><i class="zmdi zmdi-close"></i></button>
+        <h3 class="modal__info-title">Lorem ipsum dolor.</h3>
+        <p class="modal__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni rem numquam error voluptate pariatur, a molestias sit distinctio vel quia!</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="partners" class="section testimonials-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section__title section__title--white">
+            Partners
+          </h2>
+          <div class="owl-carousel js-carousel">
+            <div class="comment">
+              <div class="comment__text">
+                Apple Inc. is an American multinational technology company headquartered in Cupertino,
+                California that designs, develops, and online services.
+              </div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/Apple.png" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Apple</h3>
+                <span class="comment__position">Apple</span>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment__text">Skype (/ˈskaɪp/) is an instant messaging app that provides online text message and video chat services.Lorem Ipsum  dolor</div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/skype.png" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Skype</h3>
+                <span class="comment__position">Skype</span>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment__text">Tesla, Inc. (formerly named Tesla Motors) is an American automaker , and solar panel manufacturer based in Palo Alto, California.</div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/tesla.jpg" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Tesla</h3>
+                <span class="comment__position">Tesla Motors</span>
+              </div>
+            </div>
+
+
+            <div class="comment">
+              <div class="comment__text">
+                Apple Inc. is an American multinational technology company headquartered in Cupertino,
+                California that designs, develops, and online services.
+              </div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/Apple.png" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Apple</h3>
+                <span class="comment__position">Apple</span>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment__text">Skype (/ˈskaɪp/) is an instant messaging app that provides online text message and video chat services.Lorem Ipsum dolor </div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/skype.png" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Skype</h3>
+                <span class="comment__position">Skype</span>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment__text">Tesla, Inc. (formerly named Tesla Motors) is an American automaker , and solar panel manufacturer based in Palo Alto, California.</div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/tesla.jpg" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Tesla</h3>
+                <span class="comment__position">Tesla Motors</span>
+              </div>
+            </div>
+
+
+            <div class="comment">
+              <div class="comment__text">
+                Apple Inc. is an American multinational technology company headquartered in Cupertino,
+                California that designs, develops, and online services.
+              </div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/Apple.png" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Apple</h3>
+                <span class="comment__position">Apple</span>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment__text">Skype (/ˈskaɪp/) is an instant messaging app that provides online text message and video chat services.Lorem Ipsum dolor</div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/skype.png" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Skype</h3>
+                <span class="comment__position">Skype</span>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment__text">Tesla, Inc. (formerly named Tesla Motors) is an American automaker , and solar panel manufacturer based in Palo Alto, California.</div>
+              <div class="comment__info">
+                <img src="~/assets/landing/img/tesla.jpg" alt="comment avatar" class="img-circle center-block">
+                <h3 class="comment__name">Tesla</h3>
+                <span class="comment__position">Tesla Motors</span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section__title">
+            @LandingResource.Landing_ContactUs
+          </h2>
+        </div>
+      </div>
+      <div class="row contact">
+        <div class="col-sm-5">
+          <div class="contact-item">
+            <div class="contact-item__label">@LandingResource.Landing_Contact_Location</div>
+            <div class="contact-item__info">
+              <i class="zmdi zmdi-pin"></i>
+              @LandingResource.Landing_Contact_LocationDetail
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__label">@LandingResource.Landing_Contact_Phone</div>
+            <div class="contact-item__info">
+              <i class="zmdi zmdi-phone"></i>
+              <a href="tel:0342405353">+994 12 511 53 97</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__label">@LandingResource.Landing_Contact_WriteUs</div>
+            <div class="contact-item__info">
+              <i class="zmdi zmdi-email"></i>
+              <a href="mailto:info@brono.az">info@brono.az</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-7">
+          <form action="#">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group fg">
+                  <div class="fg__line">
+                    <input type="text" class="form-control fg__line-input js-input" required name="name">
+                    <label class="fg__line-label">@LandingResource.Landing_Contact_Name</label>
+                  </div>
+                </div>
+                <div class="form-group fg">
+                  <div class="fg__line">
+                    <input type="email" class="form-control fg__line-input js-input" name="email">
+                    <label class="fg__line-label">@LandingResource.Landing_Contact_Email</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group fg">
+                  <div class="fg__line">
+                    <input type="text" class="form-control fg__line-input js-input" required name="phone">
+                    <label class="fg__line-label">@LandingResource.Landing_Contact_PhoneNumber</label>
+                  </div>
+                </div>
+                <div class="form-group fg">
+                  <div class="fg__line">
+                    <input type="text" class="form-control fg__line-input js-input" name="subject">
+                    <label class="fg__line-label">@LandingResource.Landing_Contact_Subject</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group fg">
+                  <div class="fg__line">
+                    <textarea class="form-control fg__line-input js-input" name="message" required rows="4"></textarea>
+                    <label class="fg__line-label">@LandingResource.Landing_Contact_Message</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn--red pull-right">@LandingResource.Landing_Contact_Send <i class="zmdi zmdi-mail-send"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="map" class="map"></div>
+  @*<section id="sign-up" class="section yellow-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="section__title section__title--white">
+              Sign up to our Newsletter
+              <small>Lorem ipsum dolor sit amet, consectetur adipisicing</small>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="sign-up">
+              <form action="#" class="form-inline">
+                <div class="form-group fg fg--white">
+                  <div class="fg__line">
+                    <input type="email" class="form-control fg__line-input js-input" name="email">
+                    <label class="fg__line-label">Email</label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn--white">Subscribe <i class="zmdi zmdi-chevron-right"></i></button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>*@
+  <footer class="footer">
+    Brono
+    <div class="col-md-12 text-center">
+
+      <a href="#" class="socials__item socials__item--facebook"><i class="zmdi zmdi-facebook"></i></a>
+      <a href="#" class="socials__item socials__item--twitter"><i class="zmdi zmdi-twitter"></i></a>
+      <a href="#" class="socials__item socials__item--dribbble"><i class="zmdi zmdi-dribbble"></i></a>
+      <a href="#" class="socials__item socials__item--google-plus"><i class="zmdi zmdi-google-plus"></i></a>
+      <a href="#" class="socials__item socials__item--youtube"><i class="zmdi zmdi-youtube"></i></a>
+      <a href="#" class="socials__item socials__item--linkedin"><i class="zmdi zmdi-linkedin"></i></a>
+
+    </div>
+    <a href="#top" class="back-to-top js-to-top"><i class="zmdi zmdi-long-arrow-up"></i></a>
+  </footer>
+  <script src="~/assets/landing/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="~/assets/landing/js/SlideShow.js"></script>
+  <script src="~/assets/landing/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="~/assets/landing/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="~/assets/landing/js/jwtDecoder.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyARf5KHII9e88ph-LrrXPUzR5IAy0iqO3Y"></script>
+
+  @*<script src="~/assets/landing/js/map-styles.js"></script>*@
+  <script>
+  </script>
+  <script src="~/assets/landing/js/common.js"></script>
+  <script type="text/javascript">jssor_1_slider_init();</script>
+  <script>
+  $(".serviceDiv").hover(function () {
+      var id = $(this).find(".serviceicon").prop('id');
+      $(this).find(".serviceicon").addClass(id + 'hover');
+    },
+    function () {
+      var id = $(this).find(".serviceicon").prop('id');
+      $(this).find(".serviceicon").removeClass(id + 'hover');
+    });
+
+
+
+
+  $(document).ready(function () {
+
+      $('#language').val('@(Request.Cookies["Language"]?.Value)');
+
+    //$('#language').val("Ru");
+
+  });
+
+
+  </script>
+  <script>
+    function ChangeLanguage() {
+      var lang = $('#language').val();
+      $.ajax({
+        url: '/Landing/changeLanguage',
+        type: "GET",
+        dataType: "JSON",
+        data: { lang: lang },
+        success: function (data) {
+          console.log(data);
+          window.location.reload();
+        }
+      });
+
+    }
+  </script>
+</body>
+</html>

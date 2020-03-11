@@ -1,0 +1,46 @@
+﻿
+@section styles{
+}
+<div id="page_content_inner">
+
+
+    <div class="md-card">
+        <div class="md-card-content">
+            <div id="students_crud"></div>
+            @*<button id="DeleteAllButton" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+                    <span class="ui-button-text">
+                        Delete all selected records
+                    </span>
+                </button>*@
+        </div>
+    </div>
+</div>
+
+@*<div class="md-fab-wrapper">
+    <a class="md-fab md-fab-accent" href="#" id="recordAdd">
+        <i class="material-icons">&#xE145;</i>
+    </a>
+</div>*@
+<div id="myModal" class="modal fade" style="margin-top: 150px;">
+    <div class="modal-dialog">
+        <div class="modal-content" style="min-height: 300px">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Selected Rating </h4>
+            </div>
+            <div class="modal-body" style="min-height: 150px">
+                <div style="min-height: 70px">
+                    <textarea class="md-input" style="min-height: 150px" id="ratingText"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts
+{
+    <script src="~/Scripts/Rating_Crud_Table.js"></script>
+    
+}

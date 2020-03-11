@@ -1,0 +1,14 @@
+.alert_div {
+    margin-top: -9px;
+    margin-right: 7px;
+}
+.notification-listitem .md-tile-text--primary, .notification-listitem .md-tile-text--secondary {
+    white-space: inherit !important;
+}
+#notificationUnread {
+    background-color: rgba(101, 147, 143, 0.30);    
+}
+
+#notificationUnread .md-tile-content .md-text {
+    font-weight: 700;
+}

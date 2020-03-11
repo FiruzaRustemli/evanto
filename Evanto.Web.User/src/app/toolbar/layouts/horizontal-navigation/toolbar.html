@@ -1,0 +1,67 @@
+﻿<md-toolbar class="md-accent">
+  <div class="top-row" layout="row" layout-align="space-between center">
+    <div layout="row" layout-align="start center">
+      <div class="navigation-toggle" hide-gt-sm>
+        <md-button class="md-icon-button" ng-click="vm.toggleHorizontalMobileMenu()" aria-label="Toggle Mobile Navigation">
+          <md-icon md-font-icon="icon-menu"></md-icon>
+        </md-button>
+      </div>
+      <div class="logo" layout="row" layout-align="start center">
+        <div class="toolbar-logo"></div>
+      </div>
+    </div>
+    <span flex></span>
+    <div hide show-md show-lg show-xl layout="row" layout-align="end center" class="main-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="/" target="_self">{{'Layout.HomeMenu' | translate}}</a></li>
+        <li><a ng-href="/{{vm.locale.use()}}/marketplace">{{'Layout.MarketplaceMenu' | translate}}</a></li>
+        <li><a ui-sref="app.user">{{'Layout.Account' | translate}}</a></li>
+      </ul>
+    </div>
+    <div layout="row" layout-align="start center" class="user-info-toolbar">
+      <md-menu-bar id="user-menu">
+        <booking-notification></booking-notification>
+        <md-menu md-position-mode="left bottom">
+          <md-button class="user-button md-primary" ng-click="$mdOpenMenu()" aria-label="User settings">
+            <div layout="row" layout-align="space-between center">
+              <div class="avatar-wrapper">
+                <img md-menu-align-target class="avatar" src="assets/images/avatars/profile.jpg">
+                <md-icon md-font-icon ng-class="vm.userStatus.icon" ng-style="{'color': vm.userStatus.color }" class="icon status s16">
+                </md-icon>
+              </div>
+              <span class="username" hide-gt-sm hide-gt-xs hide-xs hide-sm>{{vm.userInfo.firstName === undefined ? vm.userInfo.output.user.firstName : vm.userInfo.firstName}} {{vm.userInfo.lastName === undefined ? vm.userInfo.output.user.lastName : vm.userInfo.lastName}}</span>
+              <md-icon style="color:rgb(230, 232, 245)" md-font-icon="icon-chevron-down" class="icon s16" hide-sm></md-icon>
+            </div>
+          </md-button>
+          <md-menu-content width="3">
+            <md-menu-item class="md-indent" ui-sref="app.user">
+              <md-icon md-font-icon="icon-account" class="icon"></md-icon>
+              <md-button><span translate>{{'Layout.MyProfile'}}</span></md-button>
+            </md-menu-item>
+            <md-menu-divider></md-menu-divider>
+            <md-menu-item class="md-indent">
+              <md-icon md-font-icon="icon-cog" class="icon"></md-icon>
+              <md-button ng-click="vm.showSettingsDialog()" class="btnSettings"><span translate>{{'Layout.Settings'}}</span></md-button>
+            </md-menu-item>
+            <md-menu-divider></md-menu-divider>
+            <md-menu-item class="md-indent">
+              <md-icon md-font-icon="icon-comment-alert-outline" class="icon"></md-icon>
+              <md-button ng-click="vm.showFeedbackDialog()"><span translate>{{'Layout.Feedback'}}</span></md-button>
+            </md-menu-item>
+            <md-menu-divider></md-menu-divider>
+            <md-menu-item class="md-indent">
+              <md-icon md-font-icon="icon-logout" class="icon"></md-icon>
+              <md-button ng-click="vm.logout()"><span translate>{{'Layout.Logout'}}</span></md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+      </md-menu-bar>
+    </div>
+    <div hide show-md show-lg show-xl>
+      <md-button id="btnAddNewEvent" class="md-raised md-primary md-default-theme" ng-click="vm.addEvent()">
+        <md-icon md-font-icon="icon-calendar-plus"></md-icon>
+        <span>&nbsp; {{'Layout.AddEvent' | translate}}</span>
+      </md-button>
+    </div>
+  </div>
+</md-toolbar>

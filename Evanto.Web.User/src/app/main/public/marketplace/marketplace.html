@@ -1,0 +1,277 @@
+<div ms-scroll class="scrollable">
+    <div class="top-row marketplace-header-menu" layout="row" layout-align="space-between">
+        <div layout="row" layout-align="start">
+            <div class="navigation-toggle" hide-gt-sm>
+                <md-button class="md-icon-button" ng-click="vm.toggleMenu()" aria-label="Toggle Mobile Navigation">
+                    <md-icon md-font-icon="icon-menu"></md-icon>
+                </md-button>
+            </div>
+            <div class="logo" layout="row" layout-align="start center">
+                  <div class="toolbar-logo"></div>
+            </div>
+        </div>
+        <span flex></span>
+        <div layout="row" layout-align="end center" class="main-menu">
+            <ul hide-sm hide-xs class="nav navbar-nav">
+                <li><a href="/" target="_self">{{'Layout.HomeMenu' | translate}}</a></li>
+                <li class="active"><a ng-href="{{vm.locale.use()}}/marketplace">{{'Layout.Marketplace' | translate}}</a></li>
+                <li ng-show="vm.isAuthenticated"><a href="/dashboard/events">{{'Layout.Dashboard' | translate}}</a></li>
+                <li ng-show="!vm.isAuthenticated"><a href="{{vm.locale.use()}}/auth/login">{{'Layout.SignIn' | translate}}</a></li>
+            </ul>
+            <md-menu-bar ng-if="vm.isAuthenticated">
+                <booking-notification></booking-notification>
+            </md-menu-bar>
+            <md-button ng-if="vm.isAuthenticated" id="btnAddNewEvent" class="md-primary md-default-theme md-raised" ng-click="vm.addEvent()">
+                <md-icon md-font-icon="icon-calendar-plus"></md-icon>
+                   <span>&nbsp; {{'Layout.AddEvent' | translate}}</span>
+            </md-button>
+        </div>
+    </div>
+
+    <div class="marketplace-menu" ng-show="vm.isMenuOpen">
+        <md-list>
+            <md-list-item>
+                <p><a href="/" target="_self">{{'Layout.HomeMenu' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+            <md-list-item>
+                <p class="active"><a ng-href="{{vm.locale.use()}}/marketplace">{{'Layout.Marketplace' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+            <md-list-item ng-show="vm.isAuthenticated">
+                <p><a href="/dashboard/events">{{'Layout.Dashboard' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+            <md-list-item ng-show="!vm.isAuthenticated">
+                <p><a href="{{vm.locale.use()}}/auth/login">{{'Layout.SignIn' | translate}}</a></p>
+                <md-checkbox class="md-secondary" hide></md-checkbox>
+            </md-list-item>
+        </md-list>
+    </div>
+
+    <div id="all-vendor-services" ng-show="!vm.isMenuOpen" class="page-layout simple" layout="column" ms-scroll>
+        <div class="all-vendor-services-content">
+            <div layout="column">
+                <div layout="row" layout-xs="column" class="main-info-panel md-whiteframe-1dp p-20" layout-align="space-between center">
+                    <div layout="row" class="search-wrapper-container" flex-xs="100" flex="50">
+                        <md-input-container md-no-float flex-xs flex-gt-sm="50">
+                            <md-icon md-font-icon="icon-magnify"></md-icon>
+                            <input id="search" ng-model="vm.filterValues.searchText" ng-model-options="{debounce : 1400}" type="text" placeholder="search">
+                        </md-input-container>
+                    </div>
+                    <div layout="row" class="hide marketplace-datepicker-container" flex-xs="100" flex="20">
+                        <md-datepicker flex ng-model="vm.filterValues.bookingDate" md-placeholder="Enter date" md-open-on-focus> </md-date-picker>
+                    </div>
+                    <div flex-xs flex-gt-sm="40" class="rz-slider-container">
+                        <rzslider rz-slider-model="vm.priceRange.min" rz-slider-high="vm.priceRange.max" rz-slider-options="vm.priceRange.options"></rzslider>
+                    </div>
+                </div>
+                <div hide-gt-sm layout="row" class="main-info-panel md-whiteframe-1dp p-15 mt-25" layout-align="start start">
+                    <div>
+                        <md-icon md-font-icon="icon-swap-horizontal"></md-icon>
+                    </div>
+                    <div layout="row" ms-scroll class="mobile-services-panel" ng-style="{'width' : vm.screenWidth}" layout-align="start start">
+                        <md-list-item class="p-5" ng-repeat="service in vm.services">
+                            <div layout="column" layout-align="center start" ng-mouseleave="vm.serviceUnHovered(service)" ng-mouseover="vm.serviceHovered(service)">
+                                <img class="margin-auto marketplace-service-icon-mobile" ng-src="/assets/icons/services/{{service.name | removeSpaces | lowercase}}-{{service.actionMode}}.png"
+                                    alt="{{service.name | removeSpaces | lowercase}}">
+                                <img class="margin-auto marketplace-service-icon-mobile" ng-hide="'true'" ng-src="/assets/icons/services/{{service.name | removeSpaces | lowercase}}-full.png"
+                                    alt="{{service.name | removeSpaces | lowercase}}">
+                                <div layout="row" class="pt-15 marketplace-service-checkbox">
+                                    <md-checkbox aria-label="service" ng-model="vm.checkableServices[service.id]" ng-model-options="{debounce: 500}" ng-change="vm.editServiceId(service)"></md-checkbox>
+                                </div>
+                                <div layout="row" class="margin-auto">{{service.name}}</div>
+                            </div>
+                        </md-list-item>
+                    </div>
+                    <div></div>
+                </div>
+                <div hide show-gt-sm layout="row" class="main-info-panel md-whiteframe-1dp p-15 mt-25" layout-wrap layout-align="center start">
+                    <md-list-item class="p-5" ng-repeat="service in vm.services">
+                        <div layout="column" layout-align="center start" ng-mouseleave="vm.serviceUnHovered(service)" ng-mouseover="vm.serviceHovered(service)">
+                            <img class="margin-auto marketplace-service-icon" ng-src="/assets/icons/services/{{service.name | removeSpaces | lowercase}}-{{service.actionMode}}.png"
+                                alt="{{service.name | removeSpaces | lowercase}}">
+                            <img class="margin-auto marketplace-service-icon" ng-hide="'true'" ng-src="/assets/icons/services/{{service.name | removeSpaces | lowercase}}-full.png"
+                                alt="{{service.name | removeSpaces | lowercase}}">
+                            <div layout="row" class="pt-15 marketplace-service-checkbox">
+                                <md-checkbox aria-label="service" ng-model="vm.checkableServices[service.id]" ng-model-options="{debounce: 500}" ng-change="vm.editServiceId(service)"></md-checkbox>
+                            </div>
+                            <div layout="row" class="margin-auto">{{'Marketplace.Service.' + service.name | removeSpaces | translate}}</div>
+                        </div>
+                    </md-list-item>
+                </div>
+                <div layout="row" class="mt-25" layout-align="space-between center">
+                    <div>
+                        <md-button hide-xs class="md-raised md-default" ng-disabled="!vm.clearButtonEnabled" ng-click="vm.clearFilters()" translate="Marketplace.ClearFilters"></md-button>
+                        <md-button hide show-xs class="md-mini md-raised md-default" ng-disabled="!vm.clearButtonEnabled" ng-click="vm.clearFilters()" translate="Marketplace.ClearFilters"></md-button>
+                    </div>
+                    <div>
+                        <md-input-container>
+                            <label class="md-subhead">{{'Layout.PageSize' | translate}}</label>
+                            <md-select ng-model="vm.filterValues.pageSize" ng-model-options="{debounce : 700}">
+                                <md-option ng-repeat="pageSize in vm.pageSizes" ng-value="pageSize">
+                                    {{pageSize}}
+                                </md-option>
+                            </md-select>
+                        </md-input-container>
+                    </div>
+                </div>
+                <!--    <div layout="column" class="p-15">
+                <md-input-container md-no-float class="m-0">
+                    <md-icon md-font-icon="icon-magnify"></md-icon>
+                    <input id="search" ng-model="vm.filterValues.searchText" ng-model-options="{debounce : 1400}" type="text" placeholder="search">
+                </md-input-container>
+                <md-subheader>Filters</md-subheader>
+                <div layout="row">
+                    <md-button class="md-raised md-default" ng-click="vm.clearFilters()">Clear</md-button>
+                    <md-button class="md-raised md-accent" ng-disabled="!vm.applyButtonEnabled" ng-click="vm.applyFilters()">Apply</md-button>
+                </div>
+                <md-subheader>Price range</md-subheader>
+                <div>
+                    <rzslider rz-slider-model="vm.priceRange.min" rz-slider-high="vm.priceRange.max" rz-slider-options="vm.priceRange.options"></rzslider>
+                </div>
+                <md-list>
+                      <md-subheader>Rating</md-subheader>
+                <md-list-item>
+                    <p>All</p>
+                    <md-checkbox class="md-secondary"></md-checkbox>
+                </md-list-item>
+                <md-list-item>  
+                    <jk-rating-stars max-rating="5" rating="1" read-only="true">
+                        </jk-rating-stars>
+                         <md-checkbox class="md-secondary"></md-checkbox>
+                </md-list-item>
+                <md-list-item>
+                   <jk-rating-stars max-rating="5" rating="2" read-only="true">
+                        </jk-rating-stars>
+                         <md-checkbox class="md-secondary"></md-checkbox>
+                </md-list-item>
+                <md-list-item>
+                   <jk-rating-stars max-rating="5" rating="3" read-only="true">
+                        </jk-rating-stars>
+                         <md-checkbox class="md-secondary"></md-checkbox>
+                </md-list-item>
+                <md-list-item>
+                   <jk-rating-stars max-rating="5" rating="4" read-only="true">
+                        </jk-rating-stars>
+                         <md-checkbox class="md-secondary"></md-checkbox>
+                </md-list-item>
+                <md-list-item>
+                   <jk-rating-stars max-rating="5" rating="5" read-only="true">
+                        </jk-rating-stars>
+                         <md-checkbox class="md-secondary"></md-checkbox>
+                </md-list-item>
+                <md-divider></md-divider>
+                </md-list>
+                <md-subheader>Services</md-subheader>
+                <md-list class="vendor-service-filter-list scrollable" ms-scroll>
+                    <md-list-item>
+                        <p>All</p>
+                        <md-checkbox class="md-secondary" ng-model="vm.isAllServicesSelected"></md-checkbox>
+                    </md-list-item>
+                    <md-list-item ng-repeat="service in vm.services">
+                        <p>{{service.name}}</p>
+                        <md-checkbox class="md-secondary" ng-model="vm.checkableServices[service.id]" ng-change="vm.editServiceId(service.id)"></md-checkbox>
+                    </md-list-item>
+                </md-list>
+                <md-subheader>Events</md-subheader>
+                <md-list class="vendor-service-filter-list scrollable" ms-scroll>
+
+                    <md-list-item>
+                        <p>All</p>
+                        <md-checkbox class="md-secondary" ng-model="vm.isAllEventTypesSelected"></md-checkbox>
+                    </md-list-item>
+                    <md-list-item ng-repeat="eventType in vm.eventTypes">
+                        <p>{{eventType.name}}</p>
+                        <md-checkbox class="md-secondary" ng-model="vm.checkableEventTypes[eventType.id]" ng-change="vm.editEventTypeId(eventType.id)"></md-checkbox>
+                    </md-list-item>
+                </md-list>
+            </div>-->
+                <div layout="column" class="mt-25">
+                    <div hide-xs layout="column" class="public-vendor-services p-25" ng-if="!vm.isVendorServicesLoaded">
+                        <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                    </div>
+                    <div hide show-xs layout="column" class="public-vendor-services p-25" ng-if="!vm.isVendorServicesLoaded">
+                        <svg class="spinner" width="30px" height="30px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                    </div>
+                    <div layout="column">
+                        <div layout="row" layout-align="start start" layout-wrap class="public-vendor-services" ng-if="vm.isVendorServicesLoaded">
+                            <ms-card layout="row" ng-repeat="vendorService in vm.vendorServices" class="vendor-service-public-card" ng-click="vm.gotoVendorServicePage(vm.vendorServices[$index])"
+                                template="'app/core/directives/ms-card/templates/vendor-service-public-card/template.html'" ng-if="vm.vendorServices[$index]"
+                                ng-model="vm.vendorServices[$index]"></ms-card>
+                        </div>
+                        <div layout="row" layout-align="center center" class="p-25">
+                            <!-- <cl-paging flex cl-pages="vm.paging.totalPages" cl-steps="vm.filterValues.pageSize" ng-click="vm.onPageChanged()" cl-align="center end"
+                            cl-current-page="vm.paging.currentPage">
+                        </cl-paging>-->
+                            <span class="md-subheader transparent-background" ng-if="vm.vendorServices.length === 0 && vm.isVendorServicesLoaded" translate="Marketplace.NoServiceAvailable"></span>
+                        </div>
+                        <div layout="row" class="p-25" ng-if="vm.vendorServices.length !== 0 && vm.isVendorServicesLoaded && vm.paging.totalPages !== vm.paging.currentPage"
+                            layout-align="center center">
+                            <!-- <cl-paging flex cl-pages="vm.paging.totalPages" cl-steps="vm.filterValues.pageSize" ng-click="vm.onPageChanged()" cl-align="center end"
+                            cl-current-page="vm.paging.currentPage">
+                        </cl-paging>-->
+                            <md-button hide-xs ng-click="vm.loadMoreClicked()">{{'Layout.LoadMore' | translate}}</md-button>
+                            <md-button hide show-xs class="md-mini" ng-click="vm.loadMoreClicked()">{{'Layout.LoadMore' | translate}}</md-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="FOOTER_1" ng-show="!vm.isMenuOpen">
+            <!--Footer Links-->
+            <!--/.Footer Links-->
+            <!--<hr id="HR_61" />-->
+            <!--Call to action-->
+
+            <!--	<div id="DIV_62">
+		<ul id="UL_63">
+			<li id="LI_64">
+			</li>
+			<li id="LI_65">
+				<a href="https://mdbootstrap.com/getting-started/" id="A_66"></a>
+				<fa id="FA_67">
+				</fa> Download for free<a href="https://mdbootstrap.com/newsletter/" id="A_68"></a>
+				<fa id="FA_69">
+				</fa> Subscribe to our newsletter
+			</li>
+		</ul>
+	</div>-->
+            <!--/.Call to action-->
+            <hr id="HR_70" />
+            <!--Social buttons-->
+
+            <div id="DIV_71">
+                <a href="#" id="A_72">
+         <i class="icon icon-facebook s40"></i></a>
+                <a href="#" id="A_74">
+         <i class="icon icon-twitter s40"></i></a>
+                <a href="#" id="A_76">
+                <i class="icon icon-google s40"></i></a>
+                <a href="#" id="A_78"><i class="icon icon-linkedin s40"></i>
+              </a>
+                <a href="#" id="A_80"><i class="icon icon-dribbble s40"></i> 
+                </a>
+                <a href="#" id="A_82"><i class="icon icon-pinterest s40"></i></a>
+                <a href="#" id="A_84"><i class="icon icon-codepen s40"></i></a>
+                <a href="#" id="A_86"><i class="icon icon-github s40"></i>
+                </a>
+            </div>
+            <!--/.Social buttons-->
+            <!--Copyright-->
+
+            <div id="DIV_88">
+                <div id="DIV_89">
+                    © 2017 Copyright: <a href="https://brono.az" id="A_90">brono.az</a>
+                </div>
+            </div>
+            <!--/.Copyright-->
+
+        </footer>
+    </div>
+</div>

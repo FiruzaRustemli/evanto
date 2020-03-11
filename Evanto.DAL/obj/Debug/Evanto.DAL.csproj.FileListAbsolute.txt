@@ -1,0 +1,255 @@
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csproj.CopyComplete
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Console.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Http.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.AppContext.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Console.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csproj.CopyComplete
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csprojAssemblyReference.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.AppContext.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Console.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csprojAssemblyReference.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csproj.CopyComplete
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Evanto.DAL.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\csi.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Console.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\vbc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\LinqKit.EntityFramework.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.csproj.CopyComplete
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\obj\Debug\Evanto.DAL.pdb

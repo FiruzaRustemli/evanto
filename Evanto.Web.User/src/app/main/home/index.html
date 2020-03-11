@@ -1,0 +1,209 @@
+﻿    <div id="home" class="withSmallHeader page-layout simple right-sidenav" layout="row">
+
+        <!-- CENTER -->
+        <div class="center" flex ms-scroll>
+            <!-- HEADER -->
+          <!--  <div class="header md-accent-bg" layout="column" layout-align="space-between">
+                <div layout="row" layout-align="space-between">
+                    <div>
+                        <span class="md-display-1"><span translate>{{'Home.WelcomeBack'}}</span> {{vm.userInfo.firstName ===
+                        undefined ? vm.userInfo.output.user.firstName : vm.userInfo.firstName}}!</span>
+                    </div>
+                    <div>
+                        <md-button id="btnAddNewEvent" class="md-raised md-primary md-default-theme" ng-click="vm.addEvent()">
+                            <md-icon md-font-icon="icon-calendar-plus"></md-icon>
+                            <span translate>&nbsp; {{'Home.AddNewEvent'}}</span>
+                        </md-button>
+                    </div>
+                </div>
+            </div>-->
+            <!-- / HEADER -->
+            <!-- CONTENT -->
+            <div class="content">
+                <div class="widget-group" layout="row" flex="100" layout-wrap>
+                <!--    <ms-widget flippable="true" layout="column" flex="100" flex-gt-xs="50" flex-gt-md="25">
+                        <ms-widget-front class="white-bg">
+                            <div class="ph-8 pv-16 h-55" layout="row" layout-align="space-between center">
+                                <md-menu>
+                                    <div layout="row">
+                                        <md-button class="md-icon-button" ng-click="$mdOpenMenu()" aria-label="more">
+                                            <md-icon md-font-icon="icon-dots-vertical"></md-icon>
+                                        </md-button>
+                                        <p translate>{{'Home.YourEvents'}}</p>
+                                    </div>
+                                    <md-menu-content width="3">
+                                        <md-menu-item>
+                                            <md-button ng-click="vm.refreshCounts()" aria-label="Refresh counts">
+                                                <span translate>{{'Home.Refresh'}}</span>
+                                            </md-button>
+                                        </md-menu-item>
+                                    </md-menu-content>
+                                </md-menu>
+                            </div>
+                            <div class="pt-8 pb-32" layout="column" layout-align="center center">
+                                <div class="light-blue-fg font-size-72 line-height-72">
+                                    {{vm.allEventsCount}}
+                                </div>
+                                <div ng-if="vm.allEventsCount" class="h3 secondary-text font-weight-500">{{'Home.EventCountLabel' | translate}}</div>
+                            </div>
+                            <div class="p-16 grey-50-bg border-top" layout="row" layout-align="start center">
+                                <span ng-if="vm.allEventsCount !== 0" class="h4 secondary-text text-truncate"><span translate="Home.AllEventsBookingsCountFirstPart"></span>                            {{vm.allEventsCount}} <span translate="Home.AllEventsCountSecondPart"></span></span>
+                                <span ng-if="vm.allEventsCount === 0" class="h4 secondary-text text-truncate">You have no events.</span>
+                            </div>
+                        </ms-widget-front>
+                        <!-- / Front -->
+                    </ms-widget>-->
+                    <!-- / WIDGET 1 -->
+                    <!-- WIDGET 2 -->
+                <!--    <ms-widget flippable="true" layout="column" flex="100" flex-gt-xs="50" flex-gt-md="25">
+                        <ms-widget-front class="white-bg">
+                            <div class="ph-8 pv-16 h-55" layout="row" layout-align="space-between center">
+                                <md-menu>
+                                    <div layout="row">
+                                        <md-button class="md-icon-button" ng-click="$mdOpenMenu()" aria-label="more">
+                                            <md-icon md-font-icon="icon-dots-vertical"></md-icon>
+                                        </md-button>
+                                        <p translate>{{'Home.YourBookings'}}</p>
+                                    </div>
+                                    <md-menu-content width="3">
+                                        <md-menu-item>
+                                            <md-button ng-click="vm.refreshCounts()" aria-label="Refresh counts">
+                                                <span translate>{{'Home.Refresh'}}</span>
+                                            </md-button>
+                                        </md-menu-item>
+                                    </md-menu-content>
+                                </md-menu>
+                            </div>
+                            <div class="pt-8 pb-32" layout="column" layout-align="center center">
+                                <div class="light-blue-fg font-size-72 line-height-72">
+                                    {{vm.allBookingsCount}}
+                                </div>
+                                <div ng-if="vm.allBookingsCount" class="h3 secondary-text font-weight-500">{{'Home.BookingCountLabel' | translate}}</div>
+                            </div>
+                            <div class="p-16 grey-50-bg border-top" layout="row" layout-align="start center">
+                                <span ng-if="vm.allBookingsCount !== 0" class="h4 secondary-text text-truncate"><span translate="Home.AllEventsBookingsCountFirstPart"></span>                            {{vm.allBookingsCount}} <span translate="Home.AllBookingsCountSecondPart"></span></span>
+                                <span ng-if="vm.allBookingsCount === 0" class="h4 secondary-text text-truncate">You have no bookings</span></span>
+                            </div>
+                        </ms-widget-front>
+                        <!-- / Front -->
+                    </ms-widget>-->
+                    <!-- / WIDGET 2 -->
+
+                </div>
+             <!--   <div class="widget-group" layout="row" flex="100" layout-wrap>
+                    <ms-widget layout="column" flex="100" flex-gt-sm="50">
+                        <ms-widget-front class="white-bg">
+                            <div class="ph-16 border-bottom" layout="row" layout-align="space-between center">
+                                <div class="h3"><span translate>{{'Home.LastEvents'}}</span></div>
+                                <div class="pv-16">
+                                    <md-select class="simplified" ng-model="vm.lastEventFilter" aria-label="Change range">
+                                        <md-option value="eventDate">
+                                            <span translate>{{'Home.EventDate'}}</span>
+                                        </md-option>
+                                        <md-option value="createdDate">
+                                            <span translate>{{'Home.CreatedDate'}}</span>
+                                        </md-option>
+                                        <md-option value="budget">
+                                            <span translate>{{'Home.Budget'}}</span>
+                                        </md-option>
+                                    </md-select>
+                                </div>
+                            </div>
+                            <md-progress-linear md-mode="query" ng-disabled="vm.isLastEventsLoaded" class="prgrsBarHome"></md-progress-linear>
+                            <div class="p-16" layout="row" layout-align="space-between center" ng-repeat="event in vm.lastEvents | orderBy: vm.lastEventFilter:true">
+                                <div class="lastEvents" ng-click="vm.showEventInfo(event)">
+                                    <div class="h3">{{event.name}}</div>
+                                    <div>
+                                        <span class="secondary-text">{{event.eventDate | date : 'fullDate'}}</span>
+                                    </div>
+                                </div>
+                                <md-button  aria-label="More information" ng-click="vm.showEventInfo(event)">
+                           
+                                                                                                            Show services
+                                </md-button>
+                            </div>
+                            <div ng-if="vm.lastEvents.length === 0" class="p-16" layout="row" layout-align="space-between center">
+                                <div>
+                                    <div>
+                                        <span class="secondary-text">You have no events.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </ms-widget-front>
+                    </ms-widget>
+                    <ms-widget layout="column" flex="100" flex-gt-sm="50">
+                        <ms-widget-front class="white-bg">
+                            <div class="ph-16 border-bottom" layout="row" layout-align="space-between center">
+                                <div class="h3" layout="row"><span translate>{{'Home.LastBookings'}}</span> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;
+                                    <span flex></span>
+
+                                    <div>
+                                        <md-icon md-font-icon="icon-dots-horizontal orange-500-fg s20"></md-icon><span translate>{{'Home.WaitingLastBookings'}}</span>
+                                        <md-icon md-font-icon="icon-checkbox-marked-circle green-500-fg s20"></md-icon><span translate>{{'Home.ApprovedLastBookings'}} </span>
+                                        <md-icon md-font-icon="icon-cancel red-500-fg s20"></md-icon><span translate>{{'Home.RejectedLastBookings'}} </span>
+                                    </div>
+                                </div>
+                                <div class="pv-16">
+                                    <md-select class="simplified" ng-model="vm.lastBookingFilter" aria-label="Change range">
+                                        <md-option value="bookDate">
+                                            <span translate>{{'Home.BookingDate'}}</span>
+                                        </md-option>
+                                        <md-option value="statusId">
+                                            <span translate>{{'Home.Status'}}</span>
+                                        </md-option>
+                                        <md-option value="createdDate">
+                                            <span translate>{{'Home.CreatedDate'}}</span>
+                                        </md-option>
+                                    </md-select>
+                                </div>
+                            </div>
+                            <md-tabs class="noTitledTabs" md-selected="vm.selectedBookingTab" md-dynamic-height aria-label="Booking tabs">
+                                <md-tab>
+                                    <md-tab-body>
+                                        <md-progress-linear md-mode="query" ng-disabled="vm.isLastBookingsLoaded" class="prgrsBarHome"></md-progress-linear>
+                                        <div class="p-16" layout="row" layout-align="space-between center" ng-repeat="booking in vm.lastBookings | orderBy: vm.lastBookingFilter:true">
+                                            <div>
+                                                <div class="h3">{{booking.vendor.name}}</div>
+                                                <div>
+                                                    <span class="secondary-text">{{booking.bookDate | date : 'fullDate'}}</span>
+                                                </div>
+                                            </div>
+                                            <span flex></span>
+
+                                            <md-icon ng-if="booking.statusId === 1" md-font-icon="icon-dots-horizontal orange-500-fg"></md-icon>
+                                            <md-icon ng-if="booking.statusId === 2" md-font-icon="icon-checkbox-marked-circle green-500-fg"></md-icon>
+                                            <md-icon ng-if="booking.statusId === 3" md-font-icon="icon-cancel red-500-fg"></md-icon>
+                                            &nbsp; &nbsp; &nbsp;
+                                            <md-button class="md-raised md-fab md-mini" aria-label="More booking information" ng-click="vm.showNextBookingTab(booking)">
+                                                <md-icon md-font-icon="icon-arrow-right"></md-icon>
+                                            </md-button>
+                                        </div>
+                                        <div ng-if="vm.lastBookings.length === 0" class="p-16" layout="row" layout-align="space-between center">
+                                            <div>
+                                                <div>
+                                                    <span class="secondary-text">You have no booking.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </md-tab-body>
+                                </md-tab>
+                                <md-tab>
+                                    <md-tab-body>
+                                        <div layout="row" flex layout-padding>
+                                            <div flex="nogrow">
+                                                <md-button class="md-fab md-raised" ng-click="vm.getBackToBookingList()" aria-label="Get back to booking list">
+                                                    <md-icon md-font-icon="icon-arrow-left"></md-icon>
+                                                </md-button>
+                                            </div>
+                                            <booking-info flex="95" info="vm.selectedBooking"></booking-info>
+                                        </div>
+                                    </md-tab-body>
+                                </md-tab>
+                            </md-tabs>
+                        </ms-widget-front>
+                    </ms-widget>
+                </div>-->
+            </div>
+            <!-- / CONTENT -->
+        </div>
+    </div>

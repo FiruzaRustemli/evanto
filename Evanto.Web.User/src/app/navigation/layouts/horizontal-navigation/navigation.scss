@@ -1,0 +1,23 @@
+#layout-horizontal-navigation {
+.navigation-button{
+   margin:0;
+   padding:0;
+       width: 160px;
+}
+
+.navigation-button:hover{
+     -webkit-box-shadow: 0 4px 20px 0 rgba(168,182,191,.6);
+    box-shadow: 0 4px 20px 0 rgba(168,182,191,.6);
+}
+
+.event-booking-count
+{
+    border-bottom: 36px solid #FFC107;
+    border-left: 10px solid transparent;
+    height: 0;
+    padding: 0 16px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(3deg);
+}
+}

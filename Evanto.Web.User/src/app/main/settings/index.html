@@ -1,0 +1,90 @@
+<!-- DIALOG -->
+<md-dialog class="settings-dialog" ng-controller="SettingsController as vm" aria-label="Settings">
+
+    <!-- DIALOG TOOLBAR -->
+    <md-toolbar class="md-accent" layout="column">
+
+        <!-- TOOLBAR TOP -->
+        <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+            <span class="title" translate>{{'Layout.Settings'}}</span>
+            <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog">
+                <md-icon md-font-icon="icon-close"></md-icon>
+            </md-button>
+        </div>
+        <!-- / TOOLBAR TOP -->
+
+    </md-toolbar>
+    <!-- / DIALOG TOOLBAR -->
+
+    <!-- DIALOG CONTENT -->
+    <md-dialog-content ms-scroll md-dynamic-height>
+        <div class="md-dialog-content">
+
+            <div class="ms-theme-options-list" layout="column">
+                <div class="theme-option">
+                    <div class="option-title" translate="Layout.Language"></div>
+                    <div layout="row" layout-align="start start" layout-wrap>
+                        <md-menu id="language-menu" md-offset="0 72" md-position-mode="target-right target">
+                            <md-button class="language-button" ng-click="$mdOpenMenu()" aria-label="Language" md-menu-origin md-menu-align-target>
+                                <div layout="row" layout-align="start center">
+                                    <img class="flag" ng-src="assets/images/flags/{{vm.selectedLanguage.flag}}.png"> &nbsp;&nbsp;
+                                    <span class="iso">{{vm.selectedLanguage.code}}</span>
+                                </div>
+                            </md-button>
+                            <md-menu-content width="3" id="language-menu-content">
+                                <md-menu-item ng-repeat="(iso, lang) in vm.languages">
+                                    <md-button ng-click="vm.changeLanguage(lang)" aria-label="{{lang.title}}" translate translate-attr-aria-label="{{lang.title}}">
+                                        <span layout="row" layout-align="start center">
+              <img class="flag" ng-src="assets/images/flags/{{lang.flag}}.png">
+              <span translate="{{lang.translation}}">{{lang.title}}</span>
+                                        </span>
+                                    </md-button>
+                                </md-menu-item>
+                            </md-menu-content>
+                        </md-menu>
+                    </div>
+                </div>
+
+                <md-divider></md-divider>
+
+                <div class="theme-option color-palettes">
+                    <div class="option-title">{{'Layout.SelectedColor' | translate}}</div>
+                    <div layout="row" layout-align="space-between end" layout-wrap>
+                        <md-button ng-repeat="(themeName, theme) in vm.themes.list" class="md-raised theme-button" layout="row" layout-align="center center"
+                            aria-label="{{themeName}}" ng-style="{'background-color': theme.primary.color,'border-color': theme.accent.color,'color': theme.primary.contrast1}"
+                            ng-class="{active: vm.getActiveTheme().name === themeName, hidden: vm.getActiveTheme().name !== themeName}">
+                            <md-icon ng-style="{'color': theme.primary.contrast1}" md-font-icon="icon-palette" class="icon s32"></md-icon>
+                        </md-button>
+                        <md-switch ng-model="vm.themeSelectionEnabled">{{'Layout.ShowAllThemes' | translate}}</md-switch>
+                    </div>
+                </div>
+
+                <div ng-if="vm.themeSelectionEnabled" class="md-block animate-if">
+                    <md-divider></md-divider>
+
+                    <div class="theme-option color-palettes">
+                        <div class="option-title">{{'Layout.AvailableThemes' | translate}}</div>
+                        <div layout="row" layout-align="start start" layout-wrap>
+                            <md-button ng-repeat="(themeName, theme) in vm.themes.list" class="md-raised theme-button" layout="row" layout-align="center center"
+                                aria-label="{{themeName}}" ng-click="vm.setActiveTheme(themeName)" ng-style="{'background-color': theme.primary.color,'border-color': theme.accent.color,'color': theme.primary.contrast1}"
+                                ng-class="{active: vm.getActiveTheme().name === themeName}">
+                                <md-icon ng-style="{'color': theme.primary.contrast1}" md-font-icon="icon-palette" class="icon s32"></md-icon>
+                            </md-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </md-dialog-content>
+    <!-- / DIALOG CONTENT -->
+
+    <!-- DIALOG ACTIONS -->
+    <md-dialog-actions layout="row" layout-align="end center">
+        <div layout="row">
+            <md-button class="md-raised" ng-click="vm.cancel()">{{'Layout.CloseSettingsPanel' | translate}}</md-button>
+        </div>
+    </md-dialog-actions>
+    <!-- / DIALOG ACTIONS -->
+</md-dialog>
+<!-- / DIALOG -->

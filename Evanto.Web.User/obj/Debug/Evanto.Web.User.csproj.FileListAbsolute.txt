@@ -1,0 +1,560 @@
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csprojAssemblyReference.cache
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.az.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.ru.resources
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.GenerateResource.cache
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ApplicationInsights.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.resx
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.az.resx
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.ru.resx
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.Designer.cs
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\az\Evanto.Web.User.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ru\Evanto.Web.User.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.AppContext.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Console.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Http.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.ValueTuple.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.rsp
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Cors.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.pdb
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll.config
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.xml
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\az\Evanto.Web.User.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\ru\Evanto.Web.User.resources.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.CopyComplete
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.dll
+C:\Users\Firuze Rustamli\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ApplicationInsights.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.resx
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.az.resx
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.ru.resx
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.Designer.cs
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\az\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ru\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.AppContext.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Console.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.rsp
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Cors.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.pdb
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll.config
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csprojAssemblyReference.cache
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.az.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.ru.resources
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.GenerateResource.cache
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\az\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\ru\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.CopyComplete
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.dll
+C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ApplicationInsights.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.resx
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.az.resx
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.ru.resx
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.Designer.cs
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\az\Evanto.Web.User.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ru\Evanto.Web.User.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Cors.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.pdb
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll.config
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csprojAssemblyReference.cache
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.az.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.ru.resources
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.GenerateResource.cache
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\az\Evanto.Web.User.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\ru\Evanto.Web.User.resources.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.CopyComplete
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.dll
+C:\Users\User\Desktop\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ApplicationInsights.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.resx
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.az.resx
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.ru.resx
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.Designer.cs
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\az\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ru\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.rsp
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.rsp
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.AppContext.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Console.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.rsp
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Cors.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.pdb
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll.config
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csprojAssemblyReference.cache
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.resources
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.az.resources
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.ru.resources
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.GenerateResource.cache
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\az\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\ru\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.CopyComplete
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.dll
+C:\Repository\Evanto\e\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ApplicationInsights.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.resx
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.az.resx
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.ru.resx
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Resource\Landing\LandingResource.Designer.cs
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Web.User.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\az\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\ru\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\csi.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.AppContext.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Collections.Immutable.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Console.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Globalization.Calendars.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Http.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Net.Sockets.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.ValueTuple.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\vbc.rsp
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\roslyn\VBCSCompiler.exe.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Cors.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.pdb
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Evanto.Utils.dll.config
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\log4net.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.Web.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.AI.WindowsServer.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.ApplicationInsights.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\Newtonsoft.Json.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Net.Http.Formatting.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Helpers.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.Cors.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Http.WebHost.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Mvc.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.Razor.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csprojAssemblyReference.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.az.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.Resource.Landing.LandingResource.ru.resources
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.GenerateResource.cache
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\az\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\ru\Evanto.Web.User.resources.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.csproj.CopyComplete
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.dll
+C:\Repository\Evanto\Beginner\younggeeks-evanto-765053719047\trunk\Source\Evanto.Web.User\obj\Debug\Evanto.Web.User.pdb

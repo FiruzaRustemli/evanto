@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Evanto.Web.Vendor.Models.ViewModels.ServicePeriodPriceGroupedDto>
+
+@{
+    ViewBag.Title = "Services";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+@section styles{
+    <link href="~/Content/css/Views/Services/services.css" rel="stylesheet" />
+    <link href="~/Content/css/Views/Services/serviceHamburger.css" rel="stylesheet" />
+    <link href="~/Content/vendors/bower_components/datatables.net-dt/css/jquery.dataTables.min.css" rel="stylesheet">
+}
+<div class="col-md-6" style="z-index:3;">
+    <div class="card" style="padding-bottom:10px;">
+        <div class="card-header">
+            <h2>
+                Basic Table
+                <small>Basic example without any additional modification classes</small>
+            </h2>
+        </div>
+
+        <div class="card-body table-responsive" style="max-height:500px; overflow-y:auto; ">
+            <table class="table" style="padding-right:15px; margin-bottom:10px;">
+                <thead>
+                    <tr class="t-title">
+                        <th>#</th>
+                        <th>1 Month</th>
+                        <th>3 Month</th>
+                        <th>6 Month</th>
+                        <th>1 Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var list = new List<string>();
+                        foreach (var item in Model)
+                        {
+                            <tr class="serviceTR">
+                                @foreach (var itemService in item.ServicePeriodPrices)
+                                {
+                                    if (!list.Contains(itemService.Service.Name))
+                                    {
+                                        list.Add(itemService.Service.Name);
+                                        <td style="vertical-align:middle; max-width:100px;">
+                                            <i id="service_icon_@itemService.Service.Id"></i>
+                                            @itemService.Service.Name
+                                        </td>
+                                    }
+                                    <td style="padding:0 !important;">
+                                        @*<label class="checkbox checkbox-inline m-r-20">
+                                                <input type="checkbox" value="@itemService.Id" class="chkbxPrice" name="@itemService.Service.Name">
+                                                <i class="input-helper"></i>
+                                                @itemService.Price
+                                            </label>*@
+                                        <div value="@itemService.Id"
+                                             class="waves-effect servicePP bgm-service brd-4 p-10 p-r-25"
+                                             name="@itemService.Service.Name"
+                                             style="display:block;margin:5px;">
+                                            <div class="m-b-2 c-white">AZN</div>
+                                            <h5 class="m-0 c-white f-300">@itemService.Price</h5>
+                                        </div>
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="form-group fg-float" style="margin:10px">
+            <button id="btnAdd" class="btn btn-info waves-effect btn-block btn-lg">Əlavə edin</button>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="card">
+        <div class="card-header">
+            <h2>
+                Seçilmiş servislər
+                <small></small>
+            </h2>
+        </div>
+
+        <div class="table-responsive">
+            <table id="data-table-services" class="table table-responsive table-hover">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Status</th>
+                        <th>Op</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyServices"></tbody>
+            </table>
+
+            <section id="modals"></section>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/Content/js/Views/Services/ServiceIcons.js"></script>
+    <script src="~/Content/js/Views/Services/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            setPageModel(@Html.Raw(Json.Encode(Model)))
+            documentReady()
+        })
+    </script>
+}

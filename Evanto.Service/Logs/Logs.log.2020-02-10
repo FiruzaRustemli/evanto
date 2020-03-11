@@ -1,0 +1,498 @@
+2020-02-10 09:21:37,357 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 09:21:55,107 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 09:32:14,139 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 09:32:31,737 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 09:46:05,098 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 10:01:26,142 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 10:07:46,964 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 10:08:02,807 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 10:16:26,817 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 10:16:42,650 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 10:40:25,901 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 10:40:41,811 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 11:10:18,876 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 11:10:34,729 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 13:59:23,409 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 13:59:39,556 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:14:52,459 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:15:08,613 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:16:41,112 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:18:15,932 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:18:31,963 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:21:17,342 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:21:33,893 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:24:44,974 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:25:01,657 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:30:50,373 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:31:06,930 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:32:26,695 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:32:43,594 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:47:17,168 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:47:34,117 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 14:51:23,291 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 14:51:40,168 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No such host is known
+2020-02-10 15:00:12,003 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 15:07:13,962 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 15:07:14,713 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Core.MetadataException: Unable to load the specified metadata resource.
+   at System.Data.Entity.Core.Metadata.Edm.MetadataArtifactLoaderCompositeResource.LoadResources(String assemblyName, String resourceName, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataArtifactLoaderCompositeResource.CreateResourceLoader(String path, ExtensionCheck extensionCheck, String validExtension, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataArtifactLoader.Create(String path, ExtensionCheck extensionCheck, String validExtension, ICollection`1 uriRegistry, MetadataArtifactAssemblyResolver resolver)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataCache.SplitPaths(String paths)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataCache.GetArtifactLoader(DbConnectionOptions effectiveConnectionOptions)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataCache.GetMetadataWorkspace(DbConnectionOptions effectiveConnectionOptions)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.GetMetadataWorkspace()
+   at System.Data.Entity.Core.Objects.ObjectContext.RetrieveMetadataWorkspaceFromConnection()
+   at System.Data.Entity.Core.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor, ObjectQueryExecutionPlanFactory objectQueryExecutionPlanFactory, Translator translator, ColumnMapFactory columnMapFactory)
+   at System.Data.Entity.Internal.InternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 15:13:06,976 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 15:13:07,205 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 15:17:57,325 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 15:17:57,520 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 15:24:54,498 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 15:24:54,730 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 15:31:48,718 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 15:31:48,963 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:12:24,848 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:12:25,119 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:25:11,110 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:25:11,201 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:28:21,027 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:28:21,113 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:32:15,106 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:32:15,248 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:40:17,951 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:40:18,233 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:47:17,265 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:47:17,432 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 16:57:29,734 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 16:57:29,881 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:01:20,332 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:01:20,438 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:13:56,475 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:13:56,585 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:30:56,005 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:30:56,141 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:34:32,554 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:34:32,782 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 138.
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, String& keyname, String& keyvalue)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions.ParseInternal(IDictionary`2 parsetable, String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.Internal.DbConnectionOptions..ctor(String connectionString, IList`1 validKeywords)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Core.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:48:19,138 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:48:47,555 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.Data.Entity.Infrastructure.UnintentionalCodeFirstException: The context is being used in Code First mode with code that was generated from an EDMX file for either Database First or Model First development.  This will not work correctly. To fix this problem do not remove the line of code that throws this exception. If you wish to use Database First or Model First, then make sure that the Entity Framework connection string is included in the app.config or web.config of the start-up project. If you are creating your own DbConnection, then make sure that it is an EntityConnection and not some other type of DbConnection, and that you pass it to one of the base DbContext constructors that take a DbConnection. To learn more about Code First, Database First, and Model First see the Entity Framework documentation here: http://go.microsoft.com/fwlink/?LinkId=394715
+   at Evanto.DAL.Context.EvantoContext.OnModelCreating(DbModelBuilder modelBuilder) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Context\EvantoModel.Context.cs:line 27
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModelBuilder()
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:49:23,189 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:54:51,510 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:54:51,879 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Keyword not supported: 'metadata'.
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   at System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   at System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 17:57:15,112 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 17:57:15,428 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ArgumentException: Keyword not supported: 'metadata'.
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   at System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   at System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_Expression()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Expression()
+   at LinqKit.ExpandableQuery`1.System.Linq.IQueryable.get_Expression()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Evanto.DAL.Repository.Repository`1.GetAll(Expression`1 predicate) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.DAL\Repository\Repository.cs:line 98
+   at Evanto.BL.Operations.Client.GetClientsOperation.DoExecute() in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operations\Client\GetClientsOperation.cs:line 16
+   at Evanto.BL.Operation`2.Execute(TParameters parameters) in C:\Repository\Evanto\younggeeks-evanto-765053719047\trunk\Source\Evanto.BL\Operation.cs:line 55
+2020-02-10 18:00:18,045 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 18:06:59,085 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 18:07:00,397 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-10 18:08:12,781 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 18:08:13,948 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-10 18:15:22,755 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 18:15:23,858 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-10 18:21:17,588 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 18:21:36,349 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe
+2020-02-10 18:23:15,038 [1] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.GetClientsOperation
+2020-02-10 18:23:27,398 [1] ERROR Evanto.BL.Operation`2 - Error occured: 
+System.ComponentModel.Win32Exception (0x80004005): No process is on the other end of the pipe

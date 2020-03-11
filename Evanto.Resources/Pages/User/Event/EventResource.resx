@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Event.NewEventHeader" xml:space="preserve">
+    <value>New event</value>
+  </data>
+  <data name="Event.EventType" xml:space="preserve">
+    <value>Event type</value>
+  </data>
+  <data name="Event.Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Event.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Event.Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Event.Budget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="Event.PageName" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="Event.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Event.SelectAnEventType" xml:space="preserve">
+    <value>Select an event type</value>
+  </data>
+  <data name="Event.WithBudget" xml:space="preserve">
+    <value>With budget</value>
+  </data>
+  <data name="Event.SelectEventDate" xml:space="preserve">
+    <value>Select event date</value>
+  </data>
+  <data name="Event.EventNameIsRequired" xml:space="preserve">
+    <value>Event name is required.</value>
+  </data>
+  <data name="Event.EventTypeIsRequired" xml:space="preserve">
+    <value>Event type is required.</value>
+  </data>
+  <data name="Event.EventDateIsRequired" xml:space="preserve">
+    <value>Event date is required.</value>
+  </data>
+  <data name="Event.YouSelectedWithBudget" xml:space="preserve">
+    <value>You selected with budget option then add budget please.</value>
+  </data>
+  <data name="Event.Events" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="Event.SearchEventByName" xml:space="preserve">
+    <value>Search event by name</value>
+  </data>
+  <data name="Event.ShowFullEventInformation" xml:space="preserve">
+    <value>Show full</value>
+  </data>
+  <data name="Event.EventDate" xml:space="preserve">
+    <value>Event date</value>
+  </data>
+  <data name="Event.ReservedServices" xml:space="preserve">
+    <value>Reserved services</value>
+  </data>
+  <data name="Event.NoServiceUsedForThisEvent" xml:space="preserve">
+    <value>No service used for this event.</value>
+  </data>
+  <data name="Event.Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="DanceLessons" xml:space="preserve">
+    <value>Dance lessons</value>
+  </data>
+  <data name="DJ" xml:space="preserve">
+    <value>DJ</value>
+  </data>
+  <data name="Decor" xml:space="preserve">
+    <value>Decor</value>
+  </data>
+  <data name="Dresses &amp; Attire" xml:space="preserve">
+    <value>Dresses &amp; Attire</value>
+  </data>
+  <data name="Beauty&amp;Health" xml:space="preserve">
+    <value>Beauty &amp; Health</value>
+  </data>
+  <data name="Cakes" xml:space="preserve">
+    <value>Cakes</value>
+  </data>
+  <data name="Caterer" xml:space="preserve">
+    <value>Caterer</value>
+  </data>
+  <data name="Event.EventTime" xml:space="preserve">
+    <value>Event time</value>
+  </data>
+  <data name="Event.Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="Event.SetTimeOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Event.NoBudgetSet" xml:space="preserve">
+    <value>No budget set.</value>
+  </data>
+  <data name="Event.CreateEvent" xml:space="preserve">
+    <value>Create event</value>
+  </data>
+  <data name="Event.EventType.Birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="Event.EventType.Corporate" xml:space="preserve">
+    <value>Corporate</value>
+  </data>
+  <data name="Event.EventType.Engagement" xml:space="preserve">
+    <value>Engagement</value>
+  </data>
+  <data name="Event.EventType.Henna" xml:space="preserve">
+    <value>Henna</value>
+  </data>
+  <data name="Event.EventType.Party" xml:space="preserve">
+    <value>Party</value>
+  </data>
+  <data name="Event.EventType.Wedding" xml:space="preserve">
+    <value>Wedding</value>
+  </data>
+  <data name="Event.FeaturedServices" xml:space="preserve">
+    <value>Featured services</value>
+  </data>
+  <data name="Event.NoReservedServices" xml:space="preserve">
+    <value>No reserved services</value>
+  </data>
+  <data name="Event.EventNameMaxLength" xml:space="preserve">
+    <value>The name has to be less than 50 characters long.</value>
+  </data>
+</root>

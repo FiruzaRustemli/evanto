@@ -1,0 +1,26 @@
+.ms-card {
+
+    .vendor-service-public-card-template {
+cursor:pointer;
+-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+        .media {
+
+            .image {
+                width: 100%;
+                border-radius: 2px 2px 0 0;
+            }
+        }
+
+        .content .jk-rating-stars-container .icon-star{
+            font-size: 20px;
+        }
+    }
+
+    .vendor-service-public-card-template:hover{
+        opacity: 0.75;
+    }
+}

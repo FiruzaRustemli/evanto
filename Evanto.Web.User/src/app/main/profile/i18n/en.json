@@ -1,0 +1,22 @@
+{
+	"Profile": "Profile",
+	"Save": "Save",
+	"FirstName": "First name",
+	"LastName": "Last name",
+	"Email": "Email",
+	"Birthday": "Birthday",
+	"Generalnfo": "General information",
+	"AdditionalInfo": "Additional information",
+	"PhoneNumber": "Phone number",
+	"RegistrationDate": "Registration date",
+	"SelectFile": "Select",
+	"MaritalStatus": "Marital status",
+	"Gender": "Gender",
+	"ChangePassword": "Change password",
+	"Browse": "Browse",
+	"Upload": "Upload",
+	"Male": "Male",
+	"Female": "Female",
+	"Married": "Married",
+	"Single": "Single"
+}

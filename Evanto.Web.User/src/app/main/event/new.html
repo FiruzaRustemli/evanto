@@ -1,0 +1,132 @@
+﻿<!-- DIALOG -->
+<md-dialog class="new-event-dialog" ng-controller="NewEventController as vm" aria-label="New event">
+
+    <form name="newEventForm" class="md-inline-form" novalidate>
+
+        <!-- DIALOG TOOLBAR -->
+        <md-toolbar class="md-accent" layout="column">
+
+            <!-- TOOLBAR TOP -->
+            <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+                <span class="title" translate>{{'Event.NewEventHeader'}}</span>
+                <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog">
+                    <md-icon md-font-icon="icon-close"></md-icon>
+                </md-button>
+            </div>
+            <!-- / TOOLBAR TOP -->
+
+        </md-toolbar>
+        <!-- / DIALOG TOOLBAR -->
+
+        <!-- DIALOG CONTENT -->
+        <md-dialog-content ms-scroll md-dynamic-height>
+
+            <div class="md-dialog-content">
+                <md-input-container class="md-icon-float md-block">
+                    <label><span translate="Event.Name"></span></label>
+                    <input md-maxlength="50" name="eventName" type="text" ng-model="vm.newEvent.name" required>
+                    <div ng-messages="newEventForm.eventName.$error">
+                         <div ng-message="md-maxlength">{{'Event.EventNameMaxLength' | translate}}</div>
+                        <div ng-message="required"><span translate="Event.EventNameIsRequired"></span></div>
+                    </div>
+                </md-input-container>
+
+                <md-input-container class="md-icon-float md-block">
+                    <label><span translate="Event.SelectAnEventType"></span></label>
+                    <md-select name="eventType" id="mdselectEventType" aria-label="Event types" placeholder="{{vm.translations.EventType}}" ng-model="vm.newEvent.eventId"
+                        md-on-open="vm.getEventTypes()" required>
+                        <md-option ng-value="eventType.id" ng-repeat="eventType in vm.eventTypes">{{eventType.name}}</md-option>
+                    </md-select>
+                    <div ng-messages="newEventForm.eventType.$error">
+                        <div ng-message="required"><span translate="Event.EventTypeIsRequired"></span></div>
+                    </div>
+                </md-input-container>
+
+                <md-input-container class="md-icon-float md-block">
+                    <label><span translate="Event.SelectEventDate"></span></label>
+                    <md-datepicker md-min-date="vm.eventDateRange.minDate" name="eventDate" class="event-date-input" ng-model="vm.newEvent.eventDateAsDate" required md-open-on-focus></md-datepicker>
+                    <div ng-messages="newEventForm.eventDate.$error">
+                        <div ng-message="required"><span translate="Event.EventDateIsRequired"></span></div>
+                    </div>
+                </md-input-container>
+
+                <div layout="row">
+                    <md-input-container class="md-icon-float md-block">
+                        <label>Hour</label>
+                        <md-select name="eventHour" required ng-model="vm.newEvent.selectedHour">
+                            <md-option ng-value="00">00</md-option>
+                            <md-option ng-value="01">01</md-option>
+                            <md-option ng-value="02">02</md-option>
+                            <md-option ng-value="03">03</md-option>
+                            <md-option ng-value="04">04</md-option>
+                            <md-option ng-value="05">05</md-option>
+                            <md-option ng-value="06">06</md-option>
+                            <md-option ng-value="07">07</md-option>
+                            <md-option ng-value="08">08</md-option>
+                            <md-option ng-value="09">09</md-option>
+                            <md-option ng-value="10">10</md-option>
+                            <md-option ng-value="11">11</md-option>
+                            <md-option ng-value="12">12</md-option>
+                            <md-option ng-value="13">13</md-option>
+                            <md-option ng-value="14">14</md-option>
+                            <md-option ng-value="15">15</md-option>
+                            <md-option ng-value="16">16</md-option>
+                            <md-option ng-value="17">17</md-option>
+                            <md-option ng-value="18">18</md-option>
+                            <md-option ng-value="19">19</md-option>
+                            <md-option ng-value="20">20</md-option>
+                            <md-option ng-value="21">21</md-option>
+                            <md-option ng-value="22">22</md-option>
+                            <md-option ng-value="23">23</md-option>
+                        </md-select>
+                        <div ng-messages="newEventForm.eventHour.$error">
+                            <div ng-message="required"><span translate="Event.EventTimeIsRequired"></span></div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container class="md-icon-float md-block" flex="5">
+                        <input type="text" class="centered-text" value=":" ng-disabled="true">
+                    </md-input-container>
+                    <md-input-container class="md-icon-float md-block">
+                        <label>Minute</label>
+                        <md-select name="eventMinute" required ng-model="vm.newEvent.selectedMinute">
+                            <md-option ng-value="00">00</md-option>
+                            <md-option ng-value="30">30</md-option>
+                        </md-select>
+                        <div ng-messages="newEventForm.eventMinute.$error">
+                            <div ng-message="required"><span translate="Event.EventTimeIsRequired"></span></div>
+                        </div>
+                    </md-input-container>
+                </div>
+
+                <md-input-container class="md-icon-float md-block">
+                    <md-switch ng-model="vm.isBudgetRequested" aria-label="Is budget requested for event">
+                        <span translate="Event.WithBudget"></span>
+                    </md-switch>
+                </md-input-container>
+
+                <md-input-container ng-if="vm.isBudgetRequested" class="md-icon-float md-block animate-if">
+                    <label><span translate="Budget"></span></label>
+                    <input name="budget" type="number" ng-model="vm.newEvent.budget" required>
+                    <div ng-messages="newEventForm.budget.$error">
+                        <div ng-message="required"><span translate="YouSelectedWithBudget"></span></div>
+                    </div>
+                </md-input-container>
+                </md-card>
+            </div>
+
+        </md-dialog-content>
+        <!-- / DIALOG CONTENT -->
+
+        <!-- DIALOG ACTIONS -->
+        <md-dialog-actions layout="row" layout-align="end center">
+            <div layout="row">
+                <md-button class="md-raised" ng-click="vm.cancel()"><span translate="Cancel"></span></md-button>
+                <md-button class="md-accent md-raised" ng-click="vm.create()" ng-disabled="vm.createButtonDisabled || newEventForm.$invalid"><span translate="Create"></span></md-button>
+            </div>
+        </md-dialog-actions>
+        <!-- / DIALOG ACTIONS -->
+
+    </form>
+
+</md-dialog>
+<!-- / DIALOG -->

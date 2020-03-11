@@ -1,0 +1,21 @@
+{
+	"Layout.Azerbaijan": "Azerbaijan",
+	"Layout.BookingsMenu": "Bookings",
+	"Layout.ChangeLanguage": "Change language",
+	"Layout.CreateNew": "Create new",
+	"Layout.English": "English",
+	"Layout.EventsMenu": "Events",
+	"Layout.Feedback": "Feedback",
+	"Layout.HomeMenu": "Home",
+	"Layout.LoadingText": "Loading ...",
+	"Layout.Logout": "Log out",
+	"Layout.MyProfile": "My profile",
+	"Layout.Russian": "Russian",
+	"Layout.Settings": "Settings",
+	"Layout.YouAreOffline": "You are offline.",
+	"Layout.AvailableThemes": "Available color options",
+	"Layout.ShowAllThemes": "Show all color options",
+	"Layout.SelectedColor": "Selected color",
+	"Layout.FeedbackUs24/7": "Feedback us 24/7",
+	"Layout.CloseSettingsPanel": "Close"
+}

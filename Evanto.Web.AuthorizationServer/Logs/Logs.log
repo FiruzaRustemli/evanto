@@ -1,0 +1,1 @@
+2020-03-10 12:43:13,305 [18] INFO  Evanto.BL.Operation`2 - Executing process started with this parameters: {"ClientId":null,"ClientSecret":null,"CurrentUserId":0} - Executed from this class : Evanto.BL.Operations.Client.ClientValidationOperation

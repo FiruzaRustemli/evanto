@@ -1,0 +1,208 @@
+.image-upload i
+{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 14pt;
+    opacity: 0.3;
+}
+.image-upload i:hover {
+    opacity: 1;
+    transition: 3ms;
+}
+.image-upload {
+    position: absolute;
+    top: 10px;
+    left: 190px;
+}
+
+.image-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.label-name {
+    font-weight: 900;
+    color: white;
+}
+
+.middle-text-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.middle-text-div-parent {
+    display: table;
+    height: 100%;
+}
+
+.cover-user {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.label-description {
+    font-size: 20pt;
+    line-height: 2;
+    color: white;
+    font-weight: 100;
+}
+
+.img-profile {
+    border: 5px solid white;
+    margin: 0 auto;
+}
+
+.disab {
+    pointer-events: all;
+}
+.file-upload-profile {
+    margin-top:10px;
+}
+
+.center-div {
+    margin:0 auto;
+    text-align: center;
+}
+
+.list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    line-height: 24px;
+  }
+  .list .tile {
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 48px;
+  }
+  .list .tile > a {
+    text-decoration: none;
+  }
+  .list .tile > a:hover {
+    color: #0aa89e;
+  }
+  .list .tile .tile-content {
+    display: table-cell;
+    padding-left: 16px;
+  }
+  .list .tile .tile-content:last-child {
+    padding-right: 16px;
+  }
+  .list .tile .tile-content > div {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .list .tile > .btn {
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 56px;
+    width: 56px;
+    text-align: center;
+  }
+  .list .tile > .btn .fa,
+  .list .tile > .btn .md,
+  .list .tile > .btn .glyphicon {
+    width: 24px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .list .tile .tile-icon {
+    min-width: 56px;
+    width: 56px;
+    padding: 8px 0;
+    text-align: right;
+  }
+  .list .tile .tile-icon:first-child {
+    text-align: left;
+  }
+  .list .tile .tile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .list .tile .tile-icon .fa,
+  .list .tile .tile-icon .md,
+  .list .tile .tile-icon .glyphicon {
+    width: 24px;
+    margin-top: 4px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .list .tile .tile-text {
+    padding: 12px 0;
+    font-size: 16px;
+    width: 100%;
+  }
+  .list .tile .tile-text small {
+    display: block;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  .list .tile .tile-text small span {
+    opacity: 1;
+  }
+  .list .tile .checkbox-styled:not(ie8),
+  .list .tile .radio-styled:not(ie8) {
+    display: table-cell;
+    padding: 0;
+  }
+  .list .tile .checkbox-styled:not(ie8) label,
+  .list .tile .radio-styled:not(ie8) label {
+    display: block;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .list .tile .checkbox-styled:not(ie8):last-child label,
+  .list .tile .radio-styled:not(ie8):last-child label {
+    padding-right: 16px;
+  }
+  .list .tile .checkbox-styled:not(ie8) input ~ span,
+  .list .tile .radio-styled:not(ie8) input ~ span {
+    padding-left: 54px;
+  }
+  .list .tile .ink-reaction .ink {
+    width: 600px;
+    height: 600px;
+    margin-left: -300px;
+    margin-top: -300px;
+    background-color: rgba(83, 88, 88, 0.15);
+  }
+  .list li.divider-full-bleed,
+  .list li.divider-inset {
+    position: relative;
+  }
+  .list li.divider-full-bleed:after,
+  .list li.divider-inset:after,
+  .list.divider-full-bleed li:after,
+  .list.divider-inset li:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background: rgba(150, 156, 156, 0.3);
+  }
+  .list li.divider-full-bleed:after,
+  .list.divider-full-bleed li:after {
+    left: 0;
+  }
+  .list li.divider-inset:after,
+  .list.divider-inset li:after {
+    left: 72px;
+  }
+
+  .tile-text > small {
+      color: #383838;
+  }
+
+  .tile-text {
+      color: #101010
+  }
+
+  // .md-picker {
+  //   margin-left: -92px;
+  // }

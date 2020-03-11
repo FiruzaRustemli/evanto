@@ -1,0 +1,106 @@
+#events md-card {
+    width: 300px;
+    height: 350px;
+    .event-name {
+        display: inline-block;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+    }
+    .event-mobile-info div {
+        margin: 0 auto;
+    }
+}
+
+#events>.header .search-input-wrapper md-input-container input {
+    border-bottom: 1px solid rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, .8);
+    width: 300px;
+}
+
+#events>.header .search-input-wrapper md-input-container input::-webkit-input-placeholder {
+    /* Chrome */
+    color: rgba(255, 255, 255, .8);
+}
+
+#events>.header .search-input-wrapper md-input-container input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(255, 255, 255, .8);
+}
+
+#events>.header .search-input-wrapper md-input-container input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, .8);
+}
+
+#events>.header .search-input-wrapper md-input-container input:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: rgba(255, 255, 255, .8);
+}
+
+#events>.header .search-input-wrapper label md-icon {
+    color: rgba(255, 255, 255, .8);
+}
+
+.event-card {
+    border-width: 4px;
+    border-style: solid;
+}
+
+.shadowed-hover {
+    cursor: pointer;
+    border-radius: 2px !important;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.event-image {
+    height: 100px;
+    margin: 0 auto;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+
+.shadowed-hover:hover {
+    -webkit-box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.2), 0px 1px 6px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.2), 0px 1px 6px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+// Responsive
+@media screen and (max-width: 960px) {
+    #events {
+        margin-top: 120px;
+        md-card {
+            width: 250px;
+            height: 270px;
+        }
+        .event-image {
+            height: 60px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #events {
+        md-card {
+            width: 47%;
+            height: 220px;
+            margin: 2px;
+            md-toolbar {
+                min-height: 30px;
+            }
+            md-card-content {
+                padding: 10px 0;
+            }
+        }
+        .event-image {
+            height: 40px;
+            margin: 0 auto;
+        }
+    }
+}

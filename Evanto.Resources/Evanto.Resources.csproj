@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{146E523C-B894-487A-A2ED-2CE7B1DA594E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Evanto.Resources</RootNamespace>
+    <AssemblyName>Evanto.Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Operations\Booking\ChangeEventDate\ChangeEventDateBookingResource.az.Designer.cs">
+      <DependentUpon>ChangeEventDateBookingResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\ChangeEventDate\ChangeEventDateBookingResource.Designer.cs">
+      <DependentUpon>ChangeEventDateBookingResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\ChangeEventDate\ChangeEventDateBookingResource.ru.Designer.cs">
+      <DependentUpon>ChangeEventDateBookingResource.ru.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\ChangeStatus\ChangeStatusBookingResource.az.Designer.cs">
+      <DependentUpon>ChangeStatusBookingResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\ChangeStatus\ChangeStatusBookingResource.Designer.cs">
+      <DependentUpon>ChangeStatusBookingResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\ChangeStatus\ChangeStatusBookingResource.ru.Designer.cs">
+      <DependentUpon>ChangeStatusBookingResource.ru.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\Create\CreateBookingResource.az.Designer.cs">
+      <DependentUpon>CreateBookingResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\Create\CreateBookingResource.Designer.cs">
+      <DependentUpon>CreateBookingResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Booking\Create\CreateBookingResource.ru.Designer.cs">
+      <DependentUpon>CreateBookingResource.ru.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Calculate\CalculateTotalDiscountResouce.az.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalculateTotalDiscountResouce.az.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Calculate\CalculateTotalDiscountResouce.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalculateTotalDiscountResouce.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Calculate\CalculateTotalDiscountResouce.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalculateTotalDiscountResouce.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Create\CreateDiscountCouponResource.ru.Designer.cs">
+      <DependentUpon>CreateDiscountCouponResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Create\CreateDiscountCouponResource .az.Designer.cs">
+      <DependentUpon>CreateDiscountCouponResource .az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Create\CreateDiscountCouponResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateDiscountCouponResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Update\UpdateDiscountCouponResource.az.Designer.cs">
+      <DependentUpon>UpdateDiscountCouponResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Update\UpdateDiscountCouponResource .ru.Designer.cs">
+      <DependentUpon>UpdateDiscountCouponResource .ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\DiscountCoupon\Update\UpdateDiscountCouponResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateDiscountCouponResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\EventService\Create\CreateEventServiceResource.az.Designer.cs">
+      <DependentUpon>CreateEventServiceResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\EventService\Create\CreateEventServiceResource.Designer.cs">
+      <DependentUpon>CreateEventServiceResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\EventService\Create\CreateEventServiceResource.ru.Designer.cs">
+      <DependentUpon>CreateEventServiceResource.ru.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Event\Create\CreateEventResource.az.Designer.cs">
+      <DependentUpon>CreateEventResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Event\Create\CreateEventResource.Designer.cs">
+      <DependentUpon>CreateEventResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Event\Create\CreateEventResource.ru.Designer.cs">
+      <DependentUpon>CreateEventResource.ru.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Event\Update\UpdateEventResource.az.Designer.cs">
+      <DependentUpon>UpdateEventResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Event\Update\UpdateEventResource.Designer.cs">
+      <DependentUpon>UpdateEventResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Event\Update\UpdateEventResource.ru.Designer.cs">
+      <DependentUpon>UpdateEventResource.ru.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Feedback\Create\CreateFeedbackResource.az.Designer.cs">
+      <DependentUpon>CreateFeedbackResource.az.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\Feedback\Create\CreateFeedbackResource.Designer.cs">
+      <DependentUpon>CreateFeedbackResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Operations\File\Create\CreateFileResource.ru.Designer.cs">
+      <DependentUpon>CreateFileResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\File\Create\CreateFileResource.az.Designer.cs">
+      <DependentUpon>CreateFileResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\File\Create\CreateFileResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateFileResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\File\Delete\DeleteFileResource.az.Designer.cs">
+      <DependentUpon>DeleteFileResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\File\Delete\DeleteFileResource.ru.Designer.cs">
+      <DependentUpon>DeleteFileResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\File\Delete\DeleteFileResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeleteFileResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\File\Update\UpdateFileResource.az.Designer.cs">
+      <DependentUpon>UpdateFileResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\File\Update\UpdateFileResource.ru.Designer.cs">
+      <DependentUpon>UpdateFileResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\File\Update\UpdateFileResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateFileResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\Role\Create\CreateRoleResource.az.Designer.cs" />
+    <Compile Include="Operations\Role\Create\CreateRoleResource.Designer.cs" />
+    <Compile Include="Operations\Role\Create\CreateRoleResource.ru.Designer.cs" />
+    <Compile Include="Operations\Service\Create\ServiceCreateResource.az.Designer.cs">
+      <DependentUpon>ServiceCreateResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Service\Create\ServiceCreateResource.ru.Designer.cs">
+      <DependentUpon>ServiceCreateResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Service\Create\ServiceCreateResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceCreateResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\Service\Update\UpdateServiceResource.az.Designer.cs">
+      <DependentUpon>UpdateServiceResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Service\Update\UpdateServiceResource.ru.Designer.cs">
+      <DependentUpon>UpdateServiceResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Service\Update\UpdateServiceResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateServiceResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserActivation\Create\CreateUserActivationResource.az.Designer.cs">
+      <DependentUpon>CreateUserActivationResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserActivation\Create\CreateUserActivationResource.ru.Designer.cs">
+      <DependentUpon>CreateUserActivationResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserActivation\Create\CreateUserActivationResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateUserActivationResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserActivation\Update\UpdateUserActivationResource.az.Designer.cs">
+      <DependentUpon>UpdateUserActivationResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserActivation\Update\UpdateUserActivationResource.ru.Designer.cs">
+      <DependentUpon>UpdateUserActivationResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserActivation\Update\UpdateUserActivationResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateUserActivationResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserEventOperation\Create\CreateUserEventResource.az.Designer.cs">
+      <DependentUpon>CreateUserEventResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserEventOperation\Create\CreateUserEventResource.ru.Designer.cs">
+      <DependentUpon>CreateUserEventResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserEventOperation\Create\CreateUserEventResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateUserEventResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserEventOperation\Update\UpdateUserEventResource.az.Designer.cs">
+      <DependentUpon>UpdateUserEventResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserEventOperation\Update\UpdateUserEventResource.ru.Designer.cs">
+      <DependentUpon>UpdateUserEventResource.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserEventOperation\Update\UpdateUserEventResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateUserEventResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserService\Create\CreateUserServiceResource.az.Designer.cs">
+      <DependentUpon>CreateUserServiceResource.az.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\UserService\Create\CreateUserServiceResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateUserServiceResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserService\Update\UpdateUserServiceResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateUserServiceResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\UserService\UserStatus\Create\CreateUserStatusResource.az.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Create\CreateUserStatusResource.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Create\CreateUserStatusResource.ru.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Get\GetUserStatusResource.az.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Get\GetUserStatusResource.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Get\GetUserStatusResource.ru.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Update\UpdateUserStatusResource.az1.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Update\UpdateUserStatusResource.Designer.cs" />
+    <Compile Include="Operations\UserService\UserStatus\Update\UpdateUserStatusResource.ru.Designer.cs" />
+    <Compile Include="Operations\UserType\Create\CreateUserTypeResource.az.Designer.cs" />
+    <Compile Include="Operations\UserType\Create\CreateUserTypeResource.Designer.cs" />
+    <Compile Include="Operations\UserType\Create\CreateUserTypeResource.ru.Designer.cs" />
+    <Compile Include="Operations\User\Create\CreateUserResource.az.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateUserResource.az.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\User\Create\CreateUserResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreateUserResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\VendorServiceExceptionalEvent\Create\CreateVendorServiceExceptionalEventResource.Designer.cs">
+      <DependentUpon>CreateVendorServiceExceptionalEventResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\VendorServiceExceptionalEvent\Get\GetVendorServiceExceptionalEventResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GetVendorServiceExceptionalEventResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operations\VendorServiceExceptionalEvent\Update\UpdateVendorServiceExceptionalEventResource.Designer.cs">
+      <DependentUpon>UpdateVendorServiceExceptionalEventResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Vendor\Create\CreateVendorResource.Designer.cs">
+      <DependentUpon>CreateVendorResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Vendor\Get\GetVendorResource.Designer.cs">
+      <DependentUpon>GetVendorResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Operations\Vendor\Update\UpdateVendorResource.Designer.cs">
+      <DependentUpon>UpdateVendorResource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Operations\File\Get\" />
+    <Folder Include="Operations\UserType\Update\" />
+    <Folder Include="Pages\Admin\" />
+    <Folder Include="Pages\Vendor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Operations\Booking\ChangeEventDate\ChangeEventDateBookingResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChangeEventDateBookingResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\ChangeEventDate\ChangeEventDateBookingResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChangeEventDateBookingResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\ChangeEventDate\ChangeEventDateBookingResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChangeEventDateBookingResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\ChangeStatus\ChangeStatusBookingResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChangeStatusBookingResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\ChangeStatus\ChangeStatusBookingResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChangeStatusBookingResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\ChangeStatus\ChangeStatusBookingResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChangeStatusBookingResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\Create\CreateBookingResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateBookingResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\Create\CreateBookingResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateBookingResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Booking\Create\CreateBookingResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateBookingResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Calculate\CalculateTotalDiscountResouce.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CalculateTotalDiscountResouce.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Calculate\CalculateTotalDiscountResouce.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CalculateTotalDiscountResouce.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Calculate\CalculateTotalDiscountResouce.ru.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CalculateTotalDiscountResouce.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Create\CreateDiscountCouponResource.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateDiscountCouponResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Create\CreateDiscountCouponResource .az.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateDiscountCouponResource .az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Create\CreateDiscountCouponResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateDiscountCouponResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Update\UpdateDiscountCouponResource.az.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateDiscountCouponResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Update\UpdateDiscountCouponResource .ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateDiscountCouponResource .ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\DiscountCoupon\Update\UpdateDiscountCouponResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateDiscountCouponResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\EventService\Create\CreateEventServiceResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateEventServiceResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\EventService\Create\CreateEventServiceResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateEventServiceResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\EventService\Create\CreateEventServiceResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateEventServiceResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Event\Create\CreateEventResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateEventResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Event\Create\CreateEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Event\Create\CreateEventResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateEventResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Event\Update\UpdateEventResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateEventResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Event\Update\UpdateEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Event\Update\UpdateEventResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateEventResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Feedback\Create\CreateFeedbackResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateFeedbackResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Feedback\Create\CreateFeedbackResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateFeedbackResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Create\CreateFileResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateFileResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Create\CreateFileResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateFileResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Create\CreateFileResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateFileResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Delete\DeleteFileResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DeleteFileResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Delete\DeleteFileResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DeleteFileResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Delete\DeleteFileResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DeleteFileResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Update\UpdateFileResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateFileResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Update\UpdateFileResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateFileResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\File\Update\UpdateFileResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateFileResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Role\Create\CreateRoleResource.az.resx" />
+    <EmbeddedResource Include="Operations\Role\Create\CreateRoleResource.resx" />
+    <EmbeddedResource Include="Operations\Role\Create\CreateRoleResource.ru.resx" />
+    <EmbeddedResource Include="Operations\Service\Create\ServiceCreateResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServiceCreateResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Service\Create\ServiceCreateResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServiceCreateResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Service\Create\ServiceCreateResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServiceCreateResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Service\Update\UpdateServiceResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateServiceResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Service\Update\UpdateServiceResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateServiceResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Service\Update\UpdateServiceResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateServiceResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserActivation\Create\CreateUserActivationResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserActivationResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserActivation\Create\CreateUserActivationResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserActivationResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserActivation\Create\CreateUserActivationResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserActivationResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserActivation\Update\UpdateUserActivationResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserActivationResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserActivation\Update\UpdateUserActivationResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserActivationResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserActivation\Update\UpdateUserActivationResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserActivationResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserEventOperation\Create\CreateUserEventResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserEventResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserEventOperation\Create\CreateUserEventResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserEventResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserEventOperation\Create\CreateUserEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserEventOperation\Update\UpdateUserEventResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserEventResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserEventOperation\Update\UpdateUserEventResource.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserEventResource.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserEventOperation\Update\UpdateUserEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserService\Create\CreateUserServiceResource.az.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserServiceResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserService\Create\CreateUserServiceResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserServiceResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserService\Update\UpdateUserServiceResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateUserServiceResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Create\CreateUserStatusResource.az.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Create\CreateUserStatusResource.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Create\CreateUserStatusResource.ru.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Get\GetUserStatusResource.az.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Get\GetUserStatusResource.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Get\GetUserStatusResource.ru.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Update\UpdateUserStatusResource.az.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Update\UpdateUserStatusResource.resx" />
+    <EmbeddedResource Include="Operations\UserService\UserStatus\Update\UpdateUserStatusResource.ru.resx" />
+    <EmbeddedResource Include="Operations\UserType\Create\CreateUserTypeResource.az.resx" />
+    <EmbeddedResource Include="Operations\UserType\Create\CreateUserTypeResource.resx" />
+    <EmbeddedResource Include="Operations\UserType\Create\CreateUserTypeResource.ru.resx" />
+    <EmbeddedResource Include="Operations\User\Create\CreateUserResource.az.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserResource.az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\User\Create\CreateUserResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateUserResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\User\Create\CreateUserResource.ru.resx" />
+    <EmbeddedResource Include="Operations\VendorServiceExceptionalEvent\Create\CreateVendorServiceExceptionalEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateVendorServiceExceptionalEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\VendorServiceExceptionalEvent\Get\GetVendorServiceExceptionalEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GetVendorServiceExceptionalEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\VendorServiceExceptionalEvent\Update\UpdateVendorServiceExceptionalEventResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateVendorServiceExceptionalEventResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Vendor\Create\CreateVendorResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateVendorResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Vendor\Get\GetVendorResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GetVendorResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operations\Vendor\Update\UpdateVendorResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateVendorResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\User\Authentication\AuthenticationResource.az.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\User\Authentication\AuthenticationResource.resx" />
+    <EmbeddedResource Include="Pages\User\Authentication\AuthenticationResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Marketplace\MarketplaceResource.az.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\User\Marketplace\MarketplaceResource.resx" />
+    <EmbeddedResource Include="Pages\User\Marketplace\MarketplaceResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Booking\BookingResource.az.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\User\Booking\BookingResource.resx" />
+    <EmbeddedResource Include="Pages\User\Booking\BookingResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Event\EventResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Event\EventResource.resx" />
+    <EmbeddedResource Include="Pages\User\Event\EventResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Feedback\FeedbackResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Feedback\FeedbackResource.resx" />
+    <EmbeddedResource Include="Pages\User\Feedback\FeedbackResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Home\HomeResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Home\HomeResource.resx" />
+    <EmbeddedResource Include="Pages\User\Home\HomeResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Layout\LayoutResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Layout\LayoutResource.resx" />
+    <EmbeddedResource Include="Pages\User\Layout\LayoutResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Profile\ProfileResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Profile\ProfileResource.resx" />
+    <EmbeddedResource Include="Pages\User\Profile\ProfileResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Register\RegisterResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Register\RegisterResource.resx" />
+    <EmbeddedResource Include="Pages\User\Register\RegisterResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Service\ServiceResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Service\ServiceResource.resx" />
+    <EmbeddedResource Include="Pages\User\Service\ServiceResource.ru.resx" />
+    <EmbeddedResource Include="Pages\User\Toast\ToastResource.az.resx" />
+    <EmbeddedResource Include="Pages\User\Toast\ToastResource.resx" />
+    <EmbeddedResource Include="Pages\User\Toast\ToastResource.ru.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>cd $(SolutionDir)Evanto.Web.User\Resource\Booking
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Event
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Feedback
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Home
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Layout
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Profile
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Register
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Service
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Toast
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Authentication
+del *.resx
+cd $(SolutionDir)Evanto.Web.User\Resource\Marketplace
+del *.resx
+xcopy "$(ProjectDir)Pages\User" "$(SolutionDir)Evanto.Web.User\Resource" /E /I /D</PreBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

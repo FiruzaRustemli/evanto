@@ -1,0 +1,37 @@
+﻿@using Evanto.Web.Vendor.Models.ViewModels
+@model Evanto.Web.Vendor.Models.ViewModels.ProfileViewModel
+
+
+    <section id="sectionSummary">
+        @{Html.RenderPartial("~/Views/Profile/Partials/_PartialVendorAboutSummary.cshtml",
+    new SummaryViewModel
+    {
+        UserId = Model.Vendor.UserId,
+        Description = Model.Vendor.Description
+    }); }
+    </section>
+    <section id="sectionBasic">
+        @{Html.RenderPartial("~/Views/Profile/Partials/_PartialVendorAboutBasic.cshtml",
+           new BasicViewModel
+           {
+               UserId = Model.Vendor.UserId,
+               BirthDate = Model.Vendor.User.Birthday,
+               FirstName = Model.Vendor.User.FirstName,
+               LastName = Model.Vendor.User.LastName,
+               MaritalStatus = Model.Vendor.User.MaritalStatus
+           });
+        }
+    </section>
+    <section id="sectionContactInfo">
+        @{ 
+            Html.RenderPartial("~/Views/Profile/Partials/_PartialVendorAboutContact.cshtml",
+                new ContactInformationViewModel
+                {
+                    Address = Model.Vendor.Address,
+                    Email = Model.Vendor.User.Username,
+                    Phone = Model.Vendor.User.Phone,
+                    UserId = Model.Vendor.UserId
+                }
+                );
+        }
+    </section>

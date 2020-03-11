@@ -1,0 +1,24 @@
+﻿
+.noTitledTabs > md-tabs-wrapper {
+    display: none;
+}
+
+.small-header{
+        height: auto !important;
+    min-height: auto !important;
+}
+
+#home > .center > .header{
+      height: auto !important;
+    min-height: auto !important;
+}
+
+#events > .header,
+ #bookings > .header,
+  #editevent > .header, 
+  #vendorservices > .header,
+   #profile > .header{
+      height: auto !important;
+    min-height: auto !important;
+}
+

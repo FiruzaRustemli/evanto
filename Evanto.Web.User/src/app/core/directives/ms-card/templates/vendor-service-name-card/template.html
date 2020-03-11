@@ -1,0 +1,13 @@
+<div class="vendor-service-name-card p-16" layout="row" layout-align="center center">
+    <div layout="column" layout-align="center center">
+        <div layout="row" layout-align="center center" class="service-name h3" ng-if="card.name">
+            {{card.name}}
+        </div>
+        <div class="title secondary-text" ng-if="card.serviceName">
+            {{card.serviceName}}
+        </div>
+        <div>
+            <md-button class="md-raised md-accent" ng-click="vm.showSelectEventDialog()" translate="Layout.Book"></md-button>
+        </div>
+    </div>
+</div>

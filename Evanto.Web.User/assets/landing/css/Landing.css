@@ -1,0 +1,182 @@
+﻿#beauty {
+  background-image: url('/assets/icons/services/beauty&health-alt.png');
+}
+
+.beautyhover {
+  background-image: url('/assets/icons/services/beauty&health-full.png')!important;
+}
+
+#cake { 
+  background-image: url('/assets/icons/services/cakes-alt.png');
+}
+
+.cakehover {
+  background-image: url('/assets/icons/services/cakes-full.png') !important;
+}
+
+#caterer { 
+  background-image: url('/assets/icons/services/caterer-alt.png');
+}
+
+.catererhover {
+  background-image: url('/assets/icons/services/caterer-full.png') !important;
+}
+
+
+#dance { 
+  background-image: url('/assets/icons/services/dancelessons-alt.png');
+}
+
+.dancehover {
+  background-image: url('/assets/icons/services/dancelessons-full.png') !important;
+}
+
+#decor { 
+  background-image: url('/assets/icons/services/decor-alt.png');
+}
+
+.decorhover {
+  background-image: url('/assets/icons/services/decor-full.png') !important;
+}
+
+#dj { 
+  background-image: url('/assets/icons/services/dj-alt.png');
+}
+
+.djhover {
+  background-image: url('/assets/icons/services/dj-full.png') !important;
+}
+
+#dressattire { 
+  background-image: url('/assets/icons/services/dresses&attire-alt.png');
+}
+
+.dressattirehover {
+  background-image: url('/assets/icons/services/dresses&attire-full.png') !important;
+}
+
+#eventplanner { 
+  background-image: url('/assets/icons/services/eventplanner-alt.png');
+}
+
+.eventplannerhover {
+  background-image: url('/assets/icons/services/eventplanner-full.png') !important;
+}
+
+#florist { 
+  background-image: url('/assets/icons/services/florist-alt.png');
+}
+
+.floristhover {
+  background-image: url('/assets/icons/services/florist-full.png') !important;
+}
+
+#invitation { 
+  background-image: url('/assets/icons/services/invitations&printing-alt.png');
+}
+
+.invitationhover {
+  background-image: url('/assets/icons/services/invitations&printing-full.png') !important;
+}
+
+#jewelers { 
+  background-image: url('/assets/icons/services/jewelers-alt.png');
+}
+
+.jewelershover {
+  background-image: url('/assets/icons/services/jewelers-full.png') !important;
+}
+
+#musicband { 
+  background-image: url('/assets/icons/services/musician&band-alt.png');
+}
+
+.musicbandhover {
+  background-image: url('/assets/icons/services/musician&band-full.png') !important;
+}
+
+#photography { 
+  background-image: url('/assets/icons/services/photography-alt.png');
+}
+
+.photographyhover {
+  background-image: url('/assets/icons/services/photography-full.png') !important;
+}
+
+#rentals { 
+  background-image: url('/assets/icons/services/rentals-alt.png');
+}
+
+.rentalshover {
+  background-image: url('/assets/icons/services/rentals-full.png') !important;
+}
+
+#transport { 
+  background-image: url('/assets/icons/services/transportation-alt.png');
+}
+
+.transporthover {
+  background-image: url('/assets/icons/services/transportation-full.png') !important;
+}
+
+#travel { 
+  background-image: url('/assets/icons/services/travelservices-alt.png');
+}
+
+.travelhover {
+  background-image: url('/assets/icons/services/travelservices-full.png') !important;
+}
+
+#venue { 
+  background-image: url('/assets/icons/services/venue-alt.png');
+}
+
+.venuehover {
+  background-image: url('/assets/icons/services/venue-full.png') !important;
+}
+
+#videography { 
+  background-image: url('/assets/icons/services/videography-alt.png');
+}
+
+.videographyhover {
+  background-image: url('/assets/icons/services/videography-full.png') !important;
+}
+
+.serviceDiv {
+  text-align:center;
+}
+.service {
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 50%;
+  width: 86px;
+  height: 86px;
+  cursor: pointer;
+}
+
+.service_icon {
+  background-size: cover;
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: 3px;
+  height: 70px;
+  width: 70px;
+}
+
+  .service_icon:hover {
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+
+.service a {
+  text-decoration: none;
+  cursor:default;
+}
+
+.hide {
+display:none !important;
+}

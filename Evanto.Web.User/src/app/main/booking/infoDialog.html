@@ -1,0 +1,126 @@
+<!-- DIALOG -->
+<md-dialog class="booking-info-dialog" aria-label="Booking info">
+
+    <!-- DIALOG TOOLBAR -->
+    <md-toolbar class="md-accent" layout="column">
+
+        <!-- TOOLBAR TOP -->
+        <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+            <span class="title">{{'Booking.BookingInfo' | translate}}</span>
+            <md-button class="md-icon-button" ng-click="vm.cancel()" aria-label="Close dialog" translate translate-attr-aria-label="CONTACTS.CLOSE_DIALOG">
+                <md-icon md-font-icon="icon-close"></md-icon>
+            </md-button>
+        </div>
+        <!-- / TOOLBAR TOP -->
+
+    </md-toolbar>
+    <!-- / DIALOG TOOLBAR -->
+
+    <!-- DIALOG CONTENT -->
+    <md-dialog-content class="scrollable" ms-scroll>
+
+        <div class="md-dialog-content" layout="row" layout-align="space-between start">
+            <div flex>
+                <md-list>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+
+                                <div>
+                                    <p class="muted">
+                                        {{'Layout.Event' | translate}}
+                                    </p>
+                                </div>
+                                <div layout="row" layout-align="start center">
+                                    <div>
+                                        <h4 class="md-title">{{vm.bookingInfo.userService.userEvent.name}}</h3>
+
+                                    </div>
+                                    <div>
+                                        <md-button md-no-ink class="md-accent md-icon-button" ng-click="vm.goToEventPage(vm.bookingInfo.userService.userEvent.id)">
+                                            <md-tooltip md-direction="right">Show {{vm.bookingInfo.userService.userEvent.name}} page
+                                            </md-tooltip>
+                                            <md-icon md-font-icon="icon-calendar-select"></md-icon>
+                                        </md-button>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    {{'Layout.BookDate' | translate}}
+                                </p>
+                                <h4 class="md-title pt-5">{{vm.bookingInfo.bookDate | date : 'fullDate'}}</h3>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    {{'Layout.Vendor' | translate}}
+                                </p>
+                                <md-button class="go-to-vendor-page-button" ng-click="vm.goToVendorServicesPage(vm.bookingInfo.vendor.userId)">
+                                    <md-tooltip md-direction="right">
+                                        <span translate="Layout.ShowVendorInfo" translate-values="{vendorName : vm.bookingInfo.vendor.name}"></span>
+                                    </md-tooltip>
+                                    {{vm.bookingInfo.vendor.name}}</md-button>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    {{'Layout.CreatedDate' | translate}}
+                                </p>
+                                <h4 class="md-title" style="padding-top: 8px;">{{vm.bookingInfo.createdDate | date : 'fullDate'}}</h3>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    {{'Layout.Deadline' | translate}}
+                                </p>
+                                <h4 class="md-title" style="padding-top: 8px;">{{vm.bookingInfo.deadline | date : 'dd MMMM yyyy'}}</h3>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                    <md-item>
+                        <md-item-content>
+                            <div class="md-tile-content">
+                                <p class="muted">
+                                    {{'Layout.Status' | translate}}
+                                </p>
+                                <h4 class="md-title" style="padding-top: 8px;">{{('Booking.Status.' + (vm.bookingInfo.statusId | bookingStatus)) | translate}}</h3>
+                            </div>
+                        </md-item-content>
+                    </md-item>
+                    <md-divider></md-divider>
+                </md-list>
+            </div>
+        </div>
+
+    </md-dialog-content>
+    <!-- / DIALOG CONTENT -->
+
+    <!-- DIALOG ACTIONS -->
+    <md-dialog-actions ms-scroll layout="row" layout-align="end center">
+        <div layout="row">
+            <md-button ng-click="vm.cancel()" translate-attr-aria-lable="Layout.Close" translate="Layout.Close"></md-button>
+        </div>
+    </md-dialog-actions>
+    <!-- / DIALOG ACTIONS -->
+
+</md-dialog>
+<!-- / DIALOG -->

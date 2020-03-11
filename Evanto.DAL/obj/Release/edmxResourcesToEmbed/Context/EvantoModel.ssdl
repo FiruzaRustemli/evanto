@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EvantoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="VendorId" Type="int" />
+    <Property Name="UserServiceId" Type="int" />
+    <Property Name="VendorServiceId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="BookDate" Type="datetime" Nullable="false" />
+    <Property Name="Deadline" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="BookingStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Claim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="OAuthClientID" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="OAuthClientSecret" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ClientStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContentType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CouponType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DiscountCoupon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="CouponTypeId" Type="int" Nullable="false" />
+    <Property Name="DiscountTypeId" Type="int" Nullable="false" />
+    <Property Name="CouponNumber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="ExpireDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DiscountCouponStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DiscountType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EventService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="EventId" Type="int" Nullable="false" />
+    <Property Name="ServiceId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EventType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="FeedbackStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="FeedbackType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RelationalId" Type="int" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="ContentTypeId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Extension" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Path" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="MediaType" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ParentId" Type="int" />
+  </EntityType>
+  <EntityType Name="FileType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="DisplayName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="ShortName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="SenderConsumerTypeId" Type="int" Nullable="false" />
+    <Property Name="ReceiverConsumerTypeId" Type="int" Nullable="false" />
+    <Property Name="SenderId" Type="int" Nullable="false" />
+    <Property Name="ReceiverId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="AdditionalData" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="NotificationConsumerType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="NotificationStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="NotificationType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="7" Scale="0" Nullable="false" />
+    <Property Name="PaymentDate" Type="datetime" Nullable="false" />
+    <Property Name="PaymentTypeId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PaymentStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PaymentType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Period">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Duration" Type="int" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rating">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="VendorServiceId" Type="int" Nullable="false" />
+    <Property Name="Value" Type="float" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="RealtimeConnection">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ConnectionId" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Resource">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Origin" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ResourceKey" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ResourceText">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResourceId" Type="int" Nullable="false" />
+    <Property Name="LanguageId" Type="int" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ServicePeriodPrice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceId" Type="int" Nullable="false" />
+    <Property Name="PeriodId" Type="int" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SmsQueue">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Recipient" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="SentDate" Type="datetime" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="SmsStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SmsType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="MaritalStatus" Type="int" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="RegistrationDate" Type="datetime" Nullable="false" />
+    <Property Name="Phone" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Salt" Type="binary" MaxLength="64" Nullable="false" />
+    <Property Name="Password" Type="binary" MaxLength="64" Nullable="false" />
+    <Property Name="LoginCount" Type="int" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedLoginCount" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="GenderId" Type="int" Nullable="false" />
+    <Property Name="EmailVerified" Type="bit" />
+    <Property Name="PhoneVerified" Type="bit" />
+  </EntityType>
+  <EntityType Name="UserActivation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ExpireDate" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserClaim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ClaimId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="EventId" Type="int" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Budget" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="EventDate" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ServiceId" Type="int" Nullable="false" />
+    <Property Name="UserEventId" Type="int" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Budget" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserSetting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="LangId" Type="int" Nullable="false" />
+    <Property Name="Theme" Type="nvarchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserVerification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="VerificationTypeId" Type="int" Nullable="false" />
+    <Property Name="VerificationCode" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ExpireDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsVerified" Type="bit" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="UserVerificationType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="VendorService">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="70" Nullable="false" />
+    <Property Name="PriceMin" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PriceMax" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="DailyQuantity" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ServicePeriodPriceId" Type="int" Nullable="false" />
+    <Property Name="DiscountCouponId" Type="int" />
+    <Property Name="VendorServicePacketId" Type="int" Nullable="false" />
+    <Property Name="ActivationDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="Rating" Type="float" />
+    <Property Name="AddressText" Type="nvarchar" MaxLength="300" />
+    <Property Name="ContactInfo" Type="nvarchar" MaxLength="250" />
+    <Property Name="CoordinateX" Type="varchar" MaxLength="30" />
+    <Property Name="CoordinateY" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="VendorServiceExceptionalEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorServiceId" Type="int" Nullable="false" />
+    <Property Name="EventId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="VendorServicePacket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="DiscountCouponId" Type="int" />
+    <Property Name="PaymentId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ActivationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="VendorServicePacketStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Evanto.dbo.VendorStatus' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VendorStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Booking_BookingStatus">
+    <End Role="BookingStatus" Type="Self.BookingStatus" Multiplicity="1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookingStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_UserService">
+    <End Role="UserService" Type="Self.UserService" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="UserServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_Vendor">
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_VendorService">
+    <End Role="VendorService" Type="Self.VendorService" Multiplicity="1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="VendorServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCoupon_CouponType">
+    <End Role="CouponType" Type="Self.CouponType" Multiplicity="1" />
+    <End Role="DiscountCoupon" Type="Self.DiscountCoupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CouponType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiscountCoupon">
+        <PropertyRef Name="CouponTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCoupon_DiscountCouponStatus">
+    <End Role="DiscountCouponStatus" Type="Self.DiscountCouponStatus" Multiplicity="1" />
+    <End Role="DiscountCoupon" Type="Self.DiscountCoupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCouponStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiscountCoupon">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCoupon_DiscountType">
+    <End Role="DiscountType" Type="Self.DiscountType" Multiplicity="1" />
+    <End Role="DiscountCoupon" Type="Self.DiscountCoupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DiscountCoupon">
+        <PropertyRef Name="DiscountTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventService_Event">
+    <End Role="EventType" Type="Self.EventType" Multiplicity="1" />
+    <End Role="EventService" Type="Self.EventService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventService">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventService_Service">
+    <End Role="Service" Type="Self.Service" Multiplicity="1" />
+    <End Role="EventService" Type="Self.EventService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EventService">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Feedback_FeedbackStatus">
+    <End Role="FeedbackStatus" Type="Self.FeedbackStatus" Multiplicity="1" />
+    <End Role="Feedback" Type="Self.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FeedbackStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Feedback_FeedbackType">
+    <End Role="FeedbackType" Type="Self.FeedbackType" Multiplicity="1" />
+    <End Role="Feedback" Type="Self.Feedback" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FeedbackType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feedback">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_ContentType">
+    <End Role="ContentType" Type="Self.ContentType" Multiplicity="1" />
+    <End Role="File" Type="Self.File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContentType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="ContentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_FileType">
+    <End Role="FileType" Type="Self.FileType" Multiplicity="1" />
+    <End Role="File" Type="Self.File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FileType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notification_User_Receiver">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Notification" Type="Self.Notification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notification">
+        <PropertyRef Name="ReceiverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notification_User_Sender">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Notification" Type="Self.Notification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notification">
+        <PropertyRef Name="SenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_PaymentStatus">
+    <End Role="PaymentStatus" Type="Self.PaymentStatus" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_PaymentType">
+    <End Role="PaymentType" Type="Self.PaymentType" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="PaymentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Vendor">
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rating_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Rating" Type="Self.Rating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rating">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rating_VendorService">
+    <End Role="VendorService" Type="Self.VendorService" Multiplicity="1" />
+    <End Role="Rating" Type="Self.Rating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rating">
+        <PropertyRef Name="VendorServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RealtimeConnection_RealtimeConnection">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="RealtimeConnection" Type="Self.RealtimeConnection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RealtimeConnection">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceText_Language">
+    <End Role="Language" Type="Self.Language" Multiplicity="1" />
+    <End Role="ResourceText" Type="Self.ResourceText" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResourceText">
+        <PropertyRef Name="LanguageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceText_Resource">
+    <End Role="Resource" Type="Self.Resource" Multiplicity="1" />
+    <End Role="ResourceText" Type="Self.ResourceText" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Resource">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResourceText">
+        <PropertyRef Name="ResourceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicePeriodPrice_Period">
+    <End Role="Period" Type="Self.Period" Multiplicity="1" />
+    <End Role="ServicePeriodPrice" Type="Self.ServicePeriodPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Period">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServicePeriodPrice">
+        <PropertyRef Name="PeriodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServicePeriodPrice_Service">
+    <End Role="Service" Type="Self.Service" Multiplicity="1" />
+    <End Role="ServicePeriodPrice" Type="Self.ServicePeriodPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServicePeriodPrice">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SmsQueue_SmsStatus">
+    <End Role="SmsStatus" Type="Self.SmsStatus" Multiplicity="1" />
+    <End Role="SmsQueue" Type="Self.SmsQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SmsStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SmsQueue">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SmsQueue_SmsType">
+    <End Role="SmsType" Type="Self.SmsType" Multiplicity="1" />
+    <End Role="SmsQueue" Type="Self.SmsQueue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SmsType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SmsQueue">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_UserStatus">
+    <End Role="UserStatus" Type="Self.UserStatus" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_UserType">
+    <End Role="UserType" Type="Self.UserType" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserActivation_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserActivation" Type="Self.UserActivation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserActivation">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserClaim_Claim">
+    <End Role="Claim" Type="Self.Claim" Multiplicity="1" />
+    <End Role="UserClaim" Type="Self.UserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Claim">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserClaim">
+        <PropertyRef Name="ClaimId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserClaim_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserClaim" Type="Self.UserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserClaim">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserEvent_Event">
+    <End Role="EventType" Type="Self.EventType" Multiplicity="1" />
+    <End Role="UserEvent" Type="Self.UserEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserEvent">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserEvent_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserEvent" Type="Self.UserEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserEvent">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserGenderId_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="GenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserService_Service">
+    <End Role="Service" Type="Self.Service" Multiplicity="1" />
+    <End Role="UserService" Type="Self.UserService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserService">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserService_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserService" Type="Self.UserService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserService">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserService_UserEvent">
+    <End Role="UserEvent" Type="Self.UserEvent" Multiplicity="1" />
+    <End Role="UserService" Type="Self.UserService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserService">
+        <PropertyRef Name="UserEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserSetting_Language">
+    <End Role="Language" Type="Self.Language" Multiplicity="1" />
+    <End Role="UserSetting" Type="Self.UserSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserSetting">
+        <PropertyRef Name="LangId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserSetting_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserSetting" Type="Self.UserSetting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserSetting">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserVerification_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="UserVerification" Type="Self.UserVerification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserVerification">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserVerification_UserVerificationType">
+    <End Role="UserVerificationType" Type="Self.UserVerificationType" Multiplicity="1" />
+    <End Role="UserVerification" Type="Self.UserVerification" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserVerificationType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserVerification">
+        <PropertyRef Name="VerificationTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vendor_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorService_DiscountCoupon">
+    <End Role="DiscountCoupon" Type="Self.DiscountCoupon" Multiplicity="0..1" />
+    <End Role="VendorService" Type="Self.VendorService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCoupon">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorService">
+        <PropertyRef Name="DiscountCouponId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorService_ServicePeriodPrice">
+    <End Role="ServicePeriodPrice" Type="Self.ServicePeriodPrice" Multiplicity="1" />
+    <End Role="VendorService" Type="Self.VendorService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServicePeriodPrice">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorService">
+        <PropertyRef Name="ServicePeriodPriceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorService_VendorServicePacket">
+    <End Role="VendorServicePacket" Type="Self.VendorServicePacket" Multiplicity="1" />
+    <End Role="VendorService" Type="Self.VendorService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorServicePacket">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorService">
+        <PropertyRef Name="VendorServicePacketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServiceExceptionalEvent_Event">
+    <End Role="EventType" Type="Self.EventType" Multiplicity="1" />
+    <End Role="VendorServiceExceptionalEvent" Type="Self.VendorServiceExceptionalEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServiceExceptionalEvent">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServiceExceptionalEvent_VendorService">
+    <End Role="VendorService" Type="Self.VendorService" Multiplicity="1" />
+    <End Role="VendorServiceExceptionalEvent" Type="Self.VendorServiceExceptionalEvent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorService">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServiceExceptionalEvent">
+        <PropertyRef Name="VendorServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_DiscountCoupon">
+    <End Role="DiscountCoupon" Type="Self.DiscountCoupon" Multiplicity="0..1" />
+    <End Role="VendorServicePacket" Type="Self.VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCoupon">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="DiscountCouponId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_Payment">
+    <End Role="Payment" Type="Self.Payment" Multiplicity="1" />
+    <End Role="VendorServicePacket" Type="Self.VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="PaymentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_Vendor">
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="1" />
+    <End Role="VendorServicePacket" Type="Self.VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorServicePacket_VendorServicePacketStatus">
+    <End Role="VendorServicePacketStatus" Type="Self.VendorServicePacketStatus" Multiplicity="1" />
+    <End Role="VendorServicePacket" Type="Self.VendorServicePacket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorServicePacketStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VendorServicePacket">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetResourceText" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Origin" Type="varchar" Mode="In" />
+    <Parameter Name="ResourceKey" Type="varchar" Mode="In" />
+    <Parameter Name="LanguageId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SearchBooking" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="VendorId" Type="int" Mode="In" />
+    <Parameter Name="UserServiceId" Type="int" Mode="In" />
+    <Parameter Name="StatusId" Type="int" Mode="In" />
+    <Parameter Name="BookDate" Type="datetime" Mode="In" />
+    <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="SearchDiscountCoupon" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="StatusId" Type="int" Mode="In" />
+    <Parameter Name="CouponTypeId" Type="int" Mode="In" />
+    <Parameter Name="DiscountTypeId" Type="int" Mode="In" />
+    <Parameter Name="CouponNumber" Type="varchar" Mode="In" />
+    <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="SearchUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Username" Type="varchar" Mode="In" />
+    <Parameter Name="RegistrationDate" Type="datetime" Mode="In" />
+    <Parameter Name="MaritalStatus" Type="int" Mode="In" />
+    <Parameter Name="Birthday" Type="datetime" Mode="In" />
+    <Parameter Name="Type" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SearchUserEvent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="EventId" Type="int" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="EventDate" Type="datetime" Mode="In" />
+    <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="SearchUserService" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="ServiceId" Type="int" Mode="In" />
+    <Parameter Name="UserEventId" Type="int" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+  </Function>
+  <EntityContainer Name="EvantoModelStoreContainer">
+    <EntitySet Name="Booking" EntityType="Self.Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BookingStatus" EntityType="Self.BookingStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Claim" EntityType="Self.Claim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClientStatus" EntityType="Self.ClientStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContentType" EntityType="Self.ContentType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CouponType" EntityType="Self.CouponType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DiscountCoupon" EntityType="Self.DiscountCoupon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DiscountCouponStatus" EntityType="Self.DiscountCouponStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DiscountType" EntityType="Self.DiscountType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventService" EntityType="Self.EventService" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EventType" EntityType="Self.EventType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Feedback" EntityType="Self.Feedback" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FeedbackStatus" EntityType="Self.FeedbackStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FeedbackType" EntityType="Self.FeedbackType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="File" EntityType="Self.File" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FileType" EntityType="Self.FileType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Language" EntityType="Self.Language" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notification" EntityType="Self.Notification" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotificationConsumerType" EntityType="Self.NotificationConsumerType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotificationStatus" EntityType="Self.NotificationStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotificationType" EntityType="Self.NotificationType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaymentStatus" EntityType="Self.PaymentStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaymentType" EntityType="Self.PaymentType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Period" EntityType="Self.Period" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rating" EntityType="Self.Rating" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RealtimeConnection" EntityType="Self.RealtimeConnection" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Resource" EntityType="Self.Resource" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ResourceText" EntityType="Self.ResourceText" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Service" EntityType="Self.Service" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServicePeriodPrice" EntityType="Self.ServicePeriodPrice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SmsQueue" EntityType="Self.SmsQueue" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SmsStatus" EntityType="Self.SmsStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SmsType" EntityType="Self.SmsType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserActivation" EntityType="Self.UserActivation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserClaim" EntityType="Self.UserClaim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserEvent" EntityType="Self.UserEvent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserService" EntityType="Self.UserService" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserSetting" EntityType="Self.UserSetting" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserStatus" EntityType="Self.UserStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserType" EntityType="Self.UserType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserVerification" EntityType="Self.UserVerification" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserVerificationType" EntityType="Self.UserVerificationType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendor" EntityType="Self.Vendor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorService" EntityType="Self.VendorService" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorServiceExceptionalEvent" EntityType="Self.VendorServiceExceptionalEvent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorServicePacket" EntityType="Self.VendorServicePacket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorServicePacketStatus" EntityType="Self.VendorServicePacketStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorStatus" EntityType="Self.VendorStatus" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VendorStatus].[Id] AS [Id], 
+    [VendorStatus].[Name] AS [Name], 
+    [VendorStatus].[CreatedDate] AS [CreatedDate], 
+    [VendorStatus].[Description] AS [Description]
+    FROM [dbo].[VendorStatus] AS [VendorStatus]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Booking_BookingStatus" Association="Self.FK_Booking_BookingStatus">
+      <End Role="BookingStatus" EntitySet="BookingStatus" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_User" Association="Self.FK_Booking_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_UserService" Association="Self.FK_Booking_UserService">
+      <End Role="UserService" EntitySet="UserService" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_Vendor" Association="Self.FK_Booking_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_VendorService" Association="Self.FK_Booking_VendorService">
+      <End Role="VendorService" EntitySet="VendorService" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCoupon_CouponType" Association="Self.FK_DiscountCoupon_CouponType">
+      <End Role="CouponType" EntitySet="CouponType" />
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCoupon_DiscountCouponStatus" Association="Self.FK_DiscountCoupon_DiscountCouponStatus">
+      <End Role="DiscountCouponStatus" EntitySet="DiscountCouponStatus" />
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCoupon_DiscountType" Association="Self.FK_DiscountCoupon_DiscountType">
+      <End Role="DiscountType" EntitySet="DiscountType" />
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventService_Event" Association="Self.FK_EventService_Event">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="EventService" EntitySet="EventService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventService_Service" Association="Self.FK_EventService_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="EventService" EntitySet="EventService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Feedback_FeedbackStatus" Association="Self.FK_Feedback_FeedbackStatus">
+      <End Role="FeedbackStatus" EntitySet="FeedbackStatus" />
+      <End Role="Feedback" EntitySet="Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Feedback_FeedbackType" Association="Self.FK_Feedback_FeedbackType">
+      <End Role="FeedbackType" EntitySet="FeedbackType" />
+      <End Role="Feedback" EntitySet="Feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_ContentType" Association="Self.FK_File_ContentType">
+      <End Role="ContentType" EntitySet="ContentType" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_FileType" Association="Self.FK_File_FileType">
+      <End Role="FileType" EntitySet="FileType" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notification_User_Receiver" Association="Self.FK_Notification_User_Receiver">
+      <End Role="User" EntitySet="User" />
+      <End Role="Notification" EntitySet="Notification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notification_User_Sender" Association="Self.FK_Notification_User_Sender">
+      <End Role="User" EntitySet="User" />
+      <End Role="Notification" EntitySet="Notification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_PaymentStatus" Association="Self.FK_Payment_PaymentStatus">
+      <End Role="PaymentStatus" EntitySet="PaymentStatus" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_PaymentType" Association="Self.FK_Payment_PaymentType">
+      <End Role="PaymentType" EntitySet="PaymentType" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Vendor" Association="Self.FK_Payment_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rating_User" Association="Self.FK_Rating_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Rating" EntitySet="Rating" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rating_VendorService" Association="Self.FK_Rating_VendorService">
+      <End Role="VendorService" EntitySet="VendorService" />
+      <End Role="Rating" EntitySet="Rating" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RealtimeConnection_RealtimeConnection" Association="Self.FK_RealtimeConnection_RealtimeConnection">
+      <End Role="User" EntitySet="User" />
+      <End Role="RealtimeConnection" EntitySet="RealtimeConnection" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceText_Language" Association="Self.FK_ResourceText_Language">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="ResourceText" EntitySet="ResourceText" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceText_Resource" Association="Self.FK_ResourceText_Resource">
+      <End Role="Resource" EntitySet="Resource" />
+      <End Role="ResourceText" EntitySet="ResourceText" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicePeriodPrice_Period" Association="Self.FK_ServicePeriodPrice_Period">
+      <End Role="Period" EntitySet="Period" />
+      <End Role="ServicePeriodPrice" EntitySet="ServicePeriodPrice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServicePeriodPrice_Service" Association="Self.FK_ServicePeriodPrice_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="ServicePeriodPrice" EntitySet="ServicePeriodPrice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SmsQueue_SmsStatus" Association="Self.FK_SmsQueue_SmsStatus">
+      <End Role="SmsStatus" EntitySet="SmsStatus" />
+      <End Role="SmsQueue" EntitySet="SmsQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SmsQueue_SmsType" Association="Self.FK_SmsQueue_SmsType">
+      <End Role="SmsType" EntitySet="SmsType" />
+      <End Role="SmsQueue" EntitySet="SmsQueue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="Self.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_UserStatus" Association="Self.FK_User_UserStatus">
+      <End Role="UserStatus" EntitySet="UserStatus" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_UserType" Association="Self.FK_User_UserType">
+      <End Role="UserType" EntitySet="UserType" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserActivation_User" Association="Self.FK_UserActivation_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserActivation" EntitySet="UserActivation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserClaim_Claim" Association="Self.FK_UserClaim_Claim">
+      <End Role="Claim" EntitySet="Claim" />
+      <End Role="UserClaim" EntitySet="UserClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserClaim_User" Association="Self.FK_UserClaim_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserClaim" EntitySet="UserClaim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserEvent_Event" Association="Self.FK_UserEvent_Event">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="UserEvent" EntitySet="UserEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserEvent_User" Association="Self.FK_UserEvent_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserEvent" EntitySet="UserEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserGenderId_Gender" Association="Self.FK_UserGenderId_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserService_Service" Association="Self.FK_UserService_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="UserService" EntitySet="UserService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserService_User" Association="Self.FK_UserService_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserService" EntitySet="UserService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserService_UserEvent" Association="Self.FK_UserService_UserEvent">
+      <End Role="UserEvent" EntitySet="UserEvent" />
+      <End Role="UserService" EntitySet="UserService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserSetting_Language" Association="Self.FK_UserSetting_Language">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="UserSetting" EntitySet="UserSetting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserSetting_User" Association="Self.FK_UserSetting_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserSetting" EntitySet="UserSetting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserVerification_User" Association="Self.FK_UserVerification_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserVerification" EntitySet="UserVerification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserVerification_UserVerificationType" Association="Self.FK_UserVerification_UserVerificationType">
+      <End Role="UserVerificationType" EntitySet="UserVerificationType" />
+      <End Role="UserVerification" EntitySet="UserVerification" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vendor_User" Association="Self.FK_Vendor_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Vendor" EntitySet="Vendor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorService_DiscountCoupon" Association="Self.FK_VendorService_DiscountCoupon">
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+      <End Role="VendorService" EntitySet="VendorService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorService_ServicePeriodPrice" Association="Self.FK_VendorService_ServicePeriodPrice">
+      <End Role="ServicePeriodPrice" EntitySet="ServicePeriodPrice" />
+      <End Role="VendorService" EntitySet="VendorService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorService_VendorServicePacket" Association="Self.FK_VendorService_VendorServicePacket">
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+      <End Role="VendorService" EntitySet="VendorService" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServiceExceptionalEvent_Event" Association="Self.FK_VendorServiceExceptionalEvent_Event">
+      <End Role="EventType" EntitySet="EventType" />
+      <End Role="VendorServiceExceptionalEvent" EntitySet="VendorServiceExceptionalEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServiceExceptionalEvent_VendorService" Association="Self.FK_VendorServiceExceptionalEvent_VendorService">
+      <End Role="VendorService" EntitySet="VendorService" />
+      <End Role="VendorServiceExceptionalEvent" EntitySet="VendorServiceExceptionalEvent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_DiscountCoupon" Association="Self.FK_VendorServicePacket_DiscountCoupon">
+      <End Role="DiscountCoupon" EntitySet="DiscountCoupon" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_Payment" Association="Self.FK_VendorServicePacket_Payment">
+      <End Role="Payment" EntitySet="Payment" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_Vendor" Association="Self.FK_VendorServicePacket_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorServicePacket_VendorServicePacketStatus" Association="Self.FK_VendorServicePacket_VendorServicePacketStatus">
+      <End Role="VendorServicePacketStatus" EntitySet="VendorServicePacketStatus" />
+      <End Role="VendorServicePacket" EntitySet="VendorServicePacket" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

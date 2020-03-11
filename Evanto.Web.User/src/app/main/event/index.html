@@ -1,0 +1,153 @@
+﻿<div id="events" class="page-layout simple inner-sidenav" layout="column">
+
+    <!-- HEADER -->
+    <!--    <div class="header md-accent-bg" layout="row" layout-align="space-between">
+        <div layout="column" flex layout-align="center start">
+            <div class="breadcrumb" layout="row" layout-align="start center">
+                <md-icon md-font-icon="icon-home" class="s16"></md-icon>
+                <md-icon md-font-icon="icon-chevron-right" class="s16 separator"></md-icon>
+                <span class="parent" translate>{{'Event.Events'}}</span>
+            </div>
+
+            <div class="title white-fg">
+                <md-icon md-font-icon="icon-calendar-multiple"></md-icon>
+                &nbsp; <span translate="Event.Events"></span>
+            </div>
+
+        </div>
+        <div class="search-input-wrapper" layout="row" layout-align="start center">
+            <label for="search">
+                <md-icon md-font-icon="icon-magnify"></md-icon>
+            </label>
+            <md-input-container md-no-float class="m-0">
+                <input id="search" translate ng-attr-placeholder="{{'Event.SearchEventByName' | translate}}" ng-model-options="{debounce : 1400}"
+                    type="text" ng-model="vm.searchText">
+            </md-input-container>
+        </div>
+    </div>
+-->
+    <!-- / HEADER -->
+
+    <!-- CONTENT -->
+    <div class="content" layout="column" layout-align="start start">
+        <!--    <div hide show-sm show-gt-xs show-xs flex class="search-input-wrapper">
+                <md-input-container md-no-float flex class="m-0">
+                    <md-icon md-font-icon="icon-magnify"></md-icon>
+                    <input id="search" class="md-subhead" placeholder="Axtar" ng-model-options="{debounce : 1400}" type="text" ng-model="vm.searchText">
+                </md-input-container>
+            </div>-->
+
+        <div layout="row" layout-align-xs="space-between stretch" layout-align="start stretch" layout-wrap>
+            <md-card ng-mouseover="vm.eventHovered(event)" ng-mouseleave="vm.eventUnHovered(event)" ng-click="vm.goToEventPage(event.id)"
+                md-colors="{'border-color': '{{vm.activeTheme.name}}-accent'}" class="shadowed-hover event-card" md-theme-watch
+                ng-repeat="event in vm.events">
+                <md-card-title>
+                    <img class="event-image" ng-src="assets/icons/event_types/{{event.eventType.name}}_{{event.actionMode}}.png" alt="{{event.eventType.name}}">
+                </md-card-title>
+
+                <md-toolbar class="md-accent" layout="column" layout-align="center center">
+                    <div>
+                        <span class="md-title event-name">{{event.name}}</span>
+                    </div>
+                </md-toolbar>
+
+                <md-card-content layout="column" layout-align="start space-between" class="main-info-card">
+                    <md-list hide show-gt-xs>
+                        <md-list-item>
+                            <span>{{'Event.EventType.' + event.eventType.name | translate}}</span>
+                            <div class="md-secondary">
+                                {{event.eventDate | date : 'dd MMMM yyyy' }}
+                            </div>
+                        </md-list-item>
+                        <md-list-item layout="row" layout-align="space-between center">
+                            <div>
+                                <span ng-if="event.budget">{{event.budget}} AZN</span>
+                                <span ng-if="!event.budget">{{'Layout.NoInformation' | translate}}</span>
+                            </div>
+                            <div class="md-secondary">
+                                {{event.eventDate | date : 'HH:mm' }}
+                            </div>
+                        </md-list-item>
+                    </md-list>
+                    <div class="event-mobile-info" hide-gt-xs layout="column" layout-align="center start">
+                        <div> <span>{{event.eventType.name}}</span></div>
+                        <div class="md-secondary">
+                            {{event.eventDate | date : 'dd MMMM yyyy' }}
+                        </div>
+                        <div>
+                            <span ng-if="event.budget">{{event.budget}} AZN</span>
+                            <span ng-if="!event.budget">{{'Layout.NoInformation' | translate}}</span>
+                        </div>
+                        <div class="md-secondary">
+                            {{event.eventDate | date : 'HH:mm' }}
+                        </div>
+                    </div>
+                </md-card-content>
+            </md-card>
+            <md-card class="shadowed-hover event-card" md-theme-watch md-colors="{'border-color': '{{vm.activeTheme.name}}-accent'}" layout-align="center center">
+                <md-card-content layout="row" layout-align="center center">
+                    <div layout="column" layout-align="center center">
+                        <md-button class="btnAddNewEvent md-fab md-primary" ng-click="vm.addEvent()">
+                            <md-icon md-font-icon="icon-calendar-plus">
+                            </md-icon>
+                        </md-button>
+                        <span translate="Event.CreateEvent"></span>
+                    </div>
+                </md-card-content>
+            </md-card>
+        </div>
+    </div>
+    <!-- / CONTENT -->
+
+</div>
+
+<div id="FOOTER_1">
+    <!--Footer Links-->
+    <!--/.Footer Links-->
+    <!--<hr id="HR_61" />-->
+    <!--Call to action-->
+
+    <!--	<div id="DIV_62">
+		<ul id="UL_63">
+			<li id="LI_64">
+			</li>
+			<li id="LI_65">
+				<a href="https://mdbootstrap.com/getting-started/" id="A_66"></a>
+				<fa id="FA_67">
+				</fa> Download for free<a href="https://mdbootstrap.com/newsletter/" id="A_68"></a>
+				<fa id="FA_69">
+				</fa> Subscribe to our newsletter
+			</li>
+		</ul>
+	</div>-->
+    <!--/.Call to action-->
+    <hr id="HR_70" />
+    <!--Social buttons-->
+
+    <div id="DIV_71">
+        <a href="#" id="A_72">
+         <i class="icon icon-facebook s40"></i></a>
+        <a href="#" id="A_74">
+         <i class="icon icon-twitter s40"></i></a>
+        <a href="#" id="A_76">
+                <i class="icon icon-google s40"></i></a>
+        <a href="#" id="A_78"><i class="icon icon-linkedin s40"></i>
+              </a>
+        <a href="#" id="A_80"><i class="icon icon-dribbble s40"></i> 
+                </a>
+        <a href="#" id="A_82"><i class="icon icon-pinterest s40"></i></a>
+        <a href="#" id="A_84"><i class="icon icon-codepen s40"></i></a>
+        <a href="#" id="A_86"><i class="icon icon-github s40"></i>
+                </a>
+    </div>
+    <!--/.Social buttons-->
+    <!--Copyright-->
+
+    <div id="DIV_88">
+        <div id="DIV_89">
+            © 2017 Copyright: <a href="https://brono.az" id="A_90">brono.az</a>
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</div>
